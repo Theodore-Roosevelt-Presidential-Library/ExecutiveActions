@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stories | Theodore Roosevelt's Executive Orders and Proclamations</title>
+<meta name="description" content="The stories behind Theodore Roosevelt's executive orders and proclamations: forests, bird refuges, the Canal Zone, the civil service and more.">
+<meta property="og:title" content="The stories behind the orders | Theodore Roosevelt Presidential Library">
+<meta property="og:description" content="The stories behind Theodore Roosevelt's executive orders and proclamations.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://executiveactions.labs.trlibrary.com/stories.html">
+<meta property="og:site_name" content="Theodore Roosevelt Presidential Library">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip" href="#stories">Skip to the stories</a>
+<header class="bar">
+  <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html" aria-current="page">Stories</a><a href="about.html">About</a><a href="api.html">API &amp; widgets</a></nav>
+</header>
+<section class="hero">
+  <div class="wrap">
+    <h1>The stories behind the orders</h1>
+    <p class="lede">A proclamation is a few paragraphs of formal language. The story is everything around it: who asked for it, what was at stake, and what happened to the land, the office or the people it touched. Each story links to the documents it is about.</p>
+  </div>
+</section>
+<main class="wrap" id="stories" tabindex="-1" style="padding:28px 20px 60px">
+  <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:10px">
+    <span class="small" id="scount" aria-live="polite"></span>
+    <div class="toggle" role="group" aria-label="Group stories by"><button type="button" data-by="theme" aria-pressed="true">By subject</button><button type="button" data-by="year" aria-pressed="false">By year</button></div>
+  </div>
+  <div id="groups"><p class="loading">Loading…</p></div>
+</main>
+<footer class="site"><div class="wrap">Stories are written by the Theodore Roosevelt Presidential Library from its research on each document. Questions still open are marked in each story. <a href="index.html">Search every document</a> &nbsp;|&nbsp; <a href="https://www.trlibrary.com/visit">Plan your visit</a></div></footer>
+<script src="assets/app.js"></script>
+<script>
+(async () => {
+  const box = document.getElementById("groups");
+  let list;
+  try { list = await EA.get("stories/index.json"); } catch (e) { list = []; }
+  if (!list.length) {
+    box.innerHTML = `<p class="empty">The first stories are still being written. In the meantime, <a href="index.html">search all the documents</a>.</p>`;
+    return;
+  }
+  document.getElementById("scount").textContent = `${list.length} ${list.length === 1 ? "story" : "stories"}`;
+  const ORDER = EA.GROUPS.map(g => g[2]).flat();
+  function render(by) {
+    const groups = new Map();
+    const keyOf = s => by === "year" ? (s.date_start ? s.date_start.slice(0, 4) : "Undated") : (s.themes && s.themes[0]) || "other";
+    [...list].sort((a, b) => (a.date_start || "9").localeCompare(b.date_start || "9") || a.number - b.number)
+      .forEach(s => { const k = keyOf(s); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(s); });
+    const keys = [...groups.keys()].sort((a, b) => by === "year" ? a.localeCompare(b)
+      : ((ORDER.indexOf(a) + 1 || 99) - (ORDER.indexOf(b) + 1 || 99)) || a.localeCompare(b));
+    box.innerHTML = keys.map(k => {
+      const title = by === "year" ? k : (EA.CATS[k] || k.replace(/-/g, " ").replace(/^./, m => m.toUpperCase()));
+      return `<section><h2 style="color:var(--night)" id="g-${EA.esc(k)}">${EA.esc(title)}</h2><div class="storygrid">${groups.get(k).map(EA.storyCard).join("")}</div></section>`;
+    }).join("");
+  }
+  const btns = document.querySelectorAll(".toggle button");
+  let by = EA.param("by") === "year" ? "year" : "theme";
+  btns.forEach(b => {
+    b.setAttribute("aria-pressed", b.dataset.by === by);
+    b.addEventListener("click", () => {
+      by = b.dataset.by;
+      btns.forEach(x => x.setAttribute("aria-pressed", x === b));
+      history.replaceState(null, "", by === "year" ? "?by=year" : location.pathname);
+      render(by);
+    });
+  });
+  render(by);
+})();
+</script>
+</body>
+</html>

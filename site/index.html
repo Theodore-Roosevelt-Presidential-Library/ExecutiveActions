@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Theodore Roosevelt's Executive Orders and Proclamations | Theodore Roosevelt Presidential Library</title>
+<meta name="description" content="Every executive order and proclamation Theodore Roosevelt signed as president, 1901–1909: searchable, with texts, sources and the stories behind them.">
+<meta property="og:title" content="Theodore Roosevelt's Executive Orders and Proclamations">
+<meta property="og:description" content="Every executive order and proclamation Theodore Roosevelt signed as president, 1901–1909: searchable, with texts, sources and the stories behind them.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://executiveactions.labs.trlibrary.com/">
+<meta property="og:site_name" content="Theodore Roosevelt Presidential Library">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip" href="#finder">Skip to the index</a>
+<header class="bar">
+  <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="index.html" aria-current="page">Explore</a><a href="stories.html">Stories</a><a href="about.html">About</a><a href="api.html">API &amp; widgets</a></nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Every order and proclamation of the Roosevelt presidency</h1>
+    <p class="lede">From the proclamation that mourned President McKinley in September 1901 to the last orders of March 1909: forests and bird refuges, Canal Zone rules, civil-service exceptions, days of thanksgiving. Each bar below is one month of his presidency, colored by subject. Pick a month to see what he signed.</p>
+    <div class="stats" id="stats" aria-live="polite"></div>
+    <ul class="legend" id="legend"></ul>
+    <div class="timeline" id="timeline">
+      <div class="tlscroll"><svg id="tl" role="group" aria-label="Documents signed each month, September 1901 to March 1909. Use the arrow keys to move between months and Enter to filter the index."></svg></div>
+      <div class="tltip" id="tltip" role="status"></div>
+    </div>
+    <p class="tlnote" id="tlnote"></p>
+  </div>
+</section>
+
+<main class="wrap finder" id="finder" tabindex="-1">
+  <h2 style="color:var(--night)">The index</h2>
+  <form class="filters" id="filters" role="search" onsubmit="return false">
+    <div class="q"><label for="q">Search titles and summaries</label><input type="search" id="q" name="q" placeholder="Try “Grand Canyon”, “Pelican Island” or “EO 1003”" autocomplete="off"></div>
+    <div><label for="type">Type</label><select id="type" name="type"><option value="">All types</option><option value="executive_order">Executive orders</option><option value="proclamation">Proclamations</option><option value="unnumbered_order">Unnumbered orders</option></select></div>
+    <div><label for="year">Year</label><select id="year" name="year"><option value="">All years</option></select></div>
+    <div><label for="category">Subject</label><select id="category" name="category"><option value="">All subjects</option></select></div>
+    <div><label for="state">State or territory</label><select id="state" name="state"><option value="">Anywhere</option></select></div>
+    <div><label for="sig">Weight</label><select id="sig" name="sig"><option value="">Any</option><option value="5">Landmark only</option><option value="4">Notable and up</option><option value="3">Substantive and up</option><option value="2">Routine and up</option></select></div>
+    <div><label for="sort">Sort by</label><select id="sort" name="sort"><option value="date">Date, oldest first</option><option value="-date">Date, newest first</option><option value="sig">Weight, biggest first</option><option value="number">Number</option><option value="title">Title, A–Z</option></select></div>
+    <div class="checks"><label><input type="checkbox" id="text" name="text"> Has text</label><label><input type="checkbox" id="story" name="story"> Part of a story</label><label><input type="checkbox" id="dupes" name="dupes"> Show Lord's duplicates</label></div>
+  </form>
+  <div class="resultbar"><span><span class="count" id="count" aria-live="polite"></span> <span id="monthchip"></span></span><button type="button" class="linkbtn" id="clear">Clear all filters</button></div>
+  <ol class="doclist" id="list" aria-label="Documents"></ol>
+  <div id="sentinel"></div>
+  <button type="button" class="btn ghost more" id="more" hidden>Show more</button>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    Compiled by the Theodore Roosevelt Presidential Library from the Statutes at Large, the American Presidency Project, Wikisource and Clifford L. Lord's <i>List and Index of Presidential Executive Orders</i> (1943). Texts are unverified transcriptions unless marked otherwise; check the printed page before quoting.
+    <a href="about.html">About the data</a> &nbsp;|&nbsp; <a href="api.html">Use the data</a> &nbsp;|&nbsp; <a href="https://www.trlibrary.com/visit">Plan your visit to the Library in Medora</a>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+<script>
+(async () => {
+  const $ = id => document.getElementById(id);
+  const PAGE = 100;
+  let all, meta;
+  try {
+    [all, meta] = await Promise.all([EA.get("documents.json"), EA.get("index.json")]);
+  } catch (e) {
+    $("list").innerHTML = `<li class="empty">The index could not be loaded. Please try again in a moment.</li>`;
+    return;
+  }
+
+  // ---------- headline counts
+  const c = meta.counts;
+  const tiles = [
+    [c.documents, "documents signed"],
+    [c.by_type.executive_order || 0, "numbered executive orders"],
+    [c.by_type.proclamation || 0, "proclamations"],
+    [c.by_type.unnumbered_order || 0, "unnumbered orders"],
+    [c.with_text, "with full text"],
+  ];
+  if (c.stories) tiles.push([c.stories, "stories behind them"]);
+  $("stats").innerHTML = tiles.map(([n, l]) => `<div><b>${n.toLocaleString()}</b><span>${l}</span></div>`).join("");
+
+  // ---------- prepare rows
+  const stateNames = new Map();
+  for (const d of all) {
+    d._states = (d.states || []).map(s => { const k = EA.slug(s); stateNames.set(k, s); return k; });
+    d._hay = [d.title, d.summary, d.label, d.id, d.type === "executive_order" ? `eo ${d.number} e.o. ${d.number}` : "",
+              d.type === "proclamation" ? `proc ${d.number}` : "", (d.states || []).join(" "),
+              (d.categories || []).map(EA.catLabel).join(" "), d.date].join(" ").toLowerCase();
+    d._sk = d.date ? (d.date.length === 7 ? d.date + "-00" : d.date) : "9999";
+    const m = /^(\d+)(.*)$/.exec(d.number || "");
+    d._num = m ? +m[1] + (m[2] ? 0.5 : 0) : 1e6;
+    d._month = d.date ? d.date.slice(0, 7) : null;
+    d._g = EA.groupOf(d.categories);
+  }
+  const years = [...new Set(all.filter(d => d.date).map(d => d.date.slice(0, 4)))].sort();
+  $("year").insertAdjacentHTML("beforeend", years.map(y => `<option>${y}</option>`).join(""));
+  const catCounts = {};
+  all.forEach(d => !d.duplicate_of && (d.categories || []).forEach(x => catCounts[x] = (catCounts[x] || 0) + 1));
+  $("category").insertAdjacentHTML("beforeend", Object.keys(EA.CATS).filter(k => catCounts[k]).sort((a, b) => EA.catLabel(a).localeCompare(EA.catLabel(b)))
+    .map(k => `<option value="${k}">${EA.esc(EA.catLabel(k))} (${catCounts[k]})</option>`).join("") + `<option value="none">Not yet sorted</option>`);
+  $("state").insertAdjacentHTML("beforeend", [...stateNames].sort((a, b) => a[1].localeCompare(b[1])).map(([k, v]) => `<option value="${k}">${EA.esc(v)}</option>`).join(""));
+
+  // ---------- state <-> URL
+  const F = ["q", "type", "year", "category", "state", "sig", "sort"];
+  const B = ["text", "story", "dupes"];
+  let month = null, shown = 0, rows = [];
+  function readURL() {
+    const p = new URLSearchParams(location.search);
+    F.forEach(k => { const el = $(k); const v = p.get(k) || ""; if (el.tagName === "SELECT" && v && ![...el.options].some(o => o.value === v)) return; el.value = v || (k === "sort" ? "date" : ""); });
+    B.forEach(k => $(k).checked = p.get(k) === "1");
+    month = /^\d{4}-\d{2}$/.test(p.get("month") || "") ? p.get("month") : null;
+  }
+  function writeURL() {
+    const p = new URLSearchParams();
+    F.forEach(k => { const v = $(k).value.trim(); if (v && !(k === "sort" && v === "date")) p.set(k, v); });
+    B.forEach(k => $(k).checked && p.set(k, "1"));
+    if (month) p.set("month", month);
+    const qs = p.toString();
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }
+
+  function filtered(ignoreMonth) {
+    const q = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const type = $("type").value, year = $("year").value, cat = $("category").value, st = $("state").value, sig = +$("sig").value || 0;
+    const text = $("text").checked, story = $("story").checked, dupes = $("dupes").checked;
+    return all.filter(d => (dupes || !d.duplicate_of)
+      && (!type || d.type === type) && (!year || (d.date || "").startsWith(year))
+      && (!cat || (cat === "none" ? !(d.categories || []).length : (d.categories || []).includes(cat)))
+      && (!st || d._states.includes(st)) && (!sig || (d.significance || 0) >= sig)
+      && (!text || d.has_text) && (!story || (d.stories || []).length)
+      && (ignoreMonth || !month || d._month === month)
+      && q.every(w => d._hay.includes(w)));
+  }
+  function sortRows(r) {
+    const s = $("sort").value;
+    const byDate = (a, b) => a._sk.localeCompare(b._sk) || a._num - b._num;
+    const f = { "date": byDate, "-date": (a, b) => -byDate(a, b),
+      "sig": (a, b) => (b.significance || 0) - (a.significance || 0) || byDate(a, b),
+      "number": (a, b) => a.type.localeCompare(b.type) || a._num - b._num || byDate(a, b),
+      "title": (a, b) => a.title.localeCompare(b.title) }[s] || byDate;
+    return r.sort(f);
+  }
+  function update() {
+    writeURL();
+    rows = sortRows(filtered(false));
+    const n = rows.length;
+    $("count").textContent = `${n.toLocaleString()} document${n === 1 ? "" : "s"}`;
+    $("monthchip").innerHTML = month ? `in ${EA.fmtDate(month)} <button type="button" class="linkbtn" id="unmonth" aria-label="Remove the ${EA.fmtDate(month)} filter">(any month)</button>` : "";
+    if (month) $("unmonth").onclick = () => { month = null; update(); };
+    shown = 0;
+    $("list").innerHTML = n ? "" : `<li class="empty">Nothing matches those filters. Try a shorter search or clear a filter.</li>`;
+    renderMore();
+    drawTimeline();
+  }
+  function renderMore() {
+    const next = rows.slice(shown, shown + PAGE);
+    $("list").insertAdjacentHTML("beforeend", next.map(EA.rowHTML).join(""));
+    shown += next.length;
+    $("more").hidden = shown >= rows.length;
+    $("more").textContent = `Show ${Math.min(PAGE, rows.length - shown)} more of ${(rows.length - shown).toLocaleString()} remaining`;
+  }
+  $("more").addEventListener("click", renderMore);
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(es => { if (es[0].isIntersecting && shown && shown < rows.length) renderMore(); }, { rootMargin: "600px" }).observe($("sentinel"));
+  }
+  let t;
+  $("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(update, 180); });
+  $("filters").addEventListener("change", e => { if (e.target.id !== "q") update(); });
+  $("clear").addEventListener("click", () => { F.forEach(k => $(k).value = k === "sort" ? "date" : ""); B.forEach(k => $(k).checked = false); month = null; update(); });
+
+  // ---------- timeline
+  const GCOL = {}; EA.GROUPS.forEach(([g]) => GCOL[g] = getComputedStyle(document.documentElement).getPropertyValue(`--g-${g}`).trim());
+  $("legend").innerHTML = EA.GROUPS.map(([g, l]) => `<li><i style="background:${GCOL[g]}"></i>${EA.esc(l)}</li>`).join("");
+  const MONTHS = [];
+  for (let y = 1901, m = 9; y < 1909 || (y === 1909 && m <= 3); m === 12 ? (y++, m = 1) : m++) MONTHS.push(`${y}-${String(m).padStart(2, "0")}`);
+  const svg = $("tl"), tip = $("tltip");
+  const W = 1000, H = 230, L = 34, BOT = 24, TOP = 8;
+  const bw = (W - L) / MONTHS.length;
+  const totals = {}; all.forEach(d => { if (!d.duplicate_of && d._month) totals[d._month] = (totals[d._month] || 0) + 1; });
+  const max = Math.max(...Object.values(totals), 1);
+  const yScale = v => (H - BOT - TOP) * v / max;
+  let focusIdx = Math.max(0, MONTHS.indexOf(month));
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  function drawTimeline() {
+    const rowsAll = filtered(true).filter(d => !d.duplicate_of);
+    const per = {};
+    rowsAll.forEach(d => { if (!d._month) return; (per[d._month] = per[d._month] || {})[d._g] = (per[d._month][d._g] || 0) + 1; });
+    const narrowed = rowsAll.length < all.filter(d => !d.duplicate_of).length;
+    let h = "";
+    const ticks = niceTicks(max);
+    for (const v of ticks) { const y = H - BOT - yScale(v); h += `<line x1="${L}" x2="${W}" y1="${y}" y2="${y}" stroke="rgba(153,173,197,.25)" stroke-width="1"/><text x="${L - 6}" y="${y + 4}" text-anchor="end" font-size="11" fill="#99ADC5" font-family="Source Sans 3, sans-serif">${v}</text>`; }
+    MONTHS.forEach((mo, i) => {
+      const x = L + i * bw;
+      if (mo.endsWith("-01") || i === 0) h += `<text x="${x + 1}" y="${H - 6}" font-size="12" font-weight="600" fill="#D1CCBD" font-family="Source Sans 3, sans-serif">${mo.slice(0, 4)}</text><line x1="${x}" x2="${x}" y1="${H - BOT}" y2="${H - BOT + 5}" stroke="#99ADC5"/>`;
+      const p = per[mo] || {}, n = Object.values(p).reduce((a, b) => a + b, 0);
+      const label = `${EA.fmtDate(mo)}: ${n} document${n === 1 ? "" : "s"}${narrowed ? ` match (of ${totals[mo] || 0})` : ""}`;
+      h += `<g class="bar-hit${mo === month ? " sel" : ""}" data-m="${mo}" data-i="${i}" role="button" tabindex="${i === focusIdx ? 0 : -1}" aria-label="${label}" aria-pressed="${mo === month}">`;
+      h += `<rect class="hit" x="${x}" y="${TOP}" width="${bw}" height="${H - BOT - TOP}" fill="transparent"/>`;
+      if (narrowed && totals[mo]) h += `<rect x="${x + 1}" y="${H - BOT - yScale(totals[mo])}" width="${bw - 2}" height="${yScale(totals[mo])}" fill="rgba(153,173,197,.18)"/>`;
+      let y0 = H - BOT;
+      for (const [g] of EA.GROUPS) { const v = p[g]; if (!v) continue; const hh = yScale(v); y0 -= hh; h += `<rect x="${x + 1}" y="${y0}" width="${bw - 2}" height="${hh}" fill="${GCOL[g]}"/>`; }
+      h += `</g>`;
+    });
+    h += `<line x1="${L}" x2="${W}" y1="${H - BOT}" y2="${H - BOT}" stroke="#99ADC5"/>`;
+    svg.innerHTML = h;
+    const undated = rowsAll.filter(d => !d._month).length;
+    $("tlnote").textContent = `${rowsAll.length.toLocaleString()} documents shown in the chart${narrowed ? " (matching your filters; faint bars show all documents)" : ""}.${undated ? ` ${undated} with no known date ${undated === 1 ? "is" : "are"} left out.` : ""}`;
+  }
+  function niceTicks(m) { const step = m > 80 ? 25 : m > 40 ? 10 : 5; const out = []; for (let v = step; v <= m; v += step) out.push(v); return out; }
+  function showTip(g, evX) {
+    const mo = g.dataset.m, rowsAll = filtered(true).filter(d => !d.duplicate_of && d._month === mo);
+    const counts = {}; rowsAll.forEach(d => counts[d._g] = (counts[d._g] || 0) + 1);
+    const lines = EA.GROUPS.filter(([gg]) => counts[gg]).map(([gg, l]) => `<div><i style="background:${GCOL[gg]}"></i>${counts[gg]} ${EA.esc(l.toLowerCase())}</div>`).join("");
+    tip.innerHTML = `<b>${EA.fmtDate(mo)}</b>${rowsAll.length} document${rowsAll.length === 1 ? "" : "s"}${lines}`;
+    const wb = $("timeline").getBoundingClientRect(), gb = g.getBoundingClientRect();
+    const x = (evX ?? (gb.left + gb.width / 2)) - wb.left;
+    tip.style.display = "block";
+    tip.style.left = Math.max(0, Math.min(x + 12, wb.width - 260)) + "px";
+    tip.style.top = "10px";
+  }
+  function pick(mo) { month = month === mo ? null : mo; update(); $("finder").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }); }
+  svg.addEventListener("mousemove", e => { const g = e.target.closest(".bar-hit"); if (g) showTip(g, e.clientX); else tip.style.display = "none"; });
+  svg.addEventListener("mouseleave", () => tip.style.display = "none");
+  svg.addEventListener("click", e => { const g = e.target.closest(".bar-hit"); if (g) pick(g.dataset.m); });
+  svg.addEventListener("focusin", e => { const g = e.target.closest(".bar-hit"); if (g) showTip(g); });
+  svg.addEventListener("focusout", () => tip.style.display = "none");
+  svg.addEventListener("keydown", e => {
+    const g = e.target.closest(".bar-hit"); if (!g) return;
+    let i = +g.dataset.i;
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(g.dataset.m); return; }
+    const step = { ArrowRight: 1, ArrowLeft: -1, Home: -999, End: 999, PageUp: -12, PageDown: 12 }[e.key];
+    if (!step) return;
+    e.preventDefault();
+    i = Math.max(0, Math.min(MONTHS.length - 1, i + step));
+    focusIdx = i;
+    svg.querySelectorAll(".bar-hit").forEach(x => x.setAttribute("tabindex", +x.dataset.i === i ? 0 : -1));
+    svg.querySelector(`.bar-hit[data-i="${i}"]`).focus();
+  });
+
+  readURL();
+  update();
+})();
+</script>
+</body>
+</html>
