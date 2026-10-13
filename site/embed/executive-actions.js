@@ -73,7 +73,8 @@
   .ea h1,.ea h2,.ea h3{color:var(--ea-night);line-height:1.2}
   .ea .ea-kick{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ea-muted);margin:0 0 4px}
   .ea .ea-date{font-size:20px;font-weight:700;color:var(--ea-night);margin:0}
-  .ea h1.ea-title{font-size:clamp(28px,4vw,42px);margin:6px 0 14px}
+  .ea h1.ea-title{margin:6px 0 14px;overflow-wrap:anywhere}
+  .ea h1.ea-title:not(.h2){font-size:clamp(28px,4vw,42px)}
   .ea .ea-summary{font-size:20px;line-height:1.5;margin:0 0 14px}
   .ea .ea-small{font-size:14px;line-height:1.45;color:var(--ea-muted)}
   .ea .ea-tags{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0 0 14px;padding:0}
@@ -83,7 +84,8 @@
   @media (max-width:560px){.ea .ea-facts{grid-template-columns:1fr;gap:0}.ea .ea-facts dd{margin-bottom:8px}}
   .ea .ea-note{margin:14px 0 0;padding:10px 14px;background:var(--ea-sand2);border-left:3px solid var(--ea-accent);border-radius:4px;font-size:15px}
   .ea .ea-sec{margin-top:34px}
-  .ea .ea-sec>h2{font-size:clamp(24px,3vw,32px);margin:0 0 10px}
+  .ea .ea-sec>h2{margin:0 0 10px}
+  .ea .ea-sec>h2:not(.h3){font-size:clamp(24px,3vw,32px)}
   .ea .ea-sec h3{font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin:22px 0 8px}
   .ea .ea-points{list-style:none;margin:0;padding:0}
   .ea .ea-points li{padding:8px 0 8px 14px;border-left:2px solid var(--ea-sand);margin:0 0 6px}
@@ -125,7 +127,8 @@
   .ea .ea-grid .nm{display:block;font-weight:700;font-size:19px;line-height:1.25;color:var(--ea-night)}
   .ea .ea-grid ul{list-style:none;margin:8px 0 0;padding:0;font-size:14px} .ea .ea-grid ul li{margin:4px 0}
   .ea .ea-grid p{margin:6px 0;font-size:15px}
-  .ea .ea-group>h2{font-size:clamp(22px,3vw,30px);margin:34px 0 12px}
+  .ea .ea-group>h2{margin:34px 0 12px}
+  .ea .ea-group>h2:not(.h3){font-size:clamp(22px,3vw,30px)}
   .ea .ea-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
   .ea .ea-chips button{font:inherit;font-size:14px;font-weight:600;border:1px solid var(--ea-night);background:#fff;color:var(--ea-night);border-radius:999px;padding:6px 12px;cursor:pointer}
   .ea .ea-chips button[aria-pressed=true]{background:var(--ea-night);color:#fff}
@@ -254,7 +257,7 @@
     impact(d) {
       const i = d.impact || {}, rel = d.related || [];
       if (!Object.keys(i).length && !rel.length) return "";
-      let h = `<section class="ea-sec"><h2>What happened next</h2>`;
+      let h = `<section class="ea-sec"><h2 class="h3">What happened next</h2>`;
       if ((i.today || []).length) h += `<h3>Where it stands today</h3><ul class="ea-points today">${i.today.map(t => `<li><a href="${this.placeUrl(t.name)}"><b>${esc(t.name)}</b></a>
           <span class="ea-small">${esc([KIND[t.kind] || "", TODAY_REL[t.relation] || "", t.state || ""].filter(Boolean).join(" · "))}</span>${t.note ? `<br>${esc(t.note)}` : ""}</li>`).join("")}</ul>`;
       const now = [...(i.reception || []), ...(i.political_impact || [])].sort(byDate);
@@ -290,7 +293,7 @@
       catch (e) { return this.paint(`<p>No action with the id “${esc(id)}” was found. <a href="${this.indexUrl()}">Search the full list</a>.</p>`); }
       if (d.duplicate_of && d.duplicate_of_ref) {
         const o = d.duplicate_of_ref;
-        return this.paint(`<p class="ea-kick">${esc(d.label)}</p><h1 class="ea-title">${esc(d.title)}</h1>
+        return this.paint(`<p class="ea-kick">${esc(d.label)}</p><h1 class="ea-title h2">${esc(d.title)}</h1>
           <p class="ea-note">This entry in Lord's list of unnumbered orders describes <a href="${this.actionUrl(o.id)}">${esc(o.label)}</a>${o.date ? ` of ${esc(fmt(o.date))}` : ""}. It is kept as a cross-reference and is not counted separately.</p>`);
       }
       this.setMeta(`${d.title} (${d.label}, ${fmt(d.date)})`, d.summary || d.title, `?id=${encodeURIComponent(d.id)}`);
@@ -310,13 +313,13 @@
       this.paint(`<div class="ea-two"><div>
           <p class="ea-kick">${esc(d.label)}</p>
           <p class="ea-date">${esc(fmt(d.date))}</p>
-          <h1 class="ea-title">${esc(d.title)}</h1>
+          <h1 class="ea-title h2">${esc(d.title)}</h1>
           ${d.summary ? `<p class="ea-summary">${esc(d.summary)}</p>` : ""}
           ${this.tags(d, 20)}
           ${facts.length ? `<dl class="ea-facts">${facts.map(([a, b]) => `<dt>${a}</dt><dd>${b}</dd>`).join("")}</dl>` : ""}
           ${notes}
           ${this.impact(d)}
-          <section class="ea-sec"><h2>The text</h2>${this.text(d.text)}</section>
+          <section class="ea-sec"><h2 class="h3">The text</h2>${this.text(d.text)}</section>
           <nav class="ea-nav" aria-label="Previous and next actions">
             ${d.prev ? `<a href="${this.actionUrl(d.prev.id)}">← ${esc(d.prev.label)}<span>${esc(fmt(d.prev.date))}</span></a>` : ""}
             ${d.next ? `<a class="nx" href="${this.actionUrl(d.next.id)}">${esc(d.next.label)} →<span>${esc(fmt(d.next.date))}</span></a>` : ""}
@@ -338,7 +341,7 @@
       for (const s of list) (byTheme[(s.themes || [])[0] || "other"] ||= []).push(s);
       const order = Object.keys(byTheme).sort((a, b) => byTheme[b].length - byTheme[a].length);
       const span = s => s.date_start ? (s.date_end && s.date_end.slice(0, 4) !== s.date_start.slice(0, 4) ? `${s.date_start.slice(0, 4)}–${s.date_end.slice(0, 4)}` : s.date_start.slice(0, 4)) : "";
-      this.paint(order.map(t => `<section class="ea-group"><h2>${esc(CATS[t] || "Other stories")}</h2><ul class="ea-grid">${byTheme[t].sort(byDate).map(s =>
+      this.paint(order.map(t => `<section class="ea-group"><h2 class="h3">${esc(CATS[t] || "Other stories")}</h2><ul class="ea-grid">${byTheme[t].sort(byDate).map(s =>
         `<li><span class="ea-small">${esc(span(s))}</span><a class="nm" href="${this.storyUrl(s.number)}" style="text-decoration:none">${esc(s.title)}</a>${s.dek ? `<p>${esc(s.dek)}</p>` : ""}
          <span class="ea-small">${s.document_count ? `${s.document_count} action${s.document_count === 1 ? "" : "s"}` : "Background"}</span></li>`).join("")}</ul></section>`).join(""));
     }
@@ -356,7 +359,7 @@
       this.paint(`<div class="ea-two"><div>
           <p class="ea-kick">Story</p>
           ${s.date_start ? `<p class="ea-date">${esc(fmt(s.date_start))}${s.date_end && s.date_end !== s.date_start ? ` – ${esc(fmt(s.date_end))}` : ""}</p>` : ""}
-          <h1 class="ea-title">${esc(s.title)}</h1>
+          <h1 class="ea-title h2">${esc(s.title)}</h1>
           ${s.dek ? `<p class="ea-summary">${esc(s.dek)}</p>` : ""}
           <div class="ea-story">${s.html}</div>
           ${(s.open_questions || []).length ? `<div class="ea-still"><b>Still being researched</b><ul>${s.open_questions.map(q => `<li>${esc(q)}</li>`).join("")}</ul></div>` : ""}
@@ -394,7 +397,7 @@
         const groups = d.kinds.filter(k => kind === "all" || k.kind === kind);
         this.paint(`<div class="ea-chips" role="group" aria-label="Show">${[{ kind: "all", label: "Everything", count: d.count }, ...d.kinds].map(k =>
             `<button type="button" data-k="${k.kind}" aria-pressed="${k.kind === kind}">${esc(k.label)} (${k.count})</button>`).join("")}</div>
-          ${groups.map(k => `<section class="ea-group"><h2>${esc(k.label)}</h2><ul class="ea-grid">${d.places.filter(p => p.kind === k.kind).sort((a, b) => gone(a) - gone(b)).map(card).join("")}</ul></section>`).join("")}`);
+          ${groups.map(k => `<section class="ea-group"><h2 class="h3">${esc(k.label)}</h2><ul class="ea-grid">${d.places.filter(p => p.kind === k.kind).sort((a, b) => gone(a) - gone(b)).map(card).join("")}</ul></section>`).join("")}`);
         this.el.querySelector(".ea-chips").addEventListener("click", e => {
           const b = e.target.closest("button"); if (!b) return;
           kind = b.dataset.k; history.replaceState(null, "", location.pathname + location.search + (kind === "all" ? "" : "#k-" + kind)); draw();
