@@ -1,0 +1,6 @@
+private/
+site/api/
+site/data/
+__pycache__/
+*.pyc
+.DS_Store

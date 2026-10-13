@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Story | Theodore Roosevelt's Executive Orders and Proclamations</title>
+<meta name="description" content="The story behind a group of Theodore Roosevelt's executive orders and proclamations.">
+<meta property="og:title" content="Theodore Roosevelt's Executive Orders and Proclamations">
+<meta property="og:description" content="The story behind a group of Theodore Roosevelt's executive orders and proclamations.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Theodore Roosevelt Presidential Library">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip" href="#story">Skip to the story</a>
+<header class="bar">
+  <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html" aria-current="page">Stories</a><a href="about.html">About</a><a href="api.html">API &amp; widgets</a></nav>
+</header>
+<main class="cols">
+  <section id="story" tabindex="-1"><p class="loading">Loading…</p></section>
+  <aside class="side" id="side"></aside>
+</main>
+<footer class="site"><div class="wrap">Written by the Theodore Roosevelt Presidential Library. <a href="stories.html">All stories</a> &nbsp;|&nbsp; <a href="index.html">Search every document</a> &nbsp;|&nbsp; <a href="https://www.trlibrary.com/visit">Plan your visit</a></div></footer>
+<script src="assets/app.js"></script>
+<script>
+(async () => {
+  const key = (EA.param("n") || EA.param("slug") || "").trim();
+  const main = document.getElementById("story"), side = document.getElementById("side");
+  let s;
+  try {
+    if (!/^[a-z0-9\-]+$/i.test(key)) throw new Error("bad key");
+    s = await EA.get(`stories/${/^\d+$/.test(key) ? +key : key.toLowerCase()}.json`);
+  } catch (e) {
+    main.innerHTML = `<article class="card"><p class="kicker">Not found</p><h1 class="doc-title">This story isn't here yet</h1><p>It may still be in the works. <a href="stories.html">See the stories that are ready</a>, or <a href="index.html">search every document</a>.</p></article>`;
+    return;
+  }
+  document.title = `${s.title} | Theodore Roosevelt's Executive Orders and Proclamations`;
+  if (s.dek) {
+    document.querySelector('meta[name="description"]').setAttribute("content", s.dek);
+    document.querySelector('meta[property="og:description"]').setAttribute("content", s.dek);
+  }
+  document.querySelector('meta[property="og:title"]').setAttribute("content", s.title);
+  const span = s.date_start ? (s.date_end && s.date_end !== s.date_start ? `${EA.fmtDate(s.date_start)} – ${EA.fmtDate(s.date_end)}` : EA.fmtDate(s.date_start)) : "";
+  const themes = (s.themes || []).map(t => `<li><a href="index.html?category=${encodeURIComponent(t)}">${EA.esc(EA.CATS[t] || t.replace(/-/g, " "))}</a></li>`).join("");
+  let h = `<article class="card" style="border-top-color:var(--forest-bright)">
+    <p class="kicker">Story</p>
+    ${span ? `<div class="date">${EA.esc(span)}</div>` : ""}
+    <h1 class="doc-title">${EA.esc(s.title)}</h1>
+    ${s.dek ? `<p class="dek">${EA.esc(s.dek)}</p>` : ""}
+    ${themes ? `<ul class="tags">${themes}</ul>` : ""}
+    <div class="story-body">${EA.localize(s.html)}</div>`;
+  if ((s.open_questions || []).length) {
+    h += `<aside class="research" aria-labelledby="oq"><h2 id="oq">Still being researched</h2><p class="small" style="margin:0">These points are not settled yet. If you know where the answer lives, write to <a href="mailto:hello@trlibrary.com?subject=${encodeURIComponent("Executive actions: " + s.title)}">hello@trlibrary.com</a>.</p><ul>${s.open_questions.map(q => `<li>${EA.esc(q)}</li>`).join("")}</ul></aside>`;
+  }
+  h += `</article>`;
+  main.innerHTML = h;
+
+  const li = x => `<li><span class="d">${EA.esc(x.label)} · ${EA.esc(EA.fmtDate(x.date))}</span><a href="${EA.docHref(x.id)}">${EA.esc(x.title)}</a>${x.summary && x.summary !== x.title ? `<p>${EA.esc(x.summary)}</p>` : ""}</li>`;
+  let sd = "";
+  if ((s.documents || []).length) sd += `<section><h2>The documents</h2><ul class="minilist">${s.documents.map(li).join("")}</ul></section>`;
+  if ((s.related_documents || []).length) sd += `<section><h2>Related</h2><ul class="minilist">${s.related_documents.map(li).join("")}</ul></section>`;
+  if ((s.places || []).length) sd += `<section><h2>Places</h2><ul class="tags">${s.places.map(p => `<li><span>${EA.esc(p)}</span></li>`).join("")}</ul></section>`;
+  sd += `<section><p class="small"><a href="stories.html">All stories</a> · <a href="api/v1/stories/${s.number}.json">This story as JSON</a></p></section>`;
+  side.innerHTML = sd;
+})();
+</script>
+</body>
+</html>

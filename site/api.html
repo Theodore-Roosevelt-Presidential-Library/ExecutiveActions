@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API and downloads | Theodore Roosevelt's Executive Orders and Proclamations</title>
+<meta name="description" content="Free JSON API, downloads and embeddable widgets for every executive order and proclamation Theodore Roosevelt signed as president.">
+<meta property="og:title" content="API and downloads | Theodore Roosevelt's Executive Orders and Proclamations">
+<meta property="og:description" content="Free JSON API, downloads and embeddable widgets for every executive order and proclamation Theodore Roosevelt signed as president.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://executiveactions.labs.trlibrary.com/api.html">
+<meta property="og:site_name" content="Theodore Roosevelt Presidential Library">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+  .ep td:first-child { white-space: nowrap; }
+  .counts { font: 15px var(--sans); }
+  .tryit { background: #fff; padding: 16px; border-top: 5px solid var(--forest); margin: 14px 0; }
+  .tryit label { font: 600 14px var(--sans); display: block; margin-bottom: 4px; }
+  .tryit .row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .tryit input { font: 15px ui-monospace, Menlo, monospace; padding: 8px 10px; border: 1px solid #A9A493; border-radius: var(--radius); flex: 1; min-width: 0; }
+  .tryit pre { max-height: 360px; overflow: auto; margin: 12px 0 0; white-space: pre-wrap; word-break: break-word; }
+</style>
+</head>
+<body>
+<a class="skip" href="#api">Skip to the content</a>
+<header class="bar">
+  <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="about.html">About</a><a href="api.html" aria-current="page">API &amp; widgets</a></nav>
+</header>
+<main class="wrap doc" id="api" tabindex="-1">
+  <h1>Use the data</h1>
+  <p class="lede">Every executive order and proclamation Theodore Roosevelt signed as president is available as open JSON: date, number, title, summary, subjects, places, countersignature, citations and text. Build a classroom timeline, a map of national forests, or a daily post. No key, no sign-up.</p>
+  <p class="counts" id="counts"></p>
+  <p><b>Embedding on a web page?</b> See <a href="widget.html">the widgets</a>: one script tag, four ready-made cards.</p>
+
+  <h2>JSON API</h2>
+  <p>Base URL: <code>https://executiveactions.labs.trlibrary.com/api/v1/</code>. Every endpoint is a static file, cached at the edge and open to cross-site requests.</p>
+  <div class="tablewrap"><table class="list-table ep">
+    <thead><tr><th>Endpoint</th><th>Returns</th></tr></thead>
+    <tbody>
+      <tr><td><a href="api/v1/index.json">index.json</a></td><td>Dataset metadata, counts by type, year, month and subject, sources, license and the endpoint list</td></tr>
+      <tr><td><a href="api/v1/documents.json">documents.json</a></td><td>Every document in compact form: id, type, number, date, title, summary, categories, action, states, significance, stories, has_text. Lord's duplicate entries come last, marked <code>duplicate_of</code></td></tr>
+      <tr><td><a href="api/v1/documents/proc-563.json">documents/{id}.json</a></td><td>One full record: text and its provenance, citations, countersignature, places, people, date notes, story titles, previous and next by date</td></tr>
+      <tr><td><a href="api/v1/years/1908.json">years/{YYYY}.json</a></td><td>Documents signed in a year (1901–1909)</td></tr>
+      <tr><td><a href="api/v1/categories/index.json">categories/index.json</a>, <a href="api/v1/categories/forests.json">categories/{slug}.json</a></td><td>Subjects with counts, and the documents in each</td></tr>
+      <tr><td><a href="api/v1/states/index.json">states/index.json</a>, <a href="api/v1/states/arizona.json">states/{slug}.json</a></td><td>States and territories with counts, and the documents acting on each</td></tr>
+      <tr><td><a href="api/v1/types/proclamation.json">types/{type}.json</a></td><td><code>executive_order</code>, <code>proclamation</code> or <code>unnumbered_order</code></td></tr>
+      <tr><td><a href="api/v1/stories/index.json">stories/index.json</a>, stories/{number or slug}.json</td><td>The stories behind the documents: metadata, Markdown, rendered HTML, open questions and the documents each covers</td></tr>
+      <tr><td><a href="api/v1/on-this-day/06-08.json">on-this-day/{MM-DD}.json</a></td><td>Documents signed on that calendar date in any year, most significant first. Every date has a file, even when it is empty</td></tr>
+      <tr><td><a href="api/v1/countersigners.json">countersigners.json</a></td><td>Who countersigned the proclamations, in what role, how often and when</td></tr>
+      <tr><td><a href="api/v1/search.json">search.json</a></td><td>id, title, summary, date and type for client-side search</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="tryit">
+    <label for="path">Try it</label>
+    <div class="row"><input id="path" value="documents/proc-563.json" spellcheck="false" aria-describedby="tryhelp"><button class="btn" id="go" type="button">Fetch</button></div>
+    <p class="small" id="tryhelp" style="margin:6px 0 0">Any path from the table above, relative to <code>/api/v1/</code>.</p>
+    <pre id="out" aria-live="polite">…</pre>
+  </div>
+<pre>fetch("https://executiveactions.labs.trlibrary.com/api/v1/on-this-day/06-08.json")
+  .then(r =&gt; r.json())
+  .then(d =&gt; d.documents.forEach(x =&gt; console.log(x.date, x.label, x.title)));</pre>
+
+  <h2>Fields worth knowing</h2>
+  <ul>
+    <li><code>id</code>: <code>eo-1003</code>, <code>eo-389-a</code>, <code>eo-288-half</code> for numbered executive orders; <code>proc-563</code> for proclamations; <code>proc-x-1907-01-24</code> for the three proclamations outside the numbered series; <code>uo-001</code> to <code>uo-126</code> for Lord's unnumbered orders.</li>
+    <li><code>date</code>: <code>YYYY-MM-DD</code>, or <code>YYYY-MM</code> when only the month is known (<code>date_precision: "month"</code>), or <code>null</code>.</li>
+    <li><code>text.kind</code>: <code>statutes_digitization</code>, <code>wikisource_transcription</code> or <code>collated</code>. <code>text.verified</code> is <code>false</code> until the text has been checked against the printed page. Check the <code>citations.statutes.page_image</code> before quoting.</li>
+    <li><code>duplicate_of</code>: set on the 21 entries in Lord's list that describe an order already in the numbered series. Treat them as cross-references, not separate actions.</li>
+    <li><code>significance</code>: 1 (individual personnel action) to 5 (landmark), assigned by the Library as a browsing aid. <code>summary</code>, <code>categories</code> and <code>significance</code> may be <code>null</code> or empty while work continues; fall back to <code>title</code>.</li>
+  </ul>
+
+  <h2>Downloads</h2>
+  <ul>
+    <li><a href="data/documents.csv">documents.csv</a>, one row per document, for spreadsheets</li>
+    <li><a href="data/documents.jsonl">documents.jsonl</a>, the full dataset with texts, one JSON record per line</li>
+    <li><a href="data/stats.json">stats.json</a>, summary counts</li>
+  </ul>
+
+  <h2>Credit</h2>
+  <p>Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, Theodore Roosevelt Presidential Library. Please credit “Theodore Roosevelt Presidential Library, Theodore Roosevelt's Executive Orders and Proclamations” with a link to this site. The documents' texts are U.S. government works in the public domain. Code: MIT. More on sources and limits in <a href="about.html">About the data</a>.</p>
+</main>
+<footer class="site"><div class="wrap">Theodore Roosevelt Presidential Library, Medora, North Dakota. <a href="widget.html">Widgets</a> · <a href="about.html">About the data</a> · <a href="https://www.trlibrary.com/visit">Plan your visit</a></div></footer>
+<script src="assets/app.js"></script>
+<script>
+EA.get("index.json").then(m => {
+  const c = m.counts;
+  document.getElementById("counts").textContent = `${c.documents.toLocaleString()} documents | ${(c.by_type.executive_order || 0).toLocaleString()} numbered executive orders, ${(c.by_type.unnumbered_order || 0).toLocaleString()} unnumbered, ${(c.by_type.proclamation || 0).toLocaleString()} proclamations | ${c.with_text.toLocaleString()} with text | ${c.stories} stories`;
+}).catch(() => {});
+const out = document.getElementById("out"), path = document.getElementById("path");
+async function go() {
+  const p = path.value.trim().replace(/^\/?(api\/v1\/)?/, "");
+  if (!/^[\w\-./]+\.json$/.test(p) || p.includes("..")) { out.textContent = "Enter a path ending in .json, like documents/proc-563.json"; return; }
+  out.textContent = "Loading…";
+  try {
+    const r = await fetch(EA.API + p);
+    if (!r.ok) throw new Error(`${r.status} — no file at that address`);
+    const j = await r.json();
+    let s = JSON.stringify(j, null, 2);
+    if (s.length > 20000) s = s.slice(0, 20000) + "\n… (cut short here; open the file to see all of it)";
+    out.textContent = s;
+  } catch (e) { out.textContent = String(e.message || e); }
+}
+document.getElementById("go").addEventListener("click", go);
+path.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
+go();
+</script>
+</body>
+</html>

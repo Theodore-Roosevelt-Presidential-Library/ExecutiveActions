@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Widgets | Theodore Roosevelt's Executive Orders and Proclamations</title>
+<meta name="description" content="Embeddable cards for trlibrary.com and other sites: one Roosevelt order or proclamation, what he signed on today's date, filtered lists, and story teasers.">
+<meta property="og:title" content="Widgets | Theodore Roosevelt's Executive Orders and Proclamations">
+<meta property="og:description" content="Embeddable cards: one order or proclamation, what Roosevelt signed on today's date, filtered lists, and story teasers.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Theodore Roosevelt Presidential Library">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+  .doc { max-width: 1000px; }
+  .demo { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 16px 0; align-items: start; }
+  .stage { padding: 24px; border-radius: var(--radius); }
+  .bg-white { background: #fff; border: 1px solid var(--sand); }
+  .bg-night { background: var(--night); }
+</style>
+<script src="widgets/executiveactions.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#widgets">Skip to the content</a>
+<header class="bar">
+  <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="about.html">About</a><a href="api.html" aria-current="page">API &amp; widgets</a></nav>
+</header>
+<main class="wrap doc" id="widgets" tabindex="-1">
+  <h1>Widgets</h1>
+  <p class="lede">Put Roosevelt's orders and proclamations on any page of trlibrary.com, or anywhere else. Add one script tag, then drop in a card. Each card loads live from the <a href="api.html">API</a>, links back to the full record, and keeps its styles to itself so it won't disturb the page around it.</p>
+<pre>&lt;script src="https://executiveactions.labs.trlibrary.com/widgets/executiveactions.js" defer&gt;&lt;/script&gt;</pre>
+
+  <h2>One document</h2>
+  <p>A card for a single order or proclamation, by its id. Ids appear in every document page's address.</p>
+<pre>&lt;trpl-action id="proc-563"&gt;&lt;/trpl-action&gt;</pre>
+  <div class="demo"><div class="stage bg-white"><trpl-action id="proc-563"></trpl-action></div><div class="stage bg-night"><trpl-action id="eo-1003" theme="dark"></trpl-action></div></div>
+
+  <h2>Signed on this day</h2>
+  <p>What Roosevelt signed on today's date, in any year of his presidency, biggest first. If nothing carries today's date, it shows the next date that does. Set <code>date="MM-DD"</code> to fix a date.</p>
+<pre>&lt;trpl-actions-on-this-day count="3"&gt;&lt;/trpl-actions-on-this-day&gt;
+&lt;trpl-actions-on-this-day date="06-08" count="4"&gt;&lt;/trpl-actions-on-this-day&gt;</pre>
+  <div class="demo"><div class="stage bg-white"><trpl-actions-on-this-day count="3"></trpl-actions-on-this-day></div><div class="stage bg-white"><trpl-actions-on-this-day date="06-08" count="4"></trpl-actions-on-this-day></div></div>
+
+  <h2>A filtered list</h2>
+  <p>Any mix of subject, state, year and type. Without a year, it shows the most significant documents first, listed in date order; with a year, the earliest first. A “See all” link opens the same filter in the index.</p>
+<pre>&lt;trpl-actions-list category="forests" state="Arizona" year="1908" limit="10"&gt;&lt;/trpl-actions-list&gt;
+&lt;trpl-actions-list category="monuments" limit="5" theme="dark"&gt;&lt;/trpl-actions-list&gt;</pre>
+  <div class="demo"><div class="stage bg-white"><trpl-actions-list category="forests" state="Arizona" year="1908" limit="10"></trpl-actions-list></div><div class="stage bg-night"><trpl-actions-list category="monuments" limit="5" theme="dark"></trpl-actions-list></div></div>
+
+  <h2>A story teaser</h2>
+  <p>A short card that sends readers to one of the <a href="stories.html">stories</a>, by number or slug.</p>
+<pre id="storycode">&lt;trpl-story n="2"&gt;&lt;/trpl-story&gt;</pre>
+  <div class="demo" id="storydemo"><p class="small">Story teasers appear here once the first stories are published.</p></div>
+
+  <h2>Options</h2>
+  <div class="tablewrap"><table class="list-table">
+    <thead><tr><th>Attribute</th><th>Widgets</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td><code>theme</code></td><td>all</td><td><code>light</code> (default), <code>dark</code>, or <code>auto</code> to follow the visitor's system setting</td></tr>
+      <tr><td><code>cta</code></td><td>all</td><td><code>off</code> hides the “Plan your visit” link</td></tr>
+      <tr><td><code>data-api</code></td><td>all</td><td>Point at another copy of the API, such as a staging site. Can also go on the script tag</td></tr>
+      <tr><td><code>id</code></td><td>trpl-action</td><td>Document id, e.g. <code>proc-563</code>, <code>eo-1003</code>, <code>uo-018</code></td></tr>
+      <tr><td><code>date</code>, <code>count</code></td><td>trpl-actions-on-this-day</td><td>Fixed <code>MM-DD</code> date; how many to show (default 3, up to 12)</td></tr>
+      <tr><td><code>category</code>, <code>state</code>, <code>year</code>, <code>type</code></td><td>trpl-actions-list</td><td>Filters. Subjects use the slugs in <a href="api/v1/categories/index.json">categories/index.json</a>; states use plain names; type is <code>executive_order</code>, <code>proclamation</code> or <code>unnumbered_order</code></td></tr>
+      <tr><td><code>limit</code>, <code>sort</code>, <code>min</code>, <code>heading</code></td><td>trpl-actions-list</td><td>How many (default 10, up to 50); <code>date</code> or <code>significance</code>; lowest weight to include, 1–5; your own heading</td></tr>
+      <tr><td><code>n</code> or <code>slug</code></td><td>trpl-story</td><td>Story number or slug</td></tr>
+    </tbody>
+  </table></div>
+  <p>Fonts follow the page when it sets <code>--ea-display</code>, <code>--ea-serif</code> and <code>--ea-sans</code>; otherwise the cards use the Library's brand fonts with sensible fallbacks.</p>
+</main>
+<footer class="site"><div class="wrap">Theodore Roosevelt Presidential Library, Medora, North Dakota. <a href="api.html">The API</a> · <a href="https://www.trlibrary.com/visit">Plan your visit</a></div></footer>
+<script src="assets/app.js"></script>
+<script>
+EA.get("stories/index.json").then(list => {
+  if (!list.length) return;
+  const picks = list.slice(0, 2);
+  document.getElementById("storycode").textContent = `<trpl-story n="${picks[0].number}"></trpl-story>`;
+  document.getElementById("storydemo").innerHTML = picks.map((s, i) => `<div class="stage ${i ? "bg-night" : "bg-white"}"><trpl-story n="${s.number}"${i ? ' theme="dark"' : ""}></trpl-story></div>`).join("");
+}).catch(() => {});
+</script>
+</body>
+</html>

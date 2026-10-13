@@ -1,0 +1,43 @@
+{
+ "documents": 1542,
+ "distinct_documents": 1521,
+ "by_type": {
+  "proclamation": 410,
+  "unnumbered_order": 105,
+  "executive_order": 1006
+ },
+ "extra_statutes_proclamations": 3,
+ "with_text": 1140,
+ "text_kinds": {
+  "collated": 101,
+  "null": 381,
+  "wikisource_transcription": 708,
+  "statutes_digitization": 331
+ },
+ "categories": {
+  "ceremonial": 32,
+  "military-naval": 210,
+  "indian-lands": 82,
+  "forests": 415,
+  "public-lands": 146,
+  "civil-service": 522,
+  "foreign-affairs": 77,
+  "trade-reciprocity": 20,
+  "insular-territories": 167,
+  "government-administration": 102,
+  "lighthouses": 36,
+  "congress": 4,
+  "wildlife": 45,
+  "copyright": 3,
+  "monuments": 19,
+  "canal-zone": 70,
+  "water-reclamation": 16,
+  "labor-business": 19,
+  "coal-minerals": 2,
+  "conservation-policy": 3,
+  "statehood": 1
+ },
+ "uncategorized": 0,
+ "with_story": 1518,
+ "with_summary": 1521
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page not found | Theodore Roosevelt's Executive Orders and Proclamations</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="/"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="/index.html">Explore</a><a href="/stories.html">Stories</a><a href="/about.html">About</a><a href="/api.html">API &amp; widgets</a></nav>
+</header>
+<main class="wrap doc">
+  <h1>Nothing at this address</h1>
+  <p class="lede">The page may have moved, or the link may have a typo. Every order and proclamation is still here.</p>
+  <p id="hint"></p>
+  <p><a class="btn" href="/index.html">Search the index</a> &nbsp; <a class="btn ghost" href="/stories.html">Read the stories</a></p>
+</main>
+<footer class="site"><div class="wrap">Theodore Roosevelt Presidential Library, Medora, North Dakota. <a href="https://www.trlibrary.com/visit">Plan your visit</a></div></footer>
+<script>
+// Friendly redirect for guessable addresses like /proc-563 or /eo-1003
+const m = location.pathname.match(/\/((?:eo|proc|uo)-[0-9a-z\-]+)\/?$/i);
+if (m) location.replace("/document.html?id=" + m[1].toLowerCase());
+</script>
+</body>
+</html>

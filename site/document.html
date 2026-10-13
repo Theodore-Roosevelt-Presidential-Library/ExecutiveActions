@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Document | Theodore Roosevelt's Executive Orders and Proclamations</title>
+<meta name="description" content="An executive order or proclamation signed by Theodore Roosevelt, with its text, sources and story.">
+<meta property="og:title" content="Theodore Roosevelt's Executive Orders and Proclamations">
+<meta property="og:description" content="An executive order or proclamation signed by Theodore Roosevelt, with its text, sources and story.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Theodore Roosevelt Presidential Library">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip" href="#doc">Skip to the document</a>
+<header class="bar">
+  <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="about.html">About</a><a href="api.html">API &amp; widgets</a></nav>
+</header>
+
+<main class="cols">
+  <section id="doc" tabindex="-1"><p class="loading">Loading…</p></section>
+  <aside class="side" id="side"></aside>
+</main>
+<footer class="site"><div class="wrap">Compiled by the Theodore Roosevelt Presidential Library. Texts are unverified transcriptions unless marked otherwise; check the printed page before quoting. <a href="about.html">About the data</a> &nbsp;|&nbsp; <a href="index.html">Back to the index</a> &nbsp;|&nbsp; <a href="https://www.trlibrary.com/visit">Plan your visit</a></div></footer>
+<script src="assets/app.js"></script>
+<script>
+(async () => {
+  const id = (EA.param("id") || "").trim().toLowerCase();
+  const main = document.getElementById("doc"), side = document.getElementById("side");
+  let d;
+  try {
+    if (!/^[a-z]+-[0-9a-z\-]+$/.test(id)) throw new Error("bad id");
+    d = await EA.get(`documents/${id}.json`);
+  } catch (e) {
+    main.innerHTML = `<article class="card"><p class="kicker">Not found</p><h1 class="doc-title">No document matches “${EA.esc(id || "nothing")}”</h1>
+      <p>Document addresses look like <a href="document.html?id=proc-563">proc-563</a> for a proclamation, <a href="document.html?id=eo-1003">eo-1003</a> for a numbered executive order, or <a href="document.html?id=uo-001">uo-001</a> for an unnumbered order from Lord's list.</p>
+      <p><a class="btn" href="index.html">Search the index</a></p></article>`;
+    return;
+  }
+  document.title = `${d.label}: ${d.title} | Theodore Roosevelt's Executive Orders and Proclamations`;
+  const desc = d.summary || d.title;
+  document.querySelector('meta[name="description"]').setAttribute("content", desc);
+  document.querySelector('meta[property="og:title"]').setAttribute("content", `${d.label}: ${d.title}`);
+  document.querySelector('meta[property="og:description"]').setAttribute("content", desc);
+  main.innerHTML = EA.renderDocument(d);
+
+  let s = "";
+  if (d.story_refs && d.story_refs.length) {
+    s += `<section><h2>The story</h2><ul class="storylinks">${d.story_refs.map(r => `<li><a href="story.html?n=${r.number}">${EA.esc(r.title)}</a>${r.dek ? `<p>${EA.esc(r.dek)}</p>` : ""}</li>`).join("")}</ul></section>`;
+  }
+  s += `<section><h2>Sources</h2>${EA.citationsHTML(d)}</section>`;
+  if (d.date && d.date.length === 10) {
+    const dbd = d.day_by_day || `https://daybyday.labs.trlibrary.com/day.html?date=${d.date}`;
+    s += `<section><h2>That day</h2><p style="margin:0 0 8px">What else was Roosevelt doing on ${EA.esc(EA.fmtDate(d.date))}?</p><a class="btn" href="${EA.esc(dbd)}">See the day in Day by Day</a>`;
+    s += `<div id="sameday"></div></section>`;
+  }
+  s += `<section><h2>Cite this page</h2><p class="small">Theodore Roosevelt Presidential Library, “${EA.esc(d.label)}: ${EA.esc(d.title.replace(/[.\s]+$/, ""))},” <i>Theodore Roosevelt's Executive Orders and Proclamations</i>, ${EA.esc(d.url)}.</p>
+    <p class="small"><a href="api/v1/documents/${encodeURIComponent(d.id)}.json">This record as JSON</a></p></section>`;
+  side.innerHTML = s;
+
+  // Other documents signed the same day
+  if (d.date && d.date.length === 10) {
+    try {
+      const o = await EA.get(`on-this-day/${d.date.slice(5)}.json`);
+      const same = o.documents.filter(x => x.date === d.date && x.id !== d.id && x.id !== d.duplicate_of);
+      if (same.length) {
+        document.getElementById("sameday").innerHTML = `<h3 style="margin-top:18px">Also signed that day</h3><ul class="minilist">${same.slice(0, 8).map(x =>
+          `<li><span class="d">${EA.esc(x.label)}</span><a href="${EA.docHref(x.id)}">${EA.esc(x.title)}</a></li>`).join("")}</ul>${same.length > 8 ? `<p class="small"><a href="index.html?q=${d.date}">All ${same.length} more</a></p>` : ""}`;
+      }
+    } catch (e) { /* optional */ }
+  }
+})();
+</script>
+</body>
+</html>
