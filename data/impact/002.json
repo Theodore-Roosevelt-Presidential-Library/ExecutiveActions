@@ -1,0 +1,93 @@
+{
+  "story": 2,
+  "documents": {
+    "proc-658": {
+      "reception": [
+        {
+          "text": "Locally the designation drew little fight, since the tower sat on federal land no one was contesting.",
+          "source": "research entry",
+          "date": "1906"
+        },
+        {
+          "text": "In the 1906 campaign Cheyenne's Democratic paper charged that Wyoming's Republican congressman, Frank Mondell, had opposed Roosevelt on every major measure and kept up his opposition after Congress adjourned; the Mondell-backing Wyoming Tribune answered four days later.",
+          "source": "Cheyenne Daily Leader, October 20, 1906, p. 4; Wyoming Tribune, October 24, 1906, p. 4",
+          "date": "1906-10-20"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Mondell had already protested the late-July 1906 withdrawal of 109 Wyoming townships, more than two and a half million acres by his count, as coal land, at least ten days before the Devils Tower proclamation.",
+          "source": "Laramie Republican, September 14, 1906, p. 2; Sheridan Post, September 21, 1906",
+          "date": "1906-09-14"
+        },
+        {
+          "kind": "political",
+          "text": "As the first use of the Antiquities Act, and for a natural wonder rather than a ruin, it signaled the broad reading of the law that would soon carry the Grand Canyon.",
+          "source": "research entry",
+          "date": "1906-09-24"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Devils Tower remains the founding unit of the national monument system, and the power first used here has been used by presidents of both parties ever since.",
+          "source": "research entry"
+        },
+        {
+          "text": "The tower is still sacred to many tribes; the National Park Service names the Arapaho, Crow, Cheyenne, Shoshone and Lakota among more than twenty.",
+          "source": "National Park Service"
+        },
+        {
+          "text": "Under the 1995 Climbing Management Plan the Park Service asks visitors to voluntarily refrain from climbing on the tower or scrambling inside the Tower Trail loop throughout June, a request it reports has sharply reduced June climbing.",
+          "source": "National Park Service, Climbing Management Plan (February 1995; 2006 update)",
+          "date": "1995-02"
+        }
+      ],
+      "today": [
+        {
+          "name": "Devils Tower National Monument",
+          "kind": "national_monument",
+          "relation": "origin",
+          "state": "Wyoming",
+          "since": "1906-09-24",
+          "note": "Now 1,347 acres, about 194 more than the 1,152.91 reserved in 1906.",
+          "source": "National Park Service"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-794",
+          "relation": "same_subject",
+          "note": "Grand Canyon National Monument carried the same broad reading of the Antiquities Act."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1995-02",
+          "text": "The National Park Service adopted a Climbing Management Plan with a voluntary June closure, worked out with climbers and American Indian representatives.",
+          "source": "National Park Service"
+        },
+        {
+          "date": "1996-12",
+          "text": "The Interior Secretary withdrew the plan's June ban on commercial guiding after a court had preliminarily enjoined it in June 1996.",
+          "source": "research entry"
+        },
+        {
+          "date": "1999-04-26",
+          "text": "The Tenth Circuit affirmed the dismissal of climbers' challenge to the voluntary June closure, holding they lacked standing.",
+          "source": "Bear Lodge Multiple Use Association v. Babbitt, 175 F.3d 814 (10th Cir. 1999)"
+        },
+        {
+          "date": "2000",
+          "text": "The Supreme Court declined to review the Bear Lodge case.",
+          "source": "529 U.S. 1037 (2000)"
+        }
+      ],
+      "uncertain": [
+        "The Cheyenne Daily Leader editorial of October 20, 1906 was read from OCR text; the page image has not been checked.",
+        "The date of the Wyoming coal-land withdrawal order reads July 26 in one newspaper and July 28 in another.",
+        "The Supreme Court's denial of review in the Bear Lodge case is cited from secondary literature; the docket entry has not been checked."
+      ]
+    }
+  }
+}

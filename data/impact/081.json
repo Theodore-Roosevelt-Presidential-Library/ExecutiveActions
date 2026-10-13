@@ -1,0 +1,201 @@
+{
+  "story": 81,
+  "documents": {
+    "eo-199-a": {
+      "reception": [
+        {
+          "text": "The order was not announced until March. An Associated Press dispatch then reported that the President had turned the Midway Islands over to the Navy at the cable company's request, to protect its property from roving Japanese plume and guano hunters.",
+          "source": "Associated Press, Washington, March 11, 1903, in Los Angeles Herald, March 12, 1903",
+          "date": "1903-03-12"
+        },
+        {
+          "text": "The dispatch ran widely in California, including the Santa Barbara Morning Press and Weekly Press, the Stockton Mail (\"TO PROTECT MIDWAY ISLANDS\") and the Marysville Democrat, and in Indiana in the Indianapolis News. No editorial comment turned up.",
+          "source": "California Digital Newspaper Collection; Hoosier State Chronicles",
+          "date": "1903-03-12"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Navy Department announced the order as its General Order No. 120.",
+          "source": "Army and Navy Journal, January 31, 1903",
+          "date": "1903-01-21"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Navy removed the Japanese squatters and poachers from the atoll.",
+          "source": "Midway Atoll chronologies",
+          "date": "1903-06-03"
+        },
+        {
+          "kind": "economic",
+          "text": "About thirty Commercial Pacific Cable Company workers landed to build the cable station, and the line opened that summer; Roosevelt sent the first round-the-world message over it on July 4, 1903.",
+          "source": "research entry",
+          "date": "1903-04-20"
+        },
+        {
+          "kind": "administrative",
+          "text": "A detachment of about twenty Marines under Second Lieutenant Clarence S. Owens arrived to keep order, guard the cable station and stop the poaching, and stayed about four years.",
+          "source": "Midway Atoll National Historic Landmark nomination (1987)",
+          "date": "1904-05"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The order began an unbroken line of Navy control through the atoll's years as a cable station, a stop for transpacific flying boats from the 1930s, and the Battle of Midway in June 1942.",
+          "source": "research entry"
+        },
+        {
+          "text": "Because Midway was already the Navy's, Roosevelt's Hawaiian Islands Reservation of 1909 covered the northwestern chain from Cure Island to Necker but left Midway out.",
+          "source": "research entry",
+          "date": "1909-02-03"
+        }
+      ],
+      "today": [
+        {
+          "name": "Midway Atoll National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "transferred",
+          "state": "Midway Atoll",
+          "note": "Navy control that began with this order ended in 1996, when Executive Order 13022 transferred the atoll to the Interior Department for the refuge.",
+          "source": "Executive Order 13022 (1996)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-1019",
+          "relation": "same_subject",
+          "note": "The 1909 Hawaiian Islands Reservation, which left Midway out because the Navy already held it."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1996",
+          "text": "Executive Order 13022 transferred jurisdiction over Midway from the Navy to the Department of the Interior for the Midway Atoll National Wildlife Refuge.",
+          "source": "Executive Order 13022"
+        }
+      ]
+    },
+    "eo-206": {
+      "reception": [
+        {
+          "text": "No newspaper report of the order was found in California or Indiana papers of March 8 to April 15, 1903.",
+          "source": "California Digital Newspaper Collection; Hoosier State Chronicles",
+          "date": "1903"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Librarian of Congress called it the first important transfer under the act of February 25, 1903, and reported the State Department's cooperation as prompt and cordial.",
+          "source": "Report of the Librarian of Congress, FY1903, pp. 24–25",
+          "date": "1903"
+        },
+        {
+          "kind": "administrative",
+          "text": "By June 30, 1904 the Continental Congress papers (385 volumes), the Monroe, Hamilton and Washington papers, and the Stevens collection of Franklin papers had arrived, the Washington papers last on June 29, 1904; the Jefferson and Madison papers were still to come.",
+          "source": "Report of the Librarian of Congress, FY1904, p. 57",
+          "date": "1904-06-30"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The papers of Washington, Jefferson, Madison, Hamilton, Monroe and Franklin remain cornerstones of the Library of Congress's Manuscript Division.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Library of Congress Manuscript Division",
+          "kind": "other",
+          "relation": "part",
+          "state": "District of Columbia",
+          "note": "Holds the presidential and founders' papers this order transferred.",
+          "source": "research entry"
+        },
+        {
+          "name": "National Archives Record Group 360 (Records of the Continental and Confederation Congresses)",
+          "kind": "other",
+          "relation": "transferred",
+          "state": "District of Columbia",
+          "note": "The Congress records sent to the Library between 1903 and 1922 went to the National Archives in 1952.",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1952",
+          "text": "The records of the Continental and Confederation Congresses moved from the Library of Congress to the National Archives, where they are Record Group 360.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-209": {
+      "legacy": [
+        {
+          "text": "The 1903 rules stayed in force, amended piecemeal, for decades: the Civil Service Commission's report for fiscal 1918 still printed them under the 1903 preamble, and a 1933 compilation headed them as promulgated April 15, 1903 and revised to July 25, 1933.",
+          "source": "Civil Service Commission, Thirty-fifth Annual Report (1918); Civil Service Act and Rules (GPO, 1933), p. 11",
+          "date": "1933"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-213",
+          "relation": "modified_by",
+          "note": "Clarified eleven days later what the new rules did not do for employees serving under the old Rule VIII."
+        },
+        {
+          "id": "eo-740",
+          "relation": "amended_by",
+          "note": "Replaced Rule VII in 1908."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1947-02-24",
+          "text": "Executive Order 9830, effective May 1, 1947, restated the Civil Service Rules in full.",
+          "source": "Federal Register, February 25, 1947"
+        }
+      ],
+      "uncertain": [
+        "Whether the rules were re-promulgated as a whole at any point between July 1933 and Executive Order 9830 of 1947 is not known."
+      ]
+    },
+    "eo-220": {
+      "related": [
+        {
+          "id": "proc-502",
+          "relation": "reduces",
+          "note": "Withdrew the Presidio at San Juan from the naval reservation made four days earlier."
+        }
+      ]
+    },
+    "eo-219": {
+      "related": [
+        {
+          "id": "proc-502",
+          "relation": "same_subject",
+          "note": "Reserved the right to amend or modify the naval-lands proclamation of June 26, 1903."
+        }
+      ],
+      "uncertain": [
+        "The text of the order has not been found, and what later became of the lands concerned has not been researched."
+      ]
+    },
+    "eo-218": {
+      "uncertain": [
+        "What later became of the Ponce, Mayaguez and San Juan property reserved for the federal courts, district attorney and marshal has not been researched."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "The Puerto Rico orders of June 26–30, 1903 came in the last week of the one-year window the act of July 1, 1902 gave the President to reserve federal lands on the island; whatever was not reserved passed to the insular government.",
+        "source": "Act of July 1, 1902; 33 Stat. 2314–2316",
+        "date": "1903-06"
+      }
+    ]
+  }
+}

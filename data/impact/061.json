@@ -1,0 +1,70 @@
+{
+  "story": 61,
+  "documents": {
+    "proc-556": {
+      "reception": [
+        {
+          "text": "A search of California papers from mid-May to mid-June 1905 found no notice of the Panama proclamation.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1905"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-482",
+          "relation": "same_subject",
+          "note": "The 1902 Cuban vessels proclamation used the same section 4228 authority, with differently worded operative clauses."
+        }
+      ],
+      "uncertain": [
+        "When and through whom Panama supplied the proof recited in the proclamation, and whether the Treasury or the Canal Commission pressed for it, is not known."
+      ]
+    },
+    "proc-577": {
+      "reception": [
+        {
+          "text": "The Bern copyright bureau's journal reprinted the proclamation with Norway's matching decree, noted that its text was identical to the proclamations for other countries, and treated the exchange as routine.",
+          "source": "Le Droit d'Auteur, Sept. 15, 1905, p. 105",
+          "date": "1905-09-15"
+        },
+        {
+          "text": "A search of California papers from late June through August 1905 found no notice of the Norway proclamation.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "The proclamation was one half of a matched pair: a Norwegian royal decree of May 25, 1905, extended Norway's copyright law to future American works from July 1, 1905, the date Roosevelt signed.",
+          "source": "Le Droit d'Auteur, Sept. 15, 1905, p. 105",
+          "date": "1905-07-01"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Norway was later folded into collective copyright proclamations, including the multi-country proclamation of April 9, 1910.",
+          "source": "36 Stat. 2685",
+          "date": "1910-04-09"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-04-09",
+          "text": "A multi-country copyright proclamation included Norway.",
+          "source": "36 Stat. 2685"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-510",
+          "relation": "same_subject",
+          "note": "Copyright had been extended to Cuba by the same section-13 route in 1903."
+        }
+      ],
+      "uncertain": [
+        "Whether the proclamation drew notice in the Norwegian-language American press or the book-trade press has not been checked."
+      ]
+    }
+  }
+}

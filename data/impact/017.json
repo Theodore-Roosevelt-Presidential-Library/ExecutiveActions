@@ -1,0 +1,146 @@
+{
+  "story": 17,
+  "documents": {
+    "proc-780": {
+      "reception": [
+        {
+          "text": "By November 1907 the fights over joint statehood and the constitution were over, and the new state greeted the signing as a celebration rather than a contest.",
+          "source": "research entry",
+          "date": "1907-11"
+        },
+        {
+          "text": "On statehood day a mock wedding on the steps of Guthrie's Carnegie Library joined \"Mr. Oklahoma Territory,\" played by C. G. Jones, to \"Miss Indian Territory,\" played by Anna Trainor Bennett.",
+          "source": "research entry",
+          "date": "1907-11-16"
+        },
+        {
+          "text": "National opinion on the new constitution split: reformers and Populists praised its railroad and corporate regulation, while conservatives and much of the business press called it dangerously radical.",
+          "source": "research entry",
+          "date": "1907"
+        },
+        {
+          "text": "The statewide prohibition clause was welcomed by the temperance movement and resented by others as a mandate written into the founding document.",
+          "source": "research entry",
+          "date": "1907"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Charles N. Haskell was inaugurated as the first governor, and the new state proved as Democratic as Republicans in Washington had feared.",
+          "source": "research entry",
+          "date": "1907-11-16"
+        },
+        {
+          "kind": "administrative",
+          "text": "Statehood ended Indian Territory as a separate territorial jurisdiction, but the Five Tribes' governments continued under the Five Tribes Act of 1906.",
+          "source": "Five Tribes Act, April 26, 1906, 34 Stat. 137, 148, §28",
+          "date": "1907-11-16"
+        },
+        {
+          "kind": "local",
+          "text": "Guthrie became the first state capital.",
+          "source": "research entry",
+          "date": "1907-11-16"
+        },
+        {
+          "kind": "local",
+          "text": "Oklahoma's first legislature passed a separate-coach law, Senate Bill One, approved December 18, 1907.",
+          "source": "research entry",
+          "date": "1907-12-18"
+        },
+        {
+          "kind": "political",
+          "text": "In his Seventh Annual Message Roosevelt told Congress that Oklahoma now stood on a full equality with the other states, adding that the federal duty to guard the rights of the Indians within its borders remained unchanged.",
+          "source": "Seventh Annual Message, December 3, 1907 (American Presidency Project)",
+          "date": "1907-12-03"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The 1907 constitution is still in force, with no successor document; at about 84,956 words it was the fourth-longest state constitution as of January 1, 2023, with 200 of 376 submitted amendments adopted.",
+          "source": "Council of State Governments",
+          "date": "2023-01-01"
+        },
+        {
+          "text": "Constitutional prohibition lasted until voters repealed it in 1959; liquor by the drink stayed illegal until 1984, and then only by county option.",
+          "source": "research entry",
+          "date": "1959"
+        },
+        {
+          "text": "The fight over moving the capital to Oklahoma City produced Coyle v. Smith, the leading statement of the equal-footing doctrine for new states.",
+          "source": "Coyle v. Smith, 221 U.S. 559 (1911)",
+          "date": "1911"
+        },
+        {
+          "text": "The Five Tribes' governments, suppressed but never dissolved after statehood, regained the right to elect their own principal officers in 1970.",
+          "source": "Pub. L. 91-495, 84 Stat. 1091",
+          "date": "1970-10-22"
+        },
+        {
+          "text": "In McGirt v. Oklahoma the Supreme Court held that Congress never disestablished the Muscogee (Creek) reservation, so the land remains Indian country for federal criminal law; later rulings have narrowed the decision.",
+          "source": "McGirt v. Oklahoma, 591 U.S. 894 (2020)",
+          "date": "2020-07-09"
+        }
+      ],
+      "today": [
+        {
+          "name": "State of Oklahoma",
+          "kind": "other",
+          "relation": "origin",
+          "state": "Oklahoma",
+          "since": "1907-11-16",
+          "note": "Admitted as the forty-sixth state; its 1907 constitution remains in force.",
+          "source": "35 Stat. 2160–2161; Council of State Governments"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-06-11",
+          "text": "Voters chose to move the capital from Guthrie to Oklahoma City, 96,448 to 64,522; the state supreme court voided the election that November.",
+          "source": "research entry"
+        },
+        {
+          "date": "1910-12-29",
+          "text": "The legislature located the capital at Oklahoma City by statute.",
+          "source": "research entry"
+        },
+        {
+          "date": "1911",
+          "text": "The U.S. Supreme Court upheld the capital move, holding that locating a state's seat of government is a state power beyond the control of Congress.",
+          "source": "Coyle v. Smith, 221 U.S. 559 (1911)"
+        },
+        {
+          "date": "1936-06-26",
+          "text": "The Oklahoma Indian Welfare Act opened tribal reorganization to Oklahoma tribes.",
+          "source": "49 Stat. 1967"
+        },
+        {
+          "date": "1959-04-07",
+          "text": "State Question 386 repealed constitutional prohibition, 396,845 to 314,380; legal package sales began September 1, 1959.",
+          "source": "research entry"
+        },
+        {
+          "date": "1970-10-22",
+          "text": "Congress restored popular election of the Five Tribes' principal officers.",
+          "source": "Pub. L. 91-495, 84 Stat. 1091"
+        },
+        {
+          "date": "1984-09-18",
+          "text": "State Question 563 allowed liquor by the drink, by county option.",
+          "source": "research entry"
+        },
+        {
+          "date": "2020-07-09",
+          "text": "The Supreme Court held 5–4 that the Muscogee (Creek) reservation was never disestablished and remains Indian country under the Major Crimes Act.",
+          "source": "McGirt v. Oklahoma, 591 U.S. 894 (2020)"
+        },
+        {
+          "date": "2022",
+          "text": "The Supreme Court held that the state and federal governments share jurisdiction over crimes by non-Indians against Indians in Indian country, narrowing McGirt without overruling it.",
+          "source": "Oklahoma v. Castro-Huerta, 597 U.S. 629 (2022)"
+        }
+      ]
+    }
+  }
+}

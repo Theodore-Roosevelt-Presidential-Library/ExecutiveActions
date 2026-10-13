@@ -1,0 +1,189 @@
+{
+  "story": 87,
+  "documents": {
+    "eo-409": {
+      "reception": [
+        {
+          "text": "The reservation was signed without ceremony and passed unremarked in the national press.",
+          "source": "research entry",
+          "date": "1906"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Its effect fell mainly on the local egg hunters and fishermen it shut out of the island.",
+          "source": "research entry",
+          "date": "1906"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Indian Key is one of the fifty-one bird reservations Roosevelt created, the seed of the national wildlife refuge system.",
+          "source": "National Park Service"
+        }
+      ],
+      "today": [
+        {
+          "name": "Pinellas National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "part",
+          "state": "Florida",
+          "note": "Established in 1951; takes in Indian, Tarpon, Mule and Jackass Keys, closed to the public, managed within the Crystal River refuge complex.",
+          "source": "U.S. Fish and Wildlife Service"
+        },
+        {
+          "name": "Indian Key National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Florida",
+          "note": "Name given in 1940; the reservation orders were revoked in 1950.",
+          "source": "Proclamation 2416; Public Land Order 650"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1921-06-25",
+          "text": "President Harding enlarged the reservation to include all mangrove islands in sections 20, 27, 28, 33 and 34 by Executive Order 3502 (sometimes misprinted as 3052).",
+          "source": "Executive Order 3502"
+        },
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Indian Key National Wildlife Refuge by Proclamation 2416.",
+          "source": "Proclamation 2416"
+        },
+        {
+          "date": "1950-06-26",
+          "text": "Interior Secretary Oscar L. Chapman revoked the 1906 and 1921 orders, about 191 acres, by Public Land Order 650.",
+          "source": "Public Land Order 650, 15 Fed. Reg. 4193"
+        }
+      ],
+      "uncertain": [
+        "How title to Indian Key passed between the 1950 revocation and the 1951 Pinellas National Wildlife Refuge has not been traced.",
+        "Whether Indian Key was part of the 1955 grant of submerged lands to Pinellas County is not settled; the Trustees' minutes for the grant mention Bush or Tarpon Key but not Indian Key.",
+        "A 1964 county rededication of Indian Key and Bush Key as a bird sanctuary rests on a single secondary article."
+      ]
+    },
+    "eo-402": {
+      "reception": [
+        {
+          "text": "A search of California papers for January through March 1906 found no coverage of the amendment.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1906"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "It widened a rule already resented by postal unions and other employee groups, part of a longer fight over federal workers' right to petition Congress.",
+          "source": "research entry",
+          "date": "1906"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The fight over employees' right to petition Congress was settled by the Lloyd–La Follette Act of 1912 and reshaped by later law.",
+          "source": "research entry",
+          "date": "1912"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-163",
+          "relation": "amends",
+          "note": "Adds \"or independent Government establishments\" after \"departments\" in the 1902 gag order."
+        }
+      ]
+    },
+    "eo-163": {
+      "related": [
+        {
+          "id": "eo-402",
+          "relation": "amended_by",
+          "note": "Extended to independent Government establishments in January 1906."
+        }
+      ]
+    },
+    "eo-421": {
+      "reception": [
+        {
+          "text": "An Associated Press dispatch headed \"Crusade Against Consumption\" reported the order briefly and neutrally; no protest over its naming and dismissal rules has been found.",
+          "source": "San Jose Mercury-News, March 9, 1906, p. 3",
+          "date": "1906-03-09"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The order is an early marker in the federal government's history as an occupational-health authority.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-377-half",
+          "relation": "implements",
+          "note": "Puts into effect the plan of the committee appointed by the order of December 7, 1905."
+        }
+      ]
+    },
+    "eo-377-half": {
+      "related": [
+        {
+          "id": "eo-421",
+          "relation": "same_subject",
+          "note": "The February 1906 order that put the committee's tuberculosis rules into effect."
+        }
+      ]
+    },
+    "eo-389-half": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The commission was the federal government's machinery behind the Jamestown Exposition at Norfolk, which Roosevelt opened in person on April 26, 1907, and which closed on November 30, 1907.",
+          "source": "Daily Press (Newport News), December 1, 1907, p. 1",
+          "date": "1907-11-30"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-542",
+          "relation": "same_subject",
+          "note": "The 1905 proclamation of the Jamestown celebration."
+        }
+      ]
+    },
+    "eo-399": {
+      "legacy": [
+        {
+          "text": "The board, renamed the United States Geographic Board in 1906, was abolished in 1934; a departmental Board on Geographic Names carried on from 1935, and Congress put the board on a statutory footing in 1947.",
+          "source": "Act of July 25, 1947, 61 Stat. 456",
+          "date": "1947-07-25"
+        }
+      ],
+      "today": [
+        {
+          "name": "U.S. Board on Geographic Names",
+          "kind": "other",
+          "relation": "renamed",
+          "note": "Statutory board in the Interior Department, staffed by the Geological Survey.",
+          "source": "61 Stat. 456"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-493",
+          "relation": "renamed_by",
+          "note": "Renamed the board the United States Geographic Board and added advisory powers over mapmaking."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "Fish and Wildlife Service histories credit Roosevelt with \"55 bird and game reservations\"; the National Park Service breaks this into fifty-one bird reserves and four national game preserves.",
+        "source": "U.S. Fish and Wildlife Service; National Park Service"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "story": 58,
+  "documents": {
+    "proc-542": {
+      "reception": [
+        {
+          "text": "The proclamation made the front pages of the Norfolk Virginian-Pilot, the Newport News Daily Press and the Richmond Times-Dispatch, and ran in papers across Virginia over the following week.",
+          "source": "Virginia Chronicle, March 30–April 5, 1905",
+          "date": "1905-03-30"
+        },
+        {
+          "text": "The Times-Dispatch reported that C. Brooks Johnston, chairman of the exposition company's board of governors, praised the promptness and wording of the proclamation, which let the managers call at once on foreign governments.",
+          "source": "Richmond Times-Dispatch, March 31, 1905, p. 5",
+          "date": "1905-03-31"
+        },
+        {
+          "text": "A Norfolk paper wrote that the proclamation made certain the exposition would feature the greatest naval display in the world's history, and predicted it would draw more visitors than any feature of earlier American fairs.",
+          "source": "Norfolk Journal of Commerce and Twice-a-Week Virginian-Pilot, April 4, 1905, p. 4",
+          "date": "1905-04-04"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Jamestown Ter-Centennial Commission of the Secretaries of the Treasury, War and the Navy was constituted by executive order on January 5, 1906.",
+          "source": "EO 389½",
+          "date": "1906-01-05"
+        },
+        {
+          "kind": "congress",
+          "text": "In 1906 Congress paid for the government's own exhibits, buildings and piers at the fair ($200,000, $350,000 and $400,000), not the exposition company.",
+          "source": "Sundry civil act of June 30, 1906, 34 Stat. 764–766",
+          "date": "1906-06-30"
+        },
+        {
+          "kind": "congress",
+          "text": "Money for the company came only in February 1907: $1,000,000 to help finish and open the exposition, made a debt to the government and secured by a first lien on gate and concession receipts, 40 percent of which were to go to the Treasury twice a month.",
+          "source": "Urgent deficiency act of February 9, 1907, 34 Stat. 886–887",
+          "date": "1907-02-09"
+        },
+        {
+          "kind": "local",
+          "text": "Fitzhugh Lee, the company's president, died in 1905 and was succeeded by former Congressman Harry St. George Tucker; the company struggled from the start to finance and finish its grounds.",
+          "source": "research entry",
+          "date": "1905"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Roosevelt opened the exposition on April 26, 1907, and reviewed the assembled American and foreign warships from the presidential yacht Mayflower.",
+          "source": "research entry",
+          "date": "1907-04-26"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The fair closed at midnight on November 30, 1907, after about 2.8 million admissions, far below the six million its promoters had hoped for.",
+          "source": "Newport News Daily Press, Dec. 1, 1907, p. 1",
+          "date": "1907-11-30"
+        },
+        {
+          "text": "At the close the company still owed the government $900,000 of the 1907 loan, and less than a month later it declared bankruptcy.",
+          "source": "Newport News Daily Press, Dec. 1, 1907, p. 1; Virginia Places",
+          "date": "1907-12"
+        },
+        {
+          "text": "The sixteen battleships later called the Great White Fleet sailed from Hampton Roads on December 16, 1907, with Roosevelt watching, and returned there on February 22, 1909.",
+          "source": "Naval History and Heritage Command",
+          "date": "1907-12-16"
+        },
+        {
+          "text": "Seventeen exposition buildings still stand on the naval base, most of them former state pavilions now known as Admiral's Row, listed on the National Register of Historic Places in 1975.",
+          "source": "Virginia Department of Historic Resources, file 122-0054",
+          "date": "1975"
+        }
+      ],
+      "today": [
+        {
+          "name": "Naval Station Norfolk",
+          "kind": "military_installation",
+          "relation": "part",
+          "state": "Virginia",
+          "note": "Built on the Sewell's Point exposition grounds taken for the Navy in 1917.",
+          "source": "Virginia Department of Historic Resources"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1917-06-15",
+          "text": "Congress authorized the President to take the Jamestown Exposition site for a naval operating base, with $1,200,000 for compensation and $1,600,000 toward equipping the base.",
+          "source": "Act of June 15, 1917, ch. 29, 40 Stat. 182, 207–208"
+        },
+        {
+          "date": "1917-06-28",
+          "text": "Woodrow Wilson took possession of the exposition site by proclamation.",
+          "source": "40 Stat. 1674–1675"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-389-half",
+          "relation": "same_subject",
+          "note": "Constituted the Jamestown Ter-Centennial Commission the 1905 act allowed."
+        },
+        {
+          "id": "proc-626",
+          "relation": "same_subject",
+          "note": "Invited the state militias, using the part of the act the proclamation's ellipsis left out."
+        }
+      ],
+      "uncertain": [
+        "What the government finally paid for the exposition grounds in 1917, and how many acres they covered, is not stated in the act or the proclamation."
+      ]
+    }
+  }
+}

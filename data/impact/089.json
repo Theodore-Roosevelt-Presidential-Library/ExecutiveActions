@@ -1,0 +1,131 @@
+{
+  "story": 89,
+  "documents": {
+    "eo-469": {
+      "reception": [
+        {"text": "The Associated Press carried the order the day it was issued, under a head calling it a reorganization of the consular service \"on a Merit Basis and Divorced from Political Party Affiliations,\" and summarized the promotion rule, the 80 per cent passing mark and the age limits.", "source": "Fresno Evening Democrat, June 30, 1906, p. 6", "date": "1906-06-30"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The order put the consular service on a merit footing, carrying out the consular reorganization act of April 5, 1906, with a Board of Examiners and written examinations.", "source": "research entry", "date": "1906-06-27"}
+      ],
+      "legacy": [
+        {"text": "Amended repeatedly and by the act of May 21, 1908, the consular merit system pointed toward the career Foreign Service built by the Rogers Act of 1924.", "source": "research entry", "date": "1924"}
+      ],
+      "related": [
+        {"id": "eo-495", "relation": "same_subject", "note": "Amended the Consular Regulations as part of the same 1906 consular-reform package."},
+        {"id": "eo-496", "relation": "same_subject", "note": "Set a new tariff of consular fees effective November 1, 1906, part of the same package."},
+        {"id": "eo-530", "relation": "amended_by", "note": "Amended the consular appointment and promotion regulations of June 27, 1906."},
+        {"id": "eo-617", "relation": "amended_by", "note": "Amended the consular appointment and promotion regulations of June 27, 1906."},
+        {"id": "eo-659", "relation": "amended_by", "note": "Amended the order's rules on consular promotions."}
+      ],
+      "later_actions": [
+        {"date": "1908-05-21", "text": "Congress amended the consular arrangements by the act of May 21, 1908.", "source": "research entry"},
+        {"text": "Later amended by Executive Orders 1145, 3156 and 3476.", "source": "research entry"}
+      ]
+    },
+    "eo-530": {
+      "related": [
+        {"id": "eo-469", "relation": "amends", "note": "Amends the consular appointment and promotion regulations of June 27, 1906."}
+      ]
+    },
+    "eo-617": {
+      "related": [
+        {"id": "eo-469", "relation": "amends", "note": "Amends the consular appointment and promotion regulations of June 27, 1906."}
+      ]
+    },
+    "eo-659": {
+      "related": [
+        {"id": "eo-469", "relation": "amends", "note": "Amends the June 1906 rules on consular promotions."}
+      ]
+    },
+    "eo-495": {
+      "related": [
+        {"id": "eo-469", "relation": "same_subject", "note": "Part of the 1906 consular-reform package."}
+      ]
+    },
+    "eo-496": {
+      "related": [
+        {"id": "eo-469", "relation": "same_subject", "note": "Part of the 1906 consular-reform package."}
+      ]
+    },
+    "eo-493": {
+      "reception": [
+        {"text": "The renaming stirred no recorded controversy; a search of California papers for August through October 1906 found no coverage.", "source": "California Digital Newspaper Collection", "date": "1906"}
+      ],
+      "legacy": [
+        {"text": "The board was abolished in 1934 rather than reconstituted; the modern U.S. Board on Geographic Names was created by Congress in 1947 and extended to foreign names.", "source": "Executive Order 6680; Public Law 80-242, 61 Stat. 456", "date": "1947-07-25"},
+        {"text": "The advisory power over federal mapmaking passed in 1919 to a newly created Board of Surveys and Maps, set up for the same purpose of coordinating map-making agencies and avoiding duplicated work.", "source": "Executive Order 3206", "date": "1919-12-30"}
+      ],
+      "today": [
+        {"name": "United States Geographic Board", "kind": "other", "relation": "abolished", "note": "Abolished in 1934; functions moved to the Interior Department.", "source": "Executive Order 6680"}
+      ],
+      "related": [
+        {"id": "eo-399", "relation": "same_subject", "note": "January 1906 order giving the Board on Geographic Names added duties."}
+      ],
+      "later_actions": [
+        {"date": "1919-12-30", "text": "Executive Order 3206 rescinded the 1906 advisory powers over mapmaking and transferred them to the new Board of Surveys and Maps, later the Federal Board of Surveys and Maps.", "source": "Executive Order 3206"},
+        {"date": "1934-04-17", "text": "Executive Order 6680 abolished the United States Geographic Board, moving its functions, staff, records and funds to the Interior Department and revoking the 1890 founding order.", "source": "Executive Order 6680; 47 Stat. 1517"},
+        {"date": "1947-07-25", "text": "Congress created the United States Board on Geographic Names by statute.", "source": "Public Law 80-242, 61 Stat. 456; 43 U.S.C. § 364"}
+      ]
+    },
+    "eo-463": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Reclamation Service reported a quarter-section on the Belle Fourche project set aside for an experimental farm, fenced and partly plowed, with experiments run by the Department of Agriculture; this is probably the land the order reserved.", "source": "Reclamation Service, Sixth Annual Report, 1906–1907, p. 212", "date": "1907"}
+      ],
+      "legacy": [
+        {"text": "The Belle Fourche Experiment Farm, about two miles northwest of Newell, carried on cereal work from 1907.", "source": "U.S. Department of Agriculture, Bulletin 297 (1915)", "date": "1907"}
+      ],
+      "uncertain": [
+        "The order's text and legal description have not been found; whether it reserved the NE ¼ of section 24, T. 9 N., R. 5 E. is probable but not proven.",
+        "How South Dakota papers reported the reservation in 1906 has not been checked."
+      ]
+    },
+    "eo-465": {
+      "political_impact": [
+        {"kind": "congress", "text": "The withdrawal held land while Congress passed the act of June 27, 1906, letting Wisconsin select up to twenty thousand acres of public land for forestry.", "source": "Decisions Relating to the Public Lands, vol. 35, p. 11", "date": "1906-06-27"},
+        {"kind": "administrative", "text": "The land office had wired the Wausau register and receiver to stop allowing entries on June 21, a day before the order.", "source": "Decisions Relating to the Public Lands, vol. 35, p. 11", "date": "1906-06-21"}
+      ],
+      "legacy": [
+        {"text": "The withdrawal lapsed on its own terms, but the twenty thousand acres it protected went to the State of Wisconsin for forestry.", "source": "research entry"}
+      ],
+      "uncertain": [
+        "The order's exact wording is known only through the General Land Office's paraphrase.",
+        "How Wisconsin papers reported the withdrawal in 1906 has not been checked."
+      ]
+    },
+    "eo-468": {
+      "related": [
+        {"id": "eo-462", "relation": "supersedes", "note": "Extends the Washington Navy Yard's summer Saturday rule to all navy yards and naval stations."}
+      ]
+    },
+    "eo-462": {
+      "related": [
+        {"id": "eo-468", "relation": "superseded_by", "note": "Subsumed a week later by the order covering all navy yards and naval stations."}
+      ]
+    },
+    "eo-474": {
+      "related": [
+        {"id": "eo-418", "relation": "revokes", "note": "Revokes the February 1906 compensation order."},
+        {"id": "eo-430", "relation": "revokes", "note": "Revokes the March 1906 order on commissioners' salaries."}
+      ]
+    },
+    "eo-418": {
+      "related": [
+        {"id": "eo-474", "relation": "revoked_by", "note": "Revoked by the June 30, 1906 compensation order."}
+      ]
+    },
+    "eo-430": {
+      "related": [
+        {"id": "eo-474", "relation": "revoked_by", "note": "Revoked by the June 30, 1906 compensation order."}
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {"text": "The Belle Fourche Project still delivers a full irrigation supply to 57,068 acres around Newell, Vale and Nisland; the Belle Fourche Irrigation District has operated it since January 1, 1949, and Reclamation retains ownership.", "source": "Bureau of Reclamation", "date": "1949-01-01"}
+    ],
+    "today": [
+      {"name": "Belle Fourche Project", "kind": "other", "relation": "part", "state": "South Dakota", "note": "Reclamation project within which the 1906 order reserved experimental land.", "source": "Bureau of Reclamation"}
+    ]
+  }
+}

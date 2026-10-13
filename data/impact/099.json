@@ -1,0 +1,327 @@
+{
+  "story": 99,
+  "documents": {
+    "eo-813": {
+      "legacy": [
+        {
+          "text": "Since 1954 the Whitman has been administered jointly with the Wallowa; the two remain legally separate forests.",
+          "source": "research entry",
+          "date": "1954"
+        }
+      ],
+      "today": [
+        {
+          "name": "Wallowa–Whitman National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "since": "1908-06-13",
+          "note": "Joint administration of two legally distinct forests since 1954.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-814": {
+      "legacy": [
+        {
+          "text": "The Malheur name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-815": {
+      "legacy": [
+        {
+          "text": "The Umatilla name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-816": {
+      "legacy": [
+        {
+          "text": "The Deschutes name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-817": {
+      "legacy": [
+        {
+          "text": "The Fremont name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-820": {
+      "legacy": [
+        {
+          "text": "The Columbia National Forest became the Gifford Pinchot National Forest in 1949; the renaming proclamation names Executive Order 820 as the order that first defined the forest.",
+          "source": "Proclamation 2845",
+          "date": "1949-06-15"
+        }
+      ],
+      "today": [
+        {
+          "name": "Gifford Pinchot National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Washington",
+          "since": "1908-06-18",
+          "note": "Created as the Columbia National Forest; renamed in 1949.",
+          "source": "Proclamation 2845"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-821",
+          "relation": "same_subject",
+          "note": "Modified the Rainier, from which the Columbia was carved."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1949-06-15",
+          "text": "Harry Truman's Proclamation 2845 renamed the Columbia the Gifford Pinchot National Forest.",
+          "source": "Proclamation 2845"
+        }
+      ]
+    },
+    "eo-822": {
+      "related": [
+        {
+          "id": "eo-823",
+          "relation": "same_subject",
+          "note": "Chelan created partly from Washington National Forest land."
+        },
+        {
+          "id": "eo-824",
+          "relation": "same_subject",
+          "note": "Snoqualmie created partly from Washington National Forest land."
+        },
+        {
+          "id": "eo-825",
+          "relation": "same_subject",
+          "note": "Wenatchee created partly from Washington National Forest land."
+        }
+      ]
+    },
+    "eo-824": {
+      "legacy": [
+        {
+          "text": "The Snoqualmie name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-825": {
+      "legacy": [
+        {
+          "text": "The Wenatchee name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-826": {
+      "related": [
+        {
+          "id": "eo-827",
+          "relation": "same_subject",
+          "note": "Part of the Fillmore went to the new Nebo."
+        }
+      ]
+    },
+    "eo-833": {
+      "related": [
+        {
+          "id": "eo-834",
+          "relation": "same_subject",
+          "note": "Blackfeet carved from part of the Lewis and Clark."
+        },
+        {
+          "id": "eo-835",
+          "relation": "same_subject",
+          "note": "Flathead carved from part of the Lewis and Clark."
+        }
+      ]
+    },
+    "eo-835": {
+      "legacy": [
+        {
+          "text": "The order revived a Flathead name that had been in use from 1897 to 1903, and the name endures.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-836": {
+      "legacy": [
+        {
+          "text": "The Kootenai name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-837": {
+      "legacy": [
+        {
+          "text": "The Routt name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-841": {
+      "legacy": [
+        {
+          "text": "The Salmon name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-859",
+          "relation": "same_subject",
+          "note": "The Lemhi order, which also concerns the Salmon National Forest."
+        }
+      ]
+    },
+    "eo-844": {
+      "later_actions": [
+        {
+          "date": "1910-05-06",
+          "text": "Proclamation 1025 changed the spelling from Pend d'Oreille to Pend Oreille.",
+          "source": "36 Stat. 2688"
+        }
+      ]
+    },
+    "eo-846": {
+      "related": [
+        {
+          "id": "eo-852",
+          "relation": "same_subject",
+          "note": "The Angeles took in part of the Santa Barbara, which was modified the same day."
+        }
+      ]
+    },
+    "eo-847": {
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "California",
+          "note": "The San Luis was consolidated into the Santa Barbara in 1910, renamed Los Padres in 1936.",
+          "source": "FS chronologic record (1973 ed.), pp. 31, 71"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-06-08",
+          "text": "Executive Order 1209, effective July 1, 1910, added the entire San Luis to the Santa Barbara and discontinued the San Luis name.",
+          "source": "FS chronologic record (1973 ed.), p. 31"
+        }
+      ]
+    },
+    "eo-852": {
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "California",
+          "note": "The Santa Barbara, dating from 1903, was renamed Los Padres in 1936.",
+          "source": "FS chronologic record (1973 ed.), p. 71"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-06-08",
+          "text": "Executive Order 1209 added the entire San Luis National Forest to the Santa Barbara.",
+          "source": "FS chronologic record (1973 ed.), p. 31"
+        },
+        {
+          "date": "1936-12-03",
+          "text": "Executive Order 7501 renamed the Santa Barbara the Los Padres National Forest.",
+          "source": "FS chronologic record (1973 ed.), p. 71"
+        }
+      ]
+    },
+    "eo-849": {
+      "related": [
+        {
+          "id": "eo-848",
+          "relation": "same_subject",
+          "note": "The Carson took in part of the Jemez."
+        }
+      ]
+    },
+    "eo-853": {
+      "related": [
+        {
+          "id": "eo-854",
+          "relation": "same_subject",
+          "note": "The Nezperce took in part of the Weiser."
+        }
+      ]
+    },
+    "eo-857": {
+      "legacy": [
+        {
+          "text": "The Boise name is still on the map, as a national forest or the core of one; the Forest Service's chronological record shows it not discontinued through 1973.",
+          "source": "USDA Forest Service, Establishment and Modification of National Forest Boundaries (1973 ed.)"
+        }
+      ]
+    },
+    "eo-858": {
+      "related": [
+        {
+          "id": "eo-840",
+          "relation": "same_subject",
+          "note": "The Challis took in part of the Sawtooth."
+        },
+        {
+          "id": "eo-857",
+          "relation": "same_subject",
+          "note": "The Boise was carved from part of the Sawtooth."
+        }
+      ]
+    },
+    "eo-859": {
+      "uncertain": [
+        "The operative sentence of Executive Order 859 is not known; the only transcription found is garbled."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "The reorganization drew little public notice and no recorded press reaction: it moved names and boundaries on ground already federal and released nothing to private use.",
+        "source": "research entry",
+        "date": "1908"
+      },
+      {
+        "kind": "administrative",
+        "text": "The Forest Service came out of the summer with a rationalized map of named, supervisor-sized forests, all changing over on July 1, 1908.",
+        "source": "research entry",
+        "date": "1908-07-01"
+      },
+      {
+        "kind": "administrative",
+        "text": "No per-forest acreages were published for the changeover; the Forester could show area changes only by states.",
+        "source": "Report of the Forester for 1909, pp. 4–5",
+        "date": "1909"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The compact, individually named national forest remains the Forest Service's basic administrative unit.",
+        "source": "research entry"
+      },
+      {
+        "text": "On December 1, 1908 the Forest Service was decentralized into six staffed district headquarters by departmental action, not executive order; districts became regions in 1930.",
+        "source": "Report of the Forester for 1909, p. 13; Manual of Procedure (Nov. 16, 1908)",
+        "date": "1908-12-01"
+      }
+    ]
+  }
+}

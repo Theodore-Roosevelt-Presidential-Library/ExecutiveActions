@@ -1,0 +1,64 @@
+{
+  "story": 110,
+  "documents": {
+    "uo-054": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Agriculture Department appointed Paul Kroegel warden of the new reservation in a letter of April 4, 1903.",
+          "source": "The Auk, January 1904 (Dutcher, A.O.U. committee report)",
+          "date": "1903-04-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Pelican Island, the first federal bird reservation, became the seed of the National Wildlife Refuge System.",
+          "source": "research entry"
+        },
+        {
+          "text": "The Biological Survey's own register lists Pelican Island as reservation No. 1, established March 14, 1903.",
+          "source": "Palmer, Biological Survey Circular No. 87 (1912)",
+          "date": "1912-10-05"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-1014",
+          "relation": "enlarged_by",
+          "note": "The 1909 enlargement order, whose recital (followed by Lord) gives the original order's date as March 13."
+        }
+      ],
+      "uncertain": [
+        "The date rests on contemporary records saying March 14, 1903, against the March 13 recited in Executive Order 1014; the signed original in National Archives Record Group 11 has not been examined."
+      ]
+    },
+    "uo-098": {
+      "legacy": [
+        {
+          "text": "Breton Island was the second federal bird reservation, and Lord's listing under October 4, 1904 settles an old conflict between 1904 and 1905.",
+          "source": "Lord, List and Index of Presidential Executive Orders, Unnumbered Series",
+          "date": "1904-10-04"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "Almost none of the unnumbered orders drew notice on its own; they were routine acts that mattered to the clerk, officer or land district they touched.",
+        "source": "research entry"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "Lord's index shows that numbered and unnumbered orders cover the same fields; whether an order got a number depended only on whether the State Department had a copy on file in 1907.",
+        "source": "Lord, List and Index of Presidential Executive Orders, Unnumbered Series, preface"
+      },
+      {
+        "text": "Once numbered orders listed twice are netted out, Lord's 126 Roosevelt entries yield 105 distinct unnumbered orders, well above the often-repeated estimate of about 75.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

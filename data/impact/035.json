@@ -1,0 +1,99 @@
+{
+  "story": 35,
+  "documents": {
+    "proc-472": {
+      "reception": [
+        {
+          "text": "About 1,300 men and boys, most of them mounted and many armed, rushed across the line at noon on June 17, and the New-York Tribune put the land run on its front page.",
+          "source": "New-York Tribune, June 18, 1902, p. 1",
+          "date": "1902-06-17"
+        },
+        {
+          "text": "The San Francisco Call reported sooners, a flood of applications, disappointed applicants and contests, and warned of bloodshed.",
+          "source": "San Francisco Call, June 1902, p. 3",
+          "date": "1902-06"
+        },
+        {
+          "text": "The Call also reported that long-resident settlers on the reservation were being filed on by newcomers, because the opening law gave them no protection.",
+          "source": "San Francisco Call, June 1902, p. 3",
+          "date": "1902-06"
+        },
+        {
+          "text": "The phrase \"Fort Hall Reservation\" appears on 149 digitized newspaper pages from May through July 1902, in at least thirteen states, though few papers reprinted the proclamation's text.",
+          "source": "Chronicling America newspaper searches, May 1–July 31, 1902",
+          "date": "1902"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The ceded lands opened on schedule on June 17, 1902, and the Pocatello lands were offered for sale on July 17, with no postponement or litigation.",
+          "source": "Annual Report of the Commissioner of Indian Affairs, 1902",
+          "date": "1902-06-17"
+        },
+        {
+          "kind": "economic",
+          "text": "In the opening fortnight the Blackfoot land office recorded 126 sales under the 1900 act, on 17,539.91 acres, more than in the whole following year (106 sales on 6,668.56 acres).",
+          "source": "Report of the Commissioner of the General Land Office, 1902, p. 551; 1903, p. 225",
+          "date": "1902-06"
+        },
+        {
+          "kind": "economic",
+          "text": "The Pocatello auction drew little interest, and the wire report predicted few tracts would sell.",
+          "source": "research entry",
+          "date": "1902-07-17"
+        },
+        {
+          "kind": "local",
+          "text": "After two white men were found murdered near new mining claims, some people in Pocatello asked the governor for troops; the Fort Hall agent reported no excitement among the Indians and no need for troops.",
+          "source": "A. F. Caldwell, Annual Report of the Commissioner of Indian Affairs, 1902, pp. 181–182",
+          "date": "1902-06-24"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The general allotment of the diminished reservation came only in 1911, and Fort Hall remains among the least fractionated of allotted reservations, with most land in tribal ownership or trust.",
+          "source": "36 Stat. 1058, at 1063–64",
+          "date": "1911"
+        },
+        {
+          "text": "The tribes' claim that the 1898 cession was made for an unconscionable price, Docket 326-E, was settled in 1968 within a $15,700,000 judgment covering seven Fort Hall dockets, with no part assigned to this cession.",
+          "source": "19 Ind. Cl. Comm. 3",
+          "date": "1968"
+        }
+      ],
+      "today": [
+        {
+          "name": "Lava Hot Springs (state resort)",
+          "kind": "other",
+          "relation": "transferred",
+          "state": "Idaho",
+          "note": "Held back from settlement by the proclamation and granted to Idaho by a separate act of June 13, 1902; run by the Lava Hot Springs Foundation within the Idaho Department of Parks and Recreation.",
+          "source": "Act of June 13, 1902, 32 Stat. 330"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1902-06-13",
+          "text": "Congress granted the Lava Hot Springs tract, reserved in the proclamation, to Idaho for public use.",
+          "source": "32 Stat. 330"
+        },
+        {
+          "date": "1911-03-03",
+          "text": "Congress provided for the general allotment of the diminished Fort Hall Reservation.",
+          "source": "36 Stat. 1058, at 1063–64"
+        },
+        {
+          "date": "1968",
+          "text": "The Indian Claims Commission entered a consolidated $15,700,000 settlement of seven Fort Hall dockets, including the claim over the 1898 cession.",
+          "source": "19 Ind. Cl. Comm. 3"
+        }
+      ],
+      "uncertain": [
+        "Whether minutes of the 1896–98 Fort Hall councils survive is not known.",
+        "How many people filed homestead claims on the ceded lands is not known; the land office tables do not separate them.",
+        "The acreage figures 416,060 and 406,864 have not been traced to a measured source; the commissioners estimated about 416,000 acres."
+      ]
+    }
+  }
+}

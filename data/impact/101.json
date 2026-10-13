@@ -1,0 +1,287 @@
+{
+  "story": 101,
+  "story_level": {
+    "political_impact": [
+      {"kind": "political", "text": "The July 1908 reorganization drew little public notice and no recorded press reaction; it moved names and lines on land that was already federal, so there was no local grievance to rally against.", "source": "research entry", "date": "1908"},
+      {"kind": "administrative", "text": "The Forest Service ended the summer of 1908 with a rationalized map of supervisor-sized national forests, nearly all of them taking effect on July 1, the first day of fiscal year 1909.", "source": "Wikisource transcriptions of EOs 865, 867, 868, 869, 876, 898, 904, 909; Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-01"},
+      {"kind": "administrative", "text": "The six Forest Service districts had been created on paper in May 1907; their staffed headquarters at Missoula, Denver, Albuquerque, Ogden, San Francisco and Portland opened on December 1, 1908, five months after these orders.", "source": "NARA, Guide to Federal Records, RG 95 § 95.9", "date": "1908-12-01"}
+    ],
+    "legacy": [
+      {"text": "The compact, individually named national forest these orders finished building is still the Forest Service's basic administrative unit.", "source": "research entry"},
+      {"text": "The Forest Service districts that grouped the new forests became regions in 1930.", "source": "NARA, Guide to Federal Records, RG 95 § 95.9", "date": "1930"}
+    ]
+  },
+  "documents": {
+    "eo-860": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Established the Siuslaw National Forest in Oregon from parts of the Tillamook and Umpqua forests, effective July 1, 1908.", "source": "Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-01"}
+      ],
+      "legacy": [
+        {"text": "The Siuslaw was still a separate national forest under its 1908 name in 1981.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"}
+      ],
+      "related": [
+        {"id": "eo-865", "relation": "same_subject", "note": "Signed the same day; constituted the Siuslaw from the remainder of the Umpqua. EO 860 is cited as the establishing order."}
+      ]
+    },
+    "eo-861": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Created the Cheyenne National Forest in Wyoming from part of the Medicine Bow and the whole of the Crow Creek forest.", "source": "Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-01"}
+      ],
+      "legacy": [
+        {"text": "The Cheyenne name did not last: the forest went back to the Medicine Bow in 1910.", "source": "research entry", "date": "1910"}
+      ],
+      "later_actions": [
+        {"date": "1910", "text": "The Cheyenne National Forest was returned to the Medicine Bow.", "source": "research entry"}
+      ]
+    },
+    "eo-863": {
+      "legacy": [
+        {"text": "The Cascade National Forest merged into the Willamette in 1933.", "source": "research entry", "date": "1933"}
+      ],
+      "later_actions": [
+        {"date": "1933", "text": "The Cascade National Forest was merged into the Willamette.", "source": "research entry"}
+      ]
+    },
+    "eo-864": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Created the Oregon National Forest from part of the Cascade and the whole of the Bull Run forest.", "source": "Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-01"}
+      ],
+      "legacy": [
+        {"text": "The Oregon National Forest became Mount Hood National Forest in 1924.", "source": "EO 3944", "date": "1924"}
+      ],
+      "later_actions": [
+        {"date": "1924", "text": "Renamed Mount Hood National Forest by Executive Order 3944.", "source": "EO 3944"}
+      ]
+    },
+    "eo-865": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Unlike most of the run, this order released land: it excepted \"the areas indicated as eliminations\" from its no-release disclaimer and directed that the excluded Umpqua land be restored to the public domain.", "source": "EO 865 (Wikisource)", "date": "1908-06-30"},
+        {"kind": "local", "text": "The Umpqua land cut out of the forest became subject to settlement under the general homestead laws.", "source": "EO 865 (Wikisource)", "date": "1908-07-01"}
+      ],
+      "related": [
+        {"id": "eo-860", "relation": "same_subject", "note": "EO 860 of the same day is the order credited with establishing the Siuslaw."}
+      ]
+    },
+    "eo-866": {
+      "legacy": [
+        {"text": "The Siskiyou was still a separate national forest under its 1908 name in 1981.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"}
+      ]
+    },
+    "eo-867": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Created the Crater National Forest, spanning Oregon and California, from the Ashland and parts of the Cascade, Siskiyou and Klamath forests.", "source": "Davis, National Forests of the United States (FS-612 appendix); EO 867 (Wikisource)", "date": "1908-07-01"}
+      ],
+      "legacy": [
+        {"text": "The Crater National Forest became the Rogue River National Forest in 1932.", "source": "research entry", "date": "1932"}
+      ],
+      "later_actions": [
+        {"date": "1932", "text": "The Crater National Forest was renamed the Rogue River.", "source": "research entry"}
+      ]
+    },
+    "eo-868": {
+      "legacy": [
+        {"text": "The Sitgreaves remains a legally distinct proclaimed forest, administered with the Apache since 1974 as the Apache-Sitgreaves National Forests.", "source": "research entry", "date": "1974"}
+      ],
+      "today": [
+        {"name": "Apache-Sitgreaves National Forests", "kind": "national_forest", "relation": "part", "state": "Arizona", "note": "The Sitgreaves keeps its proclaimed boundaries but shares a supervisor with the Apache.", "source": "research entry"}
+      ]
+    },
+    "eo-869": {
+      "today": [
+        {"name": "Tonto National Forest", "kind": "national_forest", "relation": "part", "state": "Arizona", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ]
+    },
+    "eo-871": {
+      "legacy": [
+        {"text": "The Targhee was still a separate national forest under its 1908 name in 1981.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"}
+      ]
+    },
+    "eo-872": {
+      "legacy": [
+        {"text": "The Teton was combined administratively with the Bridger in 1973.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1973"}
+      ]
+    },
+    "eo-875": {
+      "legacy": [
+        {"text": "The Absaroka was divided between the Gallatin and the Lewis and Clark in 1945, and its name was discontinued.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1945"}
+      ],
+      "later_actions": [
+        {"date": "1945", "text": "The Absaroka National Forest was divided between the Gallatin and the Lewis and Clark.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"}
+      ]
+    },
+    "eo-876": {
+      "legacy": [
+        {"text": "The Apache was combined administratively with the Sitgreaves in 1974.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1974"}
+      ],
+      "today": [
+        {"name": "Apache-Sitgreaves National Forests", "kind": "national_forest", "relation": "part", "state": "Arizona", "note": "Administered jointly with the Sitgreaves since 1974.", "source": "research entry"}
+      ]
+    },
+    "eo-877": {
+      "legacy": [
+        {"text": "The Beaverhead was still a separate national forest under its 1908 name in 1981.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"}
+      ]
+    },
+    "eo-885": {
+      "legacy": [
+        {"text": "The Uncompahgre was combined administratively with the Grand Mesa and Gunnison in 1976.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1976"}
+      ]
+    },
+    "eo-886": {
+      "today": [
+        {"name": "San Juan National Forest", "kind": "national_forest", "relation": "part", "state": "Colorado", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ]
+    },
+    "eo-887": {
+      "today": [
+        {"name": "Rio Grande National Forest", "kind": "national_forest", "relation": "origin", "state": "Colorado", "since": "1908-07-01", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ]
+    },
+    "eo-888": {
+      "legacy": [
+        {"text": "The Pike remains a legally distinct proclaimed forest, administered with the San Isabel since 1975.", "source": "research entry", "date": "1975"}
+      ],
+      "today": [
+        {"name": "Pike National Forest", "kind": "national_forest", "relation": "origin", "state": "Colorado", "since": "1908-07-01", "note": "Shares a supervisor with the San Isabel since 1975.", "source": "research entry"}
+      ]
+    },
+    "eo-891": {
+      "legacy": [
+        {"text": "The Gunnison remains a legally distinct proclaimed forest, administered with the Grand Mesa and Uncompahgre since 1976.", "source": "research entry", "date": "1976"}
+      ],
+      "today": [
+        {"name": "Gunnison National Forest", "kind": "national_forest", "relation": "part", "state": "Colorado", "note": "Administered with the Grand Mesa and Uncompahgre since 1976 (the GMUG).", "source": "research entry"}
+      ]
+    },
+    "eo-895": {
+      "today": [
+        {"name": "Shoshone National Forest", "kind": "national_forest", "relation": "origin", "state": "Wyoming", "since": "1908-07-01", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ]
+    },
+    "eo-896": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Established the Beartooth National Forest in Montana on 685,293 gross acres, from part of the Yellowstone and all of the Pryor Mountains forests; signed June 30 and effective July 1, 1908, though its number falls among the July 1 orders.", "source": "Stark, Names, Boundaries, and Maps: The Northern Region (2022), p. 72", "date": "1908-06-30"}
+      ],
+      "legacy": [
+        {"text": "The Beartooth was divided between the Absaroka and the Custer in 1932, and its name was discontinued.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1932"}
+      ],
+      "later_actions": [
+        {"date": "1932", "text": "The Beartooth National Forest was divided between the Absaroka and the Custer.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"}
+      ]
+    },
+    "eo-897": {
+      "legacy": [
+        {"text": "The Tahoe was still a separate national forest under its 1908 name in 1981.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"}
+      ]
+    },
+    "eo-898": {
+      "legacy": [
+        {"text": "The Mono National Forest was split between the Inyo and the Toiyabe in 1945.", "source": "research entry", "date": "1945"}
+      ],
+      "later_actions": [
+        {"date": "1945", "text": "The Mono National Forest was split between the Inyo and the Toiyabe.", "source": "research entry"}
+      ]
+    },
+    "eo-899": {
+      "today": [
+        {"name": "Inyo National Forest", "kind": "national_forest", "relation": "part", "state": "California", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ]
+    },
+    "eo-900": {
+      "legacy": [
+        {"text": "The Trinity was combined administratively with the Shasta in 1954.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1954"}
+      ]
+    },
+    "eo-901": {
+      "today": [
+        {"name": "Stanislaus National Forest", "kind": "national_forest", "relation": "part", "state": "California", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ]
+    },
+    "eo-902": {
+      "legacy": [
+        {"text": "The Sierra was still a separate national forest under its 1908 name in 1981.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"}
+      ],
+      "related": [
+        {"id": "eo-904", "relation": "same_subject", "note": "Signed the same day; established the Sequoia from portions of the Sierra."}
+      ]
+    },
+    "eo-903": {
+      "legacy": [
+        {"text": "The Shasta remains a legally distinct proclaimed forest, administered with the Trinity since 1954.", "source": "research entry", "date": "1954"}
+      ],
+      "today": [
+        {"name": "Shasta National Forest", "kind": "national_forest", "relation": "part", "state": "California", "note": "Shares a supervisor with the Trinity since 1954.", "source": "research entry"}
+      ]
+    },
+    "eo-904": {
+      "today": [
+        {"name": "Sequoia National Forest", "kind": "national_forest", "relation": "origin", "state": "California", "since": "1908-07-02", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "eo-902", "relation": "same_subject", "note": "The same day's order for the Sierra, from whose portions the Sequoia was made."}
+      ]
+    },
+    "eo-905": {
+      "legacy": [
+        {"text": "The Plumas was still a separate national forest under its 1908 name in 1981.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"}
+      ]
+    },
+    "eo-906": {
+      "today": [
+        {"name": "Lassen National Forest", "kind": "national_forest", "relation": "origin", "state": "California", "since": "1908-07-02", "note": "Still a separate, discrete national forest.", "source": "research entry"}
+      ]
+    },
+    "eo-907": {
+      "legacy": [
+        {"text": "The California National Forest was renamed the Mendocino in 1932.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1932"}
+      ],
+      "later_actions": [
+        {"date": "1932", "text": "The California National Forest was renamed the Mendocino.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"}
+      ]
+    },
+    "eo-908": {
+      "political_impact": [
+        {"kind": "administrative", "text": "In a single order, consolidated or renamed national forests across the West and in Alaska; the government's numbered index counts 55 forests, while a Forest Service appendix cites the order in 79 forest entries, counting both sides of each merger.", "source": "Lord, numbered index; Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-02"},
+        {"kind": "administrative", "text": "Created the Alamo (from the Guadalupe and Sacramento), the Coronado (from the Dragoon, Santa Catalina and Santa Rita) and the Sioux (from the Cave Hills, Short Pine, Slim Buttes, Ekalaka and Long Pine), and folded the Afognak into the Chugach and the Alexander Archipelago into the Tongass.", "source": "Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-02"},
+        {"kind": "administrative", "text": "Made pure name changes: Big Horn to Bighorn, Fish Lake to Fishlake, Aquarius to Powell, Otter to Custer, Imnaha to Wallowa, and Pecos River to Pecos.", "source": "Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-02"}
+      ],
+      "legacy": [
+        {"text": "The Cleveland, Coronado, Humboldt, Bighorn, Fishlake, Custer, Chugach and Tongass were all still separate national forests under their 1908 names in 1981; the Tongass had been divided administratively into three units in 1974.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788", "date": "1981"},
+        {"text": "The Wallowa was combined administratively with the Whitman in 1954, and the Nebraska was administered with the Samuel R. McKelvie from 1971 as the Nebraska National Forests.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788"},
+        {"text": "Several names from the order were later discontinued: the Moapa went to the Toiyabe (1915), the Pecos joined the Jemez to form the Santa Fe (1915), the Alamo folded into the Lincoln (1919), the Sioux went to the Custer (1920), the Montana Jefferson to the Lewis and Clark (1932), the Powell to the Dixie (1944) and the Minidoka to the Sawtooth (1953).", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983), vol. II, pp. 743–788; research entry"}
+      ],
+      "later_actions": [
+        {"date": "1915", "text": "The Moapa went to the Toiyabe, and the Pecos was combined with the Jemez to form the Santa Fe National Forest.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"},
+        {"date": "1919", "text": "The Alamo National Forest was folded into the Lincoln.", "source": "research entry"},
+        {"date": "1920", "text": "The Sioux National Forest was absorbed into the Custer.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"},
+        {"date": "1932", "text": "The Montana Jefferson National Forest was absorbed into the Lewis and Clark.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"},
+        {"date": "1944", "text": "The Powell National Forest was absorbed into the Dixie.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"},
+        {"date": "1953", "text": "The Minidoka National Forest was absorbed into the Sawtooth.", "source": "Davis, ed., Encyclopedia of American Forest and Conservation History (1983)"}
+      ],
+      "uncertain": [
+        "No text of Executive Order 908 has been found; only the signed original at the National Archives (Record Group 11) or a Forest Service printing could supply it."
+      ]
+    },
+    "eo-909": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Split the Grand Canyon National Forest along the Colorado River: the land north of the river became the Kaibab National Forest and the rest became part of the Coconino, effective July 1, 1908, a day before the order was signed.", "source": "EO 909 (Wikisource); Davis, National Forests of the United States (FS-612 appendix)", "date": "1908-07-01"},
+        {"kind": "administrative", "text": "The order states that it does not modify the Grand Canyon National Game Preserve or the Grand Canyon National Monument, both of which overlapped the new Kaibab forest.", "source": "EO 909 (Wikisource)", "date": "1908-07-02"}
+      ],
+      "legacy": [
+        {"text": "The Kaibab (about 1.6 million acres) and the Coconino (more than 1.8 million acres) remain separate national forests, and the Kaibab wraps Grand Canyon National Park on both rims, from the North Kaibab Ranger District to the Tusayan district on the south.", "source": "research entry"}
+      ],
+      "today": [
+        {"name": "Kaibab National Forest", "kind": "national_forest", "relation": "origin", "state": "Arizona", "since": "1908-07-02", "note": "About 1.6 million acres; effective July 1, 1908.", "source": "research entry"},
+        {"name": "Coconino National Forest", "kind": "national_forest", "relation": "part", "state": "Arizona", "note": "The Grand Canyon forest land south of the river joined the Coconino; more than 1.8 million acres today.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "proc-818", "relation": "same_subject", "note": "Companion proclamation setting apart the Coconino and Kaibab and returning part of the old Grand Canyon forest to the public domain."},
+        {"id": "proc-694", "relation": "same_subject", "note": "The 1906 game preserve, which the order expressly leaves unchanged."},
+        {"id": "proc-794", "relation": "same_subject", "note": "The 1908 Grand Canyon National Monument, which the order expressly leaves unchanged."}
+      ],
+      "uncertain": [
+        "Whether the misspelling \"hertofore\" in the available transcription is in the signed order has not been checked against the original at the National Archives (Record Group 11)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "story": 56,
+  "documents": {
+    "proc-581": {
+      "reception": [
+        {
+          "text": "The Salt Lake Telegram ran front-page reports through the registration fortnight on crowds of homeseekers at the registration points.",
+          "source": "Salt Lake Telegram, Aug. 7 and 12, 1905, p. 1",
+          "date": "1905-08"
+        },
+        {
+          "text": "The Salt Lake Tribune counted 18,858 names registered at the Provo office alone.",
+          "source": "Salt Lake Tribune, Aug. 13, 1905, p. 1",
+          "date": "1905-08-13"
+        },
+        {
+          "text": "The Ogden Weekly Standard reported that the first name drawn at Provo was Ray Daniels of Provo, that about 2,000 names were drawn the first day, and that of the first two hundred, 80 were from Colorado and 9 from other states.",
+          "source": "Ogden Weekly Standard, Aug. 18, 1905, p. 1",
+          "date": "1905-08-18"
+        },
+        {
+          "text": "Within days the local angle turned to luck: the Tribune reported from Mt. Pleasant that Sanpete County had \"fared poorly in the drawing.\"",
+          "source": "Salt Lake Tribune, Aug. 21, 1905, p. 1",
+          "date": "1905-08-21"
+        },
+        {
+          "text": "The Utah newspaper reports found were written for prospective settlers; none of them reported Ute views.",
+          "source": "Utah Digital Newspapers, 1905",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "37,702 people registered for 6,277 claims of about 160 acres each, covering 1,004,286 acres.",
+          "source": "Annual Report of the Commissioner of the General Land Office, 1905, pp. 11–12",
+          "date": "1905"
+        },
+        {
+          "kind": "administrative",
+          "text": "The drawing at Provo ran August 17–19, 1905, under General Land Office Commissioner W. A. Richards, with envelopes from all four registration points mixed in one revolving box.",
+          "source": "Annual Report of the Commissioner of the General Land Office, 1905, pp. 11–12; Ogden Weekly Standard, Aug. 18, 1905",
+          "date": "1905-08-17"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Interior Department ruled that mineral location on the opened lands would wait out the sixty-day period.",
+          "source": "Ogden Weekly Standard, Aug. 18, 1905",
+          "date": "1905-08"
+        },
+        {
+          "kind": "local",
+          "text": "Entry was slow: 824 entries were made in the first four weeks, out of a possible 2,664.",
+          "source": "Annual Report of the Commissioner of the General Land Office, 1905, pp. 11–12",
+          "date": "1905"
+        },
+        {
+          "kind": "political",
+          "text": "A Ute delegation went to Washington in 1905 and came back without relief.",
+          "source": "Tom Rea, \"The Flight of the Utes,\" WyoHistory.org (2021)",
+          "date": "1905"
+        },
+        {
+          "kind": "local",
+          "text": "In the spring of 1906 several hundred White River Utes, Red Cap among their leaders, left the reservation for the Sioux country. About a thousand cavalrymen met them on the Powder River that fall; they wintered at Fort Meade, South Dakota, and did not return until October 1908.",
+          "source": "Tom Rea, \"The Flight of the Utes,\" WyoHistory.org (2021)",
+          "date": "1906"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "In 1985 the Tenth Circuit, sitting en banc, held that the opening had not diminished the reservation.",
+          "source": "Ute Indian Tribe v. Utah, 773 F.2d 1087 (10th Cir. 1985)",
+          "date": "1985"
+        },
+        {
+          "text": "The Utah Supreme Court reached the opposite conclusion in 1992.",
+          "source": "State v. Perank (Utah 1992)",
+          "date": "1992"
+        },
+        {
+          "text": "The U.S. Supreme Court held that the 1902–1905 laws had diminished the Uintah Reservation, so that Myton, founded on opened land in 1905, is not Indian country. The ruling has shaped criminal and civil jurisdiction in the Uinta Basin, and the federal courts have returned to the boundary in later cases.",
+          "source": "Hagen v. Utah, 510 U.S. 399 (1994)",
+          "date": "1994"
+        },
+        {
+          "text": "The 1948 Hill Creek Extension added about 510,000 acres to the reservation.",
+          "source": "773 F.2d 1087 (dissent)",
+          "date": "1948"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-588",
+          "relation": "modified_by",
+          "note": "Raised the numbers heard each day at Vernal from fifty to 111."
+        },
+        {
+          "id": "proc-580",
+          "relation": "same_subject",
+          "note": "Signed the same day; added reservation lands to the Uintah Forest Reserve before the opening."
+        },
+        {
+          "id": "proc-648",
+          "relation": "same_subject",
+          "note": "Restored a further Uintah parcel to the public domain in 1906."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1931",
+          "text": "Congress compensated the Utes for 973,779 acres of the 1905 forest lands.",
+          "source": "773 F.2d 1087 (majority opinion)"
+        },
+        {
+          "date": "1948",
+          "text": "The Hill Creek Extension added about 510,000 acres to the reservation.",
+          "source": "773 F.2d 1087 (dissent)"
+        },
+        {
+          "date": "1994",
+          "text": "Hagen v. Utah held that the reservation had been diminished by the opening.",
+          "source": "510 U.S. 399"
+        }
+      ]
+    },
+    "proc-587": {
+      "reception": [
+        {
+          "text": "The Salt Lake Telegram referred to \"the three [townsites] already located by the Government.\"",
+          "source": "Salt Lake Telegram, Aug. 16, 1905, p. 1",
+          "date": "1905-08-16"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "In 1910 Congress voted $5,000 for \"straightening the Duchesne River within the limits of the town site of Duchesne, now Theodore,\" suggesting the federal townsite carried the name Duchesne while the town was called Theodore.",
+          "source": "Indian appropriation act of April 4, 1910, 36 Stat. 285",
+          "date": "1910-04-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The three townsite blocks are the sites of today's Myton, Duchesne and Randlett. Duchesne was first called Dora, then Theodore after the President, and was renamed Duchesne when the neighboring town of Roosevelt took his surname.",
+          "source": "BLM PLSS survey layer; Utah Division of State History, \"Duchesne\""
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-590",
+          "relation": "same_subject",
+          "note": "Added townsite lots next to these lands."
+        }
+      ],
+      "today": [
+        {
+          "name": "Myton, Utah",
+          "kind": "other",
+          "relation": "part",
+          "state": "Utah",
+          "note": "Town on one of the three townsite blocks reserved by this proclamation.",
+          "source": "BLM PLSS survey layer (CadNSDI)"
+        },
+        {
+          "name": "Duchesne, Utah",
+          "kind": "other",
+          "relation": "part",
+          "state": "Utah",
+          "note": "Town on one of the three townsite blocks reserved by this proclamation.",
+          "source": "BLM PLSS survey layer (CadNSDI)"
+        },
+        {
+          "name": "Randlett, Utah",
+          "kind": "other",
+          "relation": "part",
+          "state": "Utah",
+          "note": "Town on one of the three townsite blocks reserved by this proclamation.",
+          "source": "BLM PLSS survey layer (CadNSDI)"
+        }
+      ]
+    },
+    "proc-588": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "More than doubling the numbers heard each day at Vernal fit the scale of the registration, which reached 37,702 applicants.",
+          "source": "Annual Report of the Commissioner of the General Land Office, 1905, pp. 11–12",
+          "date": "1905"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-581",
+          "relation": "modifies",
+          "note": "Changed the daily pace of entries set by the opening proclamation."
+        }
+      ]
+    },
+    "proc-589": {
+      "reception": [
+        {
+          "text": "The Salt Lake Telegram reported that the Interior Department had \"receded from the original order withdrawing 200,000 acres from the Uintah reservation for reclamation work.\"",
+          "source": "Salt Lake Telegram, Aug. 16, 1905, p. 1",
+          "date": "1905-08-16"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-591",
+          "relation": "reduced_by",
+          "note": "Cut the withdrawal back to the reservoir lands in ranges 11 and 12 west and restored the rest."
+        }
+      ]
+    },
+    "proc-590": {
+      "related": [
+        {
+          "id": "proc-587",
+          "relation": "same_subject",
+          "note": "Reserved more townsite lots adjacent to the lands reserved by Proclamation 587."
+        }
+      ]
+    },
+    "proc-591": {
+      "reception": [
+        {
+          "text": "The Salt Lake Telegram reported that an amended order, \"with the President's approval,\" cut the withdrawal to about 114,000 acres, and counted the restored land as raising the homesteads in the drawing from 6,368 to 6,900.",
+          "source": "Salt Lake Telegram, Aug. 16, 1905, p. 1",
+          "date": "1905-08-16"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "Congress confirmed the reclamation purpose in 1910, describing the reserved lands as \"withdrawn for irrigation works under the provisions of the reclamation Act … in connection with the reservoir for the Strawberry Valley project.\"",
+          "source": "36 Stat. 285",
+          "date": "1910-04-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The reservoir lands that remained lie in the Strawberry Valley, the site of the Reclamation Service's Strawberry Valley Project.",
+          "source": "research entry; MacKay, Utah Historical Quarterly 50 (1982)"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-04-04",
+          "text": "Congress extinguished the Utes' title to the Strawberry Valley reservoir lands, paying $1.25 an acre from the reclamation fund in five annual installments charged to the project's water users.",
+          "source": "Indian appropriation act of April 4, 1910, ch. 140, 36 Stat. 285"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-589",
+          "relation": "reduces",
+          "note": "Kept only the reservoir lands of the August 3 withdrawal."
+        }
+      ],
+      "uncertain": [
+        "What part the Reclamation Service itself played in requesting the withdrawal is not documented.",
+        "The 1910 act gives no acreage for the Strawberry Valley lands, and the 56,858.51-acre figure sometimes cited has no known source."
+      ],
+      "today": [
+        {
+          "name": "Strawberry Valley Project",
+          "kind": "other",
+          "relation": "part",
+          "state": "Utah",
+          "note": "The reservoir lands kept by this proclamation lie in the Strawberry Valley, the project's site.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-580": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The forest addition took 1,010,000 acres of the Uintah Reservation, so a great part of the land the Utes lost went to the government rather than to settlers.",
+          "source": "Annual Reports of the Department of the Interior, 1906: Indian Affairs, p. 465",
+          "date": "1905"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "On July 1, 1908 the Uinta National Forest was divided, and part of it became the Ashley National Forest, headquartered at Vernal.",
+          "source": "U.S. Forest Service, Ashley National Forest; Forest History Society",
+          "date": "1908-07-01"
+        },
+        {
+          "text": "Much of the forest land withdrawn in 1905 remains in federal hands within the national forests on the south slope of the Uintas.",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1931",
+          "text": "Congress compensated the Utes for 973,779 acres of the 1905 forest lands.",
+          "source": "773 F.2d 1087 (majority opinion)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-581",
+          "relation": "same_subject",
+          "note": "The opening proclamation, signed the same day."
+        }
+      ],
+      "uncertain": [
+        "Which present-day national forest holds which part of the 1905 addition has not been established."
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "Utah papers covered the registration and drawing closely as front-page local news, written for would-be settlers.",
+        "source": "Utah Digital Newspapers, 1905",
+        "date": "1905-08"
+      }
+    ]
+  }
+}

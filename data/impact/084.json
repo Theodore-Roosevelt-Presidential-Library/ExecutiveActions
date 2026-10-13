@@ -1,0 +1,104 @@
+{
+  "story": 84,
+  "documents": {
+    "eo-271": {
+      "reception": [
+        {"text": "The Associated Press carried the order's full text, and papers printed it the next morning.", "source": "Riverside Enterprise and Stockton Daily Independent, October 6, 1904; Chicago Daily Tribune, October 6, 1904", "date": "1904-10-06"},
+        {"text": "The Democratic Los Angeles Herald's editorial column said of Payne only that close application to his duties seemed to have overtaxed his strength, and kept the post-office fraud charges in a separate paragraph.", "source": "Los Angeles Herald, October 6, 1904", "date": "1904-10-06"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The Washington departments closed from 9 a.m. to 1 p.m. on the day of the funeral, Friday, October 7, and flags flew at half-mast on public buildings until the funeral.", "source": "EO 271, in Wight, Henry Clay Payne: A Life (1907), p. 169", "date": "1904-10-07"},
+        {"kind": "administrative", "text": "Robert J. Wynne, First Assistant Postmaster-General, was named acting Postmaster-General the day after Payne's death and Postmaster-General on October 10, serving until March 1905.", "source": "research entry", "date": "1904-10-10"},
+        {"kind": "political", "text": "Five weeks before the election, the Democratic vice-presidential candidate, Henry G. Davis, was attacking the post-office frauds and the Republicans' refusal of a congressional investigation.", "source": "Los Angeles Herald, October 6, 1904", "date": "1904-10-06"}
+      ]
+    },
+    "eo-274": {
+      "reception": [
+        {"text": "The San Francisco Call reported that civil-service rules would reach the canal commission's employees, apart from presidential appointees, laborers and \"about thirty places.\"", "source": "San Francisco Call, November 15, 1904", "date": "1904-11-15"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "By December the Civil Service Commission was circulating recruiting notices for the Isthmus through its local boards.", "source": "Fresno Evening Democrat, December 19, 1904", "date": "1904-12"}
+      ],
+      "legacy": [
+        {"text": "The order was an early piece of the personnel system that would build the Panama Canal.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "eo-273", "relation": "same_subject", "note": "Signed the same day, excepting twenty-three classes of canal position from examination."},
+        {"id": "eo-283", "relation": "same_subject", "note": "Citizenship waiver for positions on the Isthmus."}
+      ]
+    },
+    "eo-273": {
+      "related": [
+        {"id": "eo-289", "relation": "amended_by", "note": "Added further excepted positions on the Isthmus, January 5, 1905."},
+        {"id": "eo-394", "relation": "superseded_by", "note": "Replaced the canal exceptions in 1906."},
+        {"id": "eo-274", "relation": "same_subject", "note": "Signed the same day, classifying the Isthmian Canal Commission."}
+      ]
+    },
+    "eo-283": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Civil Service Commission explained that the waiver was made at the Isthmian Canal Commission's request, because the service's needs could not be met without hiring non-citizens.", "source": "U.S. Civil Service Commission, Twenty-second Annual Report (1905), p. 69", "date": "1905"}
+      ],
+      "later_actions": [
+        {"date": "1947-02-24", "text": "President Truman's Executive Order 9830 revoked the citizenship waiver.", "source": "Executive Order 9830"}
+      ]
+    },
+    "eo-279": {
+      "later_actions": [
+        {"date": "1947-02-24", "text": "President Truman's Executive Order 9830 revoked the rule against hiring outside the civil-service rules for classified-type work.", "source": "Executive Order 9830"}
+      ]
+    },
+    "eo-275": {
+      "reception": [
+        {"text": "The National Civil Service Reform League's journal, Good Government, printed the original regulations in full.", "source": "Good Government, December 1904", "date": "1904-12"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "As amended by July 12, 1905, the Washington labor rules rated applicants on \"physical fitness and efficiency\" rather than \"skill and efficiency\" and raised the passing rating from 70 to 85.", "source": "U.S. Civil Service Commission, Twenty-second Annual Report (1905), pp. 95–99", "date": "1905-07-12"}
+      ],
+      "legacy": [
+        {"text": "The labor regulations fed into the slow, decades-long extension of the merit system to the whole federal workforce.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "eo-955", "relation": "amended_by", "note": "Amended the Washington labor regulations on demotions and temporary appointments, 1908."},
+        {"id": "eo-285", "relation": "same_subject", "note": "Parallel system for New York, Boston, Philadelphia and St. Louis."}
+      ]
+    },
+    "eo-285": {
+      "reception": [
+        {"text": "The National Civil Service Reform League's journal, Good Government, printed the original regulations in full.", "source": "Good Government, December 1904", "date": "1904-12"}
+      ],
+      "related": [
+        {"id": "eo-339", "relation": "amended_by", "note": "Amended July 12, 1905."},
+        {"id": "eo-714", "relation": "amended_by", "note": "Amended November 22, 1907."},
+        {"id": "eo-922", "relation": "amended_by", "note": "Amended August 3, 1908, on the period of eligibility."},
+        {"id": "eo-953", "relation": "amended_by", "note": "Amended October 21, 1908, on demotions and transfers."},
+        {"id": "eo-275", "relation": "same_subject", "note": "The Washington labor regulations it paralleled."}
+      ]
+    },
+    "eo-277": {
+      "reception": [
+        {"text": "Good Government counted 374 positions moved from the excepted to the competitive class by the order.", "source": "Good Government, December 1904", "date": "1904-12"}
+      ],
+      "uncertain": ["The original text of EO 277 has not been found in print; it is known only from the Civil Service Commission's description."]
+    },
+    "eo-286": {
+      "legacy": [
+        {"text": "The forest guards it classified passed with the reserves to the Department of Agriculture in 1905, where the reserves became the foundation of the Forest Service.", "source": "Transfer Act of February 1, 1905, 33 Stat. 628", "date": "1905-02-01"}
+      ]
+    },
+    "eo-288-half": {
+      "related": [
+        {"id": "uo-101", "relation": "same_subject", "note": "Very probably the same order, carried again in Lord's unnumbered list."},
+        {"id": "eo-319", "relation": "amended_by", "note": "Exempted oaths of disinterestedness, March 31, 1905."},
+        {"id": "eo-977", "relation": "superseded_by", "note": "Replaced by a new notarial-fee rule, November 24, 1908."}
+      ]
+    },
+    "eo-280": {
+      "political_impact": [
+        {"kind": "political", "text": "Giving the Dead Letter Office post to James Rankin Young, just out of Congress after three terms, is the group's clearest example of the standing complaint that appointments without examination wore down the merit system.", "source": "research entry", "date": "1904"}
+      ],
+      "legacy": [
+        {"text": "Young held the Dead Letter Office post until 1913.", "source": "research entry", "date": "1913"}
+      ]
+    }
+  }
+}

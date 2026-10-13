@@ -1,0 +1,95 @@
+{
+  "story": 12,
+  "documents": {},
+  "story_level": {
+    "reception": [
+      {
+        "text": "In Joseph Bucklin Bishop's telling, J. P. Morgan came to the White House proposing that his lawyer and the Attorney General \"fix it up\"; Roosevelt said it could not be done.",
+        "source": "Joseph Bucklin Bishop, Theodore Roosevelt and His Time (1920), I:184–85"
+      },
+      {
+        "text": "The 1904 Democratic platform attacked the administration's \"headstrong, arbitrary and spasmodic methods\" while also demanding stricter enforcement against the trusts.",
+        "source": "Democratic Party Platform of 1904",
+        "date": "1904"
+      },
+      {
+        "text": "Justice Holmes's Northern Securities dissent, with its line \"Great cases like hard cases make bad law,\" became nearly as famous as the ruling, and Roosevelt called Holmes \"a bitter disappointment.\"",
+        "source": "193 U.S. 400; Roosevelt to Lodge, TRC libID o196434",
+        "date": "1904"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "Roosevelt leaked to the Associated Press, without attribution, that six senators had received telegrams signed \"John D. Rockefeller\" opposing antitrust legislation; the bill strengthening the Bureau of Corporations then passed.",
+        "source": "Morning Press (Santa Barbara), February 8, 1903; Edmund Morris, Theodore Rex, p. 642 n.",
+        "date": "1903-02-07"
+      },
+      {
+        "kind": "congress",
+        "text": "Congress created the Department of Commerce and Labor with a Bureau of Corporations empowered to investigate interstate corporations and publish what the President chose to release.",
+        "source": "Act of February 14, 1903, 32 Stat. 825, 827",
+        "date": "1903-02-14"
+      },
+      {
+        "kind": "administrative",
+        "text": "James R. Garfield became the first Commissioner of Corporations, and the Bureau published reports on beef, petroleum transportation, the petroleum industry, cotton exchanges and tobacco during Roosevelt's presidency.",
+        "source": "research entry",
+        "date": "1903-02-25"
+      },
+      {
+        "kind": "administrative",
+        "text": "The Bureau's 1906 report on petroleum transportation, documenting secret rates and rebates for Standard Oil, fed directly into Roosevelt's special message asking Congress to enlarge the Interstate Commerce Commission's powers.",
+        "source": "research entry",
+        "date": "1906-05-04"
+      },
+      {
+        "kind": "court",
+        "text": "The Supreme Court affirmed the dissolution of the Northern Securities Company five to four, with no majority opinion.",
+        "source": "Northern Securities Co. v. United States, 193 U.S. 197",
+        "date": "1904-03-14"
+      },
+      {
+        "kind": "court",
+        "text": "E. H. Harriman, bought out of the company in 1901, sued to get his railroad shares back after the breakup.",
+        "source": "Harriman v. Northern Securities Co., 197 U.S. 244",
+        "date": "1905"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The Federal Trade Commission Act provided that the Bureau of Corporations would cease to exist once the Commission organized, with its staff, records and pending investigations passing to the FTC.",
+        "source": "Federal Trade Commission Act, § 3, 38 Stat. 718",
+        "date": "1914-09-26"
+      },
+      {
+        "text": "The Federal Trade Commission organized on March 16, 1915, the day the Bureau actually ended.",
+        "source": "FTC, Annual Report (1916)",
+        "date": "1915-03-16"
+      },
+      {
+        "text": "The largest antitrust breakups came after Roosevelt left office, in the Standard Oil and American Tobacco decisions of May 1911.",
+        "source": "221 U.S. 1; 221 U.S. 106",
+        "date": "1911-05"
+      },
+      {
+        "text": "By the Justice Department's count, Roosevelt's administration started 44 antitrust proceedings in seven and a half years and Taft's started 90 in four.",
+        "source": "Eliot Jones, The Trust Problem in the United States (1921), p. 444"
+      },
+      {
+        "text": "The Bureau's steel-industry report, Part I, came out under Taft in 1911; the Bureau published nothing on steel during Roosevelt's presidency.",
+        "source": "Report of the Commissioner of Corporations on the Steel Industry, Part I (1911)",
+        "date": "1911-07-01"
+      }
+    ],
+    "today": [
+      {
+        "name": "Federal Trade Commission",
+        "kind": "other",
+        "relation": "absorbed_into",
+        "note": "The Bureau of Corporations' staff, records and investigations passed to the FTC in 1915.",
+        "source": "Federal Trade Commission Act, § 3, 38 Stat. 718"
+      }
+    ]
+  }
+}

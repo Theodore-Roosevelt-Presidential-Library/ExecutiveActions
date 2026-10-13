@@ -87,10 +87,38 @@ An object keyed by document id (keys starting with `_` are comments). Applied by
 | --- | --- |
 | `date` | replaces the date; adds "Corrected from “old”. *why*" to `date_notes`. If the new date equals the Statutes date, the APP-vs-Statutes note is dropped |
 | `title` | replaces the title; adds "Corrected from “old”. *why*" to `title_notes` |
-| `summary`, `states`, `people` | replace the enrichment value |
+| `summary`, `states`, `people`, `action` | replace the enrichment value |
+| `text_note` | appends a caution to `text.note` (e.g. a transcription that belongs to another order) |
 | `date_note` | adds a note to `date_notes`; the date is unchanged |
 | `title_note` | adds a note to `title_notes`; the title is unchanged |
 | `why` | the source for the change. Required with any replacement |
+
+## Impact (`data/impact/NNN.json`)
+
+One file per research entry, written under `pipeline/impact_brief.md` from that entry only. `build_dataset.py` merges every file into the records (a Lord duplicate's points also go to the numbered document it matches).
+
+```json
+{"story": 22,
+ "documents": {"uo-098": {
+   "reception":        [{"text": "…", "source": "Evening Star (Washington), October 4, 1904", "date": "1904-10-04"}],
+   "political_impact": [{"kind": "administrative", "text": "…", "source": "…", "date": "1905"}],
+   "legacy":           [{"text": "…", "source": "…", "date": "1975-01-03"}],
+   "today":            [{"name": "Breton National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "Louisiana", "since": "1904-10-04", "note": "…", "source": "…"}],
+   "related":          [{"id": "eo-369-a", "relation": "enlarged_by", "note": "…"}],
+   "later_actions":    [{"date": "1938-10-04", "text": "…", "source": "EO 7983"}],
+   "uncertain":        ["…"]}},
+ "story_level": {"reception": [], "political_impact": [], "legacy": [], "today": []}}
+```
+
+- `political_impact.kind`: congress · court · administrative · diplomatic · local · economic · political.
+- `today.kind`: national_park · national_monument · national_forest · national_grassland · wildlife_refuge · military_installation · indian_reservation · state_park · lighthouse · other. `today.relation`: origin (the document created it) · part (its land is now part of it) · renamed · absorbed_into · abolished · transferred.
+- `related.relation` (from this document's point of view): enlarges/enlarged_by · reduces/reduced_by · modifies/modified_by · revokes/revoked_by · restores · renames/renamed_by · amends/amended_by · supersedes/superseded_by · implements · same_subject.
+
+On each record in `documents.jsonl`:
+- `impact`: the merged object above minus `related`, each point tagged with the `story` it came from; `null` when the research says nothing specific about the document.
+- `related`: one link per other document, `{id, relation, note, story, inferred, date, title, type, number}`. When only one side states a link, the build adds the inverse (`inferred: true`, no note). A specific relation wins over `same_subject`.
+
+`data/story_impact.json` holds the `story_level` points by story number.
 
 ## Statutes overrides (`data/statutes_overrides.json`)
 
@@ -152,6 +180,9 @@ Static JSON on GitHub Pages, built by `pipeline/build_api.py`. Base: `https://ex
 | `search.json` | `[{id, title, summary, date, type, label}]` for client-side search |
 
 Lord duplicates get their own `documents/{id}.json` but are left out of counts, years, categories, states, types, on-this-day, search and previous/next. Bulk downloads: `/data/documents.jsonl`, `/data/documents.csv`, `/data/stats.json`.
+
+- `then-and-now/index.json` — every present-day place or institution traced to a document: `{name, kind, kind_label, slug, states, first, origin, count, documents: [{id, label, date, title, relation, relation_label, district, since, note, source, story}]}`; `then-and-now/{kind}.json` per kind. Institutions that are not places (e.g. the U.S. Commission of Fine Arts) stay on document pages but are left out of this list.
+- Story JSON adds `impact` (story-level points) and `documents_impact` (each member document's points).
 
 ### CSV (`documents.csv`)
 

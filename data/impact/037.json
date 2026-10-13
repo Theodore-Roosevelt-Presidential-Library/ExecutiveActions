@@ -1,0 +1,146 @@
+{
+  "story": 37,
+  "documents": {
+    "proc-476": {
+      "reception": [
+        {
+          "text": "No press notice of the Capitan Grande restoration has been found. In the San Diego Union, \"Capitan Grande\" appears only once between May and August 1902, in an unrelated list of voting precincts, though the paper's digitized text is poor.",
+          "source": "California Digital Newspaper Collection, San Diego Union, May–August 1902",
+          "date": "1902"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation modified Grant's 1875 order and Harrison's 1891 order just far enough to free Section 7, so that Jacob Kuhner, who occupied it, could file on it under the land laws.",
+          "source": "32 Stat. 2005–2006",
+          "date": "1902-05-29"
+        },
+        {
+          "kind": "administrative",
+          "text": "It was one of only four proclamations in volume 32 of the Statutes that restored a named Indian-reserved tract for a named applicant, and it reused word for word the form of McKinley's 1901 Capitan Grande restoration.",
+          "source": "32 Stat. 1970–1971, 2005–2006",
+          "date": "1902"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "An act of 1919 granted San Diego lands in the Capitan Grande reservation for a dam and reservoir, and the El Capitan Reservoir of the early 1930s flooded the heart of the reservation.",
+          "source": "Act of February 28, 1919, 40 Stat. 1206",
+          "date": "1919-02-28"
+        },
+        {
+          "text": "The reservation's families moved to the new Barona and Viejas reservations, whose bands hold the remaining Capitan Grande land jointly in trust; it is uninhabited.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-555",
+          "relation": "same_subject",
+          "note": "The same form used again in 1905 to release Sections 5 and 6 of the same township for Joseph J. Henderson."
+        },
+        {
+          "id": "proc-478",
+          "relation": "same_subject",
+          "note": "Companion restoration of 1902, releasing an agency tract to Anadarko for a park."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1919-02-28",
+          "text": "Congress granted the city of San Diego lands in the Capitan Grande reservation \"for dam and reservoir purposes,\" conditioned on compensating the Mission Indians, including parts of Sections 8 and 9 of the same township.",
+          "source": "40 Stat. 1206"
+        }
+      ],
+      "uncertain": [
+        "Whether Jacob Kuhner ever perfected an entry or received a patent for Section 7 is not known.",
+        "Who carried Kuhner's case to Washington is not known; the Interior Department letter recommending the restoration has not been found."
+      ]
+    },
+    "proc-478": {
+      "reception": [
+        {
+          "text": "No press reaction has been found, but Anadarko's own papers for June–August 1902 could not be searched.",
+          "source": "research entry",
+          "date": "1902"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The release let Anadarko's mayor enter the 38.60-acre agency tract for a park under the 1890 law, which allowed towns to buy only public land \"not reserved for public use.\"",
+          "source": "32 Stat. 2007; 26 Stat. 502",
+          "date": "1902-06-23"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Indian Office's annual report for 1902 reprinted the proclamation among the year's proclamations; Agent James F. Randlett's own report from Anadarko does not mention the park.",
+          "source": "Annual Report of the Commissioner of Indian Affairs, 1902, pp. 287–292, 653",
+          "date": "1902"
+        },
+        {
+          "kind": "court",
+          "text": "When it was signed, the Kiowa, Comanche and Apache suit against the 1901 opening of these lands was still on appeal, bound for the Supreme Court.",
+          "source": "research entry",
+          "date": "1902-06"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Anadarko formally acquired the tract in 1904 and named it Randlett Park; a 1908 hydroelectric plant and a 1926 municipal pool followed its first water and electric plant there.",
+          "source": "research entry",
+          "date": "1904"
+        },
+        {
+          "text": "The tribes' challenge to the opening ended in Lone Wolf v. Hitchcock, which held that Congress's authority over tribal relations was political and not subject to the courts; it remains one of the most criticized decisions in American Indian law.",
+          "source": "187 U.S. 553, 565 (1903)",
+          "date": "1903-01-05"
+        }
+      ],
+      "today": [
+        {
+          "name": "Randlett Park",
+          "kind": "other",
+          "relation": "origin",
+          "state": "Oklahoma",
+          "since": "1902-06-23",
+          "note": "Anadarko city park of about 40 acres along the Washita River; listed on the National Register of Historic Places in 2003 (reference 03000878).",
+          "source": "Randlett Park, National Register nomination"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-492",
+          "relation": "same_subject",
+          "note": "Exact twin ten weeks later: a Fort Sill sub-agency tract released to Lawton for a cemetery under the same two statutes."
+        },
+        {
+          "id": "proc-476",
+          "relation": "same_subject",
+          "note": "Companion restoration of 1902 at Capitan Grande, California."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1903-01-05",
+          "text": "The Supreme Court decided Lone Wolf v. Hitchcock against the Kiowa, Comanche and Apache challenge to the cession under which these lands were opened.",
+          "source": "187 U.S. 553"
+        }
+      ],
+      "uncertain": [
+        "Whether Oklahoma Territory selected replacement school land for these 38.60 acres, which lay in a section reserved for schools, is not known.",
+        "Agent James F. Randlett's part in the park application rests on local tradition and has not been documented."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "Of the forty-four proclamations in volume 32 of the Statutes (March 1901 to March 1903), only four restored a named Indian-reserved tract for a named applicant: McKinley's of April 16, 1901, and Roosevelt's Nos. 476, 478 and 492.",
+        "source": "32 Stat."
+      }
+    ]
+  }
+}

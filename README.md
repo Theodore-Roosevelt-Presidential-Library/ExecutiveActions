@@ -1,6 +1,6 @@
 # Theodore Roosevelt's Executive Orders and Proclamations
 
-Every executive order and proclamation Theodore Roosevelt signed as president, from September 14, 1901 to March 4, 1909, as a structured, open dataset with a static JSON API, an explorer site, embeddable widgets and 114 public stories.
+Every executive order and proclamation Theodore Roosevelt signed as president, from September 14, 1901 to March 4, 1909, as a structured, open dataset with a static JSON API, an explorer site, embeddable widgets, 114 public stories, and a record of what each action led to.
 
 **Live:** https://executiveactions.labs.trlibrary.com · **API:** https://executiveactions.labs.trlibrary.com/api/v1/index.json · **Widgets:** https://executiveactions.labs.trlibrary.com/widget.html
 
@@ -12,6 +12,7 @@ Every executive order and proclamation Theodore Roosevelt signed as president, f
 | Lord's unnumbered list | 126 Roosevelt entries; 21 are numbered documents listed a second time, kept as cross-references |
 | Texts | 1,140 documents with a text: 101 collated against a primary printing, 331 Statutes at Large digitizations, 708 Wikisource transcriptions |
 | Stories | 114 public stories, written from research entries verified October 12, 2026 |
+| What happened next | 533 documents with sourced points on reception, political impact and legacy; 449 linked to the later or earlier documents that changed them; 185 present-day parks, forests, refuges and other places traced to a document ([Then and now](https://executiveactions.labs.trlibrary.com/then-and-now.html)) |
 | Summaries | Every distinct document has a one- or two-sentence plain-language summary, categories, an action, places, states and a 1–5 weight |
 
 ## What's in a record
@@ -32,6 +33,10 @@ Every executive order and proclamation Theodore Roosevelt signed as president, f
   },
   "text": {"paragraphs": ["WHEREAS, …"], "kind": "statutes_digitization", "verified": false, "source": "Statutes at Large, 34 Stat. 3062"},
   "date_notes": [], "stories": [ … ],
+  "impact": {"reception": [ … ], "political_impact": [ … ], "legacy": [ … ],
+             "today": [{"name": "Wichita Mountains Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", …}],
+             "later_actions": [ … ], "uncertain": [ … ]},
+  "related": [{"id": "proc-…", "relation": "modified_by", …}],
   "day_by_day": "https://daybyday.labs.trlibrary.com/day.html?date=1905-06-02"
 }
 ```

@@ -1,0 +1,97 @@
+{
+  "story": 3,
+  "documents": {
+    "proc-794": {
+      "reception": [
+        {
+          "text": "Opponents seized on the monument's size, and Ralph Cameron, who held mining claims at the head of the Bright Angel Trail, refused to yield.",
+          "source": "research entry",
+          "date": "1908"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Cameron kept collecting a one-dollar toll on the Bright Angel Trail until Coconino County took it over in 1912.",
+          "source": "research entry",
+          "date": "1912"
+        },
+        {
+          "kind": "congress",
+          "text": "Senate bills to make the canyon a national park were introduced again in 1910 and 1911, with the monument in place, and died.",
+          "source": "research entry",
+          "date": "1910"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The monument held the line for eleven years until Congress made the canyon a national park in 1919, the outcome Roosevelt had wanted.",
+          "source": "Act of February 26, 1919, 40 Stat. 1175",
+          "date": "1919-02-26"
+        },
+        {
+          "text": "Ruling against Cameron, a unanimous Supreme Court held that the Grand Canyon is an object of scientific interest under the Antiquities Act; it did not address the Act's smallest-area limit, though later courts cite the case for broad presidential discretion.",
+          "source": "Cameron v. United States, 252 U.S. 450 (1920)",
+          "date": "1920-04-19"
+        },
+        {
+          "text": "As senator from 1921, Cameron fought the National Park Service and cut the park's appropriation from $100,000 for fiscal 1922 to $75,000 for fiscal 1923.",
+          "source": "41 Stat. 1407; 42 Stat. 590",
+          "date": "1922"
+        },
+        {
+          "text": "Cameron lost his Senate seat to Carl Hayden in November 1926, 44,591 to 31,845, after a Los Angeles Times series alleged he had salted mining claims in the canyon.",
+          "source": "research entry",
+          "date": "1926-11"
+        },
+        {
+          "text": "The designation remains the classic example of the Antiquities Act used boldly, a line running to the 2023 Baaj Nwaavjo I'tah Kukveni-Ancestral Footprints of the Grand Canyon National Monument.",
+          "source": "Proclamation 10606, August 8, 2023",
+          "date": "2023-08-08"
+        }
+      ],
+      "today": [
+        {
+          "name": "Grand Canyon National Park",
+          "kind": "national_park",
+          "relation": "absorbed_into",
+          "state": "Arizona",
+          "note": "The 1919 act revoked the monument and folded its lands into the park; 4,919,163 recreation visits in 2024.",
+          "source": "Act of February 26, 1919, 40 Stat. 1175; NPS Grand Canyon Park Profile (2025)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-694",
+          "relation": "same_subject",
+          "note": "Roosevelt's 1906 game preserve on the Kaibab Plateau, north and west of the Colorado River, in the same forest reserve."
+        },
+        {
+          "id": "proc-658",
+          "relation": "same_subject",
+          "note": "Devils Tower, the first Antiquities Act monument, first read the law to cover natural wonders."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1919-02-26",
+          "text": "Congress created Grand Canyon National Park, revoking the monument and folding its lands into the park.",
+          "source": "40 Stat. 1175"
+        },
+        {
+          "date": "1920-04-19",
+          "text": "The Supreme Court ruled against Ralph Cameron's Cape Horn mining claim and rejected his argument that the monument lacked authority.",
+          "source": "Cameron v. United States, 252 U.S. 450"
+        },
+        {
+          "date": "1922",
+          "text": "Congress cut the park's appropriation to $75,000 for fiscal 1923, from $100,000 the year before.",
+          "source": "42 Stat. 590"
+        }
+      ],
+      "uncertain": [
+        "Cameron's February 1922 Senate speech is known only from a New York Times search excerpt; only the phrase \"thirty or forty millionaires\" is confirmed."
+      ]
+    }
+  }
+}

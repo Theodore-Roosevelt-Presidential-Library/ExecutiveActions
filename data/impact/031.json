@@ -1,0 +1,133 @@
+{
+  "story": 31,
+  "documents": {
+    "proc-694": {
+      "reception": [
+        {
+          "text": "The proclamation drew little notice; because Congress had authorized it by name, it set off none of the lock-up arguments that met the forest reserves.",
+          "source": "research entry",
+          "date": "1906"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Hunting, trapping, killing or capturing game on federal land north and west of the Colorado River became unlawful except under the Secretary of Agriculture's regulations.",
+          "source": "34 Stat. 3263",
+          "date": "1906-11-28"
+        },
+        {
+          "kind": "economic",
+          "text": "Grazing continued on the plateau, and cattle there rose from about 9,000 head in 1906 to more than 15,000 by 1913.",
+          "source": "research entry",
+          "date": "1913"
+        },
+        {
+          "kind": "administrative",
+          "text": "Government hunters trapped or shot 781 mountain lions, 30 wolves, 4,889 coyotes and 554 bobcats on the plateau between 1906 and 1931.",
+          "source": "Rasmussen, Ecological Monographs 11 (1941), p. 236"
+        },
+        {
+          "kind": "local",
+          "text": "Cattle and sheep operators on the plateau spent years contesting how much forage the growing deer herd left for livestock.",
+          "source": "research entry"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "From 1906 to 1939, 816 mountain lions, 30 wolves, 7,388 coyotes and 863 bobcats were removed from the plateau.",
+          "source": "Rasmussen, Ecological Monographs 11 (1941), p. 236",
+          "date": "1939"
+        },
+        {
+          "text": "The Kaibab deer irruption and crash became a standard textbook example of what happens when predators are removed, and Aldo Leopold named the pattern the \"Kaibab-Sequence.\"",
+          "source": "Leopold, Sowls and Spencer, Journal of Wildlife Management 11 (1947)",
+          "date": "1947"
+        },
+        {
+          "text": "Graeme Caughley showed the herd estimates were badly inconsistent, with 1924 figures ranging from 30,000 to 100,000.",
+          "source": "Caughley, Ecology 51 (1970), p. 56",
+          "date": "1970"
+        },
+        {
+          "text": "Binkley and colleagues found converging evidence, including aspen age structure, for a real deer irruption in the late 1910s and 1920s shaped by drought, grazing and fire suppression as well as predator removal.",
+          "source": "Binkley et al. (2006)",
+          "date": "2006"
+        },
+        {
+          "text": "The preserve was never abolished; its provisions survive at 16 U.S.C. §§ 683–687 and the Forest Service still administers it.",
+          "source": "16 U.S.C. §§ 683–687"
+        }
+      ],
+      "today": [
+        {
+          "name": "Grand Canyon Game Preserve",
+          "kind": "other",
+          "relation": "origin",
+          "state": "Arizona",
+          "since": "1906-11-28",
+          "note": "A designated area of the Kaibab National Forest, closed to locatable mineral entry.",
+          "source": "Kaibab National Forest Land and Resource Management Plan (2014)"
+        },
+        {
+          "name": "Kaibab National Forest, North Kaibab Ranger District",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Arizona",
+          "note": "Holds most of the plateau.",
+          "source": "research entry"
+        },
+        {
+          "name": "Grand Canyon National Park",
+          "kind": "national_park",
+          "relation": "part",
+          "state": "Arizona",
+          "note": "The park took part of the preserve in 1919 and covers the plateau's southern end.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-814",
+          "relation": "enlarged_by",
+          "note": "Added ground south of the canyon, with a diagram."
+        },
+        {
+          "id": "proc-563",
+          "relation": "same_subject",
+          "note": "The Wichita game preserve rested on a 1905 act that the 1906 Grand Canyon act copied almost word for word."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-06-03",
+          "text": "Proclamation 875 diminished the preserve, leaving it at 1,492,928 acres.",
+          "source": "36 Stat. 2496"
+        },
+        {
+          "date": "1919",
+          "text": "Congress carved Grand Canyon National Park partly out of the preserve.",
+          "source": "research entry"
+        },
+        {
+          "date": "1931-10-06",
+          "text": "President Hoover's Proclamation 1971 diminished the preserve again.",
+          "source": "47 Stat. 2483"
+        },
+        {
+          "date": "1939",
+          "text": "Reorganization Plan No. II moved the Wichita preserve to Interior but left the Grand Canyon preserve with Agriculture.",
+          "source": "16 U.S.C. §§ 683–687, codifiers' note"
+        },
+        {
+          "date": "2014-02",
+          "text": "The Kaibab forest plan lists the preserve as a designated area with the desired condition that it provides quality habitat for game animals.",
+          "source": "Kaibab NF Land and Resource Management Plan (2014)"
+        }
+      ],
+      "uncertain": [
+        "The preserve's size at creation is not known; the proclamation gives no acreage and the 1906 Yearbook figure of 2,267,300 acres cannot be right."
+      ]
+    }
+  }
+}

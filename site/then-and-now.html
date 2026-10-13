@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Then and Now | Theodore Roosevelt's Executive Orders and Proclamations</title>
+<meta name="description" content="The national parks, forests, wildlife refuges and other places today that began with a Theodore Roosevelt order or proclamation.">
+<meta property="og:title" content="Then and now: what Roosevelt's orders became | Theodore Roosevelt Presidential Library">
+<meta property="og:description" content="The national parks, forests and wildlife refuges that trace back to Theodore Roosevelt's orders.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://executiveactions.labs.trlibrary.com/then-and-now.html">
+<meta property="og:site_name" content="Theodore Roosevelt Presidential Library">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip" href="#places">Skip to the list</a>
+<header class="bar">
+  <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="then-and-now.html" aria-current="page">Then &amp; now</a><a href="about.html">About</a><a href="api.html">API &amp; widgets</a></nav>
+</header>
+<section class="hero">
+  <div class="wrap">
+    <h1>Then and now</h1>
+    <p class="lede">Some of Roosevelt's orders still shape the map. Many national forests, wildlife refuges and national parks trace back to a few paragraphs he signed between 1901 and 1909. Here is each one the Library's research connects to a document, with how the two are linked: the document created it, its land is part of it today, or it was later folded into something larger.</p>
+  </div>
+</section>
+<main class="wrap" id="places" tabindex="-1" style="padding:28px 20px 60px">
+  <p class="small" id="tncount" aria-live="polite"></p>
+  <div class="tn-filters" role="group" aria-label="Show"></div>
+  <div id="tn"><p class="loading">Loading…</p></div>
+  <p class="small" style="margin-top:28px">This list covers what the research behind the stories traces, not every later change to every boundary. Places marked “no longer exists” were merged, renamed or abolished; the document page explains what became of them. Spot a gap? Write to <a href="mailto:hello@trlibrary.com?subject=Executive%20actions%3A%20then%20and%20now">hello@trlibrary.com</a>.</p>
+</main>
+<footer class="site"><div class="wrap">Theodore Roosevelt Presidential Library, Medora, North Dakota. <a href="index.html">Search every document</a> &nbsp;|&nbsp; <a href="https://www.trlibrary.com/visit">Plan your visit</a></div></footer>
+<script src="assets/app.js"></script>
+<script>
+(async () => {
+  const { get, esc, fmtDate, docHref, TODAY_REL } = EA;
+  const d = await get("then-and-now/index.json");
+  const box = document.getElementById("tn"), filt = document.querySelector(".tn-filters");
+  let kind = location.hash.startsWith("#k-") ? location.hash.slice(3) : "all";
+  const buttons = [{ kind: "all", label: "Everything", count: d.count }, ...d.kinds];
+  filt.innerHTML = buttons.map(k => `<button type="button" data-k="${k.kind}" aria-pressed="${k.kind === kind}">${esc(k.label)} <span class="small">${k.count}</span></button>`).join("");
+  function card(p) {
+    const gone = p.documents.every(x => x.relation === "abolished");
+    return `<li id="${esc(p.slug)}" class="${gone ? "gone" : ""}"><span class="nm">${esc(p.name)}</span>
+      ${p.states.length ? `<span class="small">${esc(p.states.join(", "))}</span>` : ""}
+      <ul>${p.documents.map(x => `<li><b>${esc(TODAY_REL[x.relation] || x.relation || "")}</b>${x.district ? ` (${esc(x.district)})` : ""}: <a href="${docHref(x.id)}">${esc(x.label)}</a>, ${esc(fmtDate(x.date, { short: true }))}${x.note ? `<br><span class="small">${esc(x.note)}</span>` : ""}</li>`).join("")}</ul></li>`;
+  }
+  function render() {
+    const groups = d.kinds.filter(k => kind === "all" || k.kind === kind);
+    let n = 0;
+    box.innerHTML = groups.map(k => { const gone = p => p.documents.every(x => x.relation === "abolished");
+      const ps = d.places.filter(p => p.kind === k.kind).sort((a, b) => gone(a) - gone(b)); n += ps.length;
+      return `<section class="tn-group"><h2>${esc(k.label)}</h2><ul class="tn-list">${ps.map(card).join("")}</ul></section>`; }).join("");
+    document.getElementById("tncount").textContent = `${n} places traced to ${new Set(d.places.flatMap(p => p.documents.map(x => x.id))).size} Roosevelt documents.`;
+    filt.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.k === kind));
+  }
+  filt.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; kind = b.dataset.k; history.replaceState(null, "", kind === "all" ? location.pathname : `#k-${kind}`); render(); });
+  render();
+  if (location.hash && !location.hash.startsWith("#k-")) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+})();
+</script>
+</body>
+</html>

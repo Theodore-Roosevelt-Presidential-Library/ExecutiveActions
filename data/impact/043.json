@@ -1,0 +1,88 @@
+{
+  "story": 43,
+  "documents": {
+    "proc-510": {
+      "reception": [
+        {
+          "text": "A Washington dispatch reported that the proclamation had been issued several days earlier without being made public, and that the Cuban minister had called on Secretary Hay about U.S. copyright for Cuban authors.",
+          "source": "San Francisco Call, Nov. 20, 1903, p. 11",
+          "date": "1903-11-20"
+        },
+        {
+          "text": "The Berne copyright union's monthly, Le Droit d'Auteur, reported the proclamation, noting that its text matched the earlier proclamations for other countries.",
+          "source": "Le Droit d'Auteur, Dec. 15, 1903, p. 133",
+          "date": "1903-12-15"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "The finding opened U.S. copyright to Cuban authors on the same terms as other foreigners, including the requirement that their books be printed from type set in the United States.",
+          "source": "Act of Mar. 3, 1891, sec. 13, 26 Stat. 1110",
+          "date": "1903-11-17"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Protection for Americans in Cuba already existed under orders of the U.S. military government, which the Cuban republic told the Berne bureau in February 1903 were still in force; the proclamation completed the American side.",
+          "source": "Le Droit d'Auteur, Apr. 15, 1903, pp. 37–38",
+          "date": "1903"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "After the Copyright Act of 1909, Cuba was named again in proclamations of 1910 and 1911.",
+          "source": "36 Stat. 2685; 37 Stat. 1721",
+          "date": "1911"
+        },
+        {
+          "text": "Copyright relations between the two countries were later carried by the Buenos Aires Convention (for Cuba from 1913) and the Universal Copyright Convention (1957).",
+          "source": "U.S. Copyright Office, Circular 38a",
+          "date": "1957-06-18"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-506",
+          "relation": "same_subject",
+          "note": "Signed eight days into the special session called to approve the Cuban commercial convention."
+        },
+        {
+          "id": "proc-577",
+          "relation": "same_subject",
+          "note": "Later Chace Act reciprocity proclamation, for Norway."
+        },
+        {
+          "id": "proc-774",
+          "relation": "same_subject",
+          "note": "Later Chace Act reciprocity proclamation, for Austria."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-04-09",
+          "text": "Cuba named again in a multi-country copyright proclamation under the 1909 act.",
+          "source": "36 Stat. 2685"
+        },
+        {
+          "date": "1911-11-27",
+          "text": "Proclamation for Cuba under the 1909 act, effective from May 29, 1911.",
+          "source": "37 Stat. 1721"
+        },
+        {
+          "date": "1913-05-28",
+          "text": "Buenos Aires Convention took effect for Cuba.",
+          "source": "U.S. Copyright Office, Circular 38a"
+        },
+        {
+          "date": "1957-06-18",
+          "text": "Universal Copyright Convention took effect between the two countries.",
+          "source": "U.S. Copyright Office, Circular 38a"
+        }
+      ],
+      "uncertain": [
+        "Who asked for the proclamation, and what Cuba's \"satisfactory official assurances\" said, is not known.",
+        "Whether East Coast newspapers reported the proclamation has not been checked."
+      ]
+    }
+  }
+}

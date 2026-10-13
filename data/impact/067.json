@@ -1,0 +1,223 @@
+{
+  "story": 67,
+  "documents": {
+    "proc-713": {
+      "related": [
+        {
+          "id": "proc-546",
+          "relation": "supersedes",
+          "note": "Imnaha was established in place of the Wallowa reserve."
+        },
+        {
+          "id": "proc-551",
+          "relation": "supersedes",
+          "note": "Imnaha was established in place of the Chesnimnus reserve."
+        }
+      ]
+    },
+    "proc-731": {
+      "related": [
+        {
+          "id": "proc-565",
+          "relation": "supersedes",
+          "note": "The enlarged Blue Mountains reserve absorbed the Maury Mountain reserve."
+        }
+      ]
+    },
+    "proc-741": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation revoked the Portales reserve, saying the land was no longer required for experimental forest purposes, and restored it to the public domain, open to settlement at once and to entry after ninety days' notice.",
+          "source": "35 Stat. 2120–2170",
+          "date": "1907-03-16"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-601",
+          "relation": "revokes",
+          "note": "Revoked the Portales Forest Reserve created October 3, 1905."
+        }
+      ]
+    },
+    "proc-742": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "From this proclamation on, most forest proclamations warned that the land was closed to settlement unless and until the Secretary of Agriculture listed it and opened it under the Forest Homestead Act of June 11, 1906.",
+          "source": "35 Stat. 2120–2170",
+          "date": "1907-04-06"
+        }
+      ]
+    },
+    "proc-749": {
+      "related": [
+        {
+          "id": "proc-748",
+          "relation": "same_subject",
+          "note": "Signed the same day; the new Sacramento forest took in part of the Lincoln, and so cites both the 1891 and 1897 acts."
+        }
+      ]
+    },
+    "proc-756": {
+      "reception": [
+        {
+          "text": "California papers printed the Inyo as a short Washington announcement, without comment, from late May through June.",
+          "source": "Santa Cruz Surf, May 31, 1907; San Bernardino Sun, June 19, 1907; San Pedro Daily News, June 20, 1907",
+          "date": "1907-05"
+        },
+        {
+          "text": "The San Pedro Daily News presented the new forest as aid to Los Angeles's water supply and noted that it held the watershed of the Long Valley reclamation reservoir.",
+          "source": "San Pedro Daily News, June 20, 1907",
+          "date": "1907-06-20"
+        }
+      ],
+      "uncertain": [
+        "Who asked for the Inyo forest is not known; the Forest Service case files in National Archives Record Group 95 would settle it."
+      ]
+    },
+    "proc-763": {
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "Although Montana was a Fulton state, this proclamation was allowed after March 4 because it only cut land out, and the proviso barred only creation and additions.",
+          "source": "34 Stat. 1271",
+          "date": "1907-06-01"
+        }
+      ]
+    },
+    "proc-775": {
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "Although Colorado and Wyoming were Fulton states, this proclamation was allowed after March 4 because it only cut land out, and the proviso barred only creation and additions.",
+          "source": "34 Stat. 1271",
+          "date": "1907-09-27"
+        }
+      ]
+    },
+    "proc-769": {
+      "related": [
+        {
+          "id": "proc-491",
+          "relation": "reduces",
+          "note": "Excluded land from the Alexander Archipelago reserve of 1902."
+        }
+      ]
+    },
+    "proc-770": {
+      "reception": [
+        {
+          "text": "The San Francisco Call ran a special dispatch on the new Alaska forest, giving nearly five million acres and some two billion board feet of timber, and reported that lumbermen at Valdez expected good trade.",
+          "source": "San Francisco Call, August 1, 1907",
+          "date": "1907-08-01"
+        }
+      ],
+      "uncertain": [
+        "Who asked for the Chugach forest is not known; the Forest Service case files in National Archives Record Group 95 would settle it.",
+        "How Alaska's own newspapers received the Chugach forest has not been checked."
+      ]
+    },
+    "proc-773": {
+      "related": [
+        {
+          "id": "proc-770",
+          "relation": "reduces",
+          "note": "Excluded land from the Chugach forest set apart two months earlier."
+        }
+      ]
+    },
+    "proc-772": {
+      "reception": [
+        {
+          "text": "The new forest reached California papers as a one-sentence filler: about two million acres of rough country, its islands and mainland well covered with trees.",
+          "source": "Salinas Index Journal, September 30, 1907; Marin Journal, October 3, 1907",
+          "date": "1907-09"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "In July 1908 the Tongass was merged with the Alexander Archipelago reserve of 1902. The combined Tongass is now the largest national forest in the country, at about 16.7 million acres.",
+          "source": "USFS Alaska Region, Tongass National Forest Assessment Report (2025)",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tongass National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Alaska",
+          "since": "1907-09-10",
+          "note": "Merged with the 1902 Alexander Archipelago reserve in 1908; the largest national forest in the country.",
+          "source": "USFS Alaska Region, Tongass National Forest Assessment Report (2025)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Merged with the Alexander Archipelago reserve under the Tongass name in July 1908."
+        }
+      ],
+      "uncertain": [
+        "Who asked for the Tongass forest is not known; the Forest Service case files in National Archives Record Group 95 would settle it.",
+        "How Alaska's own newspapers received the Tongass forest has not been checked."
+      ]
+    },
+    "proc-784": {
+      "uncertain": [
+        "Who asked for the Vegas forest, and how Nevada papers received it, is not known."
+      ]
+    },
+    "proc-786": {
+      "uncertain": [
+        "Who asked for the Arkansas forest, and how Arkansas papers received it, is not known."
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "Western opponents of the forest policy saw the March 1–2 proclamations as executive overreach, a president beating a limit Congress had just written in the days before it took effect.",
+        "source": "research entry",
+        "date": "1907-03"
+      },
+      {
+        "text": "Roosevelt never backed down; in his Autobiography he described the opponents' anger as a tribute to the efficiency of the action.",
+        "source": "Theodore Roosevelt, An Autobiography (1913)",
+        "date": "1913"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "congress",
+        "text": "The Fulton proviso to the Agricultural Appropriation Act barred any new forest reserve or addition in Oregon, Washington, Idaho, Montana, Colorado, or Wyoming except by act of Congress. Roosevelt signed it on March 4, after the March 1–2 proclamations.",
+        "source": "34 Stat. 1256, at 1271",
+        "date": "1907-03-04"
+      },
+      {
+        "kind": "administrative",
+        "text": "The same act renamed forest reserves as national forests; every forest proclamation from March 16 on uses the new name.",
+        "source": "34 Stat. 1269",
+        "date": "1907-03-04"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The 1907 reserves remain the backbone of national forests across the northern Rockies, the Cascades, the Colorado high country, the Southwest, and coastal Alaska, though most carry later names after the 1908 consolidations.",
+        "source": "research entry"
+      },
+      {
+        "text": "The Fulton proviso bound presidents in those six states from then on, but Roosevelt kept using his 1891 and 1897 powers elsewhere, by his own account adding more than forty-three million acres to the National Forests in 1907.",
+        "source": "Theodore Roosevelt, An Autobiography (1913)"
+      },
+      {
+        "text": "\"Midnight forests\" is a historians' label; the earliest use found is Harold K. Steen's \"so-called midnight reserves.\"",
+        "source": "Harold K. Steen, The U.S. Forest Service: A History (1976)",
+        "date": "1976"
+      }
+    ]
+  }
+}

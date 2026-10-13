@@ -98,8 +98,44 @@ const EA = (() => {
       const l = c.lord;
       out.push(`<li><b>Lord's List and Index (1943)</b>Clifford L. Lord, ed., <i>List and Index of Presidential Executive Orders: Unnumbered Series</i>, no. ${esc(l.number)}${l.page ? `, p. ${esc(l.page)}` : ""}${l.citations ? `<br><span class="small">Lord cites: ${esc(l.citations)}</span>` : ""}</li>`);
     }
-    if (d.title_source) out.push(`<li><b>Title</b>As given by ${esc(d.title_source)}</li>`);
+    if (d.title_source) out.push(`<li><b>Title</b>${/^Corrected/.test(d.title_source) ? "Corrected by the Library; see the note on the title" : `As given by ${esc(d.title_source)}`}</li>`);
     return out.length ? `<ul class="cites">${out.join("")}</ul>` : `<p class="small">No published citation yet.</p>`;
+  }
+
+  const REL = { enlarges: "Enlarges", enlarged_by: "Enlarged by", reduces: "Reduces", reduced_by: "Reduced by", modifies: "Modifies",
+    modified_by: "Modified by", revokes: "Revokes", revoked_by: "Revoked by", restores: "Restores", restored_by: "Restored by",
+    renames: "Renames", renamed_by: "Renamed by", amends: "Amends", amended_by: "Amended by", supersedes: "Replaces",
+    superseded_by: "Replaced by", implements: "Carries out", implemented_by: "Carried out by", same_subject: "Same subject" };
+  const TODAY_REL = { origin: "Began with this document", part: "Includes land set aside here", renamed: "Renamed", absorbed_into: "Later absorbed into",
+    abolished: "No longer exists", transferred: "Transferred" };
+  const KIND = { national_park: "National park", national_monument: "National monument", national_forest: "National forest",
+    national_grassland: "National grassland", wildlife_refuge: "Wildlife refuge", state_park: "State park", indian_reservation: "Reservation",
+    military_installation: "Military installation", lighthouse: "Lighthouse", other: "" };
+
+  function pointHTML(p) {
+    if (typeof p === "string") return `<li>${esc(p)}</li>`;
+    const meta = [p.date ? fmtDate(p.date) : "", p.source && p.source !== "research entry" ? p.source : ""].filter(Boolean).join(" · ");
+    return `<li>${esc(p.text)}${meta ? ` <span class="src">${esc(meta)}</span>` : ""}</li>`;
+  }
+  function byDate(a, b) { return String(a.date || "9999").localeCompare(String(b.date || "9999")); }
+
+  function impactHTML(d) {
+    const i = d.impact || {}, rel = d.related || [];
+    if (!Object.keys(i).length && !rel.length) return "";
+    let h = `<section class="impact"><h2>What happened next</h2>`;
+    if ((i.today || []).length) {
+      h += `<h3>Where it stands today</h3><ul class="today">${i.today.map(t => `<li><a href="then-and-now.html#${slug(t.name)}"><b>${esc(t.name)}</b></a>
+        <span class="small">${esc([KIND[t.kind] || "", TODAY_REL[t.relation] || "", t.state || ""].filter(Boolean).join(" · "))}</span>
+        ${t.note ? `<br>${esc(t.note)}` : ""}${t.source && t.source !== "research entry" ? ` <span class="src">${esc(t.source)}</span>` : ""}</li>`).join("")}</ul>`;
+    }
+    const atTime = [...(i.reception || []).map(x => ({ ...x, _k: "r" })), ...(i.political_impact || [])].sort(byDate);
+    if (atTime.length) h += `<h3>At the time</h3><ul class="points">${atTime.map(pointHTML).join("")}</ul>`;
+    const later = [...(i.legacy || []), ...(i.later_actions || [])].sort(byDate);
+    if (later.length) h += `<h3>In the years after</h3><ul class="points">${later.map(pointHTML).join("")}</ul>`;
+    if (rel.length) h += `<h3>Connected documents</h3><ul class="related">${rel.map(r => `<li><span class="rel">${esc(REL[r.relation] || r.relation)}</span>
+        <a href="${docHref(r.id)}">${esc(r.label)}</a>${r.date ? `, ${esc(fmtDate(r.date))}` : ""}<br><span class="small">${esc(r.title || "")}${r.note ? ` — ${esc(r.note)}` : ""}</span></li>`).join("")}</ul>`;
+    if ((i.uncertain || []).length) h += `<div class="stillbox"><b>Still being researched</b><ul>${i.uncertain.map(pointHTML).join("")}</ul></div>`;
+    return h + `</section>`;
   }
 
   function renderDocument(d) {
@@ -130,6 +166,7 @@ const EA = (() => {
     if (d.duplicates && d.duplicates.length) h += `<p class="dnote"><b>Also listed by Lord.</b> ${d.duplicates.map(x => `<a href="${docHref(x.id)}">${esc(x.label)}</a>${x.date ? `, dated ${esc(fmtDate(x.date))}` : ""}`).join("; ")}, describes this same document.</p>`;
     if (d.reconciliation_note_html) h += `<details class="dnote"><summary><b>${d.reconciliation === "numbered_duplicate" ? "How the match was made" : "Research note on this entry"}</b></summary><p style="margin:6px 0 0">${localize(d.reconciliation_note_html)}</p></details>`;
 
+    h += impactHTML(d);
     h += `<h2>The text</h2>`;
     h += d.has_text ? textHTML(d.text)
       : `<p class="notext">${d.duplicate_of_ref ? "See the numbered order for the text." : "No transcription of this document is available here yet."}${(d.citations?.statutes?.page_image) ? ` The printed page is linked under Sources.` : ""}</p>`;
@@ -149,5 +186,5 @@ const EA = (() => {
   }
 
   return { API, BASE, get, esc, fmtDate, param, slug, catLabel, groupOf, localize, inlineMd, docHref, tagsHTML, rowHTML,
-           renderDocument, citationsHTML, storyCard, MONTHS, CATS, GROUPS, TYPES, TYPES_PLURAL, SIG };
+           renderDocument, citationsHTML, storyCard, impactHTML, pointHTML, KIND, TODAY_REL, MONTHS, CATS, GROUPS, TYPES, TYPES_PLURAL, SIG };
 })();

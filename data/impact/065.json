@@ -1,0 +1,230 @@
+{
+  "story": 65,
+  "documents": {
+    "proc-625": {
+      "reception": [
+        {
+          "text": "The lottery drew 16,923 registrants at Miles City, Billings and Sheridan, and 6,500 drew the right to enter.",
+          "source": "research entry",
+          "date": "1906-07"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Almost no one filed at the $4.00-an-acre price: 263 entries by the end of August, and after a year only 398 entries covering 56,320.75 acres, under six percent of the 969,656.58 acres opened.",
+          "source": "research entry",
+          "date": "1907"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1912",
+          "text": "President Taft cut the floor price to $1.50 an acre and ordered an auction of the unsold land.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-631": {
+      "reception": [
+        {
+          "text": "The Wind River lottery drew 10,559 registrants, and 7,240 drew the right to enter.",
+          "source": "research entry",
+          "date": "1906"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "After a year, 635 entries covering 94,383.31 acres had been filed, about six percent of the 1,472,844.15 acres opened.",
+          "source": "research entry",
+          "date": "1907"
+        },
+        {
+          "kind": "local",
+          "text": "Riverton was born of the opening, platted by the Wyoming Central Irrigation Company, its lots drawn by lottery, and opened August 15, 1906.",
+          "source": "research entry",
+          "date": "1906-08-15"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Tenth Circuit held in 2017 that the 1905 act behind this opening diminished the Wind River Reservation, so Riverton is not in Indian country; the Supreme Court declined review in 2018 and the EPA revised its approval in 2019.",
+          "source": "Wyoming v. EPA, 875 F.3d 505 (10th Cir. 2017)",
+          "date": "2017"
+        },
+        {
+          "text": "Restorations of 1940, 1944 and 1953 helped carry the reservation back past 2.2 million acres.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Wind River Reservation",
+          "kind": "indian_reservation",
+          "relation": "part",
+          "state": "Wyoming",
+          "note": "Diminished by the 1905 cession, later partly restored.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-640",
+          "relation": "modified_by",
+          "note": "Directed entries on the opened lands to be made at Shoshoni from August 15 through October 3, 1906."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1939-07-27",
+          "text": "Congress directed the undisposed-of ceded land restored to the tribes; the restorations were carried out in 1940 and 1944.",
+          "source": "Act of July 27, 1939, 53 Stat. 1128"
+        },
+        {
+          "date": "2013-12",
+          "text": "The EPA approved the Eastern Shoshone and Northern Arapaho tribes' Clean Air Act treatment-as-a-state application on the view that the 1905 act had not diminished the reservation.",
+          "source": "Wyoming v. EPA, 875 F.3d 505 (10th Cir. 2017)"
+        },
+        {
+          "date": "2017",
+          "text": "The Tenth Circuit held that Congress diminished the reservation in 1905 and vacated the EPA order.",
+          "source": "Wyoming v. EPA, 875 F.3d 505 (10th Cir. 2017)"
+        }
+      ]
+    },
+    "proc-640": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Entries on the Shoshone lands were taken at the Shoshoni land office from August 15 through October 3, 1906, then returned to Lander.",
+          "source": "34 Stat. 3222",
+          "date": "1906-08-15"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-631",
+          "relation": "modifies",
+          "note": "Moved the filing office for the Wind River opening for seven weeks."
+        }
+      ]
+    },
+    "proc-648": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order restored 8.80 acres to the public domain to cover David Eskelson's homestead entry, which had been erroneously allowed to include two lots of the grazing reserve.",
+          "source": "34 Stat. 3228",
+          "date": "1906-09-01"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The tribes still held their jointly owned 250,000-acre grazing reserve in 1909, when the government withdrew 56,000 acres of it for the Strawberry Valley reclamation project.",
+          "source": "Utah History Encyclopedia, \"Uintah-Ouray Indian Reservation\"",
+          "date": "1909"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-581",
+          "relation": "same_subject",
+          "note": "The 1905 Uintah opening; the grazing reserve was not opened with those lands."
+        }
+      ]
+    },
+    "proc-653": {
+      "reception": [
+        {
+          "text": "Over six days in December 1906, 7,621 sealed bids came in at the Lawton land office, totaling $2,286,300.",
+          "source": "research entry",
+          "date": "1906-12"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Interior set a floor of $800 a quarter section, $5.00 an acre, and opened and awarded the bids beginning March 15, 1907.",
+          "source": "research entry",
+          "date": "1907-03-15"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "It is often called the last of the great Oklahoma land openings, though it was a sealed-bid sale, not a run.",
+          "source": "research entry"
+        },
+        {
+          "text": "Oklahoma's Court of Criminal Appeals held in 2021 that Congress disestablished the Kiowa, Comanche and Apache reservation in the Act of June 6, 1900.",
+          "source": "Martinez v. State, 2021 OK CR 40",
+          "date": "2021"
+        }
+      ],
+      "uncertain": [
+        "How much of the Big Pasture and wood reserve was actually sold is not known; only the bid totals are on record."
+      ]
+    },
+    "proc-659": {
+      "legacy": [
+        {
+          "text": "An act of 1936 let the Secretary of the Interior restore public-domain land to the Walker River Reservation, and part of the 1906 lands came back.",
+          "source": "Act of June 22, 1936, ch. 698, 49 Stat. 1806",
+          "date": "1936-06-22"
+        }
+      ],
+      "today": [
+        {
+          "name": "Walker River Reservation",
+          "kind": "indian_reservation",
+          "relation": "part",
+          "state": "Nevada",
+          "note": "Northern Paiute reservation along the lower Walker River north of Walker Lake.",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1936-06-22",
+          "text": "Congress authorized restoring public-domain land to the reservation.",
+          "source": "49 Stat. 1806"
+        }
+      ],
+      "uncertain": [
+        "How many acres the October 29, 1906 opening threw open is not known."
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "The Western press covered the openings as opportunity, with registration booths, lottery drawings and overnight boom towns, not as dispossession.",
+        "source": "research entry",
+        "date": "1906"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "congress",
+        "text": "By 1906 the openings were settled bipartisan policy; debate, where it happened, was over price, irrigation money and land offices, not whether to open the land.",
+        "source": "research entry"
+      },
+      {
+        "kind": "local",
+        "text": "Both big 1906 lotteries drew thousands of registrants and then almost no takers, and both openings were later repriced.",
+        "source": "research entry"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The reservations were left diminished and checkerboarded, and whether surplus-land acts merely opened reservations or shrank them has produced a long line of court cases.",
+        "source": "research entry"
+      },
+      {
+        "text": "McGirt v. Oklahoma held that only Congress, in plain terms, can disestablish a reservation; it addressed none of these proclamations and was later narrowed by Oklahoma v. Castro-Huerta.",
+        "source": "McGirt v. Oklahoma, 591 U.S. 894 (2020); Oklahoma v. Castro-Huerta, 597 U.S. 629 (2022)",
+        "date": "2020"
+      }
+    ]
+  }
+}

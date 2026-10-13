@@ -1,0 +1,675 @@
+{
+  "story": 33,
+  "documents": {
+    "proc-467": {
+      "reception": [
+        {
+          "text": "The proclamation made a single page of a single Colorado paper.",
+          "source": "Chronicling America newspaper searches, 1902",
+          "date": "1902"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "San Isabel still carries its own name, administered together with the Pike since 1975.",
+          "source": "research entry",
+          "date": "1975"
+        }
+      ],
+      "today": [
+        {
+          "name": "San Isabel National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Colorado",
+          "since": "1902-04-11",
+          "note": "Administered with the Pike as the Pike-San Isabel since 1975; the two remain legally separate forests.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-468": {
+      "reception": [
+        {
+          "text": "The proclamation made a single page of a single Arizona paper.",
+          "source": "Chronicling America newspaper searches, 1902",
+          "date": "1902"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Santa Rita was combined with the Santa Catalina and Dragoon reserves in 1908 to form the Coronado National Forest.",
+          "source": "Executive Order 908",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Coronado National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Arizona",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Combined with Santa Catalina and Dragoon to establish the Coronado National Forest."
+        },
+        {
+          "id": "proc-481",
+          "relation": "same_subject",
+          "note": "Santa Catalina, merged with Santa Rita into the Coronado in 1908."
+        }
+      ]
+    },
+    "proc-469": {
+      "legacy": [
+        {
+          "text": "The San Francisco Mountains forest became the core of the Coconino National Forest in 1908, the only entire forest among the four units that formed it.",
+          "source": "Proclamation 818, 35 Stat. 2196",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Coconino National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Arizona",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-818",
+          "relation": "superseded_by",
+          "note": "Set apart the Coconino National Forest, with this forest as its core."
+        }
+      ]
+    },
+    "proc-470": {
+      "legacy": [
+        {
+          "text": "Niobrara was combined with Dismal River and the North Platte reserve into the Nebraska National Forest in 1908.",
+          "source": "Executive Order 908",
+          "date": "1908"
+        },
+        {
+          "text": "In 1971 Congress renamed the Niobrara division the Samuel R. McKelvie National Forest, a change of name only.",
+          "source": "Public Law 92-142, 85 Stat. 393",
+          "date": "1971-10-15"
+        }
+      ],
+      "today": [
+        {
+          "name": "Samuel R. McKelvie National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "Nebraska",
+          "source": "Public Law 92-142, 85 Stat. 393"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Consolidated into the Nebraska National Forest."
+        },
+        {
+          "id": "proc-471",
+          "relation": "same_subject",
+          "note": "The companion Dismal River reserve, proclaimed the same day."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1971-10-15",
+          "text": "Congress renamed the Niobrara division of the Nebraska National Forest the Samuel R. McKelvie National Forest.",
+          "source": "Public Law 92-142, 85 Stat. 393"
+        }
+      ]
+    },
+    "proc-471": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Seed beds for a tree nursery were laid out in the reserve in the autumn of 1902, and the first field planting followed in 1903.",
+          "source": "Pool, Nebraska History 34 (1953)",
+          "date": "1902"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Dismal River was combined with Niobrara and the North Platte reserve into the Nebraska National Forest in 1908.",
+          "source": "Executive Order 908",
+          "date": "1908"
+        },
+        {
+          "text": "The tract is now the Bessey Ranger District, home of what the Forest Service calls its oldest seedling nursery and part of what it calls the largest hand-planted forest in the western hemisphere.",
+          "source": "U.S. Forest Service"
+        },
+        {
+          "text": "The Bovee Fire burned roughly 5,000 acres of the district.",
+          "source": "research entry",
+          "date": "2022"
+        }
+      ],
+      "today": [
+        {
+          "name": "Bessey Ranger District, Nebraska National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Nebraska",
+          "note": "Home of the Bessey Nursery.",
+          "source": "U.S. Forest Service"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Consolidated into the Nebraska National Forest."
+        },
+        {
+          "id": "proc-470",
+          "relation": "same_subject",
+          "note": "The companion Niobrara reserve, proclaimed the same day."
+        }
+      ],
+      "uncertain": [
+        "Whether the Bessey nursery dates from 1902 or 1903 depends on whether the autumn 1902 seed beds or the 1903 first planting is counted.",
+        "How many acres of the forest were planted by hand is uncertain; published figures run from about 20,000 to about 26,000 acres."
+      ]
+    },
+    "proc-473": {
+      "related": [
+        {
+          "id": "proc-477",
+          "relation": "enlarged_by",
+          "note": "Yellowstone enlarged again three weeks later."
+        },
+        {
+          "id": "proc-496",
+          "relation": "enlarged_by",
+          "note": "Teton and Absaroka consolidated into the Yellowstone, January 29, 1903."
+        }
+      ]
+    },
+    "proc-474": {
+      "legacy": [
+        {
+          "text": "Medicine Bow was split in 1908. Its Colorado portion became the Colorado National Forest in 1910, renamed the Roosevelt in 1932, and is now part of the Arapaho and Roosevelt.",
+          "source": "U.S. Forest Service, FS-612; Davis",
+          "date": "1908"
+        },
+        {
+          "text": "A Wyoming Medicine Bow was re-established in 1910 and has been administered with the Routt since 1995.",
+          "source": "U.S. Forest Service, FS-612; Davis",
+          "date": "1995"
+        }
+      ],
+      "today": [
+        {
+          "name": "Arapaho and Roosevelt National Forests",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Colorado",
+          "note": "The Colorado portion of the 1902 reserve became the Roosevelt National Forest.",
+          "source": "U.S. Forest Service, FS-612; Davis"
+        },
+        {
+          "name": "Medicine Bow National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Wyoming",
+          "note": "Re-established in 1910; administered with the Routt since 1995.",
+          "source": "U.S. Forest Service, FS-612; Davis"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-484",
+          "relation": "modified_by",
+          "note": "Boundary changed fifty-five days after the reserve was created."
+        },
+        {
+          "id": "eo-861",
+          "relation": "modified_by",
+          "note": "1908 split of the Medicine Bow."
+        },
+        {
+          "id": "eo-862",
+          "relation": "modified_by",
+          "note": "1908 split of the Medicine Bow."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910",
+          "text": "The Colorado portion was proclaimed the Colorado National Forest, and a Wyoming Medicine Bow National Forest was re-established.",
+          "source": "Proclamations 1062 and 1067"
+        },
+        {
+          "date": "1932-03-28",
+          "text": "The Colorado National Forest was renamed the Roosevelt National Forest.",
+          "source": "Executive Order 5826"
+        },
+        {
+          "date": "1995",
+          "text": "The Medicine Bow was administratively combined with the Routt.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-477": {
+      "related": [
+        {
+          "id": "proc-473",
+          "relation": "enlarges",
+          "note": "Enlarged the Yellowstone reserve organized three weeks earlier."
+        }
+      ]
+    },
+    "proc-479": {
+      "legacy": [
+        {
+          "text": "The reserve Roosevelt renamed and reduced, first set aside by Benjamin Harrison in 1891, is today's White River National Forest.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "White River National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "Colorado",
+          "note": "First reserved in 1891 as the White River Plateau Timber Land Reserve; this proclamation renamed it White River.",
+          "source": "27 Stat. 993; research entry"
+        }
+      ]
+    },
+    "proc-481": {
+      "legacy": [
+        {
+          "text": "Santa Catalina was combined with the Santa Rita and Dragoon reserves in 1908 to form the Coronado National Forest.",
+          "source": "Executive Order 908",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Coronado National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Arizona",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Combined with Santa Rita and Dragoon to establish the Coronado National Forest."
+        },
+        {
+          "id": "proc-468",
+          "relation": "same_subject",
+          "note": "Santa Rita, merged with Santa Catalina into the Coronado in 1908."
+        }
+      ]
+    },
+    "proc-484": {
+      "related": [
+        {
+          "id": "proc-474",
+          "relation": "modifies",
+          "note": "Changed the Medicine Bow boundary fifty-five days after its creation."
+        }
+      ]
+    },
+    "proc-485": {
+      "legacy": [
+        {
+          "text": "In 1908 part of Mount Graham went into the Crook National Forest and the rest was restored to the public domain.",
+          "source": "Proclamation 816, 35 Stat. 2194",
+          "date": "1908"
+        },
+        {
+          "text": "When Crook was abolished and divided in 1953, its lands went to the Coronado, Gila, and Tonto national forests.",
+          "source": "Public Land Order 924",
+          "date": "1953"
+        }
+      ],
+      "today": [
+        {
+          "name": "Coronado National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Arizona",
+          "source": "Public Land Order 924"
+        },
+        {
+          "name": "Gila National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "New Mexico",
+          "source": "Public Land Order 924"
+        },
+        {
+          "name": "Tonto National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Arizona",
+          "source": "Public Land Order 924"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-816",
+          "relation": "superseded_by",
+          "note": "Part of Mount Graham went into the new Crook National Forest; the rest was restored to the public domain."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1953",
+          "text": "The Crook National Forest, which held part of Mount Graham, was abolished and divided among the Coronado, Gila, and Tonto.",
+          "source": "Public Land Order 924"
+        }
+      ],
+      "uncertain": [
+        "Sources disagree on whether the Crook division dates from October 23, 1953 (approval) or July 1, 1953 (effective)."
+      ]
+    },
+    "proc-486": {
+      "reception": [
+        {
+          "text": "The proclamation appeared on twenty newspaper pages in 1902, every one of them in New Mexico.",
+          "source": "Chronicling America newspaper searches, 1902",
+          "date": "1902"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Lincoln has kept its name continuously since 1902.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Lincoln National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "New Mexico",
+          "since": "1902-07-26",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-487": {
+      "reception": [
+        {
+          "text": "The proclamation made a single page of a single Arizona paper.",
+          "source": "Chronicling America newspaper searches, 1902",
+          "date": "1902"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "In 1917 the entire Chiricahua National Forest was transferred to the Coronado.",
+          "source": "Executive Order 2630",
+          "date": "1917-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Coronado National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Arizona",
+          "source": "Executive Order 2630"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1917-06-06",
+          "text": "Executive Order 2630, effective July 1, 1917, transferred the Chiricahua National Forest to the Coronado.",
+          "source": "Executive Order 2630"
+        }
+      ]
+    },
+    "proc-489": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Proclaimed as the Little Belt Mountains Forest Reserve, it was enlarged and renamed simply Little Belt in 1905.",
+          "source": "34 Stat. 3180",
+          "date": "1905-10-03"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Little Belt was combined into the Jefferson National Forest in 1908, and the whole Jefferson passed to the Lewis and Clark in 1932.",
+          "source": "U.S. Forest Service, FS-612; Davis",
+          "date": "1932-04-08"
+        }
+      ],
+      "today": [
+        {
+          "name": "Lewis and Clark National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Montana",
+          "note": "Administratively combined as the Helena–Lewis and Clark since 2015.",
+          "source": "U.S. Forest Service, FS-612; Davis"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-602",
+          "relation": "renamed_by",
+          "note": "Enlarged and renamed the Little Belt Forest Reserve, 34 Stat. 3180."
+        },
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Combined into the Jefferson National Forest in 1908."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1932-04-08",
+          "text": "The entire Jefferson National Forest, which held the Little Belt lands, was transferred to the Lewis and Clark.",
+          "source": "Executive Order 5834"
+        }
+      ]
+    },
+    "proc-490": {
+      "legacy": [
+        {
+          "text": "The Madison National Forest was divided three ways in 1931 among the Beaverhead, Deerlodge, and Gallatin forests.",
+          "source": "Executive Orders 5757, 5759, 5760",
+          "date": "1931-12-16"
+        }
+      ],
+      "today": [
+        {
+          "name": "Beaverhead-Deerlodge National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "Executive Orders 5757, 5759"
+        },
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "Executive Order 5760"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1931-12-16",
+          "text": "The Madison National Forest was distributed among the Beaverhead, Deerlodge, and Gallatin national forests.",
+          "source": "Executive Orders 5757, 5759, 5760"
+        }
+      ]
+    },
+    "proc-491": {
+      "reception": [
+        {
+          "text": "The proclamation appeared on six pages in five papers in Alaska, Washington, and Oregon.",
+          "source": "Chronicling America newspaper searches, 1902",
+          "date": "1902"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Alexander Archipelago was folded into the separately created Tongass National Forest in 1908, and its name was dropped.",
+          "source": "Proclamation of February 16, 1909, 35 Stat. 2226",
+          "date": "1908-07-02"
+        },
+        {
+          "text": "The Tongass is today the country's largest national forest, about 16.7 million acres.",
+          "source": "Tongass National Forest Assessment Report, USFS Alaska Region, October 2025",
+          "date": "2025-10"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tongass National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Alaska",
+          "note": "Largest national forest in the country.",
+          "source": "Tongass National Forest Assessment Report (2025)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Consolidated the Alexander Archipelago into the Tongass, July 2, 1908."
+        },
+        {
+          "id": "proc-772",
+          "relation": "same_subject",
+          "note": "Created the Tongass National Forest on a separate mainland tract in 1907."
+        },
+        {
+          "id": "proc-846",
+          "relation": "same_subject",
+          "note": "Enlarged the Tongass and recites the 1908 consolidation."
+        }
+      ],
+      "uncertain": [
+        "The text of Executive Order 908 has not been read; the July 2, 1908 date comes from the government's later recital of it."
+      ]
+    },
+    "proc-493": {
+      "reception": [
+        {
+          "text": "The proclamation made a single page of a single Montana paper.",
+          "source": "Chronicling America newspaper searches, 1902",
+          "date": "1902"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Absaroka reserve lasted 147 days before it was consolidated into the Yellowstone and its name discontinued.",
+          "source": "32 Stat. 2030",
+          "date": "1903-01-29"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "A different Absaroka National Forest, created in 1908 from part of the Yellowstone and all of the Crazy Mountain forest, was later divided between the Gallatin and the Lewis and Clark.",
+          "source": "Executive Order 875; Public Land Order 305",
+          "date": "1945"
+        }
+      ],
+      "today": [
+        {
+          "name": "Absaroka Forest Reserve",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Montana",
+          "note": "Consolidated into the Yellowstone Forest Reserve on January 29, 1903.",
+          "source": "32 Stat. 2030"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-496",
+          "relation": "superseded_by",
+          "note": "Consolidated Absaroka into the Yellowstone Forest Reserve."
+        },
+        {
+          "id": "eo-875",
+          "relation": "same_subject",
+          "note": "Created a different, later Absaroka National Forest in 1908."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1945",
+          "text": "The later Absaroka National Forest was divided between the Gallatin and the Lewis and Clark.",
+          "source": "Public Land Order 305"
+        }
+      ],
+      "uncertain": [
+        "Sources disagree on whether Public Land Order 305 dates from December 18, 1945 (approval) or July 1, 1945 (effective)."
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "Individually the proclamations drew little national notice; their phrase \"reserved from entry or settlement\" appears on four newspaper pages in all of 1902.",
+        "source": "Chronicling America newspaper searches, 1902",
+        "date": "1902"
+      },
+      {
+        "text": "Western stockmen, loggers, and homesteaders who lost open range or free timber grumbled, and some western papers and members of Congress were uneasy about reserves made by presidential signature.",
+        "source": "research entry"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "The reserves were run by the General Land Office's Division \"R\"; Pinchot's Bureau of Forestry could advise only when Interior asked.",
+        "source": "Report of the Forester for 1902",
+        "date": "1902"
+      },
+      {
+        "kind": "congress",
+        "text": "The Transfer Act moved the reserves from Interior to Agriculture.",
+        "source": "33 Stat. 628",
+        "date": "1905-02-01"
+      },
+      {
+        "kind": "congress",
+        "text": "An appropriation act gave the Agriculture bureau the name Forest Service, effective July 1, 1905.",
+        "source": "33 Stat. 872",
+        "date": "1905-03-03"
+      },
+      {
+        "kind": "congress",
+        "text": "Congress renamed the forest reserves national forests and, in the Fulton Amendment, barred new reserves or additions in six western states except by Act of Congress.",
+        "source": "34 Stat. 1269, 1271",
+        "date": "1907-03-04"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "By the Forest Service's reports, the reserves grew from about 47 million acres in 1901 to more than 194 million acres gross by June 30, 1909.",
+        "source": "Report of the Forester for 1901; Report of the Forester for 1909"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "story": 82,
+  "documents": {
+    "eo-235": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The rules added a new requirement that a person \"of the Chinese race\" claiming birth in the United States supply affidavits from at least two witnesses with personal knowledge of the birth, a burden no other applicant carried.", "source": "EO 235, rule 4, in Van Dyne, Citizenship of the United States (1904), pp. 253–258", "date": "1903-09-12"},
+        {"kind": "administrative", "text": "Refusing a passport became a discretionary \"right\" of the Secretary of State, and the 1902 ground of refusal for anyone unable or unwilling to comply with the rules was dropped.", "source": "EO 235 compared with EO 181, Foreign Relations 1902, pp. 6–9", "date": "1903-09-12"}
+      ],
+      "legacy": [
+        {"text": "Chinese Exclusion, the source of the extra proof burden on Chinese-American applicants, was repealed by the Magnuson Act.", "source": "research entry", "date": "1943-12-17"},
+        {"text": "The rule that a married woman's citizenship followed her husband's was broken by the Cable Act of 1922, though that act still stripped citizenship from women who married \"an alien ineligible to citizenship\" until 1931.", "source": "research entry", "date": "1922"},
+        {"text": "A passport became a standing legal requirement for leaving or entering the country only in 1978, and even then the President could make exceptions.", "source": "Pub. L. 95-426, § 707(b), 92 Stat. 963, 993", "date": "1978-10-07"}
+      ],
+      "related": [
+        {"id": "eo-181", "relation": "supersedes", "note": "Replaced the seventeen passport rules of July 1902."},
+        {"id": "eo-180", "relation": "same_subject", "note": "Continued the 1902 provision for residents of the island possessions who owed allegiance without being citizens."},
+        {"id": "eo-654", "relation": "superseded_by", "note": "Replaced in 1907 by new rules that added further requirements for Chinese applicants."}
+      ],
+      "later_actions": [
+        {"date": "1918", "text": "A passport was required for travel in wartime.", "source": "research entry"},
+        {"date": "1926", "text": "Congress passed the Passport Act of 1926.", "source": "research entry"},
+        {"date": "1941", "text": "Passports were required again under emergency proclamations tied to a declared national emergency.", "source": "research entry"},
+        {"date": "1978-10-07", "text": "Congress made it unlawful for a citizen to leave or enter the United States without a valid passport, subject to exceptions the President may authorize.", "source": "Pub. L. 95-426, § 707(b), 92 Stat. 963, 993"}
+      ],
+      "uncertain": ["Why the State Department added the extra proof requirement for Chinese-American applicants in 1903 is not known."]
+    },
+    "eo-241": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Navy's General Board recommended a coaling station at Kiska with a coal depot of 20,000 tons, to grow to 100,000, but Secretary Moody was not prepared to approve the proposed $1,500,000.", "source": "Army and Navy Journal, January 30, 1904", "date": "1904-01-30"},
+        {"kind": "administrative", "text": "The gunboat Petrel was detached from the Pacific Squadron for special service at Kiska, and the Mare Island yard fitted out a Kiska Island expedition.", "source": "Annual Report of the Secretary of the Navy, 1904, pp. 342, 484", "date": "1904-03-29"},
+        {"kind": "administrative", "text": "Navy colliers and the Pacific Squadron were bound for Kiska in May and June 1904.", "source": "Army and Navy Journal, June 11 and 18, July 9, 1904", "date": "1904"}
+      ],
+      "legacy": [
+        {"text": "Japanese forces landed on Kiska in June 1942; the garrison slipped away under fog in late July 1943, and the Allied force that landed on August 15 found the island empty.", "source": "research entry", "date": "1942-06"},
+        {"text": "Attu and Kiska, the western Aleutians Japan held in 1942–43, were the only ground in North America occupied by an enemy during the Second World War.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "uo-037", "relation": "same_subject", "note": "The June 13, 1902 order had already reserved certain lands on Adak and Kiska for naval purposes; Lord cross-references it to EO 241."}
+      ],
+      "uncertain": [
+        "The full text of EO 241 and any purpose it stated have not been found.",
+        "Whether EO 241 enlarged the 1902 naval reservation on Kiska cannot be confirmed without its text."
+      ]
+    },
+    "eo-240": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The State Department sent the rule to consular officers by circular two days after the order was signed.", "source": "Ingram, Digest of Circular Instructions to Consular Officers (1908), p. 33", "date": "1903-12-07"}
+      ],
+      "uncertain": ["The exact wording of EO 240 is not known; the State Department circular of December 7, 1903 should carry it."]
+    },
+    "eo-228": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The order kept the Spanish Treaty Claims Commission at work for six more months, to March 2, 1904, the longest single extension the 1901 law allowed.", "source": "Act of March 2, 1901, ch. 800, § 16, 31 Stat. 877, 880", "date": "1903-08-01"}
+      ],
+      "related": [
+        {"id": "eo-246", "relation": "same_subject", "note": "Extended the commission again, to September 2, 1904."}
+      ]
+    },
+    "eo-232": {
+      "legacy": [
+        {"text": "Dr. William A. White led the Government Hospital for the Insane (St. Elizabeths) until 1937 and became a leading figure in American psychiatry.", "source": "research entry", "date": "1937"}
+      ]
+    },
+    "eo-223": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The order helped staff the new Bureau of Corporations, naming E. Dana Durand among ten men appointed in the Department of Commerce and Labor without examination.", "source": "U.S. Civil Service Commission, Twenty-first Report, pp. 82–83", "date": "1903-07-13"}
+      ]
+    },
+    "eo-236": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The order named special examiners or agents for the Bureau of Corporations without examination.", "source": "research entry"}
+      ]
+    },
+    "eo-239": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The order named special examiners or agents for the Bureau of Corporations without examination.", "source": "research entry"}
+      ]
+    }
+  }
+}

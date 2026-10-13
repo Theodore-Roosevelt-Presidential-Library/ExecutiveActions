@@ -1,0 +1,59 @@
+{
+  "story": 9,
+  "documents": {},
+  "story_level": {
+    "reception": [
+      {
+        "text": "The Morning Oregonian ran the news on its front page under the headline \"SNATCHES FOREST FROM DESTROYER,\" reporting that the president had reserved land by wholesale before the power was recalled.",
+        "source": "Morning Oregonian, March 5, 1907, p. 1",
+        "date": "1907-03-05"
+      },
+      {
+        "text": "The Oregonian's Washington bureau called the reserves \"loosely created\" in the rush to beat the Fulton amendment and predicted that much of the land would later be restored to entry.",
+        "source": "Morning Oregonian, March 5, 1907, p. 1",
+        "date": "1907-03-05"
+      },
+      {
+        "text": "Western opponents of the Forest Service were furious; Roosevelt later wrote that they \"turned handsprings in their wrath.\"",
+        "source": "Theodore Roosevelt, An Autobiography (1913), ch. XI"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "congress",
+        "text": "Roosevelt signed the Agricultural Appropriation Act at 9:43 a.m. on March 4, 1907, and from then on no forest reserve could be created or enlarged in Oregon, Washington, Idaho, Montana, Colorado or Wyoming except by Act of Congress.",
+        "source": "Act of March 4, 1907, 34 Stat. 1271, 1282",
+        "date": "1907-03-04"
+      },
+      {
+        "kind": "administrative",
+        "text": "The same act renamed the forest reserves \"national forests,\" so every reserve in the March 1–2 proclamations became a national forest.",
+        "source": "34 Stat. 1269",
+        "date": "1907-03-04"
+      },
+      {
+        "kind": "administrative",
+        "text": "Outside the six states Roosevelt kept creating forests, with at least a dozen more proclamations later in 1907, including Chugach and Tongass in Alaska; by his own account the national forests grew by more than forty-three million acres that year.",
+        "source": "Proclamations 743–789 (1907); Roosevelt, An Autobiography (1913)",
+        "date": "1907"
+      },
+      {
+        "kind": "political",
+        "text": "The episode hardened both the conservation movement and its opponents and foreshadowed the Ballinger–Pinchot split with President Taft.",
+        "source": "research entry",
+        "date": "1909"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The lands reserved on March 1–2, 1907, remain part of the national forest system across the northern Rockies, the Cascades and the Colorado high country.",
+        "source": "research entry"
+      },
+      {
+        "text": "The \"midnight reserves\" nickname is a historians' label, not a 1907 one; the earliest use found is Harold K. Steen's \"so-called midnight reserves,\" which he called \"the last flamboyant act of the conservation movement.\"",
+        "source": "Harold K. Steen, The U.S. Forest Service: A History (1976), p. 100",
+        "date": "1976"
+      }
+    ]
+  }
+}

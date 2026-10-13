@@ -1,0 +1,27 @@
+{
+  "story": 38,
+  "documents": {
+    "proc-482": {
+      "reception": [
+        {"text": "An Associated Press item from Washington explaining the order and its cause ran in at least three California papers, including the San Francisco Call under the head \"Cuban Ship Duties Removed.\"", "source": "San Francisco Call, Los Angeles Herald and San Diego Union, July 6, 1902", "date": "1902-07-06"},
+        {"text": "The item was not found in Utah or Washington state papers searched for July 1902, so the coverage found is Californian rather than national; no controversy over the order has been found.", "source": "Utah Digital Newspapers; Washington Digital Newspapers", "date": "1902-07"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The Treasury sent the order to every collector of customs, ending the extra dollar-a-ton surcharge Cuban ships had paid since Cuban independence on May 20.", "source": "Treasury Department Circular No. 83", "date": "1902-07-07"},
+        {"kind": "congress", "text": "Secretary of the Treasury Leslie M. Shaw asked Congress to refund $7,352 in surcharges collected from four Cuban steamers in 1898–99 and June 1902, and Congress did so.", "source": "H. Doc. No. 62, 57th Cong., 2d Sess.; Act of January 14, 1903, 32 Stat. 771", "date": "1903-01-14"},
+        {"kind": "diplomatic", "text": "The Cuban government's assurance that it charged no discriminating duties on American ships came through Herbert G. Squiers, the American minister at Havana.", "source": "Los Angeles Herald and San Diego Union, July 6, 1902", "date": "1902-07"}
+      ],
+      "legacy": [
+        {"text": "The proclamation was a small shipping-side preliminary to the Cuban Reciprocity Treaty, signed December 11, 1902, and effective December 27, 1903, which cut tariffs on Cuban sugar and bound the two economies together for decades.", "source": "U.S. Department of State, Office of the Historian", "date": "1903-12-27"},
+        {"text": "Section 4228 of the Revised Statutes, the authority behind it, remained the standard tool for equalizing foreign shipping duties well into the twentieth century.", "source": "Proclamation 2455 (1941)"}
+      ],
+      "later_actions": [
+        {"date": "1903-01-14", "text": "Congress refunded the discriminating duties collected from four Cuban steamers in 1898–99 and June 1902.", "source": "32 Stat. 771"},
+        {"date": "1941-01-31", "text": "Franklin D. Roosevelt invoked the same statute, as amended in 1897, to suspend discriminating duties for New Zealand.", "source": "Proclamation 2455"}
+      ],
+      "uncertain": [
+        "The form and date of the Cuban government's \"satisfactory proof\" are not known; it is not printed in Foreign Relations for 1902."
+      ]
+    }
+  }
+}

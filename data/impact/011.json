@@ -1,0 +1,74 @@
+{
+  "story": 11,
+  "documents": {},
+  "story_level": {
+    "reception": [
+      {
+        "text": "To the coal operators and conservative opinion, a president who called capital and labor to the White House as equals and stood ready to send the Army into private mines had claimed a power the Constitution did not give him.",
+        "source": "research entry",
+        "date": "1902"
+      },
+      {
+        "text": "Attorney General Philander Knox and much of the legal profession thought the plan to seize the mines indefensible.",
+        "source": "research entry",
+        "date": "1902"
+      },
+      {
+        "text": "To organized labor the intervention was a deliverance: the first time the federal government was used to bring an employer to the table rather than to break a strike.",
+        "source": "research entry",
+        "date": "1902"
+      },
+      {
+        "text": "John Mitchell called the new Board of Conciliation a victory, even though the union won no recognition.",
+        "source": "research entry",
+        "date": "1903"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "A White House statement issued at 2:20 a.m. named the Anthracite Coal Strike Commission, filling the operators' \"sociologist\" category with E. E. Clark of the Order of Railway Conductors; Roosevelt added Bishop John L. Spalding on his own authority.",
+        "source": "Evening Star and Indianapolis Journal, October 16, 1902; Commission Report, p. 14",
+        "date": "1902-10-16"
+      },
+      {
+        "kind": "economic",
+        "text": "The Wilkes-Barre miners' convention voted to end the strike on October 21, and the men went back to work on October 23.",
+        "source": "research entry",
+        "date": "1902-10-23"
+      },
+      {
+        "kind": "economic",
+        "text": "The commission's award gave contract miners a ten percent raise, shorter days to some classes of company men, a sliding wage scale and a Board of Conciliation, running to March 31, 1906, but no union recognition.",
+        "source": "Report to the President on the Anthracite Coal Strike (S. Doc. 6, 58th Cong., Spec. Sess., 1903)",
+        "date": "1903-03-21"
+      },
+      {
+        "kind": "congress",
+        "text": "Congress created the Department of Commerce and Labor while the commission was still hearing the case; the strike added momentum to the push for a cabinet voice for labor, which Roosevelt had proposed in 1901.",
+        "source": "Act of February 14, 1903, 32 Stat. 825",
+        "date": "1903-02-14"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The strike is generally marked as the first time the federal government stepped into a major labor dispute as an umpire for the public rather than as a strikebreaker.",
+        "source": "research entry"
+      },
+      {
+        "text": "A separate cabinet Department of Labor was created in 1913; its first secretary, William B. Wilson, had been secretary of the 1902 Wilkes-Barre convention that ended the strike.",
+        "source": "Act of March 4, 1913, 37 Stat. 736",
+        "date": "1913-03-04"
+      },
+      {
+        "text": "Roosevelt later described the duty of the President as \"the steward of the people,\" telling the strike story right after it; scholars call this the stewardship theory.",
+        "source": "Theodore Roosevelt, An Autobiography (1913), ch. XIII",
+        "date": "1913"
+      },
+      {
+        "text": "The settlement left union recognition unresolved, and those questions were fought over for another generation.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

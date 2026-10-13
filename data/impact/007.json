@@ -1,0 +1,135 @@
+{
+  "story": 7,
+  "documents": {
+    "proc-869": {
+      "reception": [
+        {
+          "text": "The Olympic Peninsula Development League and the Seattle Commercial Club wanted the mountains opened to prospectors.",
+          "source": "research entry"
+        },
+        {
+          "text": "The Seattle Daily Times ran an editorial headlined \"Conservation, and Olympic Copper.\"",
+          "source": "Seattle Daily Times, July 28, 1910, p. 6",
+          "date": "1910-07-28"
+        },
+        {
+          "text": "At the American Mining Congress, F. H. Stanard attacked Pinchot and Roosevelt for making \"a Siberian wilderness of the West.\"",
+          "source": "American Mining Congress, 1912",
+          "date": "1912"
+        },
+        {
+          "text": "No contemporary critic argued that the monument broke the Antiquities Act's smallest-area limit; the proclamation never mentioned that standard.",
+          "source": "Squillace, 37 Ga. L. Rev. 473, at 555"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Because it lay inside Olympic National Forest, the monument was run by the Forest Service rather than Interior.",
+          "source": "Roloff, Washington Historical Quarterly 25 (1934)",
+          "date": "1909"
+        },
+        {
+          "kind": "administrative",
+          "text": "Taft removed 160 acres to relieve a homesteader, leaving 608,480 acres.",
+          "source": "Proc. 1191, 37 Stat. 1737; Interior, General Information Regarding the National Monuments (1917), p. 59",
+          "date": "1912-04-17"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Wilson's 1915 proclamation removed 309,110 acres, a little over half the monument, without stating a reason; the record points to timber and, secondarily, copper.",
+          "source": "Proc. 1293, 39 Stat. 1726; Interior, General Information (1917), p. 59",
+          "date": "1915-05-11"
+        },
+        {
+          "text": "In 1917 the Interior Department estimated the elk of the Olympic region at probably double the roughly 2,000 of 1905, crediting state laws that barred killing them.",
+          "source": "Interior, General Information Regarding the National Monuments (1917), p. 58",
+          "date": "1917"
+        },
+        {
+          "text": "Historian Hal Rothman called the monument \"Roosevelt's going-away present to himself.\"",
+          "source": "Rothman, America's National Monuments, ch. 4"
+        },
+        {
+          "text": "The monuments moved from the Forest Service to the National Park Service; Interior Secretary Ickes refused the Forest Service's request to reverse it.",
+          "source": "E.O. 6166 (1933); E.O. 6228",
+          "date": "1933"
+        },
+        {
+          "text": "Congress abolished the monument and created Olympic National Park, about 624,000 acres by Interior's estimate, returning other former monument lands to the national forest.",
+          "source": "Act of June 29, 1938, ch. 812, 52 Stat. 1241; Annual Report of the Secretary of the Interior, FY1938, p. 27",
+          "date": "1938-06-29"
+        },
+        {
+          "text": "Olympic National Park became an International Biosphere Reserve in 1976 and a World Heritage Site in 1981.",
+          "source": "research entry",
+          "date": "1981"
+        }
+      ],
+      "today": [
+        {
+          "name": "Olympic National Park",
+          "kind": "national_park",
+          "relation": "absorbed_into",
+          "state": "Washington",
+          "note": "Created in 1938 in place of the abolished monument; 922,650 acres today, home to the largest fully wild herd of Roosevelt elk in the Pacific Northwest.",
+          "source": "Act of June 29, 1938, 52 Stat. 1241; National Park Service"
+        },
+        {
+          "name": "Olympic National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Washington",
+          "note": "Former monument lands eliminated in 1915 or left outside the 1938 park went back to the national forest.",
+          "source": "Proc. 1293, 39 Stat. 1726; 52 Stat. 1241"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1912-04-17",
+          "text": "Proclamation 1191 removed 160 acres.",
+          "source": "37 Stat. 1737"
+        },
+        {
+          "date": "1915-05-11",
+          "text": "Proclamation 1293 removed about 309,110 acres, leaving 299,370.",
+          "source": "39 Stat. 1726"
+        },
+        {
+          "date": "1929-01-07",
+          "text": "Proclamation 1862 removed 640 acres, excluding a homestead at Goblin's Gate on the Elwha.",
+          "source": "45 Stat. 2984"
+        },
+        {
+          "date": "1933-06-10",
+          "text": "Executive Order 6166 transferred the national monuments to the National Park Service.",
+          "source": "E.O. 6166, amended by E.O. 6228"
+        },
+        {
+          "date": "1938-06-29",
+          "text": "Congress abolished the monument and established Olympic National Park.",
+          "source": "52 Stat. 1241"
+        },
+        {
+          "date": "1940-01-02",
+          "text": "Proclamation 2380 added 187,411 acres to the park.",
+          "source": "54 Stat. 2678"
+        },
+        {
+          "date": "1943-05-29",
+          "text": "Proclamation 2587 added 20,600 acres in the Morse Creek country.",
+          "source": "57 Stat. 741"
+        },
+        {
+          "date": "1953-01-06",
+          "text": "Proclamation 3003 added 47,753 acres, including the Coastal Strip and the Queets Corridor.",
+          "source": "67 Stat. C27"
+        }
+      ],
+      "uncertain": [
+        "The park's size at its 1938 establishment is known only as the Interior Department's estimate of about 624,000 acres."
+      ]
+    }
+  }
+}

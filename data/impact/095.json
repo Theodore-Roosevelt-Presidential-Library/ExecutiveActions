@@ -1,0 +1,249 @@
+{
+  "story": 95,
+  "documents": {
+    "eo-699": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Three Arch Rocks, off Oceanside, Oregon, was reserved for the Department of Agriculture as a preserve for native birds and animals, the first federal bird reservation on the Pacific Coast.",
+          "source": "Executive Order 699",
+          "date": "1907-10-14"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The refuge sustains what the Fish and Wildlife Service calls the largest and most diverse seabird colony in Oregon, and the only Steller sea lion pupping site on the north Oregon coast.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "today": [
+        {
+          "name": "Three Arch Rocks National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Oregon",
+          "since": "1907-10-14",
+          "note": "Fifteen acres across nine rocks; also a designated wilderness since 1970.",
+          "source": "U.S. Fish and Wildlife Service; Public Law 91-504"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-704",
+          "relation": "same_subject",
+          "note": "Near-twin order for the Washington coast nine days later."
+        },
+        {
+          "id": "eo-296-a",
+          "relation": "same_subject",
+          "note": "Stump Lake, North Dakota, an earlier bird reservation west of the Mississippi."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed a National Wildlife Refuge by Proclamation 2416.",
+          "source": "5 Fed. Reg. 2677; 54 Stat. 2717"
+        },
+        {
+          "date": "1970-10-23",
+          "text": "Congress designated about seventeen acres at Three Arch Rocks as wilderness.",
+          "source": "Public Law 91-504, 84 Stat. 1104"
+        }
+      ],
+      "uncertain": [
+        "The date of William L. Finley's first White House presentation of his Three Arch Rocks photographs is not known."
+      ]
+    },
+    "eo-703": {
+      "today": [
+        {
+          "name": "Flattery Rocks National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Washington",
+          "since": "1907-10-23",
+          "note": "Part of the Washington Islands Wilderness, managed within the Washington Maritime National Wildlife Refuge Complex.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Flattery Rocks National Wildlife Refuge by Proclamation 2416.",
+          "source": "5 Fed. Reg. 2677; 54 Stat. 2717"
+        },
+        {
+          "date": "1970-10-23",
+          "text": "Congress included the refuge in the Washington Islands Wilderness.",
+          "source": "Public Law 91-504, 84 Stat. 1104"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-704",
+          "relation": "same_subject",
+          "note": "Companion Washington coast bird reservation of the same day."
+        },
+        {
+          "id": "eo-705",
+          "relation": "same_subject",
+          "note": "Companion Washington coast bird reservation of the same day."
+        }
+      ]
+    },
+    "eo-704": {
+      "today": [
+        {
+          "name": "Copalis National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Washington",
+          "since": "1907-10-23",
+          "note": "Part of the Washington Islands Wilderness, managed within the Washington Maritime National Wildlife Refuge Complex.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Copalis National Wildlife Refuge by Proclamation 2416.",
+          "source": "5 Fed. Reg. 2677; 54 Stat. 2717"
+        },
+        {
+          "date": "1970-10-23",
+          "text": "Congress included the refuge in the Washington Islands Wilderness.",
+          "source": "Public Law 91-504, 84 Stat. 1104"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-699",
+          "relation": "same_subject",
+          "note": "The Three Arch Rocks order, nearly identical in wording."
+        },
+        {
+          "id": "eo-703",
+          "relation": "same_subject",
+          "note": "Companion Washington coast bird reservation of the same day."
+        },
+        {
+          "id": "eo-705",
+          "relation": "same_subject",
+          "note": "Companion Washington coast bird reservation of the same day."
+        }
+      ]
+    },
+    "eo-705": {
+      "today": [
+        {
+          "name": "Quillayute Needles National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Washington",
+          "since": "1907-10-23",
+          "note": "Part of the Washington Islands Wilderness, managed within the Washington Maritime National Wildlife Refuge Complex.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Quillayute Needles National Wildlife Refuge by Proclamation 2416.",
+          "source": "5 Fed. Reg. 2677; 54 Stat. 2717"
+        },
+        {
+          "date": "1970-10-23",
+          "text": "Congress included the refuge in the Washington Islands Wilderness.",
+          "source": "Public Law 91-504, 84 Stat. 1104"
+        },
+        {
+          "date": "1966-09-19",
+          "text": "Public Land Order 4095 removed James Island from the refuge as part of the Quileute Indian Reservation.",
+          "source": "Public Land Order 4095"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-703",
+          "relation": "same_subject",
+          "note": "Companion Washington coast bird reservation of the same day."
+        },
+        {
+          "id": "eo-704",
+          "relation": "same_subject",
+          "note": "Companion Washington coast bird reservation of the same day."
+        }
+      ]
+    },
+    "eo-718": {
+      "legacy": [
+        {
+          "text": "Oil infrastructure overran East Timbalier Island, and by early summer 2021 it had \"finally erod[ed] away,\" though Louisiana now lists its restoration among active projects.",
+          "source": "USGS Scientific Investigations Report 2022–5107; CPRA Fiscal Year 2027 Annual Plan (March 2026)",
+          "date": "2021"
+        }
+      ],
+      "today": [
+        {
+          "name": "East Timbalier Island Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Louisiana",
+          "note": "Never renamed a National Wildlife Refuge; revoked in 1969.",
+          "source": "Public Land Order 4597, 34 Fed. Reg. 6584"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1969-04-10",
+          "text": "Assistant Secretary of the Interior Harrison Loesch revoked the reservation by Public Land Order 4597, under delegated authority.",
+          "source": "34 Fed. Reg. 6584 (April 17, 1969)"
+        },
+        {
+          "date": "2020-07",
+          "text": "Louisiana's Coastal Protection and Restoration Authority closed a restoration project at the design stage after a breach and rising costs, moving the money to other barrier-island work.",
+          "source": "research entry"
+        },
+        {
+          "date": "2026-03",
+          "text": "The authority's Fiscal Year 2027 Annual Plan lists East Timbalier Island Restoration among active projects, in engineering and design.",
+          "source": "CPRA, Fiscal Year 2027 Annual Plan (March 2026)"
+        }
+      ]
+    },
+    "eo-709": {
+      "related": []
+    },
+    "eo-711": {
+      "related": [
+        {
+          "id": "eo-743",
+          "relation": "amended_by",
+          "note": "Amended by the order of January 28, 1908."
+        }
+      ]
+    },
+    "eo-708": {
+      "uncertain": [
+        "No text of the order is available online; only its date and subject are known."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "The orders drew little notice, but they belonged to the larger quarrel over executive reservations that critics called the President \"locking up\" the public domain by fiat.",
+        "source": "research entry",
+        "date": "1907"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The five orders are among the fifty-one bird reservations Roosevelt created by executive order, the practical foundation of the National Wildlife Refuge System.",
+        "source": "National Park Service; U.S. Fish and Wildlife Service"
+      }
+    ]
+  }
+}

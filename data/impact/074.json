@@ -1,0 +1,87 @@
+{
+  "story": 74,
+  "story_level": {
+    "reception": [
+      {"text": "No press notice of the five proclamations has been found in the digitized Hawaiian Star, Pacific Commercial Advertiser or Maui News for December 1908 through February 1909, though that searchable text is uneven.", "source": "University of Hawaiʻi eVols newspaper collection", "date": "1908-12"}
+    ],
+    "political_impact": [
+      {"kind": "administrative", "text": "The five reservations confirmed federal title to ground under lights that were already working; they did not open the way for new construction.", "source": "C. W. Otwell, report for fiscal 1908, Hawaiian Star, November 20, 1908", "date": "1908-12-04"},
+      {"kind": "congress", "text": "Each reservation was made subject to whatever Congress might enact, since the 1898 annexation resolution left Hawaiian public lands to special laws of Congress.", "source": "35 Stat. 2208–2214", "date": "1908-12-04"},
+      {"kind": "administrative", "text": "The Light-House Board's annual report for fiscal 1909 does not mention the proclamations at all.", "source": "Light-House Board, Annual Report for fiscal 1909, p. 60", "date": "1909"}
+    ],
+    "legacy": [
+      {"text": "With the rest of the national system, the lights passed to the Bureau of Lighthouses in 1910 and to the U.S. Coast Guard in 1939.", "source": "Act of June 17, 1910, 36 Stat. 534; Reorganization Plan No. II, 53 Stat. 1432", "date": "1910"},
+      {"text": "As automation spread, the keepers left and small concrete towers and poles replaced the original masts.", "source": "LighthouseFriends"}
+    ]
+  },
+  "documents": {
+    "proc-826": {
+      "legacy": [
+        {"text": "The Hana Bay light stands on the islet of Puʻukiʻi just off Kaʻuiki Head, and the station has always carried the Kaʻuiki Head name.", "source": "research entry"},
+        {"text": "A fourteen-foot concrete pyramidal tower was built on Puʻukiʻi in 1914, and the light was converted to acetylene and automated.", "source": "LighthouseFriends", "date": "1914"}
+      ],
+      "today": [
+        {"name": "Kaʻuiki Head Light", "kind": "lighthouse", "relation": "part", "state": "Hawaii", "note": "A Coast Guard aid to navigation on the islet of Puʻukiʻi, Hana Bay, Maui.", "source": "LighthouseFriends"},
+        {"name": "Puʻukiʻi islet bird sanctuary", "kind": "other", "relation": "part", "state": "Hawaii", "note": "The islet reserved in 1908 is now a bird sanctuary closed to visitors.", "source": "LighthouseFriends"}
+      ],
+      "related": [
+        {"id": "proc-513", "relation": "same_subject", "note": "The 1903 proclamation that brought the Republic of Hawaii's lighthouse establishment into the federal system."}
+      ]
+    },
+    "proc-827": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Light-House Board's fiscal 1909 report listed Lae o Kokole among Twelfth District lights that \"should be provided with quarters for the keepers.\"", "source": "Light-House Board, Annual Report for fiscal 1909, p. 60", "date": "1909"}
+      ],
+      "related": [
+        {"id": "proc-513", "relation": "same_subject", "note": "The 1903 proclamation that brought the Republic of Hawaii's lighthouse establishment into the federal system."}
+      ],
+      "uncertain": [
+        "Whether today's Kokole light east of Kekaha stands on the 1908 Lae o Kokole parcel is not confirmed; the survey ties the plot only to the territorial survey station \"Kanaloa,\" whose position has not been compared with the Coast Guard's light position."
+      ]
+    },
+    "proc-828": {
+      "legacy": [
+        {"text": "A twenty-foot reinforced-concrete pyramidal tower had replaced the light's mast by 1915.", "source": "LighthouseFriends", "date": "1915"}
+      ],
+      "today": [
+        {"name": "McGregor Point Light", "kind": "lighthouse", "relation": "part", "state": "Hawaii", "note": "Still a Coast Guard aid to navigation on Maui.", "source": "LighthouseFriends"}
+      ],
+      "related": [
+        {"id": "proc-513", "relation": "same_subject", "note": "The 1903 proclamation that brought the Republic of Hawaii's lighthouse establishment into the federal system."}
+      ]
+    },
+    "proc-829": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Light-House Board's fiscal 1909 report listed Kahala among Twelfth District lights that \"should be provided with quarters for the keepers.\"", "source": "Light-House Board, Annual Report for fiscal 1909, p. 60", "date": "1909"}
+      ],
+      "legacy": [
+        {"text": "The Kahala Point light was automated in 1913.", "source": "LighthouseFriends", "date": "1913"}
+      ],
+      "today": [
+        {"name": "Kahala Point Light", "kind": "lighthouse", "relation": "part", "state": "Hawaii", "note": "Still a Coast Guard aid to navigation on Kauai's east coast.", "source": "LighthouseFriends"}
+      ],
+      "related": [
+        {"id": "proc-513", "relation": "same_subject", "note": "The 1903 proclamation that brought the Republic of Hawaii's lighthouse establishment into the federal system."}
+      ]
+    },
+    "proc-830": {
+      "legacy": [
+        {"text": "A forty-five-foot steel tower replaced the Ka Lae mast in 1928, its beacon run from batteries charged by a wind-driven generator.", "source": "LighthouseFriends", "date": "1928"},
+        {"text": "The Ka Lae light was automated in 1949 and replaced by a thirty-two-foot concrete pole in 1972; it now runs on solar-charged batteries.", "source": "LighthouseFriends", "date": "1972"},
+        {"text": "Ka Lae became an early test of statehood and ceded land: Governor William F. Quinn and Representative Daniel K. Inouye argued that surplus acreage of the reservation should go back to the State under section 5(e) of the Hawaii Statehood Act.", "source": "Inouye to Herbert C. Bonner, June 3, 1960, Inouye Papers", "date": "1960-06-03"}
+      ],
+      "today": [
+        {"name": "Ka Lae Light", "kind": "lighthouse", "relation": "part", "state": "Hawaii", "note": "Owned by the Coast Guard and still an aid to navigation at South Point, Island of Hawaii.", "source": "LighthouseFriends"}
+      ],
+      "related": [
+        {"id": "proc-513", "relation": "same_subject", "note": "The 1903 proclamation that brought the Republic of Hawaii's lighthouse establishment into the federal system."}
+      ],
+      "later_actions": [
+        {"date": "1960", "text": "The Coast Guard declared about 5¾ acres of the Ka Lae reservation surplus.", "source": "Inouye to Herbert C. Bonner, June 3, 1960, and enclosures, Inouye Papers"}
+      ],
+      "uncertain": [
+        "Whether the roughly 5¾ acres declared surplus in 1960 went back to the State of Hawaii under section 5(e) of the Statehood Act is not known."
+      ]
+    }
+  }
+}

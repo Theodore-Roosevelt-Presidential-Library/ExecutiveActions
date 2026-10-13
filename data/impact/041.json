@@ -1,0 +1,30 @@
+{
+  "story": 41,
+  "documents": {
+    "proc-494": {
+      "reception": [
+        {"text": "The proclamation moved by wire the day it was signed and ran widely, often on page one and often in full, from the Stockton Mail that afternoon to papers in South Dakota and Nebraska.", "source": "Stockton Mail, October 29, 1902, p. 1; Mitchell Daily Republican, October 30, 1902, p. 1; Loup City Northwestern, November 7, 1902, p. 1", "date": "1902-10-29"},
+        {"text": "Headline writers seized on the prosperity line, with heads such as \"Year of Peace and Plenty.\"", "source": "Santa Barbara Weekly Press, October 30, 1902; San Luis Obispo Morning Tribune, October 31, 1902", "date": "1902-10-30"},
+        {"text": "The phrase \"overflowing plenty\" appears in 21 items in California papers between October and December 1902, two of them advertisements reprinting the President's words.", "source": "California Digital Newspaper Collection; Ventura Daily Post; Sonoma Valley Expositor", "date": "1902"},
+        {"text": "The San Francisco Call's editorial said the proclamation had drawn little heed during the campaign and found it notable for its piety rather than its talk of prosperity.", "source": "San Francisco Call, November 7, 1902, p. 6, \"Now for Thanksgiving\"", "date": "1902-11-07"},
+        {"text": "Leslie's Weekly gave its Thanksgiving Day cover to R. L. Dunn's photograph of Roosevelt signing the proclamation, with the full text beneath.", "source": "Leslie's Weekly, November 27, 1902", "date": "1902-11-27"},
+        {"text": "No paper found set the prosperity line against the coal crisis, and no objection to the proclamation has been found.", "source": "California Digital Newspaper Collection", "date": "1902-11"}
+      ],
+      "legacy": [
+        {"text": "The proclamation is one link in the unbroken chain of yearly presidential Thanksgiving proclamations running back to 1863.", "source": "research entry"},
+        {"text": "The Theodore Roosevelt Center's catalog dates the Library of Congress print of the Dunn photograph December 3, 1902, most likely a copyright-deposit date rather than the date of the event.", "source": "Theodore Roosevelt Center, catalog record o306954"}
+      ],
+      "related": [
+        {"id": "proc-466", "relation": "same_subject", "note": "Roosevelt's first Thanksgiving proclamation, 1901."}
+      ],
+      "later_actions": [
+        {"date": "1939", "text": "Franklin Roosevelt moved Thanksgiving a week earlier, as he did again in 1940 and 1941.", "source": "research entry"},
+        {"date": "1941-12-26", "text": "A joint resolution of Congress fixed Thanksgiving on the fourth Thursday of November.", "source": "55 Stat. 862"}
+      ],
+      "uncertain": [
+        "Eastern newspaper opinion on the proclamation has not been sampled.",
+        "Whether the R. L. Dunn photograph records the actual signing or a later pose is not established."
+      ]
+    }
+  }
+}

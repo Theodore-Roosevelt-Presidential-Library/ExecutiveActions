@@ -1,0 +1,118 @@
+{
+  "story": 10,
+  "documents": {
+    "proc-716": {
+      "reception": [
+        {
+          "text": "Washington's Evening Star listed the Bear Lodge reserve among the forest reserves created or enlarged \"in the last day or two.\"",
+          "source": "Evening Star (Washington, D.C.), March 4, 1907",
+          "date": "1907-03-04"
+        },
+        {
+          "text": "When the county thought the reserve had been cancelled, the Crook County Monitor's editorial page said most local people would \"rejoice at the decision of the department.\"",
+          "source": "Crook County Monitor (Sundance, Wyo.), March 22, 1907",
+          "date": "1907-03-22"
+        },
+        {
+          "text": "After the reserve was confirmed, the Monitor reported disappointment among people from the Bear Lodge country and said the idea of a forest reserve was not popular with some nearby ranchers.",
+          "source": "Crook County Monitor (Sundance, Wyo.), April 1907",
+          "date": "1907-04"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Representative Frank W. Mondell wrote that the reserve had been created hurriedly before the ban took effect, and that the Forestry Bureau had meant to leave two townships open but forgot in the rush.",
+          "source": "Mondell letter of March 7, 1907, in Crook County Monitor, March 15, 1907",
+          "date": "1907-03-15"
+        },
+        {
+          "kind": "local",
+          "text": "The Monitor reported that the Interior Secretary had revoked a January 4, 1906 withdrawal and restored the land to settlement, and for about two weeks the county believed the reserve was gone.",
+          "source": "Crook County Monitor, March 22 and 29, 1907",
+          "date": "1907-03-22"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Forester answered Mondell that the Bear Lodge National Forest had not been abandoned and that he did not favor abandoning its northern part.",
+          "source": "Crook County Monitor, April 19, 1907",
+          "date": "1907-04-19"
+        },
+        {
+          "kind": "administrative",
+          "text": "G. C. Smith was put in charge of the reserve and moved his family to the Paulson ranch.",
+          "source": "Crook County Monitor, April 1907",
+          "date": "1907-04"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Forest Service's grazing chief announced free grazing for established users through the 1907 season.",
+          "source": "Crook County Monitor, May 10, 1907",
+          "date": "1907-05-10"
+        },
+        {
+          "kind": "congress",
+          "text": "Three days after it was created, the reserve became the Bear Lodge National Forest by operation of law, when Congress renamed all forest reserves national forests.",
+          "source": "Act of March 4, 1907, 34 Stat. 1269",
+          "date": "1907-03-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Bear Lodge name lives on in the Bearlodge Ranger District of the Black Hills National Forest, headquartered at Sundance, Wyoming.",
+          "source": "U.S. Forest Service, Federal Register notices"
+        },
+        {
+          "text": "The surrounding landscape remains sacred to Northern Plains tribes.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Black Hills National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Wyoming",
+          "note": "Bear Lodge became part of Sundance National Forest in 1908, and Sundance's land went to the Black Hills National Forest in 1915; the Bearlodge Ranger District carries the old name.",
+          "source": "Executive Order 850 (1908); Executive Order 2161 (1915)"
+        },
+        {
+          "name": "Sundance National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Wyoming",
+          "note": "Formed in 1908 from Bear Lodge and part of the Black Hills National Forest; dissolved in 1915.",
+          "source": "Executive Order 850 (1908); Executive Order 2161 (1915)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-850",
+          "relation": "superseded_by",
+          "note": "Combined Bear Lodge with part of the Black Hills National Forest to form the Sundance National Forest, effective July 1, 1908."
+        },
+        {
+          "id": "proc-658",
+          "relation": "same_subject",
+          "note": "The reserve took its name from Bear Lodge, the tower Roosevelt made Devils Tower National Monument in 1906; the tower lies a few miles west, outside the reserve."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1907-03-04",
+          "text": "Renamed a national forest by the Act of March 4, 1907, which declared that forest reserves \"shall be known hereafter as national forests.\"",
+          "source": "34 Stat. 1269"
+        },
+        {
+          "date": "1915-04-06",
+          "text": "Executive Order 2161 dissolved the Sundance National Forest, effective July 1, 1915, and transferred its land to the Black Hills National Forest.",
+          "source": "Executive Order 2161"
+        }
+      ],
+      "uncertain": [
+        "The 136,784-acre figure at establishment rests on a single family of Forest Service compilations; the 1907 Report of the Forester or the General Land Office's 1907 report would confirm it.",
+        "The number 716 comes from the State Department's later numbering; the Statutes at Large printing carries no number, and no independent confirmation has been found."
+      ]
+    }
+  }
+}

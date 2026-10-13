@@ -1,0 +1,175 @@
+{
+  "story": 111,
+  "documents": {
+    "uo-002": {
+      "uncertain": [
+        "The order names the \"Black Mesa\" Forest Reserve where the land lies in the Battlement Mesa reserve; whether the slip was in the signed original or entered in Richardson's transcription is not known.",
+        "The Forest Service chronologies also list the same order under October 7, 1901, as a duplicate with a different date; Lord gives only September 23."
+      ]
+    },
+    "uo-003": {
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "Sharretts's commission carried out the tariff article of the Boxer Protocol, converting ad valorem duties on imports into China to specific duties to fund the indemnity.",
+          "source": "research entry",
+          "date": "1901-10-01"
+        }
+      ]
+    },
+    "uo-006": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Zambales and Bataan land became the ground for the Olongapo Naval Station on Subic Bay, established a year later.",
+          "source": "research entry",
+          "date": "1902-11-26"
+        }
+      ],
+      "related": [
+        {
+          "id": "uo-051",
+          "relation": "same_subject",
+          "note": "The Olongapo Naval Station was established on this reserved land in November 1902."
+        }
+      ]
+    },
+    "uo-007": {
+      "related": [
+        {
+          "id": "uo-028",
+          "relation": "same_subject",
+          "note": "Point Dume was reserved for lighthouse purposes again, in nearly identical words, on April 30, 1902."
+        }
+      ]
+    },
+    "uo-028": {
+      "related": [
+        {
+          "id": "uo-007",
+          "relation": "same_subject",
+          "note": "Repeats, in nearly identical words, the Point Dume reservation of November 11, 1901."
+        }
+      ]
+    },
+    "uo-015": {
+      "related": [
+        {
+          "id": "uo-016",
+          "relation": "same_subject",
+          "note": "Same-day reorganization of the Oklahoma Territory land districts, possibly a single order."
+        },
+        {
+          "id": "uo-017",
+          "relation": "same_subject",
+          "note": "Same-day reorganization of the Oklahoma Territory land districts, possibly a single order."
+        },
+        {
+          "id": "uo-080",
+          "relation": "same_subject",
+          "note": "The Oklahoma City district was abolished outright on January 15, 1904."
+        }
+      ]
+    },
+    "uo-016": {
+      "related": [
+        {
+          "id": "uo-015",
+          "relation": "same_subject",
+          "note": "Same-day reorganization of the Oklahoma Territory land districts."
+        },
+        {
+          "id": "uo-017",
+          "relation": "same_subject",
+          "note": "Enid abolished the same day."
+        }
+      ]
+    },
+    "uo-017": {
+      "related": [
+        {
+          "id": "uo-015",
+          "relation": "same_subject",
+          "note": "Same-day reorganization of the Oklahoma Territory land districts."
+        },
+        {
+          "id": "uo-016",
+          "relation": "same_subject",
+          "note": "Perry abolished the same day."
+        }
+      ]
+    },
+    "uo-024": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Circle, Sitka and Yukon land districts and their offices at Rampart City, Sitka and St. Michael were discontinued as of May 31, 1902, and the single Juneau Land District for all of Alaska opened on June 2.",
+          "source": "Lord, List and Index of Presidential Executive Orders, Unnumbered Series",
+          "date": "1902-06-02"
+        }
+      ]
+    },
+    "uo-037": {
+      "legacy": [
+        {
+          "text": "The naval reservation on Adak and Kiska anticipated the strategic weight those Aleutian islands would carry four decades later.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "uo-044": {
+      "legacy": [
+        {
+          "text": "The roughly 240 acres set aside for experimental tree planting became the Bessey Nursery, a companion to the Nebraska National Forest rather than its origin.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Bessey Nursery",
+          "kind": "other",
+          "relation": "origin",
+          "state": "Nebraska",
+          "since": "1902-08-09",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-470",
+          "relation": "same_subject",
+          "note": "The Niobrara Forest Reserve, proclaimed four months earlier, later part of the Nebraska National Forest."
+        },
+        {
+          "id": "proc-471",
+          "relation": "same_subject",
+          "note": "The Dismal River Forest Reserve, proclaimed four months earlier, later part of the Nebraska National Forest."
+        }
+      ]
+    },
+    "uo-051": {
+      "related": [
+        {
+          "id": "uo-006",
+          "relation": "same_subject",
+          "note": "Built on the Zambales and Bataan land reserved for naval purposes in November 1901."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "None of the 1901–1902 unnumbered orders drew recorded press attention.",
+        "source": "research entry"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "The orders were the ordinary paperwork of a working presidency: land offices, reservations at home and overseas, Navy pay and individual civil-service cases.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

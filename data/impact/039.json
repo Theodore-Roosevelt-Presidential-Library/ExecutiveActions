@@ -1,0 +1,39 @@
+{
+  "story": 39,
+  "documents": {
+    "proc-488": {
+      "reception": [
+        {"text": "News of the Creek council's vote traveled by wire together with reports of violence: a posse from Okmulgee arrested ten of Crazy Snake's followers gathered at Hickory Ground, one Indian was mortally wounded, and a Creek Council member was reported found shot to death nearby.", "source": "San Francisco Call, Los Angeles Herald and San Diego Union and Daily Bee, July 29, 1902", "date": "1902-07-29"},
+        {"text": "A Washington item reported the Interior Department's notice of the council's ratification and the agreement's new limits on leasing Creek land.", "source": "Los Angeles Herald, July 30, 1902, p. 3; San Francisco Call, July 30, 1902", "date": "1902-07-30"},
+        {"text": "A search of California papers for August 1902 found no notice of the proclamation itself; the vote and the bloodshed were the story.", "source": "California Digital Newspaper Collection", "date": "1902-08"},
+        {"text": "Within Indian Territory the agreement was argued over in editorials and interviews through the summer, some reading the new Creek deeds to mean allottees could sell everything but their homesteads.", "source": "Pleasant Porter Collection finding aid, Western History Collections, University of Oklahoma", "date": "1902"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The agreement's provisions took effect as law on July 26, 1902, the date of the Creek council's act, as the proclamation declared.", "source": "32 Stat. 2021–2022; 32 Stat. 505", "date": "1902-07-26"},
+        {"kind": "administrative", "text": "The Secretary of the Interior was reported as saying the agreement was meant to keep Creeks from losing their lands to speculators, which matches its limits on sale and leasing.", "source": "Pleasant Porter Collection finding aid", "date": "1902-09-12"},
+        {"kind": "local", "text": "The agreement deepened the split between the Creek government that negotiated it and the Snake traditionalists, whose leaders, including Chitto Harjo, were in the Leavenworth penitentiary when it took effect.", "source": "Oklahoma Historical Society", "date": "1902"}
+      ],
+      "legacy": [
+        {"text": "Creek allotment was one of the steps that cleared the way for Oklahoma statehood in 1907, though allotment of Creek lands continued long after.", "source": "research entry", "date": "1907"},
+        {"text": "The 1902 protections eroded after Congress relaxed the alienation restrictions in 1908, and the grafting of Creek allotments became a notorious scandal of early Oklahoma.", "source": "Act of May 27, 1908, 35 Stat. 312", "date": "1908"},
+        {"text": "Snakes who refused allotment were given parcels by the Dawes Commission, some of which lay over the Cushing oil field; Jackson Barnett's wells there became the field's most spectacular producers.", "source": "Angie Debo, And Still the Waters Run (1940), pp. 58, 286, 338", "date": "1913"},
+        {"text": "The Creek Nation's government, slated to end in 1906, continued, and in 2020 the Supreme Court held that the Muscogee (Creek) reservation had never been disestablished.", "source": "34 Stat. 148; McGirt v. Oklahoma (2020)", "date": "2020"}
+      ],
+      "related": [
+        {"id": "proc-780", "relation": "same_subject", "note": "Oklahoma statehood, for which Creek allotment helped clear the legal ground."}
+      ],
+      "later_actions": [
+        {"date": "1906-04-26", "text": "The Five Civilized Tribes Act expressly continued the Creek tribal existence and government.", "source": "§28, 34 Stat. 148"},
+        {"date": "1908-05-27", "text": "Congress relaxed the restrictions on selling allotted Creek land.", "source": "35 Stat. 312"},
+        {"date": "1917-03-02", "text": "Congress prohibited further allotment of Creek lands.", "source": "39 Stat. 986"},
+        {"date": "1936", "text": "Congress authorized the Creek Nation to adopt a constitution.", "source": "research entry"},
+        {"date": "2020", "text": "The Supreme Court held in McGirt v. Oklahoma that the Muscogee (Creek) reservation remains Indian country for purposes of the Major Crimes Act.", "source": "McGirt v. Oklahoma (2020)"}
+      ],
+      "uncertain": [
+        "Whether Principal Chief Pleasant Porter went to Washington in February 1902 to press the supplemental agreement and stop wholesale leasing rests on a finding-aid description of a clipping not yet checked.",
+        "The name of the Creek Council member reported killed near Hickory Ground in July 1902 has not been established.",
+        "How eastern and Indian Territory newspapers covered the agreement and the proclamation has not been sampled."
+      ]
+    }
+  }
+}

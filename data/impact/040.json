@@ -1,0 +1,36 @@
+{
+  "story": 40,
+  "documents": {
+    "proc-492": {
+      "reception": [
+        {"text": "A search of California newspapers for September through December 1902 found no wire pickup of the release; the Oklahoma Territory papers have not been searched, and no contemporary objection has been found.", "source": "California Digital Newspaper Collection", "date": "1902"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The release let the city of Lawton buy the forty acres for a cemetery under the 1890 law, which allowed towns to enter only public land \"not reserved for public use.\"", "source": "32 Stat. 2026; 26 Stat. 502", "date": "1902-09-04"},
+        {"kind": "administrative", "text": "The Indian Office's annual report for 1903 reprinted the proclamation, but Agent James F. Randlett's Kiowa Agency report in the same volume says nothing of Lawton or a cemetery.", "source": "Annual Report of the Commissioner of Indian Affairs, 1903, pp. 266, 463–464", "date": "1903"},
+        {"kind": "court", "text": "When it was signed, the Kiowa, Comanche and Apache challenge to the cession under which the land had been opened was before the Supreme Court in Lone Wolf v. Hitchcock.", "source": "187 U.S. 553", "date": "1902-09"}
+      ],
+      "legacy": [
+        {"text": "By the time the Supreme Court upheld the cession in January 1903, the forty acres had already been released to Lawton.", "source": "187 U.S. 553", "date": "1903-01-05"},
+        {"text": "The tract, now Government Lot 2 of section 19, forms the western part of Lawton's Highland Cemetery, whose 1936 WPA entrance arch stands at its west edge.", "source": "Bureau of Land Management, national PLSS cadastral layer"}
+      ],
+      "today": [
+        {"name": "Highland Cemetery, Lawton", "kind": "other", "relation": "part", "state": "Oklahoma", "note": "Lawton's municipal cemetery, with more than 20,000 burials; the tract released by this proclamation is its western part.", "source": "Bureau of Land Management, national PLSS cadastral layer"}
+      ],
+      "related": [
+        {"id": "proc-478", "relation": "same_subject", "note": "Twin restoration ten weeks earlier, releasing an agency tract to Anadarko for a park under the same two statutes."},
+        {"id": "proc-476", "relation": "same_subject", "note": "Another of the three 1902 restorations of a single tract for a new owner."},
+        {"id": "proc-520", "relation": "same_subject", "note": "In 1904 released a 120-acre Fort Sill Indian boarding-school tract to Lawton for a park under the same two statutes."}
+      ],
+      "later_actions": [
+        {"date": "1903-01-05", "text": "The Supreme Court decided Lone Wolf v. Hitchcock, holding that Congress could dispose of the Kiowa-Comanche lands without the consent the Medicine Lodge treaty required.", "source": "187 U.S. 553"}
+      ],
+      "uncertain": [
+        "The Lawton city council's request for the land and the Indian Office's finding that the sub-agency no longer needed it have not been found.",
+        "How the Oklahoma Territory press reacted, if at all, is not known.",
+        "The patent from the United States to the City of Lawton for the tract has not been located, so the date of the city's title is not known.",
+        "Whether Roosevelt signed the proclamation at Oyster Bay on September 4 or during his brief Washington stop on September 5 is not known."
+      ]
+    }
+  }
+}

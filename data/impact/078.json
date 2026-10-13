@@ -1,0 +1,119 @@
+{
+  "story": 78,
+  "documents": {
+    "eo-163": {
+      "reception": [
+        {
+          "text": "Joseph G. Cannon, chairman of House Appropriations, called the order \"a great necessity.\"",
+          "source": "San Francisco Call, February 1, 1902, \"Employes Must Stop Lobbying\"",
+          "date": "1902-01-31"
+        },
+        {
+          "text": "The press reported that the order followed complaints from Post Office officials and members of Congress about postal employees pressing for legislation, sometimes with threats at the polls; these were press attributions, not Roosevelt's words.",
+          "source": "San Francisco Call and Morning Press (Santa Barbara), February 1, 1902",
+          "date": "1902-02-01"
+        },
+        {
+          "text": "The Chicago Post Office clerks' union sent its appeal for an eight-hour day and a raise to Roosevelt and the Postmaster General instead of Congress, \"because the clerks desired to comply with the recent order.\"",
+          "source": "San Francisco Call, Los Angeles Herald and San Diego Union, March 10, 1902",
+          "date": "1902-03-09"
+        },
+        {
+          "text": "Organized postal workers came to call it the \"gag\" order; in 1905 the American Federation of Labor demanded that public employees \"retain all the rights of citizenship,\" and Samuel Gompers's 1906 Bill of Grievances listed the order among labor's complaints.",
+          "source": "Knight First Amendment Institute, citing AFL Proceedings (1905) and the American Federationist (August 1906)",
+          "date": "1906"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Attorney General ruled that the order barred the Navy-Yard and Arsenal Employees' Protective Association of Washington from lobbying Congress for a bill giving its members fifteen more days of annual leave.",
+          "source": "23 Op. Att'y Gen. 637; Nineteenth Report, p. 144",
+          "date": "1902-02-21"
+        },
+        {
+          "kind": "political",
+          "text": "After Representative Eugene F. Loud lost his San Francisco seat in 1902, letter carriers were charged with conspiring to beat him; the Commission's investigator found nearly the whole postal force had campaigned on both sides.",
+          "source": "Twentieth Report of the U.S. Civil Service Commission, pp. 183–185",
+          "date": "1903-02"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Commission recommended a warning rather than mass removals, and Postmaster General Henry C. Payne had one posted in the San Francisco post office.",
+          "source": "Twentieth Report of the U.S. Civil Service Commission, pp. 183–185",
+          "date": "1903-07"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The order, with Taft's successors, is remembered as the provocation the Lloyd–La Follette Act of 1912 was written to undo, and it appears in histories of federal employees' speech rights and whistleblower protection.",
+          "source": "Knight First Amendment Institute"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-402",
+          "relation": "amended_by",
+          "note": "In 1906 Roosevelt widened the order to cover \"independent Government establishments.\""
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-11-26",
+          "text": "President Taft's Executive Order 1142 forbade bureau chiefs and their staffs, and military officers in Washington, to seek legislation or answer requests for information from Congress except through their department heads.",
+          "source": "Executive Order 1142"
+        },
+        {
+          "date": "1912-04-08",
+          "text": "Taft's Executive Order 1514 superseded the orders of 1902, 1906 and 1909 but still routed employees' petitions to Congress through department heads.",
+          "source": "Executive Order 1514"
+        },
+        {
+          "date": "1912-08-24",
+          "text": "The Lloyd–La Follette Act declared that civil servants' right to petition Congress or furnish it information \"shall not be denied or interfered with.\"",
+          "source": "37 Stat. 539, 555, § 6"
+        },
+        {
+          "date": "1916-10-12",
+          "text": "The Civil Service Commission minuted that the Act's proviso \"had the effect of nullifying the Executive order of April 8, 1912.\"",
+          "source": "Thirty-Fifth Report of the U.S. Civil Service Commission (1918), p. 73"
+        }
+      ],
+      "uncertain": [
+        "Roosevelt's own reasons for the order are not known; no statement of his on its purpose has been found.",
+        "How the letter carriers' and postal clerks' own journals reacted in February 1902 has not been checked."
+      ]
+    },
+    "eo-162": {
+      "reception": [
+        {
+          "text": "An Associated Press item reported that Hill, Corbin and Evans \"have been officially designated as the President's delegates\" to receive Prince Henry.",
+          "source": "Morning Press (Santa Barbara) and San Francisco Call, February 8, 1902",
+          "date": "1902-02-07"
+        }
+      ],
+      "related": [
+        {
+          "id": "uo-018",
+          "relation": "same_subject",
+          "note": "The same order, listed by Lord as an unnumbered order on the Prince Henry reception."
+        }
+      ],
+      "uncertain": [
+        "The order carries no dating clause; it is printed under February 5, 1902 in Richardson's 1903 Supplement and dated January 24 elsewhere."
+      ]
+    },
+    "eo-154": {
+      "related": [
+        {
+          "id": "eo-174",
+          "relation": "same_subject",
+          "note": "The nearly identical June 2, 1902 rule for the same post, of which EO 154 is probably a misdated copy."
+        }
+      ],
+      "uncertain": [
+        "Whether a separate January 18, 1902 order exists is doubtful; the date rests on Wikisource alone, and the signed originals at the National Archives have not been seen."
+      ]
+    }
+  }
+}

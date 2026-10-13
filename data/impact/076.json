@@ -1,0 +1,39 @@
+{
+  "story": 76,
+  "documents": {
+    "proc-814": {
+      "reception": [
+        {"text": "A Washington notice explained the extension as \"imperative in order to protect the game now in existence\" south of the canyon, and added that protected game would add to the interest of tourists.", "source": "San Jose Mercury, July 6, 1908; Tuolumne Independent, July 7; San Francisco Call, July 12, 1908", "date": "1908-07"},
+        {"text": "The notice ran in at least six California papers as routine government news, with no editorial comment in the copies read and no objection found through the end of July.", "source": "California Digital Newspaper Collection, June 20–July 31, 1908", "date": "1908-07"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The enlargement carried the game preserve across the Colorado River onto the Coconino Plateau and the South Rim, but reserved no new land from settlement: the ground was already national forest, and only the hunting rules changed.", "source": "35 Stat. 2192, with diagram", "date": "1908-06-23"},
+        {"kind": "administrative", "text": "The July 2, 1908 proclamation dividing the Grand Canyon National Forest expressly left the game preserve and the national monument untouched, confirming that the preserve now reached south of the river.", "source": "35 Stat. 2196", "date": "1908-07-02"}
+      ],
+      "legacy": [
+        {"text": "The 1908 line was the high-water mark of the preserve's southern edge; the South Rim ground added in 1908 and kept in 1909 lies today largely inside Grand Canyon National Park.", "source": "research entry"},
+        {"text": "The preserve itself was never abolished, and the game-preserve provisions survive in the U.S. Code.", "source": "16 U.S.C. §§ 683–687"}
+      ],
+      "today": [
+        {"name": "Grand Canyon National Game Preserve", "kind": "other", "relation": "part", "state": "Arizona", "note": "Still administered by the Forest Service as a designated area of the Kaibab National Forest.", "source": "16 U.S.C. §§ 683–687"},
+        {"name": "Grand Canyon National Park", "kind": "national_park", "relation": "part", "state": "Arizona", "note": "Much of the South Rim ground added in 1908 and kept in 1909 lies inside the park.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "proc-694", "relation": "enlarges", "note": "The November 28, 1906 proclamation that created the preserve north and west of the Colorado River."},
+        {"id": "proc-818", "relation": "same_subject", "note": "Nine days later this proclamation divided the Grand Canyon National Forest into the Coconino and Kaibab forests, stating that the game preserve was not modified."},
+        {"id": "proc-794", "relation": "same_subject", "note": "The Grand Canyon National Monument, drawn on the same diagram and lying inside the new preserve line."}
+      ],
+      "later_actions": [
+        {"date": "1909-06-03", "text": "President Taft's Proclamation 875 designated a smaller preserve, cutting out the broad southern block of the Coconino Plateau while keeping the canyon, a band along the South Rim, and the monument.", "source": "36 Stat. 2496–2497"},
+        {"date": "1919", "text": "Congress created Grand Canyon National Park, reducing the preserve again.", "source": "research entry"},
+        {"date": "1931-10-06", "text": "President Hoover's Proclamation 1971 diminished the preserve once more.", "source": "47 Stat. 2483"}
+      ],
+      "uncertain": [
+        "Who asked for the enlargement, and whether the Forest Service or the Biological Survey issued the July 1908 notice, is not known.",
+        "Whether the enlargement was timed to beat the breakup of the Grand Canyon National Forest nine days later has not been established.",
+        "How many acres Taft's 1909 proclamation removed is not known.",
+        "The 942,400-acre figure for the 1908 addition is a contemporary press estimate, not a surveyed figure."
+      ]
+    }
+  }
+}

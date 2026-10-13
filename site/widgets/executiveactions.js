@@ -6,6 +6,9 @@
  * <trpl-actions-on-this-day count="3"></trpl-actions-on-this-day>   signed on today's date (date="MM-DD" to fix one)
  * <trpl-actions-list category="forests" state="Arizona" year="1908" limit="10"></trpl-actions-list>
  * <trpl-story n="2"></trpl-story>                                   teaser card for a story
+ * <trpl-then-and-now kind="wildlife_refuge" state="Florida" limit="8"></trpl-then-and-now>
+ *                                                                   places today that trace to a Roosevelt document
+ *   kind = national_park | national_monument | national_forest | wildlife_refuge | lighthouse | other (default: all)
  *
  * Optional attributes on every widget:
  *   theme="light|dark|auto"   (default light; auto follows the visitor's system setting)
@@ -178,9 +181,29 @@
     }
   }
 
+  const REL = { origin: "began with", part: "includes land from", renamed: "renamed from", absorbed_into: "absorbed",
+    abolished: "no longer exists;", transferred: "transferred by" };
+  class ThenNow extends Base {
+    async render() {
+      const kind = this.getAttribute("kind"), state = this.getAttribute("state");
+      const limit = Math.max(1, Math.min(60, +(this.getAttribute("limit") || 8)));
+      const d = await get(this.api, kind ? `then-and-now/${encodeURIComponent(kind)}.json` : "then-and-now/index.json");
+      let ps = d.places.filter(p => !state || p.states.some(s => slug(s) === slug(state)))
+        .filter(p => !p.documents.every(x => x.relation === "abolished"));
+      const total = ps.length;
+      ps = ps.sort((a, b) => (b.origin - a.origin) || (a.first || "9").localeCompare(b.first || "9")).slice(0, limit);
+      const heading = this.getAttribute("heading") || `${kind ? d.label : "Places"} that began with Roosevelt${state ? ` in ${state}` : ""}`;
+      const items = ps.map(p => { const x = p.documents[0];
+        return `<li class="it"><span class="h" style="font-weight:700">${esc(p.name)}</span><br><span class="m">${esc(REL[x.relation] || "")} <a href="${this.docLink(x.id)}" target="_top" style="color:var(--link)">${esc(x.label)}</a>, ${esc(fmt(x.date))}</span></li>`; }).join("");
+      const more = total > ps.length ? `<p class="m"><a href="${this.site}then-and-now.html${kind ? "#k-" + kind : ""}" target="_top" style="color:var(--link)">See all ${total}</a></p>` : "";
+      this.paint(`<p class="kicker">${esc(heading)}</p><ul>${items || `<li class="it m">Nothing traced yet.</li>`}</ul>${more}`);
+    }
+  }
+
   const def = (n, c) => customElements.get(n) || customElements.define(n, c);
   def("trpl-action", Action);
   def("trpl-actions-on-this-day", OnThisDay);
   def("trpl-actions-list", List);
   def("trpl-story", Story);
+  def("trpl-then-and-now", ThenNow);
 })();

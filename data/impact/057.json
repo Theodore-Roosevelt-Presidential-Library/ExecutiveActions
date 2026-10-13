@@ -1,0 +1,65 @@
+{
+  "story": 57,
+  "documents": {
+    "proc-578": {
+      "reception": [
+        {
+          "text": "The Caucasian of Clinton, North Carolina, summarized the proclamation's orders on its front page, beside a report of King Edward VII's cabled sympathy.",
+          "source": "The Caucasian (Clinton, N.C.), July 6, 1905, p. 1",
+          "date": "1905-07-06"
+        },
+        {
+          "text": "Hay's death was front-page news; the Raleigh Morning Post led with \"HAY'S BODY LAID TO REST,\" describing Roosevelt standing \"close to the open grave.\"",
+          "source": "Raleigh Morning Post, July 6, 1905, p. 1",
+          "date": "1905-07-06"
+        },
+        {
+          "text": "The Norfolk Virginian-Pilot, a Democratic daily, praised Hay as the country's first citizen and a patriot of the opposite party, while taking a jab at the administration's style.",
+          "source": "Norfolk Virginian-Pilot, July 4, 1905, p. 4",
+          "date": "1905-07-04"
+        },
+        {
+          "text": "The same page reprinted a New Orleans States tribute ranking Hay a great diplomat and a statesman of high ability.",
+          "source": "Norfolk Virginian-Pilot, July 4, 1905, p. 4",
+          "date": "1905-07-04"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation followed a fixed precedent, Grover Cleveland's 1895 proclamation for Secretary of State Walter Q. Gresham, and nothing found suggests it drew controversy.",
+          "source": "research entry; APP Proclamation 376",
+          "date": "1905"
+        },
+        {
+          "kind": "political",
+          "text": "Roosevelt named Elihu Root, his former Secretary of War, to succeed Hay; Root entered on duty July 19, 1905.",
+          "source": "U.S. Department of State, Office of the Historian",
+          "date": "1905-07-19"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Hay is remembered chiefly for the Open Door policy toward China and for the treaties that made the Panama Canal legally possible; his name survives in the Hay–Pauncefote and Hay–Bunau-Varilla treaties.",
+          "source": "research entry"
+        },
+        {
+          "text": "Roosevelt's death proclamations did not share one fixed form; each borrowed from whatever precedent fit the case.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-465",
+          "relation": "same_subject",
+          "note": "Roosevelt's proclamation on the death of William McKinley, which set a day of mourning and prayer."
+        },
+        {
+          "id": "proc-813",
+          "relation": "same_subject",
+          "note": "Roosevelt's proclamation on the death of Grover Cleveland, which ordered flags at half-staff for thirty days."
+        }
+      ]
+    }
+  }
+}

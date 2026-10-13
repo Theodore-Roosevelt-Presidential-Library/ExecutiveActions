@@ -1,0 +1,93 @@
+{
+  "story": 24,
+  "documents": {
+    "proc-781": {
+      "reception": [
+        {
+          "text": "The Albuquerque Morning Journal ran the news under the headline \"GOVERNMENT PROTECTS GILA CLIFF DWELLINGS.\"",
+          "source": "Albuquerque Morning Journal, November 29, 1907, p. 4",
+          "date": "1907-11-29"
+        },
+        {
+          "text": "The Deming Graphic praised the proclamation in an editorial paragraph as a wise act in the interest of archaeological science.",
+          "source": "Deming Graphic, December 6, 1907, p. 1",
+          "date": "1907-12-06"
+        },
+        {
+          "text": "No notice in the national press has been found.",
+          "source": "Chronicling America search, November 16 to December 31, 1907"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The monument grew out of Gila Forest Supervisor R. C. McClure's December 1906 report recommending a fence and gate across the mouth of Cliff Dweller Canyon.",
+          "source": "Peter Russell, Gila Cliff Dwellings National Monument: An Administrative History, ch. 1",
+          "date": "1906-12"
+        },
+        {
+          "kind": "administrative",
+          "text": "Guarding the monument became an unfunded, incidental duty of a forest ranger stationed seventeen miles away.",
+          "source": "Peter Russell, Gila Cliff Dwellings National Monument: An Administrative History"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The proclamation protected a site already thoroughly looted within six years of its first recorded visit in 1878, but it kept the ground out of private hands for good.",
+          "source": "Peter Russell, Gila Cliff Dwellings National Monument: An Administrative History"
+        },
+        {
+          "text": "A nominal custodian was appointed only in 1942, and the first full-time ranger arrived in early 1963.",
+          "source": "Peter Russell, Gila Cliff Dwellings National Monument: An Administrative History",
+          "date": "1963"
+        },
+        {
+          "text": "In June 1924 the Forest Service set aside the surrounding backcountry as the Gila Wilderness, which it calls the world's first area of land designated as wilderness.",
+          "source": "U.S. Forest Service, Gila National Forest",
+          "date": "1924-06"
+        }
+      ],
+      "today": [
+        {
+          "name": "Gila Cliff Dwellings National Monument",
+          "kind": "national_monument",
+          "relation": "origin",
+          "state": "New Mexico",
+          "since": "1907-11-16",
+          "note": "Now 533 acres in two units; the only park system unit with Mogollon sites.",
+          "source": "National Park Service"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-582",
+          "relation": "same_subject",
+          "note": "The 1905 proclamation for the Gila Forest Reserve, within which the monument lay."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1933-08-10",
+          "text": "Executive Order 6166 (signed June 10, 1933) transferred the monument from Agriculture to the Interior Department.",
+          "source": "Executive Order 6166"
+        },
+        {
+          "date": "1962-04-17",
+          "text": "Kennedy's Proclamation 3467 added about 375 acres, including the detached TJ Ruin unit, and removed the monument from Forest Service administration.",
+          "source": "76 Stat. 1465"
+        },
+        {
+          "date": "1975",
+          "text": "A cooperative agreement returned day-to-day management to the Gila National Forest, with the Park Service keeping jurisdiction.",
+          "source": "Peter Russell, Gila Cliff Dwellings National Monument: An Administrative History"
+        }
+      ],
+      "uncertain": [
+        "Whether any lawsuit or formal objection followed is not known; court records were not searched.",
+        "Whether the Silver City newspapers reported the proclamation cannot be tested, since their 1907 issues are not digitized.",
+        "Whether the Forest Service relied on McClure's report alone in drawing the monument is not known.",
+        "The current division of management between the Park Service and the Forest Service should be confirmed with the park."
+      ]
+    }
+  }
+}

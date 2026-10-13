@@ -1,0 +1,145 @@
+{
+  "story": 83,
+  "documents": {
+    "eo-254": {
+      "reception": [
+        {
+          "text": "The Fresno Evening Democrat printed the President's one-sentence order word for word under a Washington dateline the day it was issued.",
+          "source": "Fresno Evening Democrat, February 18, 1904, \"Hanna Funeral Train\"",
+          "date": "1904-02-18"
+        },
+        {
+          "text": "The New York Times carried the order the next morning.",
+          "source": "New York Times, February 19, 1904",
+          "date": "1904-02-19"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "All federal offices in Ohio closed during the hours of Senator Hanna's funeral on Friday, February 19, 1904.",
+          "source": "EO 254, Wikisource",
+          "date": "1904-02-19"
+        }
+      ]
+    },
+    "eo-258": {
+      "reception": [
+        {
+          "text": "The Washington Evening Star ran the order on its front page the day it was signed, calling it an \"important and significant executive order\" and \"of marked significance\" as an answer to the Russian belief that the United States was unfriendly.",
+          "source": "Evening Star (Washington, D.C.), March 10, 1904, p. 1",
+          "date": "1904-03-10"
+        },
+        {
+          "text": "The Associated Press text of the order ran in papers across the country the next day.",
+          "source": "San Francisco Call and Los Angeles Herald, March 11, 1904",
+          "date": "1904-03-11"
+        },
+        {
+          "text": "An AP dispatch from St. Petersburg reported that the order had \"produced a great impression here\" and that Russia's Official Gazette accepted it as a complete answer to charges of American hostility.",
+          "source": "San Francisco Call, March 15, 1904",
+          "date": "1904-03-14"
+        },
+        {
+          "text": "A Chicago Post editorial judged the order's general effect \"cannot fail to be decidedly wholesome\" and predicted army and navy officers would have to stop signing articles about the fighting in Korea and Manchuria.",
+          "source": "Chicago Post, reprinted in Humboldt Times (Eureka, Calif.), March 24, 1904",
+          "date": "1904-03-24"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "Some members of Congress were reported to criticize the order in so far as it applied to civilian employees.",
+          "source": "Chicago Post, reprinted in Humboldt Times (Eureka, Calif.), March 24, 1904",
+          "date": "1904-03"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Russia's Official Gazette accepted the order unreservedly as an answer to charges that the American government was hostile to Russia.",
+          "source": "San Francisco Call, March 15, 1904",
+          "date": "1904-03-14"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The order marks the neutral posture that the following year let Roosevelt mediate between Russia and Japan at Portsmouth, work for which he received the 1906 Nobel Peace Prize.",
+          "source": "research entry",
+          "date": "1905"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-516",
+          "relation": "implements",
+          "note": "Bound every federal officer to the neutrality proclamation of February 11, 1904."
+        }
+      ]
+    },
+    "eo-256": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "War Department civilian positions in the Philippines, other than laborers and presidential appointees, became classified, and present employees kept on could transfer to competitive positions in the United States after three years.",
+          "source": "EO 256, Wikisource",
+          "date": "1904-03-01"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The order is one step in extending the merit system to federal civilian employees serving overseas.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-252": {
+      "legacy": [
+        {
+          "text": "Marie Louise Bottineau Baldwin, appointed under this order, served in the Office of Indian Affairs until 1932 and became, in the National Park Service's words, its \"highest paid Indigenous woman.\"",
+          "source": "National Park Service biography of Marie Louise Bottineau Baldwin",
+          "date": "1932"
+        },
+        {
+          "text": "Baldwin became the first Native American graduate of the Washington College of Law in 1914, marched in the 1913 Woman Suffrage Procession, and was an officer of the Society of American Indians.",
+          "source": "research entry",
+          "date": "1914"
+        }
+      ]
+    },
+    "eo-253": {
+      "later_actions": [
+        {
+          "date": "1910",
+          "text": "The Schedule A clause excepting national military park commissioners was amended by Executive Order 1163.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-246": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order carried the Spanish Treaty Claims Commission's work to September 2, 1904.",
+          "source": "research entry",
+          "date": "1904-01-12"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-228",
+          "relation": "same_subject",
+          "note": "The previous six-month extension, to March 2, 1904."
+        }
+      ]
+    },
+    "eo-267": {
+      "uncertain": [
+        "The text of EO 267 and the date to which it extended the Spanish Treaty Claims Commission are not confirmed; Lord's List gives \"until Feb. 2, 1904,\" which cannot be right for an order signed in July 1904."
+      ]
+    },
+    "eo-251": {
+      "uncertain": [
+        "EO 251's description rests on Lord's List alone; it does not appear in the Civil Service Commission's Twenty-first Report."
+      ]
+    }
+  }
+}

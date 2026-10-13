@@ -1,0 +1,60 @@
+{
+  "story": 104,
+  "story_level": {
+    "political_impact": [
+      {"kind": "political", "text": "Apart from the fine-arts council, the January 1909 orders, including the Pelican Island enlargement, passed without national comment.", "source": "research entry", "date": "1909"}
+    ]
+  },
+  "documents": {
+    "eo-1010": {
+      "reception": [
+        {"text": "The Council of the Fine Arts drew respectful notice from the architectural and artistic professions.", "source": "research entry", "date": "1909"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The council met on February 9, 1909, and approved the Senate Park Commission's site for the Lincoln Memorial; McKim, very ill, attended briefly and later resigned, and Burnham was absent.", "source": "Kohler, \"The Commission of Fine Arts: Implementing the Senate Park Commission's Vision,\" U.S. Commission of Fine Arts", "date": "1909-02-09"},
+        {"kind": "congress", "text": "Representative John J. Fitzgerald of New York moved to bar payment to members of the \"so-called Council of Fine Arts,\" saying its duty should be fixed by Congress and not by the Executive; the amendment carried on a division, 67 to 17.", "source": "Congressional Record, 60th Cong., 2d sess., vol. 43, pp. 2918–2922", "date": "1909-02-22"},
+        {"kind": "congress", "text": "The sundry civil act struck at the council twice: a proviso barred paying its members or spending on plans it had approved, and section 9 barred paying any commission or council not authorized by law.", "source": "Act of March 4, 1909, ch. 299, 35 Stat. 945, at 959 and 1027", "date": "1909-03-04"},
+        {"kind": "political", "text": "The fight came amid a wider clash between Congress and Roosevelt over commissions it had not authorized, including the Keep, Inland Waterways, National Conservation and Country Life commissions.", "source": "research entry", "date": "1909"}
+      ],
+      "legacy": [
+        {"text": "Congress created a permanent Commission of Fine Arts of seven members in 1910; it still reviews the design of monuments, memorials and buildings in the capital and traces its lineage to the 1909 council.", "source": "Act of May 17, 1910, ch. 243, 36 Stat. 371; 40 U.S.C. §§ 9101–9104", "date": "1910-05-17"},
+        {"text": "The statutory commission's seats were written to include distinguished laymen, where all thirty of Roosevelt's appointees had been practicing artists and designers.", "source": "research entry"}
+      ],
+      "today": [
+        {"name": "U.S. Commission of Fine Arts", "kind": "other", "relation": "origin", "state": "District of Columbia", "since": "1909-01-19", "note": "Created by statute in 1910; traces its lineage to the 1909 council.", "source": "Act of May 17, 1910, ch. 243, 36 Stat. 371"}
+      ],
+      "later_actions": [
+        {"date": "1909-03-04", "text": "The sundry civil appropriation act cut off funds for the council by name and under a general ban on unauthorized commissions.", "source": "35 Stat. 945, at 959 and 1027"},
+        {"date": "1909-05-21", "text": "President Taft revoked the order by Executive Order 1074, citing the sundry civil act of March 4, 1909.", "source": "EO 1074"},
+        {"date": "1910-05-17", "text": "Congress created the Commission of Fine Arts by statute.", "source": "36 Stat. 371"}
+      ]
+    },
+    "eo-1014": {
+      "legacy": [
+        {"text": "Proclamation 2416 renamed the reservation Pelican Island National Wildlife Refuge in 1940.", "source": "Proclamation 2416, 5 Fed. Reg. 2677, 54 Stat. 2717", "date": "1940-07-25"},
+        {"text": "Most of the modern refuge's 5,376 acres was acquired after 1968.", "source": "research entry"}
+      ],
+      "today": [
+        {"name": "Pelican Island National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "part", "state": "Florida", "note": "The mangrove islands added in 1909 enlarged the first federal bird reservation.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "uo-054", "relation": "enlarges", "note": "The original 1903 Pelican Island order, which this order enlarged; it dates that order to March 13, 1903, where contemporary records give March 14."}
+      ],
+      "later_actions": [
+        {"date": "1940-07-25", "text": "Renamed Pelican Island National Wildlife Refuge by Proclamation 2416.", "source": "Proclamation 2416, 54 Stat. 2717"}
+      ],
+      "uncertain": [
+        "How many acres the 1909 enlargement added is not known; only the diagram attached to the signed order at the National Archives could settle it, and Palmer's 1912 figure of 5.50 acres may or may not include the 1909 islands."
+      ]
+    },
+    "eo-1007": {
+      "uncertain": ["The full text of this order has not been found."]
+    },
+    "eo-1009": {
+      "uncertain": ["The full text of this order has not been found."]
+    },
+    "eo-1013": {
+      "uncertain": ["The full text of this order has not been found."]
+    }
+  }
+}

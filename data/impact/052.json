@@ -1,0 +1,34 @@
+{
+  "story": 52,
+  "documents": {
+    "proc-520": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Restored to the public domain 120 acres adjoining Lawton that had been reserved in 1901 for the Fort Sill Indian boarding school, so the city could buy them for a park under the act of September 30, 1890.", "source": "33 Stat. 2340", "date": "1904-03-29"},
+        {"kind": "local", "text": "The proclamation answered a request from Lawton's city authorities, who wanted to enter the land for park purposes.", "source": "33 Stat. 2340", "date": "1904-03-29"}
+      ],
+      "related": [
+        {"id": "proc-492", "relation": "same_subject", "note": "Restored a forty-acre Fort Sill sub-agency tract to Lawton for a cemetery in 1902."},
+        {"id": "proc-478", "relation": "same_subject", "note": "Freed agency land beside Anadarko for a town park in 1902."}
+      ],
+      "uncertain": [
+        "Whether Lawton ever completed the purchase and used the 120 acres as a park, and when it gave them up, has not been established; the area is now mapped as residential streets.",
+        "How Lawton's newspapers, or any others, reported the grant in 1904 has not been checked."
+      ]
+    },
+    "proc-532": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Restored to the public domain the four-acre Court House Reserve, lot one of block forty-eight in the Woodward townsite, to be disposed of to the Town of Woodward for a public park under the Oklahoma townsite act of May 14, 1890.", "source": "33 Stat. 2374", "date": "1904-10-13"},
+        {"kind": "local", "text": "The Woodward County commissioners had relinquished the lot and recommended that it be patented to the town for a park.", "source": "33 Stat. 2374", "date": "1904-10-13"}
+      ],
+      "uncertain": [
+        "Whether the Town of Woodward received a patent for the lot is not known, and the lot has not been located on a modern plat.",
+        "How Woodward's newspapers reported the grant in 1904 has not been checked."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {"kind": "administrative", "text": "Of the forty proclamations printed in volume 33 of the Statutes at Large (March 1903 to March 1905), only these two restore a single small tract to a named town.", "source": "33 Stat., pt. 2 (proclamations Nos. 1–40)"}
+    ]
+  }
+}

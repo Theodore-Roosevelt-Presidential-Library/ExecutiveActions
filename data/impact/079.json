@@ -1,0 +1,52 @@
+{
+  "story": 79,
+  "documents": {
+    "eo-180": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Secretary of State John Hay sent the order to diplomatic and consular officers with a circular of October 22, 1902. Island passports were to match the citizen's passport, describe the holder as a citizen of Porto Rico, the Philippine Islands or Guam owing allegiance to the United States, and be numbered in the same series as citizens' passports.", "source": "FRUS 1902, pp. 6–7", "date": "1902-10-22"},
+        {"kind": "administrative", "text": "Blank forms for the new passports were still being printed when the circular went out, so consuls were told to use the regular passport, amended to suit the case, in the meantime.", "source": "FRUS 1902, pp. 6–7", "date": "1902-10-22"}
+      ],
+      "legacy": [
+        {"text": "The order gave working form abroad to the non-citizen national, a status from the 1898 empire that Filipinos held until independence in 1946 and that today applies chiefly to people born in American Samoa and on Swains Island.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "eo-181", "relation": "same_subject", "note": "Signed the same day; rule 9 of the domestic code demands the same proof of allegiance from island residents applying at home."},
+        {"id": "eo-182", "relation": "same_subject", "note": "Signed the same day; rule 9 of the insular code demands the same proof of allegiance."}
+      ]
+    },
+    "eo-181": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The code gave the State Department's Passport Bureau, named in rule 16, a uniform written standard for passports applied for in the United States.", "source": "research entry", "date": "1902"}
+      ],
+      "legacy": [
+        {"text": "The code began a line of passport rules issued by executive order that were rewritten many times; the Passport Act of July 3, 1926 is still the basic statutory authority.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "eo-235", "relation": "superseded_by", "note": "The 1903 passport rules for the United States replaced this code fourteen months later."},
+        {"id": "eo-180", "relation": "same_subject", "note": "Signed the same day; covers island residents applying abroad."},
+        {"id": "eo-182", "relation": "same_subject", "note": "The parallel code for applications made in the insular possessions."}
+      ]
+    },
+    "eo-182": {
+      "related": [
+        {"id": "eo-181", "relation": "same_subject", "note": "The domestic code signed the same day; rules 2 and 4–12 match it almost word for word."},
+        {"id": "eo-180", "relation": "same_subject", "note": "Signed the same day; covers island residents applying abroad."}
+      ],
+      "uncertain": [
+        "Executive Order 235 of 1903 set one standard of evidence for applicants at home and in the possessions and probably replaced this separate insular code in practice, but no document says so in terms."
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {"text": "A Washington wire dispatch reported that the Secretary of State had drawn up rules under the new act and the President had signed them, so loyal Filipinos, Puerto Ricans and other island residents could have the same passport and protection as citizens.", "source": "Los Angeles Herald, July 24, 1902, \"Passport Rules Revised\"", "date": "1902-07-24"},
+      {"text": "A search of California papers from January through November 1902 found seven reports, all wire news of the bill or the rules, with no editorial comment.", "source": "California Digital Newspaper Collection", "date": "1902"}
+    ],
+    "political_impact": [
+      {"kind": "political", "text": "Passports were still optional for most American travelers, so the rules touched a fairly small public; the orders carried out a law Congress had already passed and did not reopen the wider debate over the status of the island peoples.", "source": "research entry", "date": "1902"}
+    ],
+    "legacy": [
+      {"text": "Passports became required only gradually: the requirements of 1918 and 1941 rested on war and emergency powers, and Congress made the passport a standing requirement for citizens only in 1978, by amending section 215(b) of the Immigration and Nationality Act.", "source": "research entry", "date": "1978"}
+    ]
+  }
+}

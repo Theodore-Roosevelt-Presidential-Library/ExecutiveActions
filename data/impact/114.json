@@ -1,0 +1,325 @@
+{
+  "story": 114,
+  "documents": {
+    "uo-101": {
+      "reception": [
+        {
+          "text": "The Atlanta Constitution carried the order from Washington under the headline \"No Graft for Notaries.\"",
+          "source": "Atlanta Constitution, January 4, 1905",
+          "date": "1905-01-04"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order was amended on March 31, 1905, and a Commerce and Labor circular of April 7 quoted the amendment.",
+          "source": "Department of Commerce and Labor, Circular No. 68, April 7, 1905",
+          "date": "1905-04-07"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-288-half",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        },
+        {
+          "id": "eo-319",
+          "relation": "amended_by",
+          "note": "Amended the notaries order of December 31, 1904."
+        }
+      ]
+    },
+    "uo-104": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The transfer did not hold: seven weeks later it was revoked, and the old railroad office's work stayed at the Interior Department.",
+          "source": "Executive Order 313-A",
+          "date": "1905-03-31"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-313-a",
+          "relation": "revoked_by",
+          "note": "Revoked the transfer on March 31, 1905."
+        }
+      ]
+    },
+    "uo-105": {
+      "related": [
+        {
+          "id": "eo-310-b",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ]
+    },
+    "uo-106": {
+      "reception": [
+        {
+          "text": "A Washington dispatch reported that the President had issued an order abolishing the land office at Akron.",
+          "source": "Oakland Tribune, May 13, 1905",
+          "date": "1905-05-13"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-321-f",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ]
+    },
+    "uo-107": {
+      "related": [
+        {
+          "id": "eo-321-a",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ]
+    },
+    "uo-108": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Commissioner of the General Land Office announced the order in a public notice dated May 9, which said the Vernal office would open for business on July 1, 1905.",
+          "source": "Salt Lake Tribune, May 18, 1905, p. 8",
+          "date": "1905-05-09"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-321-e",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ]
+    },
+    "uo-109": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The reservation at Central was released by a later order of October 23, 1907.",
+          "source": "Wickersham, Bibliography of Alaskan Literature (1927)",
+          "date": "1907-10-23"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-328-b",
+          "relation": "same_subject",
+          "note": "Central is one of the thirteen Signal Corps tracts reserved by this numbered order the same day."
+        },
+        {
+          "id": "eo-702",
+          "relation": "revoked_by",
+          "note": "Released the reservations at Central and Summit."
+        }
+      ]
+    },
+    "uo-110": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The reservation at Summit was released by a later order of October 23, 1907.",
+          "source": "Wickersham, Bibliography of Alaskan Literature (1927)",
+          "date": "1907-10-23"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-328-b",
+          "relation": "same_subject",
+          "note": "Summit is one of the thirteen Signal Corps tracts reserved by this numbered order the same day."
+        },
+        {
+          "id": "eo-702",
+          "relation": "revoked_by",
+          "note": "Released the reservations at Central and Summit."
+        }
+      ]
+    },
+    "uo-111": {
+      "related": [
+        {
+          "id": "proc-563",
+          "relation": "same_subject",
+          "note": "The same document: Lord lists the Wichita game-preserve proclamation as an executive order."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-12-15",
+          "text": "Taft's Executive Order 1147 reserved about 16,420 acres for Fort Sill's water supply, describing land partly within the game preserve of June 2, 1905.",
+          "source": "Executive Order 1147"
+        }
+      ]
+    },
+    "uo-112": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Grays Harbor defense reservation was given up nine months after it was made.",
+          "source": "Executive Order 432",
+          "date": "1906-03-28"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-330-a",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        },
+        {
+          "id": "eo-432",
+          "relation": "revoked_by",
+          "note": "Abolished the Grass Island reservation on March 28, 1906."
+        }
+      ]
+    },
+    "uo-113": {
+      "related": [
+        {
+          "id": "eo-344-b",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ]
+    },
+    "uo-114": {
+      "uncertain": [
+        "Which of the two 1906 trust-period orders covered the Sac and Fox allotments and which the Iowa; the published indexes give both the same subject line."
+      ]
+    },
+    "uo-115": {
+      "uncertain": [
+        "Which of the two 1906 trust-period orders covered the Sac and Fox allotments and which the Iowa; the published indexes give both the same subject line."
+      ]
+    },
+    "uo-116": {
+      "related": [
+        {
+          "id": "eo-549",
+          "relation": "same_subject",
+          "note": "Word for word the same order, same day."
+        }
+      ]
+    },
+    "uo-120": {
+      "related": [
+        {
+          "id": "eo-679",
+          "relation": "same_subject",
+          "note": "The same order of August 12, 1907; Lord's unnumbered entry paraphrases its second paragraph."
+        }
+      ]
+    },
+    "uo-121": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The letter arose from the case of Frank Raynor, a Life-Saving Service surfman awarded the gold life-saving medal for rescuing the crew of the schooner Benjamin C. Cromwell; it noted that no pension existed for such a man.",
+          "source": "research entry",
+          "date": "1908-04-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The waiver survived in the civil-service regulations for decades under the caption \"Time limit waived for heroic conduct.\"",
+          "source": "research entry"
+        }
+      ]
+    },
+    "uo-122": {
+      "related": [
+        {
+          "id": "eo-792",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ]
+    },
+    "uo-123": {
+      "related": [
+        {
+          "id": "eo-796",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ]
+    },
+    "uo-124": {
+      "related": [
+        {
+          "id": "eo-816",
+          "relation": "same_subject",
+          "note": "The same order; Lord entered its July 1, 1908 effective date as a separate document."
+        },
+        {
+          "id": "eo-912",
+          "relation": "modified_by",
+          "note": "Redefined the Deschutes boundary on July 14, 1908, moving land to the Fremont."
+        }
+      ]
+    },
+    "uo-125": {
+      "related": [
+        {
+          "id": "eo-817",
+          "relation": "same_subject",
+          "note": "The same order; Lord entered its July 1, 1908 effective date as a separate document."
+        },
+        {
+          "id": "proc-651",
+          "relation": "modifies",
+          "note": "The 1906 proclamation that created the Fremont Forest Reserve."
+        },
+        {
+          "id": "eo-913",
+          "relation": "modified_by",
+          "note": "Redefined the Fremont boundary on July 14, 1908."
+        }
+      ]
+    },
+    "uo-126": {
+      "related": [
+        {
+          "id": "eo-978",
+          "relation": "same_subject",
+          "note": "The same order; Lord's unnumbered list carries this numbered document a second time."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1925",
+          "text": "A 1925 order cited the reservation by the executive order of November 24, 1908.",
+          "source": "Executive Order 4179-A"
+        },
+        {
+          "date": "1935-01-17",
+          "text": "Executive Order 6948 moved the right-of-way between the Round Top and Sugar Loaf reservations.",
+          "source": "Executive Order 6948 (American Presidency Project)"
+        },
+        {
+          "date": "1952",
+          "text": "Executive Order 10342 described land reserved for military purposes by Executive Order 978 of November 24, 1908.",
+          "source": "Executive Order 10342 (Truman Library text)"
+        }
+      ],
+      "uncertain": [
+        "Why the 1910 War Department compilation dated the order December 1, 1908; most likely General Orders No. 200 printed it with the December 1 Camp Overton order."
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "By 1907–1908 the executive order had become a numbered, filed instrument; the unnumbered orders dwindled because the State Department's filing caught up, not because Roosevelt issued fewer orders.",
+        "source": "Lord, List and Index (1943)"
+      }
+    ]
+  }
+}

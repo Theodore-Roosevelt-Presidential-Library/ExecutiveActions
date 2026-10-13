@@ -1,0 +1,507 @@
+{
+  "story": 105,
+  "documents": {
+    "eo-1019": {
+      "reception": [
+        {
+          "text": "The National Association of Audubon Societies' 1909 report claimed broad credit for the national bird reservations, though the Hawaiian reservation appears in its tables as a single line and none of its paid wardens worked in Hawaii.",
+          "source": "National Association of Audubon Societies, annual report for 1909",
+          "date": "1909"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The revenue cutter Thetis brought twenty-three poachers seized on Laysan and Lisianski into Honolulu, with about 259,000 bird wings and two and a quarter tons of loose feathers valued at $112,000.",
+          "source": "The Hawaiian Star, The Hawaiian Gazette and Pacific Commercial Advertiser (Honolulu), February 3–4, 1910",
+          "date": "1910-02-02"
+        },
+        {
+          "kind": "court",
+          "text": "A federal grand jury indicted Max Schlemmer, the Laysan guano-lease holder, but only under the immigration laws for bringing in Japanese workers; he was never charged over the birds.",
+          "source": "Honolulu press, March 21, 1910",
+          "date": "1910-03-21"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Biological Survey's later account put the raid at the plumage of more than a quarter of a million birds and dated it to January 1910; the Honolulu papers of the day give February 2.",
+          "source": "Henshaw, letter of transmittal, Biological Survey Bulletin 42 (1912), p. 3",
+          "date": "1912"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The reservation became the Hawaiian Islands National Wildlife Refuge and later part of Papahānaumokuākea Marine National Monument, among the largest protected areas on earth.",
+          "source": "Proclamation 8031",
+          "date": "2006-06-15"
+        },
+        {
+          "text": "Papahānaumokuākea was inscribed on the UNESCO World Heritage List as a mixed natural and cultural site.",
+          "source": "UNESCO World Heritage List",
+          "date": "2010-07-30"
+        }
+      ],
+      "today": [
+        {
+          "name": "Hawaiian Islands National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Hawaii",
+          "since": "1909-02-03",
+          "source": "research entry"
+        },
+        {
+          "name": "Papahānaumokuākea Marine National Monument",
+          "kind": "national_monument",
+          "relation": "part",
+          "state": "Hawaii",
+          "note": "Established by Proclamation 8031, June 15, 2006; UNESCO World Heritage Site since 2010.",
+          "source": "Proclamation 8031"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "2006-06-15",
+          "text": "Included in Papahānaumokuākea Marine National Monument, proclaimed under the Antiquities Act.",
+          "source": "Proclamation 8031"
+        }
+      ]
+    },
+    "eo-1032": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order put the bird preserves second to Reclamation Service use of the reservoirs, heading off any conflict with the water projects.",
+          "source": "Executive Order 1032",
+          "date": "1909-02-25"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Most of the seventeen reservoir reservations were revoked between 1921 and 1968 as the reclamation projects and their uses changed; Deer Flat and Cold Springs were never revoked and remain national wildlife refuges.",
+          "source": "research entry"
+        },
+        {
+          "text": "Executive Order 7417 of 1936 misdates this order as February 5, 1909; it was signed February 25.",
+          "source": "Executive Order 7417",
+          "date": "1936-07-17"
+        }
+      ],
+      "today": [
+        {
+          "name": "Deer Flat National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Idaho",
+          "since": "1909-02-25",
+          "note": "The Fish and Wildlife Service dates it to the Deer Flat Bird Reservation of February 25, 1909.",
+          "source": "U.S. Fish and Wildlife Service"
+        },
+        {
+          "name": "Cold Springs National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Oregon",
+          "since": "1909-02-25",
+          "note": "Established as the Cold Springs Reservation.",
+          "source": "U.S. Fish and Wildlife Service"
+        },
+        {
+          "name": "East Park Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "California",
+          "note": "Revoked 1921.",
+          "source": "Executive Order 3468"
+        },
+        {
+          "name": "Keechelus Lake, Kachess Lake, Clealum Lake and Bumping Lake reservations",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Washington",
+          "note": "Four of the five Washington lake sites, revoked in 1921; Conconully, the fifth, lasted until 1960.",
+          "source": "Executive Order 3468"
+        },
+        {
+          "name": "Conconully Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Washington",
+          "note": "Revoked 1960.",
+          "source": "Public Land Order 2072, 25 Fed. Reg. 2731"
+        },
+        {
+          "name": "Shoshone and Pathfinder reservations",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Wyoming",
+          "note": "Revoked 1922.",
+          "source": "Executive Order 3725"
+        },
+        {
+          "name": "Rio Grande Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "New Mexico",
+          "note": "Revoked and re-created as the Rio Grande Wild Life Refuge in 1933; that refuge was revoked in 1947.",
+          "source": "Executive Order 6086; Public Land Order 378"
+        },
+        {
+          "name": "Minidoka Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Idaho",
+          "note": "Revoked and re-reserved on the same ground as a wildlife refuge by Executive Order 7417 in 1936.",
+          "source": "Executive Order 7417"
+        },
+        {
+          "name": "Carlsbad Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "New Mexico",
+          "note": "Renamed Carlsbad National Wildlife Refuge in 1940; revoked 1947 (about 18,679.66 acres).",
+          "source": "Public Land Order 392, 12 Fed. Reg. 5554"
+        },
+        {
+          "name": "Strawberry Valley Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Utah",
+          "note": "Revoked 1961.",
+          "source": "Public Land Order 2306, 26 Fed. Reg. 2467"
+        },
+        {
+          "name": "Salt River Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Arizona",
+          "note": "Revoked 1961.",
+          "source": "Public Land Order 2309, 26 Fed. Reg. 2617"
+        },
+        {
+          "name": "Belle Fourche Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "South Dakota",
+          "note": "Revoked 1964 (about 13,680 acres).",
+          "source": "Public Land Order 3422, 29 Fed. Reg. 9666"
+        },
+        {
+          "name": "Willow Creek Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Montana",
+          "note": "Revoked 1968.",
+          "source": "Public Land Order 4431, 33 Fed. Reg. 8341"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-961",
+          "relation": "same_subject",
+          "note": "Loch Katrine bird reservation, revoked by the same 1921 order that dropped East Park and four Washington sites."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1921-05-20",
+          "text": "Revoked as to East Park and four of the five Washington lake sites, the sites said to lack plant food and other requirements for useful bird reservations.",
+          "source": "Executive Order 3468"
+        },
+        {
+          "date": "1922-08-18",
+          "text": "Revoked as to Shoshone and Pathfinder, judged of too little value to be retained.",
+          "source": "Executive Order 3725"
+        },
+        {
+          "date": "1933-03-28",
+          "text": "Revoked as to Rio Grande, the same ground reserved as the Rio Grande Wild Life Refuge.",
+          "source": "Executive Order 6086"
+        },
+        {
+          "date": "1936-07-17",
+          "text": "Revoked as to Minidoka, the ground re-reserved as a wildlife refuge along with enlargements of 1912 and 1930.",
+          "source": "Executive Order 7417"
+        },
+        {
+          "date": "1940-07-25",
+          "text": "Carlsbad renamed Carlsbad National Wildlife Refuge.",
+          "source": "Proclamation 2416, 54 Stat. 2717"
+        },
+        {
+          "date": "1947-08-11",
+          "text": "Revoked as to Carlsbad.",
+          "source": "Public Land Order 392, 12 Fed. Reg. 5554"
+        },
+        {
+          "date": "1960-03-24",
+          "text": "Revoked as to Conconully.",
+          "source": "Public Land Order 2072, 25 Fed. Reg. 2731"
+        },
+        {
+          "date": "1961-03-16",
+          "text": "Revoked as to Strawberry Valley.",
+          "source": "Public Land Order 2306, 26 Fed. Reg. 2467"
+        },
+        {
+          "date": "1961-03-21",
+          "text": "Revoked as to Salt River.",
+          "source": "Public Land Order 2309, 26 Fed. Reg. 2617"
+        },
+        {
+          "date": "1964-07-13",
+          "text": "Revoked as to Belle Fourche.",
+          "source": "Public Land Order 3422, 29 Fed. Reg. 9666"
+        },
+        {
+          "date": "1968-05-29",
+          "text": "Revoked as to Willow Creek.",
+          "source": "Public Land Order 4431, 33 Fed. Reg. 8341"
+        }
+      ]
+    },
+    "eo-1037": {
+      "legacy": [
+        {
+          "text": "Renamed a national wildlife refuge in 1940 and folded into the Bering Sea Unit of the Alaska Maritime National Wildlife Refuge in 1980.",
+          "source": "Proclamation 2416, 54 Stat. 2717; Pub. L. 96-487, sec. 303(1)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Alaska Maritime National Wildlife Refuge (Bering Sea Unit)",
+          "kind": "wildlife_refuge",
+          "relation": "absorbed_into",
+          "state": "Alaska",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Bering Sea National Wildlife Refuge.",
+          "source": "Proclamation 2416, 54 Stat. 2717"
+        },
+        {
+          "date": "1980-12-02",
+          "text": "Redesignated a subunit of the Alaska Maritime National Wildlife Refuge.",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ]
+    },
+    "eo-1038": {
+      "legacy": [
+        {
+          "text": "The moose preserve ran from 1909 to 1950 with a four-year gap; a commonly cited 1955 order (Public Land Order 1152) actually concerns a New York refuge.",
+          "source": "15 Fed. Reg. 2463–2464; 20 Fed. Reg. 3701"
+        },
+        {
+          "text": "Cook Inlet Region, Inc. owns most of the island, which it says it acquired as surplus federal property in 1982 through the Cook Inlet Land Exchange; the island hosts Anchorage's Fire Island wind farm.",
+          "source": "Anchorage Daily News, July 19, 2012; Cook Inlet Region, Inc."
+        }
+      ],
+      "today": [
+        {
+          "name": "Fire Island Reservation",
+          "kind": "other",
+          "relation": "abolished",
+          "state": "Alaska",
+          "note": "Moose preserve finally revoked in 1950.",
+          "source": "Public Land Order 639"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1921-03-26",
+          "text": "Reservation revoked.",
+          "source": "Executive Order 3421"
+        },
+        {
+          "date": "1925-01-22",
+          "text": "Reservation restored.",
+          "source": "Executive Order 4131"
+        },
+        {
+          "date": "1950-04-26",
+          "text": "Reservation finally revoked.",
+          "source": "Public Land Order 639, 15 Fed. Reg. 2463–2464"
+        }
+      ]
+    },
+    "eo-1039": {
+      "legacy": [
+        {
+          "text": "Renamed a national wildlife refuge in 1940 and folded into the Gulf of Alaska Unit of the Alaska Maritime National Wildlife Refuge in 1980.",
+          "source": "Proclamation 2416, 54 Stat. 2717; Pub. L. 96-487, sec. 303(1)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Alaska Maritime National Wildlife Refuge (Gulf of Alaska Unit)",
+          "kind": "wildlife_refuge",
+          "relation": "absorbed_into",
+          "state": "Alaska",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Tuxedni National Wildlife Refuge.",
+          "source": "Proclamation 2416, 54 Stat. 2717"
+        },
+        {
+          "date": "1980-12-02",
+          "text": "Redesignated a subunit of the Alaska Maritime National Wildlife Refuge.",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ]
+    },
+    "eo-1040": {
+      "legacy": [
+        {
+          "text": "Renamed a national wildlife refuge in 1940 and folded into the Gulf of Alaska Unit of the Alaska Maritime National Wildlife Refuge in 1980.",
+          "source": "Proclamation 2416, 54 Stat. 2717; Pub. L. 96-487, sec. 303(1)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Alaska Maritime National Wildlife Refuge (Gulf of Alaska Unit)",
+          "kind": "wildlife_refuge",
+          "relation": "absorbed_into",
+          "state": "Alaska",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Saint Lazaria National Wildlife Refuge.",
+          "source": "Proclamation 2416, 54 Stat. 2717"
+        },
+        {
+          "date": "1980-12-02",
+          "text": "Redesignated a subunit of the Alaska Maritime National Wildlife Refuge.",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ]
+    },
+    "eo-1041": {
+      "legacy": [
+        {
+          "text": "The Agriculture Department said the roughly 8,000,000-acre reservation could not be adequately administered with its limited funds, and that the marshy country itself protected the birds.",
+          "source": "USDA press release, \"Yukon Delta Bird Reservation Canceled,\" March 9, 1922",
+          "date": "1922-03-09"
+        },
+        {
+          "text": "Today's Yukon Delta National Wildlife Refuge was built in 1980 from other units and does not descend from this order.",
+          "source": "Pub. L. 96-487, sec. 303(7)",
+          "date": "1980-12-02"
+        }
+      ],
+      "today": [
+        {
+          "name": "Yukon Delta Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Alaska",
+          "note": "Revoked 1922; not an ancestor of the present Yukon Delta National Wildlife Refuge.",
+          "source": "Executive Order 3642; U.S. Fish and Wildlife Service, Alaska land-status summary"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1922-02-27",
+          "text": "Revoked in full, thirteen years to the day after it was created.",
+          "source": "Executive Order 3642"
+        }
+      ]
+    },
+    "eo-1042": {
+      "legacy": [
+        {
+          "text": "Culebra survives as the Caribbean's first federal wildlife reserve.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-1043": {
+      "legacy": [
+        {
+          "text": "The reservation grew beyond the North and Middle Farallones to take in the main South Farallon island, and most of the group became designated wilderness.",
+          "source": "Public Land Order 4671; Pub. L. 93-550"
+        }
+      ],
+      "today": [
+        {
+          "name": "Farallon Wilderness",
+          "kind": "other",
+          "relation": "part",
+          "state": "California",
+          "note": "141 acres, every island of the group except Southeast Farallon.",
+          "source": "Pub. L. 93-550"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1969",
+          "text": "Main South Farallon island added.",
+          "source": "Public Land Order 4671"
+        },
+        {
+          "date": "1974-12-26",
+          "text": "Congress designated the 141-acre Farallon Wilderness.",
+          "source": "Pub. L. 93-550"
+        }
+      ]
+    },
+    "eo-1044": {
+      "legacy": [
+        {
+          "text": "Named in the 1980 Alaska lands act as \"Pribilof (Walrus and Otter Islands)\" and placed in the Bering Sea Unit of the Alaska Maritime National Wildlife Refuge.",
+          "source": "Pub. L. 96-487, sec. 303(1)",
+          "date": "1980-12-02"
+        }
+      ],
+      "today": [
+        {
+          "name": "Alaska Maritime National Wildlife Refuge (Bering Sea Unit)",
+          "kind": "wildlife_refuge",
+          "relation": "absorbed_into",
+          "state": "Alaska",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1980-12-02",
+          "text": "Redesignated a subunit of the Alaska Maritime National Wildlife Refuge.",
+          "source": "Pub. L. 96-487, sec. 303(1)"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "Bird-Lore claimed fifty-three national bird reservations in 1909, a total that counts the seventeen reservoir sites one by one.",
+        "source": "Bird-Lore (1909)",
+        "date": "1909"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "congress",
+        "text": "The orders passed with no floor fight, lawsuit or headline; Congress's unease over Roosevelt's public-land withdrawals never fixed on the small, scattered bird reservations.",
+        "source": "research entry",
+        "date": "1909"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "Roosevelt established fifty-one federal bird reservations in all, counting the reservoir sites individually (thirty-five if Executive Order 1032 counts as one); they are the seed of the National Wildlife Refuge System.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

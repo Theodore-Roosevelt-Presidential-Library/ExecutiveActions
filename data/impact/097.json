@@ -1,0 +1,166 @@
+{
+  "story": 97,
+  "documents": {
+    "eo-763-half": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order directed fortification work on Corregidor to start once the landowners gave written consent, on an island where the Army had been building batteries since 1904.",
+          "source": "Presidential Executive Orders (1944), vol. 1, p. 72, entry 763½",
+          "date": "1908-02-25"
+        },
+        {
+          "kind": "political",
+          "text": "The work fit a coast-defense program Congress had already funded and the public broadly supported, and it drew no recorded controversy.",
+          "source": "research entry",
+          "date": "1908"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Corregidor held out under Japanese bombardment from Bataan until General Wainwright asked for terms late on May 6, 1942.",
+          "source": "research entry",
+          "date": "1942-05-06"
+        },
+        {
+          "text": "A combined parachute and amphibious assault retook the island beginning February 16, 1945; MacArthur returned for the flag-raising on March 2.",
+          "source": "research entry",
+          "date": "1945"
+        }
+      ],
+      "today": [
+        {
+          "name": "Fort Mills batteries, Corregidor",
+          "kind": "other",
+          "relation": "part",
+          "state": "Philippines",
+          "note": "The fort and its batteries survive as war memorials.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "The operative text of Executive Order 763½ has not been read; only the 1944 catalog summary is available."
+      ]
+    },
+    "eo-779": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Bureau of Biological Survey administered the reservation, sharing the cost of warden protection with the National Association of Audubon Societies.",
+          "source": "Robertson, The Terns of the Dry Tortugas (1964), p. 27"
+        },
+        {
+          "kind": "local",
+          "text": "Under warden protection begun in 1903, the Bird Key sooty-tern colony grew from roughly 5,000 adults to an estimated 18,858 in 1907 and about 40,000 by 1909.",
+          "source": "Robertson (1964), table 2",
+          "date": "1909"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The colony reached something like 80,000 to 100,000 breeding adults around 1917.",
+          "source": "Robertson (1964), table 2",
+          "date": "1917"
+        },
+        {
+          "text": "Hurricanes in 1910 and 1919 stripped Bird Key's vegetation, and the island eroded until by mid-1935 it was a sandbar; it was not destroyed by the 1935 Labor Day hurricane.",
+          "source": "National Park Service scientific literature",
+          "date": "1935"
+        },
+        {
+          "text": "The terns moved to nearby Bush Key, where up to 80,000 sooty terns and 4,500 brown noddies nest, the only significant colony of either in the United States.",
+          "source": "National Park Service scientific literature"
+        }
+      ],
+      "today": [
+        {
+          "name": "Dry Tortugas National Park",
+          "kind": "national_park",
+          "relation": "part",
+          "state": "Florida",
+          "note": "Proclamation 2112 replaced the bird reservation with Fort Jefferson National Monument in 1935; the monument became a national park in 1992.",
+          "source": "Proclamation 2112; Public Law 102-525"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1935-01-04",
+          "text": "Franklin Roosevelt's Proclamation 2112 created Fort Jefferson National Monument and expressly revoked Executive Order 779.",
+          "source": "Proclamation 2112"
+        },
+        {
+          "date": "1983",
+          "text": "Fort Jefferson National Monument was enlarged.",
+          "source": "research entry"
+        },
+        {
+          "date": "1992-10-26",
+          "text": "Congress redesignated the monument Dry Tortugas National Park.",
+          "source": "Public Law 102-525"
+        }
+      ]
+    },
+    "eo-789": {
+      "reception": [
+        {
+          "text": "The San Francisco Call reported that Representatives Knowland and Kahn had pressed the President for a holiday in the city's federal offices on the day the fleet arrived.",
+          "source": "San Francisco Call, May 1, 1908, p. 10",
+          "date": "1908-05-01"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The holiday was extended to the federal offices in Oakland, Alameda and Berkeley, and the San Francisco post office closed for the day.",
+          "source": "San Francisco Call, May 2, 1908, pp. 11, 14",
+          "date": "1908-05-06"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-799",
+          "relation": "same_subject",
+          "note": "Three weeks later Roosevelt excused Civil and Spanish War veterans for a reinterment parade."
+        }
+      ],
+      "uncertain": [
+        "Whether Executive Order 789 is the original San Francisco holiday order or the version extended to the East Bay cities cannot be told without its text."
+      ]
+    },
+    "eo-769": {
+      "related": [
+        {
+          "id": "eo-328-b",
+          "relation": "revokes",
+          "note": "The Chena–Fairbanks telegraph reservation revoked this earlier order."
+        }
+      ]
+    },
+    "eo-773": {
+      "related": [
+        {
+          "id": "eo-760",
+          "relation": "revokes",
+          "note": "Redrew the Lowell Point coaling depot (about 3,350 acres) and revoked the February 21, 1908 order that first set it aside."
+        }
+      ]
+    },
+    "eo-774": {
+      "related": [
+        {
+          "id": "eo-750",
+          "relation": "amends",
+          "note": "Replaced \"collector of revenue\" with \"tax collector\" in section 2."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "The Alaska telegraph reservations reverted as wireless and, later, the telephone made the old military cable obsolete.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

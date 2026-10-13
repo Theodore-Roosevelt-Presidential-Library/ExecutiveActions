@@ -1,0 +1,850 @@
+{
+  "story": 63,
+  "documents": {
+    "proc-608": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Salt Lake land office received copies of the January Utah proclamations, which the Tribune reported were issued on the recommendation of the Department of Agriculture; they included an addition to the Uintah reserve north and south of the Uintah Indian reservation.",
+          "source": "Salt Lake Tribune, Feb. 10, 1906, p. 10",
+          "date": "1906-02-10"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The 1906 proclamations record the reserve's change of name from Uintah to Uinta; the Forest Service record dates the change to January 16, 1906.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1906-01-16"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-629",
+          "relation": "modified_by",
+          "note": "The May 29 proclamation cut land out of the same reserve, by then called the Uinta."
+        },
+        {
+          "id": "proc-663",
+          "relation": "enlarged_by",
+          "note": "Second enlargement of the same reserve, October 6, 1906."
+        }
+      ]
+    },
+    "proc-609": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Salt Lake land office received copies of the January Utah proclamations, which the Tribune reported were issued on the recommendation of the Department of Agriculture; they included townships next to the Sevier reserve.",
+          "source": "Salt Lake Tribune, Feb. 10, 1906, p. 10",
+          "date": "1906-02-10"
+        }
+      ]
+    },
+    "proc-610": {
+      "today": [
+        {
+          "name": "Manti-La Sal National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "reception": [
+        {
+          "text": "Sanpete and Nephi sheepmen quarreled that spring over grazing allotments inside the Manti reserve.",
+          "source": "Salt Lake Herald, Mar. 26, 1906",
+          "date": "1906-03-26"
+        }
+      ]
+    },
+    "proc-611": {
+      "reception": [
+        {
+          "text": "The Deseret Evening News reported the enlargement under the headline \"Fish Lake Forest Reserve Greatly Enlarged.\"",
+          "source": "Deseret Evening News, Jan. 24, 1906",
+          "date": "1906-01-24"
+        }
+      ],
+      "today": [
+        {
+          "name": "Fishlake National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-612": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Salt Lake land office received copies of the January Utah proclamations, which the Tribune reported were issued on the recommendation of the Department of Agriculture; they included some 210,000 acres in Iron County for the new Beaver reserve.",
+          "source": "Salt Lake Tribune, Feb. 10, 1906, p. 10",
+          "date": "1906-02-10"
+        }
+      ]
+    },
+    "proc-613": {
+      "today": [
+        {
+          "name": "Manti-La Sal National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-616": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Though styled an enlargement, the proclamation set apart lands under the 1897 act alone and folded the separate Gallatin reserves of 1899 into a single Gallatin Forest Reserve.",
+          "source": "34 Stat. 3186–3263",
+          "date": "1906-03-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-617": {
+      "legacy": [
+        {
+          "text": "North Platte became part of the Nebraska National Forest in July 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Nebraska National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Nebraska",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-618": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation took in the greater part of the Baker City Forest Reserve, abolished that name, and restored the rest of Baker City to the public domain.",
+          "source": "34 Stat. 3186–3263",
+          "date": "1906-03-15"
+        },
+        {
+          "kind": "court",
+          "text": "The reserve's creation, after a temporary withdrawal in 1902, had been the object of the land-fraud conspiracy for which Franklin Pierce Mays, Willard N. Jones and George Sorenson stood trial in Portland in August 1906, charged with buying up about 200,000 acres of state school land inside the proposed boundaries to trade for lieu scrip.",
+          "source": "Sunday Oregonian, Aug. 26, 1906, p. 8",
+          "date": "1906-08"
+        },
+        {
+          "kind": "economic",
+          "text": "Pinchot overruled the Umatilla County Woolgrowers' association, which protested paying a grazing fee on the reserve's range and cited court decisions denying the Secretary of Agriculture power to tax its use.",
+          "source": "Lexington Wheatfield (Lexington, Ore.), June 21, 1906, p. 7",
+          "date": "1906-06"
+        }
+      ],
+      "reception": [
+        {
+          "text": "The Sunday Oregonian put the reserve at 3,600,000 acres and described the Mays trial as drawing attention from all parts of the country.",
+          "source": "Sunday Oregonian, Aug. 26, 1906, p. 8",
+          "date": "1906-08-26"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "In 1908 the Blue Mountains reserve was divided among the Whitman, Malheur, Umatilla and Deschutes forests.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Malheur National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        },
+        {
+          "name": "Umatilla National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        },
+        {
+          "name": "Wallowa-Whitman National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "uncertain": [
+        "The Oregon newspaper accounts of the Mays trial and the grazing-fee protest come from digitized text not yet checked against the printed pages."
+      ]
+    },
+    "proc-619": {
+      "today": [
+        {
+          "name": "Helena–Lewis and Clark National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-620": {
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "A Washington dispatch said the original Ashland reserve had been made at the request of the city's council and board of trade, and that the enlargement was meant to protect more fully the watershed that supplied the city.",
+          "source": "Deseret Evening News, May 1, 1906, p. 12",
+          "date": "1906-05-01"
+        }
+      ]
+    },
+    "proc-621": {
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The Vernon reserve in Tooele County was reported to guard streams that settlers at the heads of the Rush valleys depended on for irrigation, where an examination had blamed overgrazing for their decline.",
+          "source": "Deseret Evening News, May 1, 1906, p. 12",
+          "date": "1906-05-01"
+        }
+      ],
+      "reception": [
+        {
+          "text": "The Deseret Evening News reported the new reserve under the headline \"A New Forest Reserve in Utah.\"",
+          "source": "Deseret Evening News, May 1, 1906, p. 12",
+          "date": "1906-05-01"
+        }
+      ]
+    },
+    "proc-622": {
+      "legacy": [
+        {
+          "text": "The reserve went into the Humboldt National Forest in July 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Humboldt-Toiyabe National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Nevada",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-627": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation took in the whole Logan Forest Reserve of 1903 and abolished the Logan name.",
+          "source": "34 Stat. 3206–3207",
+          "date": "1906-05-28"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Bear River passed to the Cache National Forest.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-628": {
+      "related": [
+        {
+          "id": "proc-563",
+          "relation": "same_subject",
+          "note": "The Wichita reserve had been made a game preserve by proclamation the year before."
+        }
+      ]
+    },
+    "proc-629": {
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-608",
+          "relation": "same_subject",
+          "note": "Same reserve, enlarged January 16, 1906, under the name Uintah."
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation only removed land from the reserve, releasing and excluding it and restoring it to the public domain.",
+          "source": "34 Stat. 3186–3263",
+          "date": "1906-05-29"
+        }
+      ]
+    },
+    "proc-630": {
+      "related": [
+        {
+          "id": "proc-650",
+          "relation": "enlarged_by",
+          "note": "Second enlargement of the Hell Gate reserve, September 14, 1906."
+        }
+      ]
+    },
+    "proc-635": {
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-636": {
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Monterey forest went into the Santa Barbara in 1919, which became the Los Padres in 1936.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1919"
+        }
+      ]
+    },
+    "proc-638": {
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "reception": [
+        {
+          "text": "The San Francisco Call reported the reserve the day it was created and said Forestry Bureau officials hoped to see it made a national park, though it wrongly placed it in Santa Cruz County; the Santa Cruz Weekly Sentinel headed its item \"NEW FOREST RESERVE FOR SAN BENITO CO.\"",
+          "source": "San Francisco Call, July 19, 1906; Santa Cruz Weekly Sentinel, July 21, 1906",
+          "date": "1906-07-19"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Pinnacles National Monument was carved from the reserve in 1908; the rest passed, through the Monterey and Santa Barbara forests, into the Los Padres.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-796",
+          "relation": "same_subject",
+          "note": "Pinnacles National Monument, 1908, was carved from this reserve."
+        }
+      ]
+    },
+    "proc-641": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation both added and excluded land, and noted that the reserve had been established in 1893 as the Grand Canon Forest Reserve.",
+          "source": "34 Stat. 3186–3263",
+          "date": "1906-08-08"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-694",
+          "relation": "same_subject",
+          "note": "The Grand Canyon game preserve was proclaimed within this forest reserve on November 28, 1906."
+        }
+      ]
+    },
+    "proc-643": {
+      "related": [
+        {
+          "id": "proc-677",
+          "relation": "enlarged_by",
+          "note": "Enlarged November 5, 1906, less than three months after creation."
+        }
+      ],
+      "today": [
+        {
+          "name": "Kootenai National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-644": {
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-645": {
+      "legacy": [
+        {
+          "text": "Goose Lake was combined with the Fremont in July 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Fremont-Winema National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Oregon",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-649": {
+      "reception": [
+        {
+          "text": "The Amador Ledger-Dispatch listed, township by township, the county land added to the reserve, dating the proclamation September 6.",
+          "source": "Amador Ledger-Dispatch, Oct. 12, 1906",
+          "date": "1906-10-12"
+        }
+      ],
+      "today": [
+        {
+          "name": "Stanislaus National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-650": {
+      "related": [
+        {
+          "id": "proc-630",
+          "relation": "same_subject",
+          "note": "First 1906 enlargement of the same reserve, June 2."
+        }
+      ],
+      "uncertain": [
+        "Beginning with this proclamation the Statutes print the seal clause as \"affixt,\" following the Government Printing Office's adoption of simplified spelling; whether the signed original reads the same is not known."
+      ]
+    },
+    "proc-651": {
+      "today": [
+        {
+          "name": "Fremont-Winema National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-652": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Tahoe and Yuba proclamations were superseded and a single, enlarged Tahoe Forest Reserve established in their place; Yuba had existed for less than a year.",
+          "source": "34 Stat. 3186–3263",
+          "date": "1906-09-17"
+        }
+      ],
+      "reception": [
+        {
+          "text": "The Sacramento Daily Union noted that Governor Pardee had received a copy of the consolidation proclamation.",
+          "source": "Sacramento Daily Union, Sept. 30, 1906",
+          "date": "1906-09-30"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-606",
+          "relation": "supersedes",
+          "note": "Superseded the Yuba Forest Reserve proclamation of November 11, 1905."
+        }
+      ],
+      "today": [
+        {
+          "name": "Tahoe National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California and Nevada",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-654": {
+      "related": [
+        {
+          "id": "proc-689",
+          "relation": "enlarged_by",
+          "note": "Enlarged November 6, 1906, less than two months after creation."
+        }
+      ],
+      "today": [
+        {
+          "name": "Lolo National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-656": {
+      "legacy": [
+        {
+          "text": "Shasta lands passed partly to the Klamath and Trinity forests in 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908"
+        }
+      ]
+    },
+    "proc-657": {
+      "legacy": [
+        {
+          "text": "The reserve went into the Sioux National Forest in July 1908, later part of the Custer Gallatin.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-660": {
+      "legacy": [
+        {
+          "text": "The Santa Barbara forest, which absorbed the Monterey in 1919, became the Los Padres in 1936.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1936"
+        }
+      ],
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-661": {
+      "today": [
+        {
+          "name": "Rogue River–Siskiyou National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-663": {
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-608",
+          "relation": "same_subject",
+          "note": "Same reserve, first enlarged January 16, 1906, under the name Uintah."
+        }
+      ]
+    },
+    "proc-667": {
+      "legacy": [
+        {
+          "text": "Gallinas went into the Lincoln forest in July 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ]
+    },
+    "proc-670": {
+      "legacy": [
+        {
+          "text": "San Mateo went into the Magdalena forest in July 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ]
+    },
+    "proc-671": {
+      "legacy": [
+        {
+          "text": "Peloncillo went into the Chiricahua forest in July 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ]
+    },
+    "proc-675": {
+      "legacy": [
+        {
+          "text": "The reserve went into the Sioux National Forest in July 1908, later part of the Custer Gallatin.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-677": {
+      "related": [
+        {
+          "id": "proc-643",
+          "relation": "enlarges",
+          "note": "Enlarged the Kootenai reserve created August 13, 1906."
+        }
+      ],
+      "today": [
+        {
+          "name": "Kootenai National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-679": {
+      "legacy": [
+        {
+          "text": "The reserve went into the Humboldt National Forest in July 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908-07"
+        }
+      ],
+      "today": [
+        {
+          "name": "Humboldt-Toiyabe National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Nevada",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-683": {
+      "today": [
+        {
+          "name": "Idaho Panhandle National Forests",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Idaho",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-685": {
+      "legacy": [
+        {
+          "text": "Manzano was renamed the Cibola in 1931.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1931"
+        }
+      ],
+      "today": [
+        {
+          "name": "Cibola National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "New Mexico",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-688": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation both added land to the reserve and excluded some.",
+          "source": "34 Stat. 3186–3263",
+          "date": "1906-11-06"
+        }
+      ]
+    },
+    "proc-689": {
+      "related": [
+        {
+          "id": "proc-654",
+          "relation": "enlarges",
+          "note": "Enlarged the Lolo reserve created September 20, 1906."
+        }
+      ],
+      "today": [
+        {
+          "name": "Lolo National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-691": {
+      "legacy": [
+        {
+          "text": "Part of the Jemez went into the Carson forest in 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Carson National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "New Mexico",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    },
+    "proc-692": {
+      "legacy": [
+        {
+          "text": "Taos went into the Carson forest in 1908.",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Carson National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "source": "U.S. Forest Service, Chronologic Record (FS-612)"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "The Morning Oregonian gave the November Idaho reserves a stacked page-2 headline, putting four new reserves at 7,406,556 acres and reading the result as the administration brushing aside Senator Weldon B. Heyburn's protests.",
+        "source": "Morning Oregonian, Nov. 9, 1906, p. 2",
+        "date": "1906-11-09"
+      },
+      {
+        "text": "California papers reported the year's proclamations as local news; a search for 1906 returned 24 items and no fight like the one in Idaho.",
+        "source": "California Digital Newspaper Collection",
+        "date": "1906"
+      },
+      {
+        "text": "Utah papers reported the proclamations as news from Washington or the land office; searches returned 82 items on proclamations and 47 on protests, none of them against a 1906 proclamation.",
+        "source": "Utah Digital Newspapers",
+        "date": "1906"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "The Forest Service answered the charge that land was being locked up by saying the reserves' resources would remain open to use and development, with cutting limited to mature timber.",
+        "source": "Morning Oregonian, Nov. 9, 1906, p. 2",
+        "date": "1906-11-09"
+      },
+      {
+        "kind": "political",
+        "text": "A Washington dispatch linked the November 5–7 burst of twenty-eight proclamations to Roosevelt's departure for Panama rather than to the election on November 6.",
+        "source": "Morning Oregonian, Nov. 9, 1906, p. 2",
+        "date": "1906-11"
+      },
+      {
+        "kind": "political",
+        "text": "Western stockmen, timbermen and their senators increasingly denounced the reserves as a federal lock-up of land beyond the reach of states and settlers, and grazing fees as a tax Congress had never voted.",
+        "source": "research entry",
+        "date": "1906"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "In February 1907 Congress barred new forest reserves and additions to existing ones in Oregon, Washington, Idaho, Montana, Colorado and Wyoming except by act of Congress, and renamed the reserves national forests.",
+        "source": "34 Stat. 1269, 1271",
+        "date": "1907-03-04"
+      },
+      {
+        "text": "A wave of consolidations in July 1908 folded many of the smaller 1906 reserves into larger forests, and boundaries have shifted many times since, so no single 1906 proclamation maps neatly onto one modern forest.",
+        "source": "U.S. Forest Service, Chronologic Record (FS-612)",
+        "date": "1908-07"
+      }
+    ]
+  }
+}

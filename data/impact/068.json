@@ -1,0 +1,184 @@
+{
+  "story": 68,
+  "documents": {
+    "proc-755": {
+      "reception": [
+        {
+          "text": "The Billings drawing was national wire news, described as another of the government's famous land lotteries, with landseekers arriving from all over the country.",
+          "source": "Riverside Enterprise, June 27, 1907",
+          "date": "1907-06-26"
+        },
+        {
+          "text": "A Kansas City Star piece warned readers the farms were not free: a unit of forty-seven and a half acres would cost more than $1,550 in installments.",
+          "source": "Hanford Daily Journal, July 19, 1907",
+          "date": "1907-07-19"
+        },
+        {
+          "text": "Two days into the filing period, a Billings dispatch counted only about twenty entries out of a possible 400.",
+          "source": "Santa Barbara Morning Press, July 25, 1907",
+          "date": "1907-07-24"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Billings land office received 5,491 applications before the June 25 deadline, many from Billings residents who only wanted to see what number they would draw.",
+          "source": "Timothy A. Dick, Huntley Project (Bureau of Reclamation, 1996), p. 16",
+          "date": "1907-06-25"
+        },
+        {
+          "kind": "administrative",
+          "text": "Of the first 1,000 names drawn, only 76 completed filing.",
+          "source": "Timothy A. Dick, Huntley Project (1996), p. 16",
+          "date": "1907"
+        },
+        {
+          "kind": "administrative",
+          "text": "By mid-1908, 238 of the project's 585 farm units, covering 10,675.60 acres, had been entered.",
+          "source": "Reclamation Service, Seventh Annual Report (1907–08), p. 105",
+          "date": "1908"
+        },
+        {
+          "kind": "congress",
+          "text": "Congress gave the July 1907 entrymen until May 15, 1908 to establish residence.",
+          "source": "Act of March 16, 1908, ch. 89, 35 Stat. 44",
+          "date": "1908-03-16"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Only 4,100 acres were irrigated in the 1908 season, and the project went on to drainage trouble and the farm collapse after 1918.",
+          "source": "Timothy A. Dick, Huntley Project (1996)",
+          "date": "1908"
+        },
+        {
+          "text": "The irrigators organized the Huntley Irrigation District in 1921 and took over operation of the works.",
+          "source": "Timothy A. Dick, Huntley Project (1996)",
+          "date": "1921"
+        }
+      ],
+      "today": [
+        {
+          "name": "Huntley Project",
+          "kind": "other",
+          "relation": "part",
+          "state": "Montana",
+          "note": "Federal reclamation project east of Billings, run by the Huntley Irrigation District; can water about 30,000 acres.",
+          "source": "Bureau of Reclamation, Huntley Project page"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-625",
+          "relation": "same_subject",
+          "note": "The Huntley tracts were held back from this 1906 opening of the ceded Crow lands because they had been withdrawn for reclamation."
+        }
+      ],
+      "uncertain": [
+        "How many names were drawn is unclear: wire stories said 1,500, the Reclamation Service's report says 1,000."
+      ]
+    },
+    "proc-765": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "A General Land Office circular signed by Acting Commissioner Fred Dennett sent the proclamation to the Devils Lake land office, announcing the remaining land open at not less than $2.50 an acre, cash, plus the usual fees.",
+          "source": "35 L.D. 646–647",
+          "date": "1907-06-28"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Interior Department ruled that land under entry on June 8, 1907 stayed at $4.50 an acre even if the entry was later cancelled.",
+          "source": "Otto A. Kayser and William H. Meyer, cited in 39 L.D. 434–436",
+          "date": "1908-10-31"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "A federal appeals court held that the 1904 act's cession language, standing alone, did not show a clear intent by Congress to disestablish the Devils Lake Reservation.",
+          "source": "United States v. Grey Bear, 828 F.2d 1286 (8th Cir. 1987)",
+          "date": "1987-09-14"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-530",
+          "relation": "modifies",
+          "note": "Cut the $4.50-an-acre price set for the 1904 Devils Lake opening to $2.50 for land still unsold."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-12-29",
+          "text": "In Clara F. Moran the Interior Department refused a refund, holding that the price cut reached only land unreserved and undisposed of on June 8, 1907.",
+          "source": "39 L.D. 434–436"
+        },
+        {
+          "date": "1987-09-14",
+          "text": "The Eighth Circuit ruled in United States v. Grey Bear that the 1904 act alone did not disestablish the Devils Lake Reservation (later vacated in part on other grounds).",
+          "source": "828 F.2d 1286; 836 F.2d 1088"
+        }
+      ],
+      "uncertain": [
+        "Who proposed the price cut, and how settlers and the local press received it, is not known.",
+        "How many acres sold at the reduced price is not known; the Devils Lake land office's cash-sale abstracts (National Archives Record Group 49) would settle it."
+      ]
+    },
+    "proc-771": {
+      "reception": [
+        {
+          "text": "Only a handful of people turned up when registration opened at Pierre, since the order of registering had no bearing on the drawing; about 500 registered the first day.",
+          "source": "Los Angeles Herald, October 12, 1907",
+          "date": "1907-10"
+        },
+        {
+          "text": "With a day of registration left the total stood at 3,460, and local notaries were angry at outside notaries taking affidavits on the trains.",
+          "source": "Los Angeles Herald, October 18, 1907",
+          "date": "1907-10"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The General Land Office judged the registration-and-drawing plan entirely satisfactory and reported that practically all the lands were entered by people who registered.",
+          "source": "General Land Office, Annual Report for 1908, p. 29",
+          "date": "1908"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Part of the 1906 cession was still unsold in 1913. No court ruling on the present legal status of the cession has been found.",
+          "source": "Proc. 1252 (1913)",
+          "date": "1913"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1913-09-24",
+          "text": "Woodrow Wilson's Proclamation 1252 offered the unsold lands at public auction at Pierre, for cash, at no less than a dollar an acre.",
+          "source": "Proclamation 1252"
+        }
+      ],
+      "uncertain": [
+        "The congressional record read shows no separate assent by the Lower Brule to the House's substitute text of the 1906 act; the agreement's own text, presumably in S. Rep. 253, was not read.",
+        "The present legal status of the 1906 Lower Brule cession has not been settled by any ruling found."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "The Lower Brule, the Crow, and the Sisseton, Wahpeton, and Cut-Head bands, who bore the loss of land, had little voice in the newspapers of 1907.",
+        "source": "research entry",
+        "date": "1907"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The reduced reservations and mixed ownership these openings left behind are part of the pattern behind a century of litigation over what remains Indian country, though neither Rosebud Sioux Tribe v. Kneip (1977) nor McGirt v. Oklahoma (2020) concerned these statutes.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

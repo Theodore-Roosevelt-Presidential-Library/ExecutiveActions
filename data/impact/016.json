@@ -1,0 +1,139 @@
+{
+  "story": 16,
+  "documents": {
+    "eo-642": {
+      "reception": [
+        {
+          "text": "A short Associated Press dispatch datelined Washington, June 5, ran as inside-page filler; the New-York Tribune headed it \"WARNED BY PRESIDENT\" and noted the order did not cover postmasters, marshals and others outside the classified service.",
+          "source": "New-York Tribune, June 6, 1907, p. 3",
+          "date": "1907-06-06"
+        },
+        {
+          "text": "The Wilmington Evening Journal ran the same wire story under the headline \"THE USUAL WARNING.\"",
+          "source": "Wilmington Evening Journal, June 8, 1907",
+          "date": "1907-06-08"
+        },
+        {
+          "text": "No editorials, partisan attacks, employee-organization protests or congressional criticism of the order have been found; Congress was not in session until December 2, 1907.",
+          "source": "research entry",
+          "date": "1907"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The amendment came on the Civil Service Commission's recommendation, after numerous complaints from around the country, especially from North Carolina.",
+          "source": "New-York Tribune, June 6, 1907, p. 3",
+          "date": "1907-06"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Supreme Court cited Executive Order 642 and its consolidation in United Public Workers v. Mitchell when it upheld the Hatch Act.",
+          "source": "United Public Workers v. Mitchell, 330 U.S. 75, 81 n.4 (1947)",
+          "date": "1947"
+        },
+        {
+          "text": "The Supreme Court named Executive Order 642 and built its historical argument on Rule I when it again upheld the Hatch Act, reversing a district court that had held the act unconstitutional.",
+          "source": "U.S. Civil Service Commission v. National Association of Letter Carriers, 413 U.S. 548, 558–59 (1973)",
+          "date": "1973"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-655",
+          "relation": "amended_by",
+          "note": "Executive Order 655 consolidated the amendment's two paragraphs into one without changing its wording."
+        },
+        {
+          "id": "eo-209",
+          "relation": "amends",
+          "note": "Amended Section 1 of Rule I of the civil-service rules prescribed by Executive Order 209; the rule's first sentence was already in that order."
+        },
+        {
+          "id": "eo-193",
+          "relation": "same_subject",
+          "note": "Roosevelt's 1902 order reaffirming the ban on soliciting political contributions from federal employees."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1939-08-02",
+          "text": "The Hatch Act, \"An Act to Prevent Pernicious Political Activities,\" wrote Rule I's language into law in section 9(a) and extended it to nearly the whole executive branch.",
+          "source": "53 Stat. 1147"
+        },
+        {
+          "date": "1940-07-19",
+          "text": "Amendments extended the restrictions to state and local officers paid with federal funds and defined the forbidden conduct by reference to the Civil Service Commission's determinations under the President's rules before July 19, 1940.",
+          "source": "54 Stat. 767"
+        },
+        {
+          "date": "1941-03-05",
+          "text": "The civil-service rules dropped the word \"privately\" from the employee's right to express political opinions, as the Hatch Act already had.",
+          "source": "research entry"
+        },
+        {
+          "date": "1993",
+          "text": "The Hatch Act Reform Amendments repealed the general ban and allowed most federal employees to take an active part in political management or campaigns, keeping the full restriction only for a list of further-restricted employees.",
+          "source": "Pub. L. 103–94, 107 Stat. 1001; 5 U.S.C. §7323"
+        }
+      ],
+      "uncertain": [
+        "Whether a big-city daily editorialized on the rule is not known; the Chicago Tribune, Washington Post and Boston Globe for June 5–20, 1907 have not been searched."
+      ]
+    },
+    "eo-655": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The June 15 amendment put enforcement of the rule under the Civil Service Commission, ending a period when department heads had applied it more strictly to the party out of power.",
+          "source": "Civil Service Commission, Twenty-fourth Annual Report, pp. 8–9",
+          "date": "1907-06-15"
+        },
+        {
+          "kind": "administrative",
+          "text": "Several federal employees who chaired or served as secretaries of Republican and Roosevelt clubs resigned those posts.",
+          "source": "San Francisco Call, July 7, 1907",
+          "date": "1907-07-07"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Department of Commerce and Labor circulated the text to its employees and collected signed acknowledgments.",
+          "source": "Washington Times, July 17, 1907",
+          "date": "1907-07-17"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-642",
+          "relation": "amends",
+          "note": "Consolidated the June 3 amendment into a single paragraph without changing its wording."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "Patronage politicians in both parties opposed the merit system generally, but their resistance never came to a head over this rule, and the order stood.",
+        "source": "research entry",
+        "date": "1907"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The rule's first sentence, barring use of official authority to affect an election, still binds every federal employee.",
+        "source": "5 U.S.C. §7323(a)(1)"
+      },
+      {
+        "text": "Roosevelt's \"active part in political management\" formula still applies in full to further-restricted employees such as those of the FBI, Secret Service and intelligence agencies, and its meaning still rests on Civil Service Commission rulings made under Rule I.",
+        "source": "5 U.S.C. §7323(b)"
+      },
+      {
+        "text": "The Supreme Court upheld the 1940 extension to state and local officers paid with federal funds, and on the same day as Letter Carriers upheld a similar state law.",
+        "source": "Oklahoma v. Civil Service Commission, 330 U.S. 127 (1947); Broadrick v. Oklahoma, 413 U.S. 601 (1973)"
+      }
+    ]
+  }
+}

@@ -223,7 +223,8 @@
     "title_note": "The order barred employee-notaries from charging fees for official acts, for government matters, or during working hours."
   },
   "eo-369-a": {
-    "title_note": "The second Breton Island order: the reservation was founded by the unnumbered order of October 4, 1904 (uo-098)."
+    "title_note": "The second Breton Island order: the reservation was founded by the unnumbered order of October 4, 1904 (uo-098).",
+    "text_note": "This transcription appears to reproduce the October 4, 1904 Breton Island order (see the unnumbered order of that date); the 1912 Agriculture Department compilation prints it under that date, and the November 11, 1905 dateline here has no printed source."
   },
   "eo-283": {
     "title": "Waiving Civil Service Requirements of United States Citizenship for Positions on Isthmus of Panama",
@@ -310,7 +311,10 @@
     "why": "War Department compilation (1907)."
   },
   "uo-069": {
-    "title_note": "The order says \"Mojave-Apache\"; the people were Yavapai (Kappler, vol. III, p. 667)."
+    "title_note": "The order says \"Mojave-Apache\"; the people were Yavapai (Kappler, vol. III, p. 667).",
+    "title": "Abandoned Camp McDowell Military Reservation, Maricopa County, Arizona Territory, set aside for the Mojave-Apache Indians living on or near it and other Indians the Interior Secretary might place there.",
+    "summary": "Set aside the abandoned Camp McDowell Military Reservation in Maricopa County, Arizona Territory, for the Mojave-Apache Indians living on or near it and for other Indians the Secretary of the Interior might later place there.",
+    "why": "The order reserves the land \"for the use and occupancy of such Mojave-Apache Indians as are now living thereon or in the vicinity and such other Indians as the Secretary of the Interior may hereafter deem necessary to place thereon\" (Kappler, vol. III, p. 667); Lord's description drops \"-Apache\" and misreads the second clause."
   },
   "uo-071": {
     "title": "Fort D. A. Russell Target and Maneuver Reservation, on lands of the Crow Creek Forest Reserve, Albany County, Wyo., established.",
@@ -413,5 +417,29 @@
     "title": "Land Office at Mitchell, S. Dak., Transferred to Gregory; Certain Described Lands of the Chamberlain Land District Transferred",
     "title_note": "The source list cuts this caption off; the full wording awaits the signed original.",
     "why": "Truncation marker removed."
+  },
+  "proc-483": {
+    "title_note": "The proclamation has no title of its own; this is the American Presidency Project's caption. The Statutes at Large print it as No. 29 with the margin note \"Amnesty to Philippine insurrectionists\" (32 Stat. 2014)."
+  },
+  "proc-554": {
+    "title_note": "The proclamation combined three older reserves into the Pikes Peak Forest Reserve rather than creating new ground."
+  },
+  "eo-144": {
+    "title_note": "The positions were civilian jobs in the Army's field departments; the order brought them back under the civil-service rules."
+  },
+  "eo-145": {
+    "title_note": "The order covers Indian agents whose agencies passed to school superintendents, not superintendents of training schools as such."
+  },
+  "eo-152": {
+    "title_note": "The order applies to rural letter carriers only, not the whole Post Office service."
+  },
+  "eo-153": {
+    "title_note": "The order applies to rural letter carriers only, not the whole Post Office service."
+  },
+  "eo-723": {
+    "title_note": "The order directed the Civil Service Commission to help Members of Congress test the qualifications of applicants for designation to the academies, at no added expense to the Commission; it did not set up academy examinations outright."
+  },
+  "eo-804": {
+    "title_note": "The order covers clerks and draftsmen at arsenals and navy yards."
   }
 }

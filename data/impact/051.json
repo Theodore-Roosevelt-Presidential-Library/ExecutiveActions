@@ -1,0 +1,68 @@
+{
+  "story": 51,
+  "documents": {
+    "proc-521": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Released for disposal under the Sioux Act of 1889 a single 160-acre tract in the old Cheyenne River Agency reserve, set apart for St. John's Mission School, after the Episcopal Church's Domestic and Foreign Missionary Society said it no longer wanted the land. It opened no reservation surplus and used no registration or drawing.", "source": "33 Stat. 2340–2341", "date": "1904-03-30"}
+      ],
+      "related": [
+        {"id": "proc-497", "relation": "amends", "note": "The February 7, 1903 proclamation that released the rest of the old Cheyenne River Agency reserve once the agency and school buildings had moved."}
+      ]
+    },
+    "proc-526": {
+      "reception": [
+        {"text": "The Rosebud lottery drew 106,308 registered applicants for 2,412 claims, odds of about one in forty-six.", "source": "Annual Report of the Commissioner of Indian Affairs, 1904, Part I, p. 4", "date": "1904"},
+        {"text": "Registration ran 57,432 at Yankton, 35,176 at Bonesteel, 8,700 at Fairfax and 6,100 at Chamberlain.", "source": "South Dakota State Historical Society marker, Bonesteel", "date": "1904-07"},
+        {"text": "Connecticut's Norwich Bulletin carried wire dispatches on the registration through July, reporting a crowd of 316 who had waited all night in the rain at Bonesteel, about 1,500 people on hand when the office opened, and officers expecting two to three thousand registrations a day.", "source": "Norwich Bulletin, July 6, 7 and 22, 1904", "date": "1904-07"},
+        {"text": "Collier's ran a long illustrated feature by Richard Lloyd Jones picturing the land seekers as an army a hundred thousand strong and describing the grafters who took hold of Bonesteel; like the wire coverage, it treated the opening as a story of crowds and disorder, not controversy.", "source": "Collier's, August 13, 1904 (vol. 33, no. 20)", "date": "1904-08-13"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The General Land Office opened 385,817.11 acres at Bonesteel on August 8, 1904, divided into 2,412 claims.", "source": "Annual Report of the Commissioner of Indian Affairs, 1904, Part I, p. 4", "date": "1904-08-08"},
+        {"kind": "local", "text": "The crowds brought gamblers and confidence men, and Bonesteel's townspeople fought a street battle to drive them out, the \"Battle of Bonesteel,\" in which one man was killed.", "source": "South Dakota State Historical Society marker, Bonesteel", "date": "1904"},
+        {"kind": "political", "text": "The cession was enacted on terms that three-fourths of Rosebud's adult men never accepted, as the 1868 treaty required; McLaughlin's 1903 canvass won only a majority.", "source": "Rosebud Sioux Tribe v. Kneip, 430 U.S. 584, 591–594"}
+      ],
+      "legacy": [
+        {"text": "The Rosebud opening was the first of three cessions (1904, 1907, 1910) that the Supreme Court held, 6–3, were meant to diminish the reservation, removing the unallotted lands of Gregory County. The ruling remains central to jurisdiction disputes on and around the reservation.", "source": "Rosebud Sioux Tribe v. Kneip, 430 U.S. 584 (1977)", "date": "1977"}
+      ],
+      "related": [
+        {"id": "proc-530", "relation": "same_subject", "note": "The Devils Lake opening, carried out the same way a few weeks later."}
+      ],
+      "later_actions": [
+        {"date": "1907", "text": "A second cession act took the unallotted lands of Tripp County and a small part of Lyman County from the reservation.", "source": "Rosebud Sioux Tribe v. Kneip, 430 U.S. 584 (1977)"},
+        {"date": "1910", "text": "A third cession act took the unallotted lands of Mellette County.", "source": "Rosebud Sioux Tribe v. Kneip, 430 U.S. 584 (1977)"},
+        {"date": "1977", "text": "The Supreme Court held in Rosebud Sioux Tribe v. Kneip that the 1904, 1907 and 1910 acts diminished the Rosebud Reservation.", "source": "430 U.S. 584"}
+      ]
+    },
+    "proc-530": {
+      "reception": [
+        {"text": "The Devils Lake opening drew 15,086 registrants.", "source": "Annual Report of the Commissioner of Indian Affairs, 1904, Part I, p. 4", "date": "1904"}
+      ],
+      "political_impact": [
+        {"kind": "congress", "text": "When the Devils Lake bill reached the Senate floor, Senator Fred T. Dubois of Idaho asked whether the $4.50 price was the agreement made with the Indians; Orville Platt answered that it was not. Dubois objected for the settlers' sake, not the tribe's, and the bill went over for the day.", "source": "Congressional Record, 58th Cong., 2d Sess., vol. 38, pt. 5, pp. 4138–4139", "date": "1904-04-02"},
+        {"kind": "congress", "text": "The Act of April 27, 1904, rewrote the 1901 agreement's outright sale for $345,000 into a trust arrangement paying the tribe the proceeds of sales, and made it effective on ratification by Congress alone, without sending the new terms back to the tribe.", "source": "Act of April 27, 1904, ch. 1620, 33 Stat. 319–324", "date": "1904-04-27"},
+        {"kind": "administrative", "text": "The General Land Office opened 88,948.39 acres, divided into 556 claims.", "source": "Annual Report of the Commissioner of Indian Affairs, 1904, Part I, p. 4", "date": "1904-09-06"},
+        {"kind": "administrative", "text": "The proclamation reserved land for public use as Sully's Hill Park, using the power the 1904 act gave the President to set aside about 960 acres around Sullys Hill.", "source": "33 Stat. 2368–2372", "date": "1904-06-02"}
+      ],
+      "legacy": [
+        {"text": "The National Park Service came to count Sully's Hill Park among the national parks of Roosevelt's presidency.", "source": "research entry"},
+        {"text": "The 994-acre preserve that grew from the park still shelters bison and elk near the shore of Devils Lake, within the Spirit Lake Tribe's reservation as drawn in 1867.", "source": "research entry"}
+      ],
+      "today": [
+        {"name": "White Horse Hill National Game Preserve", "kind": "other", "relation": "origin", "state": "North Dakota", "since": "1904-06-02", "note": "Formerly Sully's Hill Park and then Sullys Hill National Game Preserve; renamed in 2019 at the Spirit Lake Tribe's request.", "source": "Pub. L. 116-94"}
+      ],
+      "related": [
+        {"id": "proc-526", "relation": "same_subject", "note": "The Rosebud opening, carried out the same way a few weeks earlier."}
+      ],
+      "later_actions": [
+        {"date": "1914", "text": "Congress funded a big-game preserve inside Sully's Hill Park.", "source": "38 Stat. 434"},
+        {"date": "1931", "text": "Congress converted the whole park into Sullys Hill National Game Preserve.", "source": "46 Stat. 1509"},
+        {"date": "2019-12", "text": "Congress renamed it White Horse Hill National Game Preserve at the Spirit Lake Tribe's request.", "source": "Pub. L. 116-94"}
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {"kind": "political", "text": "The fairness of the underlying agreements was contested within the tribes at the time and long afterward.", "source": "research entry"}
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "story": 45,
+  "documents": {
+    "proc-498": {
+      "reception": [
+        {
+          "text": "The Morning Oregonian ran the Senate call on page one under \"EXTRA SESSION CALLED,\" printing the proclamation in full.",
+          "source": "Morning Oregonian, Mar. 3, 1903",
+          "date": "1903-03-03"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "The Senate met in executive session from March 5 to March 19, 1903, to act on the canal treaty with Colombia and the Cuban commercial convention.",
+          "source": "Roosevelt, message to the Senate, Mar. 5, 1903",
+          "date": "1903-03-05"
+        },
+        {
+          "kind": "congress",
+          "text": "The Senate consented to the Hay–Herrán canal treaty without change, by a vote reported as 73 to 5.",
+          "source": "Morning Oregonian",
+          "date": "1903-03-17"
+        },
+        {
+          "kind": "congress",
+          "text": "After days of amendment fights the Senate consented to the Cuban convention, 50 to 16, adding that it would not take effect until approved by Congress.",
+          "source": "United States v. American Sugar Refining Co., 202 U.S. 563 (1906); Morning Oregonian",
+          "date": "1903-03-19"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Colombia's Senate rejected the Hay–Herrán treaty, and the Panama crisis of November 1903 followed.",
+          "source": "research entry",
+          "date": "1903-08-12"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-506",
+          "relation": "same_subject",
+          "note": "The Senate amendment adopted in this session made the November call of the whole Congress necessary."
+        }
+      ]
+    },
+    "proc-506": {
+      "reception": [
+        {
+          "text": "The Morning Oregonian headlined \"EXTRA SESSION / President Calls Congress to Meet November 9,\" printing the full text.",
+          "source": "Morning Oregonian, Oct. 21, 1903",
+          "date": "1903-10-21"
+        },
+        {
+          "text": "The Los Angeles Herald noted of the House vote on the Cuban bill: \"There Was No Record Vote.\"",
+          "source": "Los Angeles Herald, Nov. 20, 1903",
+          "date": "1903-11-20"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "The House adopted a special rule fixing the time of the vote, 183 to 160, with six Republicans from Michigan and Colorado voting with the Democrats against it.",
+          "source": "Voteview, House roll calls 3–5, 58th Congress; Morning Oregonian, Nov. 17, 1903",
+          "date": "1903-11-11"
+        },
+        {
+          "kind": "congress",
+          "text": "The House passed the Cuban reciprocity bill by a rising vote of 335 to 21, with no names recorded.",
+          "source": "San Francisco Call, Nov. 20, 1903 (AP); Press Democrat (Santa Rosa), Nov. 20, 1903",
+          "date": "1903-11-19"
+        },
+        {
+          "kind": "congress",
+          "text": "The Senate talked the bill past the end of the special session, which merged into the regular session on December 7, then passed it 57 to 18 on December 16.",
+          "source": "Voteview, Senate roll call 1, 58th Congress; Congressional Record vol. 38, p. 286",
+          "date": "1903-12-16"
+        },
+        {
+          "kind": "congress",
+          "text": "Roosevelt signed the bill on December 17, 1903; it became chapter 1 of the regular second session.",
+          "source": "Act of Dec. 17, 1903, ch. 1, 33 Stat. 3",
+          "date": "1903-12-17"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Cuban convention took effect on December 27, 1903, and bound the Cuban and American sugar trades closely together for the next three decades.",
+          "source": "United States v. American Sugar Refining Co., 202 U.S. 563 (1906)",
+          "date": "1903-12-27"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-498",
+          "relation": "same_subject",
+          "note": "The March Senate session added the requirement of congressional approval."
+        },
+        {
+          "id": "proc-510",
+          "relation": "same_subject",
+          "note": "Cuban copyright proclamation signed eight days into this session."
+        }
+      ]
+    }
+  }
+}

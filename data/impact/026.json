@@ -1,0 +1,214 @@
+{
+  "story": 26,
+  "documents": {
+    "proc-796": {
+      "reception": [
+        {
+          "text": "The Salinas Index Journal broke the news on its front page under a Washington dateline of January 17, crediting Congressman J. C. Needham as head of the movement.",
+          "source": "Salinas Index Journal, Jan. 18, 1908, p. 1",
+          "date": "1908-01-18"
+        },
+        {
+          "text": "The San Francisco Call ran its own special dispatch on the new monument the next day and returned to the story on March 10.",
+          "source": "San Francisco Call, Jan. 19, 1908, p. 36",
+          "date": "1908-01-19"
+        },
+        {
+          "text": "The item spread on the wire to about twenty California papers between January and March 1908, from San Mateo and Ventura to Los Angeles, Stockton, Eureka and Riverside, usually on the front page.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1908"
+        },
+        {
+          "text": "The Truckee Republican ran the one openly editorial headline, calling the monument another thing done by Roosevelt worthy of applause.",
+          "source": "Truckee Republican, Feb. 8, 1908, p. 1",
+          "date": "1908-02-08"
+        },
+        {
+          "text": "Outside California the news ran as short filler in papers in South Dakota, Vermont, Illinois and Iowa.",
+          "source": "Madison Daily Leader, Jan. 27, 1908; Essex County Herald, Jan. 31, 1908; Rock Island Argus, Feb. 7, 1908; Evening Times-Republican, June 22, 1908",
+          "date": "1908"
+        },
+        {
+          "text": "Every newspaper item found was favorable or neutral, and no opposition to the monument has been recorded.",
+          "source": "research entry",
+          "date": "1908"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The monument displaced no rancher or logger, and no litigation over it has turned up.",
+          "source": "research entry",
+          "date": "1908"
+        },
+        {
+          "kind": "local",
+          "text": "The Salinas Index Journal followed up with a local piece on the road from Soledad to the Pinnacles.",
+          "source": "Salinas Index Journal, Mar. 5, 1908",
+          "date": "1908-03-05"
+        },
+        {
+          "kind": "administrative",
+          "text": "After the monument was created, Gifford Pinchot moved to abolish the surrounding forest reserve and told Congressman Needham so.",
+          "source": "research entry"
+        },
+        {
+          "kind": "administrative",
+          "text": "Executive Order 908 merged the Monterey, San Benito and Pinnacles National Forests as the Monterey National Forest, about six months after the monument was proclaimed.",
+          "source": "Executive Order 908; 36 Stat. 2764",
+          "date": "1908-07-02"
+        },
+        {
+          "kind": "administrative",
+          "text": "Forest supervisor Raymond Tyler reported in favor of eliminating the Pinnacles lands from the national forest.",
+          "source": "research entry",
+          "date": "1909-10-22"
+        },
+        {
+          "kind": "administrative",
+          "text": "Taft's proclamation removed the monument's land from the Monterey National Forest while keeping the monument reserved, which placed it under the Secretary of the Interior.",
+          "source": "36 Stat. 2764",
+          "date": "1910-12-12"
+        },
+        {
+          "kind": "administrative",
+          "text": "Secretary of Agriculture James Wilson notified the Interior Department of the transfer.",
+          "source": "Theodore Roosevelt Center, Pinnacles National Park collection, o294321",
+          "date": "1910-12-16"
+        },
+        {
+          "kind": "administrative",
+          "text": "Interior's report on the national monuments listed Pinnacles at 2,080 acres, marked as an estimated area, and by the 1912 edition carried it in Interior's table rather than Agriculture's.",
+          "source": "Report on the National Monuments, 1911, p. 12; 1912, p. 15",
+          "date": "1911"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Later presidents and Congresses enlarged the monument many times, from about 2,080 acres to about 26,700.",
+          "source": "NPS Land Resources Division, Listing of Acreage, Sept. 30, 2026",
+          "date": "2026-09-30"
+        },
+        {
+          "text": "Geologists matched the Pinnacles rocks to the Neenach volcanic field about 195 miles to the southeast, split from it by the San Andreas Fault.",
+          "source": "Turner et al. (1970); Matthews (1976)",
+          "date": "1970"
+        },
+        {
+          "text": "The Chalone Creek Archeological Sites inside the monument, dating to A.D. 1000–1499, were listed on the National Register of Historic Places.",
+          "source": "National Register of Historic Places",
+          "date": "1978"
+        },
+        {
+          "text": "The first two captive-bred California condors were released at Pinnacles, which became the only National Park Service unit managing a condor release site.",
+          "source": "National Park Service",
+          "date": "2003-12-20"
+        },
+        {
+          "text": "Pinnacles co-manages central California's wild condors with the Ventana Wildlife Society; the program counted 607 condors at the end of 2025, 117 of them in the central California flock.",
+          "source": "U.S. Fish and Wildlife Service, California Condor Recovery Program",
+          "date": "2025-12-31"
+        },
+        {
+          "text": "Congress redesignated the monument Pinnacles National Park and renamed its 1976 wilderness the Hain Wilderness, after homesteader Schuyler Hain.",
+          "source": "Public Law 112-245, 126 Stat. 2385",
+          "date": "2013-01-10"
+        }
+      ],
+      "today": [
+        {
+          "name": "Pinnacles National Park",
+          "kind": "national_park",
+          "relation": "origin",
+          "state": "California",
+          "since": "1908-01-16",
+          "note": "About 26,700 acres today; redesignated a national park in 2013.",
+          "source": "Public Law 112-245, 126 Stat. 2385"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-638",
+          "relation": "same_subject",
+          "note": "The 1906 Pinnacles Forest Reserve within which the monument was set apart; forest uses continued, with the monument as the dominant reservation."
+        },
+        {
+          "id": "eo-908",
+          "relation": "same_subject",
+          "note": "Merged the Pinnacles National Forest into the Monterey National Forest in 1908."
+        },
+        {
+          "id": "proc-793",
+          "relation": "same_subject",
+          "note": "Muir Woods, one of the cluster of monuments Roosevelt proclaimed that January."
+        },
+        {
+          "id": "proc-794",
+          "relation": "same_subject",
+          "note": "Grand Canyon, one of the cluster of monuments Roosevelt proclaimed that January."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-12-12",
+          "text": "Taft's proclamation eliminated the monument's land from the Monterey National Forest without affecting the monument, moving it to the Interior Department.",
+          "source": "36 Stat. 2764"
+        },
+        {
+          "date": "1923-05-07",
+          "text": "Harding enlarged the monument by 562 acres (Proclamation 1660).",
+          "source": "43 Stat. 1911"
+        },
+        {
+          "date": "1924-07-02",
+          "text": "Coolidge enlarged the monument by 326 acres (Proclamation 1704).",
+          "source": "43 Stat. 1961"
+        },
+        {
+          "date": "1931-04-13",
+          "text": "Hoover enlarged the monument by 1,926 acres (Proclamation 1948).",
+          "source": "47 Stat. 2451"
+        },
+        {
+          "date": "1933-07-11",
+          "text": "Franklin Roosevelt enlarged the monument by 5,322 acres (Proclamation 2050).",
+          "source": "48 Stat. 1701"
+        },
+        {
+          "date": "1941-12-05",
+          "text": "Franklin Roosevelt enlarged the monument by 4,300 acres (Proclamation 2528).",
+          "source": "55 Stat. 1709"
+        },
+        {
+          "date": "1976-10-20",
+          "text": "Congress added about 1,718 acres and designated the Pinnacles Wilderness.",
+          "source": "Public Law 94-567, 90 Stat. 2692"
+        },
+        {
+          "date": "1980-09-08",
+          "text": "Congress made a boundary adjustment on Chalone Creek.",
+          "source": "Public Law 96-344"
+        },
+        {
+          "date": "2000-01-11",
+          "text": "Clinton added roughly 7,900 federal acres (Proclamation 7266).",
+          "source": "Proclamation 7266"
+        },
+        {
+          "date": "2002-12",
+          "text": "Congress added about 2,715 acres to the Pinnacles Wilderness.",
+          "source": "Public Law 107-370"
+        },
+        {
+          "date": "2013-01-10",
+          "text": "Congress redesignated the monument Pinnacles National Park and renamed the wilderness the Hain Wilderness.",
+          "source": "Public Law 112-245, 126 Stat. 2385"
+        }
+      ],
+      "uncertain": [
+        "The monument's original size is uncertain: about 2,080 acres by the Agriculture and Interior departments' estimate, but 2,560 acres by a 2020 Forest Service boundary compilation.",
+        "Whether San Benito County newspapers covered the proclamation cannot be checked, since none from 1908 is digitized."
+      ]
+    }
+  }
+}

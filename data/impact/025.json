@@ -1,0 +1,82 @@
+{
+  "story": 25,
+  "documents": {
+    "proc-787": {
+      "reception": [
+        {
+          "text": "No newspaper coverage of the monument has been found, even in the digitized Daily Arizona Silver Belt of Globe, the Gila County seat.",
+          "source": "Chronicling America, 1907-08; California Digital Newspaper Collection, Dec. 1907-Mar. 1908"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The monument was placed under the Forest Service, which held it until 1933, though the ground lay outside the Tonto National Forest until January 1908.",
+          "source": "35 Stat. 2176; research entry",
+          "date": "1907-12-19"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The ruins were lightly guarded for two decades; the Forest Service and the Southern Pacific built the first road to them in 1929.",
+          "source": "Nancy L. Dallett, At the Confluence of Change (2008)",
+          "date": "1929"
+        },
+        {
+          "text": "Unsupervised visitors and vandals damaged the cliff dwellings at some point between the 1880s and the early 1930s; surviving records cannot fix when.",
+          "source": "Dallett, At the Confluence of Change, p. 111"
+        },
+        {
+          "text": "The first Park Service ranger, Charlie Steen, arrived in 1934.",
+          "source": "research entry",
+          "date": "1934"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tonto National Monument",
+          "kind": "national_monument",
+          "relation": "origin",
+          "state": "Arizona",
+          "since": "1907-12-19",
+          "note": "Now 1,120 acres: the original 640 plus 480 added in 1937.",
+          "source": "Proc. 2230, 50 Stat. 1825"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-598",
+          "relation": "same_subject",
+          "note": "The 1905 Tonto Forest Reserve, whose boundary left the monument's township outside it."
+        },
+        {
+          "id": "proc-795",
+          "relation": "same_subject",
+          "note": "The January 1908 forest enlargement that brought the adjoining quarter-sections into the Tonto National Forest."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1929",
+          "text": "The Forest Service and the Southern Pacific built a road, parking area and trail to the Lower Cliff Dwelling.",
+          "source": "Nancy L. Dallett, At the Confluence of Change (2008)"
+        },
+        {
+          "date": "1933-08-10",
+          "text": "Executive Order 6166 (signed June 10, 1933) transferred the monument to the National Park Service.",
+          "source": "Executive Order 6166"
+        },
+        {
+          "date": "1937-04-01",
+          "text": "Franklin Roosevelt's Proclamation 2230 added about 480 acres from the Tonto National Forest and placed the monument under the Park Service director.",
+          "source": "50 Stat. 1825"
+        }
+      ],
+      "uncertain": [
+        "Who first proposed Tonto as a national monument is not known.",
+        "Whether the proclamation met any objection is not known; government correspondence has not been read.",
+        "The Arizona Gazette, New York Times and Washington Post were not searched for coverage."
+      ]
+    }
+  }
+}

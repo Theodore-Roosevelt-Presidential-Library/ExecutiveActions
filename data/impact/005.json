@@ -1,0 +1,121 @@
+{
+  "story": 5,
+  "documents": {
+    "proc-740": {
+      "reception": [
+        {
+          "text": "No news story reporting the proclamation, and no objection to it, turns up in any of the twenty-one New Mexico newspapers digitized for 1907.",
+          "source": "Chronicling America, New Mexico titles, 1907",
+          "date": "1907"
+        },
+        {
+          "text": "Five days after the signing, the Santa Fe New Mexican mentioned the new monument only in passing, counting \"Inscription Rock and Pueblo Bonito\" as New Mexico's two monuments while arguing for a third at the Palace of the Governors.",
+          "source": "Santa Fe New Mexican, March 16, 1907",
+          "date": "1907-03-16"
+        },
+        {
+          "text": "A syndicated feature on the new monuments, written before the signing, still described Chaco as pending two months later.",
+          "source": "Hopkinsville Kentuckian, May 16, 1907",
+          "date": "1907-05-16"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Five Navajo allotments taken up inside the monument boundary in May 1909 were rescinded once the overlap was found; four were cancelled, and Welo's was not.",
+          "source": "Brugge, A History of the Chaco Navajos (1980)",
+          "date": "1909"
+        },
+        {
+          "kind": "local",
+          "text": "Near Pueblo Pintado, De-neth-tso and his son Ush-ke-yazzie had to make replacement selections after a survey mismatch left their hogans and corrals outside their allotments.",
+          "source": "Brugge, A History of the Chaco Navajos (1980)",
+          "date": "1909"
+        },
+        {
+          "kind": "administrative",
+          "text": "The General Land Office's chief clerk repeated the proclamation's county error without comment, placing the monument in San Juan County alone.",
+          "source": "Frank Bond, General Land Office, 1911",
+          "date": "1911"
+        },
+        {
+          "kind": "local",
+          "text": "A remnant of Richard Wetherill's homestead was patented in October 1912.",
+          "source": "BLM General Land Office serial-register record",
+          "date": "1912-10-05"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Coolidge's 1928 proclamation added four parcels totaling 880 acres, after survey plats showed some ruins fell outside the boundary, and quietly corrected the county to San Juan and McKinley.",
+          "source": "Proc. 1826, 45 Stat. 2937",
+          "date": "1928-01-10"
+        },
+        {
+          "text": "Navajo residents were moved out of the monument in 1934.",
+          "source": "Brugge, A History of the Chaco Navajos (1980)",
+          "date": "1934"
+        },
+        {
+          "text": "Completion of the boundary fence ended grazing inside the monument.",
+          "source": "Brugge, A History of the Chaco Navajos (1980)",
+          "date": "1947-11"
+        },
+        {
+          "text": "With the removal of Navajo people living at Tomasito's old homesite in the South Gap, Navajo residence within the monument ended.",
+          "source": "Brugge, A History of the Chaco Navajos (1980)",
+          "date": "1948-05"
+        },
+        {
+          "text": "Congress abolished the monument and established Chaco Culture National Historical Park in its place, with some 4,000 recorded archeological sites.",
+          "source": "Pub. L. 96-550, Title V, 94 Stat. 3227; Chaco Culture NHP Foundation Document (2015)",
+          "date": "1980-12-19"
+        },
+        {
+          "text": "UNESCO inscribed Chaco on the World Heritage List at the Committee's eleventh session in Paris, under cultural criterion (iii); the property, renamed \"Chaco Culture\" in 2006, also takes in Aztec Ruins and several BLM-managed Chacoan sites.",
+          "source": "UNESCO World Heritage Committee, 11th session (1987); decision 30 COM 8B.19 (2006)",
+          "date": "1987"
+        }
+      ],
+      "today": [
+        {
+          "name": "Chaco Culture National Historical Park",
+          "kind": "national_park",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "note": "The monument was abolished and the park established in its place in 1980; about 33,960 acres today.",
+          "source": "Pub. L. 96-550, 94 Stat. 3227; NPS Land Resources Division"
+        },
+        {
+          "name": "Chaco Culture World Heritage property",
+          "kind": "other",
+          "relation": "part",
+          "state": "New Mexico",
+          "note": "The park is one part of a broader World Heritage property that also includes Aztec Ruins National Monument and BLM-managed Chacoan sites.",
+          "source": "UNESCO World Heritage Committee"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1928-01-10",
+          "text": "Proclamation 1826 added four parcels (880 acres) and described the monument as lying in San Juan and McKinley counties.",
+          "source": "45 Stat. 2937"
+        },
+        {
+          "date": "1980-12-19",
+          "text": "Congress abolished the monument, established Chaco Culture National Historical Park, and designated thirty-three outlying archeological protection sites.",
+          "source": "Pub. L. 96-550, Title V, 94 Stat. 3227"
+        },
+        {
+          "date": "1995",
+          "text": "The Chacoan Outliers Protection Act raised the outlying protection sites to thirty-nine, about 14,372 acres.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "How much of Wetherill's homestead was patented in 1912, and to whom, is unresolved: one account gives 12.98 acres to his son Roger, the BLM land record 112.98 acres to Richard Wetherill.",
+        "Exactly when particular Navajo families left the monument, and under what conditions, is vague in the available documentation."
+      ]
+    }
+  }
+}

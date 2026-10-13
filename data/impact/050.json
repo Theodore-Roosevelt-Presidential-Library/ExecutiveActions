@@ -1,0 +1,33 @@
+{
+  "story": 50,
+  "documents": {
+    "proc-514": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The grant went against the recorded advice of the General Land Office and Interior Secretary Hitchcock, who had warned the President in April 1903 that the request was \"a job\" and asked him not to make the grant.", "source": "Hitchcock to Roosevelt, April 24, 1903, TR Papers (via TR Center)", "date": "1904-01-05"},
+        {"kind": "local", "text": "It settled a split in Santa Fe in favor of the city and its schools, over taxpayers who wanted the post auctioned to private owners to add to the tax rolls.", "source": "N. B. Laughlin to Matthew Quay, April 1903, TR Papers", "date": "1904"},
+        {"kind": "administrative", "text": "It appears to be the first time a President used the 1893 proviso allowing grants of small abandoned military reservations to towns; no earlier proclamation in the Statutes at Large quotes it.", "source": "Statutes at Large vols. 28–33 (GovInfo full-text search); 27 Stat. 593", "date": "1904-01-05"}
+      ],
+      "legacy": [
+        {"text": "The land was delivered to the city in 1904 and passed to the Board of Education for sale to private owners.", "source": "SAH Archipedia", "date": "1904"},
+        {"text": "The Otero-Bergere family bought the officers' quarters they had been living in from the Board for $2,700.", "source": "Georgia O'Keeffe Museum research guide", "date": "1905-12-22"},
+        {"text": "One officers' quarters survives on Lincoln Avenue, remodeled in Pueblo Revival style as Edgar Lee Hewett's residence in 1916 and now home to the Museum of New Mexico Foundation; the other post buildings were razed.", "source": "SAH Archipedia; National Park Service", "date": "1916"}
+      ],
+      "related": [
+        {"id": "proc-519", "relation": "amended_by", "note": "Labeled a correction in the Statutes; regranted the same land to the incorporated \"city\" rather than \"town\" of Santa Fe."}
+      ],
+      "uncertain": [
+        "Whether the General Land Office or Secretary Hitchcock changed his recommendation before the grant, or whether Roosevelt overruled them, is not known.",
+        "How the Santa Fe New Mexican and other papers greeted the grant in January 1904 has not been checked.",
+        "Whether the Fort Marcy Ballfield on Bishops Lodge Road lies inside the 17¾ acres granted is not known."
+      ]
+    },
+    "proc-519": {
+      "related": [
+        {"id": "proc-514", "relation": "amends", "note": "Corrects the grantee from the \"incorporated town\" to the \"incorporated city\" of Santa Fe."}
+      ],
+      "uncertain": [
+        "How the Santa Fe New Mexican and other papers greeted the corrected grant in March 1904 has not been checked."
+      ]
+    }
+  }
+}

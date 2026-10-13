@@ -1,0 +1,107 @@
+{
+ "story": 106,
+ "documents": {
+  "eo-1049": {
+   "political_impact": [
+    {
+     "kind": "political",
+     "text": "The Bogoslof reservation passed without notice or opposition, like the rest of the bird-reservation program.",
+     "source": "research entry",
+     "date": "1909"
+    }
+   ],
+   "legacy": [
+    {
+     "text": "The Bogoslof Reservation became the Bogoslof National Wildlife Refuge under the 1940 renaming of federal wildlife reservations.",
+     "source": "Proclamation 2416",
+     "date": "1940-07-25"
+    },
+    {
+     "text": "Congress designated the Bogoslof Wilderness at 390 acres; the Fish and Wildlife Service now gives the island as 175 acres, its shape having been greatly modified by the 2016–17 eruption.",
+     "source": "Pub. L. 91-504, 84 Stat. 1104–05; U.S. Fish and Wildlife Service; U.S. Geological Survey",
+     "date": "1970-10-23"
+    },
+    {
+     "text": "Bogoslof is listed among the major Steller sea-lion rookery sites, and the Bogoslof area of the Bering Sea shelf is one of three special Steller sea-lion foraging areas in Alaska.",
+     "source": "50 C.F.R. part 226, Table 1 and § 226.202(c)"
+    },
+    {
+     "text": "Bogoslof was Roosevelt's last addition to the bird-reservation system he began at Pelican Island in 1903, which grew into the National Wildlife Refuge System of 573 national wildlife refuges.",
+     "source": "U.S. Fish and Wildlife Service"
+    }
+   ],
+   "today": [
+    {
+     "name": "Alaska Maritime National Wildlife Refuge (Aleutian Islands unit)",
+     "kind": "wildlife_refuge",
+     "relation": "absorbed_into",
+     "state": "Alaska",
+     "note": "Bogoslof and nearby Fire Island lie in this unit.",
+     "source": "Pub. L. 96-487"
+    },
+    {
+     "name": "Bogoslof Wilderness",
+     "kind": "other",
+     "relation": "part",
+     "state": "Alaska",
+     "note": "Designated 1970 at 390 acres; about 175 acres today.",
+     "source": "Pub. L. 91-504, 84 Stat. 1104–05"
+    }
+   ],
+   "related": [
+    {
+     "id": "uo-054",
+     "relation": "same_subject",
+     "note": "Pelican Island, the first bird reservation; Bogoslof was the last."
+    }
+   ],
+   "later_actions": [
+    {
+     "date": "1940-07-25",
+     "text": "Renamed Bogoslof National Wildlife Refuge.",
+     "source": "Proclamation 2416"
+    },
+    {
+     "date": "1970-10-23",
+     "text": "Designated the Bogoslof Wilderness.",
+     "source": "Pub. L. 91-504, 84 Stat. 1104–05"
+    },
+    {
+     "date": "1980-12-02",
+     "text": "Folded into the Alaska Maritime National Wildlife Refuge.",
+     "source": "Pub. L. 96-487"
+    }
+   ]
+  },
+  "eo-1046": {
+   "legacy": [
+    {
+     "text": "Bringing office deputies in United States marshals' offices into the competitive service was absorbed into the growing merit system.",
+     "source": "research entry"
+    }
+   ],
+   "related": [
+    {
+     "id": "eo-209",
+     "relation": "amends",
+     "note": "Rewrote the Department of Justice exception first set in the 1903 civil-service rules."
+    }
+   ]
+  },
+  "eo-1048": {
+   "uncertain": [
+    "Whether the Inauguration Day excusal covered the whole day or part of it, and all District of Columbia employees or only those who wished to attend, is not known; no full text has been located."
+   ]
+  },
+  "eo-1050": {
+   "political_impact": [
+    {
+     "kind": "administrative",
+     "text": "The last numbered executive order Roosevelt signed; the series resumed with Executive Order 1051 on March 16, 1909, under Taft.",
+     "source": "research entry",
+     "date": "1909-03-03"
+    }
+   ]
+  }
+ }
+}

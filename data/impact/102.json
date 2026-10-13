@@ -1,0 +1,143 @@
+{
+  "story": 102,
+  "story_level": {
+    "reception": [
+      {"text": "The bird reservations drew little national press but real gratitude from the young Audubon societies that had lobbied for them.", "source": "research entry", "date": "1908"}
+    ],
+    "political_impact": [
+      {"kind": "administrative", "text": "The government of the day made no count of the reservations' acreage; a 1912 Biological Survey list noted that most were unsurveyed and their area uncertain.", "source": "Palmer, Biological Survey Circular No. 87 (1912)", "date": "1912-10"},
+      {"kind": "political", "text": "The routine personnel and land orders of these weeks drew no recorded notice.", "source": "research entry"}
+    ],
+    "legacy": [
+      {"text": "The Klamath and Malheur reservations belong to the 51 bird reservations of Roosevelt's presidency, the beginnings of what became the National Wildlife Refuge System.", "source": "Palmer, Biological Survey Circular No. 87 (1912), pp. 9–10; U.S. Fish and Wildlife Service"}
+    ]
+  },
+  "documents": {
+    "eo-923": {
+      "legacy": [
+        {"text": "Key West survives as a national wildlife refuge of about 209,000 acres, nearly all of it open water, taking in the Marquesas Keys and 13 other islands across 375 square miles.", "source": "U.S. Fish and Wildlife Service, Annual Report of Lands (as of Sept. 30, 2025)", "date": "2025-09-30"}
+      ],
+      "today": [
+        {"name": "Key West National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "Florida", "since": "1908-08-08", "note": "208,937.33 total acres, of which 206,289 are held under agreement or lease, essentially open water.", "source": "U.S. Fish and Wildlife Service, Annual Report of Lands (as of Sept. 30, 2025)"},
+        {"name": "Florida Keys Wilderness", "kind": "other", "relation": "part", "state": "Florida", "note": "Key West's share is 2,019 acres; the wilderness also spans the National Key Deer and Great White Heron refuges.", "source": "U.S. Fish and Wildlife Service, Annual Report of Lands, Table 8; Pub. L. 93-632"}
+      ],
+      "later_actions": [
+        {"date": "1975-01-03", "text": "Congress designated 2,019 acres of the Key West refuge as part of the Florida Keys Wilderness.", "source": "Pub. L. 93-632"}
+      ],
+      "related": [
+        {"id": "uo-054", "relation": "same_subject", "note": "The Florida reservations extended the Gulf Coast chain begun at Pelican Island in 1903."}
+      ],
+      "uncertain": [
+        "Which refuge complex manages the Key West refuge today should be confirmed; it has been placed in the J. N. \"Ding\" Darling complex, but the Fish and Wildlife Service also describes it in its Florida Keys complex materials."
+      ]
+    },
+    "eo-924": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The order made the reservation subject to use by the Reclamation Service under the Reclamation Act of 1902, conceding the reclamation claim in the document that created the refuge.", "source": "EO 924 (Wikisource)", "date": "1908-08-08"}
+      ],
+      "legacy": [
+        {"text": "The Klamath Water Users Association persuaded Woodrow Wilson to cut the Lower Klamath reservation in 1915.", "source": "research entry", "date": "1915"},
+        {"text": "Biological Survey reports of 1916, 1918 and 1919 record homestead applications rejected inside the boundary and organized movements to drain the water from both the Klamath and Malheur reservations.", "source": "Bureau of Biological Survey, annual reports, 1916, 1918, 1919"},
+        {"text": "Four later executive orders took the reservation from a reconstructed 81,619 acres down to 46,902 as reclamation drained much of Lower Klamath Lake.", "source": "Klamath Basin NWR Complex Final CCP/EIS (Dec. 2016), App. G; research entry"},
+        {"text": "The Fish and Wildlife Service calls Lower Klamath the nation's first waterfowl refuge; that framing is the agency's, since the 1908 order uses the same \"native birds\" language as every order in the series.", "source": "U.S. Fish and Wildlife Service; EO 924"}
+      ],
+      "today": [
+        {"name": "Lower Klamath National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "Oregon and California", "since": "1908-08-08", "note": "50,092 acres today.", "source": "U.S. Fish and Wildlife Service"}
+      ],
+      "later_actions": [
+        {"date": "1915-05-14", "text": "Executive Order 2200 reduced the reservation, after the Klamath Water Users Association pressed its case with Wilson.", "source": "EO 2200"},
+        {"date": "1919-12-02", "text": "Executive Order 3187 reduced the reservation further.", "source": "EO 3187"},
+        {"date": "1921-03-28", "text": "Executive Order 3422 reduced the reservation further.", "source": "EO 3422"},
+        {"date": "1940-07-10", "text": "Executive Order 8475 revoked the 1908 order as to a single lot of 7.80 acres.", "source": "EO 8475, 5 FR 2541"}
+      ],
+      "related": [
+        {"id": "eo-929", "relation": "same_subject", "note": "The Oregon Audubon Society pressed for both the Klamath and Malheur reservations."}
+      ]
+    },
+    "eo-929": {
+      "political_impact": [
+        {"kind": "local", "text": "By 1911 questions had arisen with residents of adjoining land over cutting hay, burning tules, grazing hogs, destroying coyotes and trapping; the Biological Survey reported meeting them so as to keep friendly relations.", "source": "Bureau of Biological Survey, annual report, 1911", "date": "1911"},
+        {"kind": "administrative", "text": "The Biological Survey's 1912 list numbered Lake Malheur 19th among the national bird reservations.", "source": "Palmer, Biological Survey Circular No. 87 (1912), pp. 9–10", "date": "1912"}
+      ],
+      "legacy": [
+        {"text": "Oregon claimed title to Malheur Lake in 1916, a fight settled only by the Supreme Court in 1935, which described the reservation as 81,786 acres of unsurveyed land within a 105.36-mile meander line.", "source": "United States v. Oregon, 295 U.S. 1, 5 (1935)", "date": "1935"},
+        {"text": "Biological Survey reports of 1916, 1918 and 1919 record organized movements to drain the water from both the Klamath and Malheur reservations.", "source": "Bureau of Biological Survey, annual reports, 1916, 1918, 1919"},
+        {"text": "The refuge grew to more than twice its 1908 size with the Blitzen Valley addition of 1935 and the Double-O Unit of 1941.", "source": "research entry"},
+        {"text": "In 2016 an armed group occupied the refuge headquarters in a standoff over federal control of Western land.", "source": "research entry", "date": "2016"}
+      ],
+      "today": [
+        {"name": "Malheur National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "Oregon", "since": "1908-08-18", "note": "187,171.20 acres as of September 30, 2025; one of the largest freshwater marsh and wetland refuges in the West.", "source": "U.S. Fish and Wildlife Service, Annual Report of Lands (as of Sept. 30, 2025), Table 3"}
+      ],
+      "later_actions": [
+        {"date": "1935", "text": "The Supreme Court settled Oregon's claim to Malheur Lake in United States v. Oregon.", "source": "United States v. Oregon, 295 U.S. 1 (1935)"},
+        {"date": "1935", "text": "The Blitzen Valley was added to the refuge.", "source": "research entry"},
+        {"date": "1941", "text": "The Double-O Unit was added to the refuge.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "eo-924", "relation": "same_subject", "note": "The Oregon Audubon Society pressed for both reservations."}
+      ]
+    },
+    "eo-932": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Biological Survey's 1912 list numbered Chase Lake 20th among the national bird reservations.", "source": "Palmer, Biological Survey Circular No. 87 (1912), pp. 9–10", "date": "1912"}
+      ],
+      "legacy": [
+        {"text": "Chase Lake remains a refuge that has at times hosted nearly a third of the continental white-pelican population, in the Fish and Wildlife Service's words.", "source": "U.S. Fish and Wildlife Service"}
+      ],
+      "today": [
+        {"name": "Chase Lake National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "North Dakota", "since": "1908-08-28", "note": "4,385 acres; managed in the Eastern North Dakota refuge complex.", "source": "U.S. Fish and Wildlife Service"},
+        {"name": "Chase Lake Wilderness", "kind": "other", "relation": "part", "state": "North Dakota", "note": "4,155 acres, designated in 1975.", "source": "Wilderness.net"}
+      ],
+      "later_actions": [
+        {"date": "1975", "text": "A 4,155-acre wilderness was designated within the refuge.", "source": "Wilderness.net"}
+      ]
+    },
+    "eo-939": {
+      "today": [
+        {"name": "Pine Island National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "Florida", "since": "1908-09-15", "note": "608.48 acres; part of the J. N. \"Ding\" Darling refuge complex.", "source": "U.S. Fish and Wildlife Service, Annual Report of Lands (as of Sept. 30, 2025)"}
+      ],
+      "related": [
+        {"id": "uo-054", "relation": "same_subject", "note": "The Florida reservations extended the Gulf Coast chain begun at Pelican Island in 1903."}
+      ]
+    },
+    "eo-942": {
+      "legacy": [
+        {"text": "The reservation was renamed the Palma Sola National Wildlife Refuge in 1940 and revoked in 1948; the revoking order describes a small unsurveyed island of about two acres.", "source": "Proclamation 2416; Public Land Order 446, 13 FR 657"}
+      ],
+      "today": [
+        {"name": "Palma Sola National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "abolished", "state": "Florida", "note": "Revoked in 1948; the land reverted to the public-land laws on April 9, 1948.", "source": "Public Land Order 446, 13 FR 657"}
+      ],
+      "later_actions": [
+        {"date": "1940-07-25", "text": "Renamed the Palma Sola National Wildlife Refuge by Proclamation 2416.", "source": "Proclamation 2416"},
+        {"date": "1948-02-06", "text": "Public Land Order 446 revoked Executive Order 942; the island reverted to the public-land laws on April 9, 1948.", "source": "Public Land Order 446, 13 FR 657"}
+      ],
+      "related": [
+        {"id": "uo-054", "relation": "same_subject", "note": "The Florida reservations extended the Gulf Coast chain begun at Pelican Island in 1903."}
+      ],
+      "uncertain": [
+        "Why the reservation was revoked in 1948 is not known; the revoking order gives no reason, and an unsourced story that the island eroded away may confuse it with Passage Key.",
+        "The size of the reservation in 1908 is not known; the two-acre figure is from the 1948 revocation."
+      ]
+    },
+    "eo-943": {
+      "today": [
+        {"name": "Matlacha Pass National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "Florida", "since": "1908-09-26", "note": "Has \"grown to 31 islands encompassing over 500 acres\" (564.73 acres as of Sept. 30, 2025); part of the J. N. \"Ding\" Darling refuge complex.", "source": "U.S. Fish and Wildlife Service, Annual Report of Lands (as of Sept. 30, 2025)"}
+      ],
+      "related": [
+        {"id": "uo-054", "relation": "same_subject", "note": "The Florida reservations extended the Gulf Coast chain begun at Pelican Island in 1903."}
+      ]
+    },
+    "eo-919": {
+      "uncertain": ["The later history of this Fort Bayard watershed withdrawal has not been traced."]
+    },
+    "eo-920": {
+      "uncertain": ["The later history of the Tanana Signal Corps reservation has not been traced."]
+    },
+    "eo-934": {
+      "uncertain": ["The later history of the Belle Fourche experiment-farm reservation has not been traced. It is not the Belle Fourche bird reservation, which came later by Executive Order 1032."]
+    },
+    "eo-945": {
+      "uncertain": ["The later history of the Circle wireless-station reservation has not been traced."]
+    }
+  }
+}

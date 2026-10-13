@@ -1,0 +1,30 @@
+{
+  "story": 21,
+  "documents": {},
+  "story_level": {
+    "political_impact": [
+      {"kind": "congress", "text": "The bill split both parties along the seam between West and East; resistance came from Easterners unwilling to tax the whole country for a rival farm region and from strict constructionists including House Appropriations chairman \"Uncle Joe\" Cannon and his circle.", "source": "research entry", "date": "1902"},
+      {"kind": "congress", "text": "The Senate passed Senator Hansbrough's S. 3057 by voice vote, and after Roosevelt wrote asking Cannon to stand aside, the House passed it 146 to 55.", "source": "Congressional Record, 57th Cong., 1st sess., vol. 35", "date": "1902-06-13"},
+      {"kind": "administrative", "text": "Secretary of the Interior Ethan Allen Hitchcock created the Reclamation Service inside the U.S. Geological Survey, with Charles D. Walcott at its head and Frederick H. Newell as Chief Engineer.", "source": "research entry", "date": "1902-07-08"},
+      {"kind": "administrative", "text": "Hitchcock authorized the first five reclamation projects on a single day: Sweetwater, Milk River, Truckee, Gunnison and Salt River.", "source": "research entry", "date": "1903-03-14"},
+      {"kind": "congress", "text": "Congress extended the reclamation law to Texas, which had no federal public land and so was not among the original sixteen states and territories.", "source": "Act of June 12, 1906, ch. 3288, 34 Stat. 259", "date": "1906-06-12"},
+      {"kind": "administrative", "text": "The Reclamation Service was separated from the Geological Survey, with Newell as its Director.", "source": "research entry", "date": "1907-03-09"},
+      {"kind": "administrative", "text": "Attorney General Wickersham's report put land withdrawn in Wyoming, Utah and Montana on the Reclamation Service's recommendation between December 4, 1908 and February 17, 1909 at about 8.25 million acres, later said to have been withdrawn to protect power sites.", "source": "Wickersham report to President Taft, Morning Oregonian, February 28, 1910, p. 5", "date": "1910"}
+    ],
+    "legacy": [
+      {"text": "Roosevelt, by then a private citizen, dedicated Theodore Roosevelt Dam on the Salt River; the reservoir behind it still bears his name.", "source": "research entry", "date": "1911-03-18"},
+      {"text": "Secretary Lane announced that the Truckee-Carson project would be known as the Newlands Project in memory of Francis G. Newlands.", "source": "San Francisco Call, March 5, 1919", "date": "1919-03"},
+      {"text": "The Reclamation Service became the Bureau of Reclamation, which went on to build Hoover, Grand Coulee and much of the West's network of dams.", "source": "research entry", "date": "1923-06-20"},
+      {"text": "Settlers struggled to repay construction costs on schedule, Congress repeatedly softened the terms, and the 160-acre limit was widely evaded.", "source": "research entry"},
+      {"text": "Derby Dam's diversions from the Truckee River led to the Orr Ditch suit (1913) and a 1944 decree, which the Supreme Court held binding against the Pyramid Lake Paiute Tribe's further claims in Nevada v. United States.", "source": "Nevada v. United States, 463 U.S. 110 (1983)", "date": "1983"},
+      {"text": "By the mid-1960s the Lahontan cutthroat trout had been eliminated from Pyramid Lake.", "source": "Bureau of Reclamation fact sheet"}
+    ],
+    "today": [
+      {"name": "Bureau of Reclamation", "kind": "other", "relation": "origin", "state": "United States", "note": "Grew from the Reclamation Service created under the 1902 act.", "source": "research entry"},
+      {"name": "Theodore Roosevelt Dam", "kind": "other", "relation": "origin", "state": "Arizona", "note": "Salt River project dam, one of the five first projects; dedicated by Roosevelt in 1911.", "source": "research entry"},
+      {"name": "Newlands Project", "kind": "other", "relation": "renamed", "state": "Nevada", "note": "The Truckee (later Truckee-Carson) project, renamed in 1919.", "source": "San Francisco Call, March 5, 1919"},
+      {"name": "North Platte Project", "kind": "other", "relation": "renamed", "state": "Wyoming and Nebraska", "note": "Originally the Sweetwater project.", "source": "research entry"},
+      {"name": "Uncompahgre Project", "kind": "other", "relation": "renamed", "state": "Colorado", "note": "Originally the Gunnison project.", "source": "research entry"}
+    ]
+  }
+}
