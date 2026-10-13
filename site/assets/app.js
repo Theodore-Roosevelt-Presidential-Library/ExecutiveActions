@@ -98,6 +98,7 @@ const EA = (() => {
       const l = c.lord;
       out.push(`<li><b>Lord's List and Index (1943)</b>Clifford L. Lord, ed., <i>List and Index of Presidential Executive Orders: Unnumbered Series</i>, no. ${esc(l.number)}${l.page ? `, p. ${esc(l.page)}` : ""}${l.citations ? `<br><span class="small">Lord cites: ${esc(l.citations)}</span>` : ""}</li>`);
     }
+    out.push(`<li><b>On trlibrary.com</b><a href="https://www.trlibrary.com/tr/presidency/executive-actions/action?id=${encodeURIComponent(d.id)}">This action on the Library's website</a></li>`);
     if (d.title_source) out.push(`<li><b>Title</b>${/^Corrected/.test(d.title_source) ? "Corrected by the Library; see the note on the title" : `As given by ${esc(d.title_source)}`}</li>`);
     return out.length ? `<ul class="cites">${out.join("")}</ul>` : `<p class="small">No published citation yet.</p>`;
   }
