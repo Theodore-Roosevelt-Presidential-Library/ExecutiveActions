@@ -1,0 +1,38 @@
+{
+  "story": 53,
+  "documents": {
+    "proc-523": {
+      "reception": [
+        {"text": "A settler's letter from Minidoka told Utah readers that the government had laid out three town sites along the proposed railroad branch, and that the lots would be sold to the highest bidders once water reached the land.", "source": "W. H. Pace, letter of July 10, 1904, Iron County Record (Cedar City, Utah), July 23, 1904, p. 1", "date": "1904-07-23"},
+        {"text": "Utah's dailies, which followed the Minidoka country closely, did not report the proclamation itself, and no objection to the reservation turned up in the papers searched.", "source": "Utah Digital Newspapers, 1904", "date": "1904"}
+      ],
+      "political_impact": [
+        {"kind": "local", "text": "Homesteaders were traveling 123 miles to the land office at Hailey to file, and Minidoka had grown in sixty days from a depot and water tank into a place with lumberyards, a hotel, a restaurant and saloons.", "source": "W. H. Pace, Iron County Record, July 23, 1904, p. 1", "date": "1904-07"},
+        {"kind": "administrative", "text": "The Rupert and Heyburn town sites were surveyed from August to October 1905, and the General Land Office reported their plats approved.", "source": "Reclamation Service, Sixth Annual Report (1906–1907), p. 89; Report of the Commissioner of the General Land Office, 1906, p. 24", "date": "1905"},
+        {"kind": "local", "text": "Rupert was platted on November 21, 1905, and incorporated on April 12, 1906.", "source": "Minidoka County, History; City of Rupert, Historic Rupert", "date": "1905-11-21"},
+        {"kind": "administrative", "text": "Town lots were first offered at Heyburn on August 20, 1906 and at Rupert on August 27, 1906, under the Act of April 16, 1906 rather than the old town-site law.", "source": "Reclamation Service, Sixth Annual Report (1906–1907), p. 89", "date": "1906-08"}
+      ],
+      "legacy": [
+        {"text": "The Reclamation Service named Heyburn, Rupert and Acequia as the town sites established on the Minidoka project and traced their withdrawal to this proclamation.", "source": "Reclamation Service, Sixth Annual Report (1906–1907), Minidoka Project, \"Town Sites,\" p. 89", "date": "1907"},
+        {"text": "The Bureau of Reclamation lists four government towns on the Minidoka project: Rupert, Heyburn, Minidoka and Acequia. Nearby Burley is not one of them and does not stand on land this proclamation reserved.", "source": "Bureau of Reclamation, Minidoka Project history"}
+      ],
+      "today": [
+        {"name": "Rupert, Idaho", "kind": "other", "relation": "part", "state": "Idaho", "note": "Downtown Rupert lies in section 29, T. 9 S., R. 24 E., one of the reserved tracts.", "source": "BLM PLSS cadastral data (CadNSDI)"},
+        {"name": "Heyburn, Idaho", "kind": "other", "relation": "part", "state": "Idaho", "note": "Heyburn lies in section 15, T. 10 S., R. 23 E., one of the reserved tracts.", "source": "BLM PLSS cadastral data (CadNSDI)"},
+        {"name": "Acequia, Idaho", "kind": "other", "relation": "part", "state": "Idaho", "note": "Acequia lies in section 1, T. 9 S., R. 24 E., one of the reserved tracts.", "source": "Reclamation Service, Sixth Annual Report, p. 89; BLM PLSS cadastral data"}
+      ],
+      "related": [
+        {"id": "proc-633", "relation": "reduced_by", "note": "Excluded 480 acres in three 160-acre blocks so they could be withdrawn and sold under the Act of April 16, 1906."}
+      ],
+      "later_actions": [
+        {"date": "1906-04-16", "text": "Congress let the Secretary of the Interior withdraw up to 160 acres at a time for town sites on reclamation projects, survey them into lots and auction them, with the proceeds going to the reclamation fund.", "source": "Act of April 16, 1906, ch. 1631, 34 Stat. 116"}
+      ],
+      "uncertain": [
+        "Whether Idaho newspapers reported or criticized the reservation in 1904 has not been checked.",
+        "The Geological Survey's April 15, 1904 letter has not been seen, so the railroad it had in mind is identified from other sources.",
+        "A 1907 Reclamation Service expenditure table names the town sites \"Heyburn, Rupert, and Scherer\"; what Scherer refers to is not explained.",
+        "Heyburn's first lots were offered August 20, 1906 by the Reclamation Service's report, while a county history gives a sale date of October 20, 1906."
+      ]
+    }
+  }
+}

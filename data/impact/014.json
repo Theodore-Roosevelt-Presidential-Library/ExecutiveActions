@@ -1,0 +1,85 @@
+{
+  "story": 14,
+  "documents": {},
+  "story_level": {
+    "reception": [
+      {
+        "text": "The May 9, 1904 order went out on the wire and ran nationally the next morning; the San Diego Union and Daily Bee printed all seven instructions on page one under the headline \"NO GAMBLING ON THE STRIP.\"",
+        "source": "San Diego Union and Daily Bee, May 10, 1904, p. 1",
+        "date": "1904-05-10"
+      },
+      {
+        "text": "Papers in Los Angeles, San Francisco, Fresno and Denver, and Colorado weeklies within the week, reported that Davis would be governor and the Commission would make the Zone's laws.",
+        "source": "Los Angeles Herald, May 10, 1904; Rocky Mountain News, May 10, 1904; Golden Weekly Globe, May 14, 1904",
+        "date": "1904-05"
+      },
+      {
+        "text": "Democrats, anti-imperialists and parts of the press charged that the United States had helped Panama break from Colombia and taken the Isthmus by something close to force; the governing machinery itself drew little controversy.",
+        "source": "research entry"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "Governor George W. Davis reached Colón on May 17, 1904, was received by President Amador on May 19, and that day published his announcement to the inhabitants of the Zone.",
+        "source": "FRUS 1904, pp. 581–583",
+        "date": "1904-05-19"
+      },
+      {
+        "kind": "congress",
+        "text": "The Commission's power to make the Zone's laws was a temporary grant that ran to the end of the Fifty-eighth Congress and was later extended.",
+        "source": "Act of April 28, 1904, 33 Stat. 429",
+        "date": "1905-03-03"
+      },
+      {
+        "kind": "court",
+        "text": "Roosevelt's libel prosecution of the New York World and Indianapolis News over the $40,000,000 canal-company payment failed; the Supreme Court ruled the federal law used did not reach the conduct and never decided whether the articles were libelous.",
+        "source": "United States v. Press Publishing Co., 219 U.S. 1 (1911)",
+        "date": "1911-01-03"
+      },
+      {
+        "kind": "diplomatic",
+        "text": "Colombia protested the loss of its province and pressed its claims for nearly twenty years; the Reyes mission's arbitration proposal was rejected in January 1904, and Colombia declined to ratify the Root–Cortés treaties of 1909.",
+        "source": "research entry",
+        "date": "1909"
+      },
+      {
+        "kind": "political",
+        "text": "At Berkeley on March 23, 1911, Roosevelt said, \"Accordingly I took the Isthmus, started the canal, and then left Congress — not to debate the canal, but to debate me.\" Colombia's minister protested the remark to Secretary Knox.",
+        "source": "University of California Chronicle, vol. XIII, no. 2 (April 1911), p. 139",
+        "date": "1911-03-23"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The Commission built the Panama Canal, which opened to traffic when the SS Ancon made the first official transit; the formal opening was proclaimed July 12, 1920.",
+        "source": "research entry",
+        "date": "1914-08-15"
+      },
+      {
+        "text": "The Canal Zone ceased to exist as a jurisdiction when the Torrijos–Carter Treaties took effect.",
+        "source": "research entry",
+        "date": "1979-10-01"
+      },
+      {
+        "text": "The canal itself passed to Panama.",
+        "source": "research entry",
+        "date": "1999-12-31"
+      },
+      {
+        "text": "The Thomson–Urrutia Treaty, proclaimed in 1922 with its apology article removed, paid Colombia $25,000,000 in installments through 1926; Colombia called it an indemnity and the treaty said otherwise.",
+        "source": "Thomson–Urrutia Treaty; FRUS 1919, vol. I, doc. 727",
+        "date": "1922-03-30"
+      }
+    ],
+    "today": [
+      {
+        "name": "Panama Canal Zone",
+        "kind": "other",
+        "relation": "abolished",
+        "note": "The executive-branch government organized in 1904 ran the Zone until it ceased to exist as a jurisdiction on October 1, 1979.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

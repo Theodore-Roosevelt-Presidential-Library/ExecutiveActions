@@ -1,0 +1,226 @@
+{
+  "story": 113,
+  "documents": {
+    "uo-078": {
+      "legacy": [
+        {
+          "text": "The War Department parcels lasted into the 1930s; Franklin Roosevelt's Executive Order 7800 still described Reservation No. 1 at Cuzco Hills as created by the order of January 9, 1904.",
+          "source": "Executive Order 7800 (1938)",
+          "date": "1938"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1938",
+          "text": "Franklin Roosevelt's Executive Order 7800 transferred part of Reservation No. 1 at Cuzco Hills from the Army to the Navy.",
+          "source": "Executive Order 7800"
+        }
+      ],
+      "uncertain": [
+        "Whether any newspaper noticed the order: a dozen searches of the digitized press, including \"Cuzco Hills\" and \"Conde Bluff,\" found nothing, which is not proof that none was printed."
+      ]
+    },
+    "uo-079": {
+      "uncertain": [
+        "What document established Fort Yates on December 23, 1874; it was probably a War Department order, and no executive order created the post."
+      ]
+    },
+    "uo-082": {
+      "reception": [
+        {
+          "text": "Before the order was signed, the Omaha Daily Bee ran \"WANTS LAND FOR SETTLERS\" and the Beatrice Daily Express \"To Open Strip of Nebraska Land.\"",
+          "source": "Omaha Daily Bee and Beatrice Daily Express, January 13, 1904",
+          "date": "1904-01-13"
+        },
+        {
+          "text": "Within weeks the Omaha Daily Bee reported squatters rushing to claim timbered land in Sheridan County on what had been known as \"No Man's Land.\"",
+          "source": "Omaha Daily Bee, February 12, 1904",
+          "date": "1904-02-12"
+        },
+        {
+          "text": "The Pine Ridge agent's annual report for 1904 says nothing about the restoration, and no Oglala protest appears in the published agency and school reports of 1904–05.",
+          "source": "Annual Report of the Commissioner of Indian Affairs, 1904, pt. 1, pp. 328–332",
+          "date": "1904-08-17"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Judge Westover of the Sheridan County district court wrote Representative Kinkaid urging that the strip be opened, and later filed a 640-acre claim on it himself.",
+          "source": "research entry",
+          "date": "1904"
+        },
+        {
+          "kind": "administrative",
+          "text": "No proclamation opened the land; a General Land Office telegram to the register at Alliance did.",
+          "source": "research entry",
+          "date": "1904-02-08"
+        },
+        {
+          "kind": "local",
+          "text": "Formal entry on the strip followed in June 1905, largely in the 640-acre sections the Kinkaid Act allowed.",
+          "source": "research entry",
+          "date": "1905-06"
+        }
+      ],
+      "related": [
+        {
+          "id": "uo-085",
+          "relation": "amended_by",
+          "note": "Kept one section of the restored tract permanently for the Pine Ridge Boarding School."
+        }
+      ],
+      "uncertain": [
+        "Whether any Oglala protest met the restoration; the unpublished Office of Indian Affairs correspondence at the National Archives (RG 75) has not been examined."
+      ]
+    },
+    "uo-083": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Attorney General quoted the order in a 1905 opinion and judged that the Treasury leasing practice it transferred had begun in 1882 without statutory sanction.",
+          "source": "25 Op. Att'y Gen. 497, 502",
+          "date": "1905"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910-03-25",
+          "text": "Taft's Executive Order 1182½ extended the arrangement to fur-bearing animals besides foxes.",
+          "source": "Executive Order 1182½"
+        }
+      ]
+    },
+    "uo-085": {
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The Oglala boarding-school superintendent reported that the section south of the school farm, which held the dam and head of the irrigation ditch, had been reserved by the President and attached to the school farm.",
+          "source": "Annual Report of the Commissioner of Indian Affairs, 1904, pt. 1, p. 332",
+          "date": "1904-08-18"
+        }
+      ],
+      "related": [
+        {
+          "id": "uo-082",
+          "relation": "amends",
+          "note": "Held back one section of the Nebraska strip restored on January 25, 1904."
+        }
+      ],
+      "uncertain": [
+        "The section's acreage: the ground was unsurveyed, the order gives no figure, and Hodge's 1910 Handbook prints both 610 and 640 acres."
+      ]
+    },
+    "uo-090": {
+      "reception": [
+        {
+          "text": "On the day the canal treaty was ratified, the San Francisco Call reported that the commissioners' pay had not been announced but would probably exceed $10,000 a year.",
+          "source": "San Francisco Call, February 26, 1904",
+          "date": "1904-02-26"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The flat salary of twelve thousand dollars for every commissioner, chairman included, did not survive the commission's reorganization in 1906.",
+          "source": "research entry",
+          "date": "1906"
+        }
+      ]
+    },
+    "uo-093": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Army abandoned Fort Niobrara in October 1906, a little over two years after the enlargement.",
+          "source": "research entry",
+          "date": "1906-10"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "A wildlife refuge later came out of Fort Niobrara, but from the older core of the post: every section of Taft's 1912 bird preserve but one school section lay inside the reservation as it stood before 1904.",
+          "source": "GLO Annual Report, fiscal 1904, p. 143; EO 1461 in USDA, Laws Applicable (1913), pp. 223–24",
+          "date": "1912"
+        },
+        {
+          "text": "The Fish and Wildlife Service gives the refuge as 13,279 acres when established and 19,131 acres today.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1911-08-01",
+          "text": "All but 1,093.50 acres of the reservation went to the Interior Department.",
+          "source": "research entry"
+        },
+        {
+          "date": "1912-01-11",
+          "text": "Taft's Executive Order 1461 reserved about twenty-two and seven-eighths square miles as the Niobrara Reservation, a bird preserve.",
+          "source": "Executive Order 1461; USDA, Laws Applicable (1913), pp. 223–24"
+        },
+        {
+          "date": "1913-09",
+          "text": "Most of the remaining land was opened to homestead settlement by proclamation.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "uo-095": {
+      "related": [
+        {
+          "id": "uo-053",
+          "relation": "amends",
+          "note": "Reduced the Valdez Signal Supply Station set apart March 10, 1903."
+        }
+      ]
+    },
+    "uo-098": {
+      "reception": [
+        {
+          "text": "The Evening Star reported from the cabinet room the day of signing that Secretary Hitchcock had presented the order to the President.",
+          "source": "Evening Star (Washington), October 4, 1904",
+          "date": "1904-10-04"
+        },
+        {
+          "text": "The New-York Tribune ran it as \"U. S. RESERVATION FOR WILD FOWL,\" the Savannah Morning News as \"TO THE AID OF THE DUCKS,\" and the Washington Times as \"TO SAVE SONG BIRDS.\"",
+          "source": "New-York Tribune and Savannah Morning News, October 5, 1904; Washington Times, October 6, 1904",
+          "date": "1904-10-05"
+        },
+        {
+          "text": "Bird-Lore printed the order's full text in its January–February 1905 issue.",
+          "source": "Bird-Lore VII (1905), p. 72",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Because the Chandeleurs were a lighthouse reservation, Frank Bond arranged with the Light-House Board for the Chandeleur Light keeper to patrol as far as Freemason Island against shooting, egging, trespass and the taking of shells.",
+          "source": "Bird-Lore VII (1905)",
+          "date": "1904-10-21"
+        }
+      ],
+      "uncertain": [
+        "How New Orleans papers covered the order; no New Orleans daily of 1904–05 is digitized."
+      ]
+    },
+    "uo-100": {
+      "related": [
+        {
+          "id": "uo-068",
+          "relation": "modifies",
+          "note": "Enlarged Camp Eldridge at Los Baños, one of the fifteen posts of September 1, 1903."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "Guantánamo Bay is still in the news more than a century later, though the 1904 order divided ground the United States already held under the 1903 lease rather than acquiring it.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

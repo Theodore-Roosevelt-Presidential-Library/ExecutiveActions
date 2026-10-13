@@ -1,0 +1,34 @@
+{
+  "story": 20,
+  "documents": {
+    "proc-466": {
+      "reception": [
+        {"text": "The Associated Press moved the proclamation the day it was signed, and the Marshalltown, Iowa Evening Times-Republican printed the full text on its front page that afternoon.", "source": "Evening Times-Republican (Marshalltown, Iowa), November 2, 1901, p. 1", "date": "1901-11-02"},
+        {"text": "Over the next few days papers from California to South Dakota, Ohio, Indiana, New Mexico and Iowa carried it, often on page one and often in full; its closing line appears on 106 digitized pages in Chronicling America alone.", "source": "Chronicling America and California Digital Newspaper Collection sweep", "date": "1901-11"},
+        {"text": "Headline writers singled out the passage mourning McKinley, with heads such as \"Refers to Nation's Sad Loss.\"", "source": "San Francisco Call, November 3, 1901; Morning Press (Santa Barbara), November 3, 1901", "date": "1901-11-03"},
+        {"text": "The San Jose Mercury-News praised it as \"characteristic of the man,\" saying he \"says something\" rather than stringing together platitudes.", "source": "San Jose Mercury-News, November 3, 1901", "date": "1901-11-03"},
+        {"text": "The text was cabled to Manila and drew a second round of coverage there in mid-November.", "source": "research entry", "date": "1901-11"},
+        {"text": "The San Francisco Call's editorial page returned to the \"duty to his fellow men\" line, and the Healdsburg Tribune built a full essay on the history of Thanksgiving proclamations around Roosevelt's.", "source": "San Francisco Call, November 13, 1901; Healdsburg Tribune, November 28, 1901", "date": "1901-11"},
+        {"text": "The only jokes found aimed elsewhere, at the coming election and at the cost of cabling the proclamation to the Philippines; no contemporary objection to the proclamation has been found.", "source": "Los Angeles Herald, November 6, 1901; Marysville Daily Appeal, November 17, 1901", "date": "1901-11"}
+      ],
+      "legacy": [
+        {"text": "The yearly presidential Thanksgiving proclamation, unbroken since Lincoln's of 1863, has continued to the present; Roosevelt signed one every year of his presidency.", "source": "American Presidency Project proclamation index"},
+        {"text": "The date rested on custom until Franklin Roosevelt moved Thanksgiving a week early in 1939, 1940 and 1941, splitting the states over which Thursday to keep.", "source": "Proclamations 2373 (1939), 2441 (1940), 2522 (1941)", "date": "1939"}
+      ],
+      "related": [
+        {"id": "proc-465", "relation": "same_subject", "note": "Roosevelt's first proclamation, mourning McKinley; printed directly before this one as [No. 11.]."},
+        {"id": "proc-494", "relation": "same_subject", "note": "Roosevelt's next Thanksgiving proclamation, 1902."}
+      ],
+      "later_actions": [
+        {"date": "1939-10-31", "text": "Franklin Roosevelt's Proclamation 2373 set Thanksgiving a week before the last Thursday of November, on November 23.", "source": "Proclamation 2373"},
+        {"date": "1941-12-26", "text": "A joint resolution fixed Thanksgiving by law as the fourth Thursday of November, beginning after 1941.", "source": "ch. 631, 55 Stat. 862"}
+      ],
+      "uncertain": ["Whether the large Eastern dailies, thinly represented in the digitized collections searched, carried any criticism of the proclamation."]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {"text": "Congress settled the date after House Joint Resolution 41 passed naming the last Thursday; the Senate changed it to the fourth Thursday, the House agreed on December 19, 1941, and Thanksgiving 1942 was the first held under statute.", "source": "Congressional Record, vol. 87, pt. 9, p. 10070; 55 Stat. 862", "date": "1941-12-19"}
+    ]
+  }
+}

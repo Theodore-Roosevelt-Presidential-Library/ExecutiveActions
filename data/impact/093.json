@@ -1,0 +1,165 @@
+{
+  "story": 93,
+  "documents": {
+    "eo-654": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order restated the passport rules in fourteen parts: only the Secretary of State could issue passports, applications were sworn affidavits with a one-dollar fee, and a passport lasted two years.",
+          "source": "Executive Order 654 (Wikisource transcription)",
+          "date": "1907-06-13"
+        },
+        {
+          "kind": "administrative",
+          "text": "Applicants \"of the Chinese race\" claiming birth in the United States now had to file in duplicate, with three photographs, and name their port of reentry, on top of the two witnesses required since 1903.",
+          "source": "Executive Order 654; Executive Order 235",
+          "date": "1907-06-13"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The extra burden on Chinese American applicants fell away only when the Magnuson Act repealed Chinese exclusion.",
+          "source": "Magnuson Act of December 17, 1943",
+          "date": "1943-12-17"
+        },
+        {
+          "text": "The rule that a married woman's nationality followed her husband's was broken by the Cable Act of 1922, except for women who married aliens ineligible to citizenship, an exception removed in 1931, with full restoration only in 1940.",
+          "source": "Cable Act of September 22, 1922",
+          "date": "1922-09-22"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-235",
+          "relation": "supersedes",
+          "note": "Replaced the passport rules of September 12, 1903."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1914-08-14",
+          "text": "Executive Order 2021 amended the rules governing the granting and issuing of passports.",
+          "source": "Lord (1944) catalog"
+        },
+        {
+          "date": "1914-11-13",
+          "text": "An unnumbered executive order fully restated the passport rules, its first rule repeating this order's nearly word for word.",
+          "source": "FRUS 1914 Supplement, doc. 1150"
+        },
+        {
+          "date": "1922-09-22",
+          "text": "The Cable Act ended the automatic link between a woman's citizenship and her husband's, with a proviso for marriages to aliens ineligible to citizenship.",
+          "source": "Cable Act of September 22, 1922"
+        },
+        {
+          "date": "1943-12-17",
+          "text": "The Magnuson Act repealed Chinese exclusion.",
+          "source": "Magnuson Act of December 17, 1943"
+        }
+      ],
+      "uncertain": [
+        "The text has not yet been collated against a 1907 printing such as the State Department's own passport circular.",
+        "A departmental revision of the passport rules may have been issued in 1911, but no order or date has been found."
+      ]
+    },
+    "eo-630": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Jenks, Wheeler and Neill, the President's three appointees to the Immigration Commission, were paid $7,500 a year from April 1, Neill's figure including his pay as Commissioner of Labor.",
+          "source": "Executive Order 630",
+          "date": "1907-05-07"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Chaired by Senator William P. Dillingham, the commission presented its abstracts and recommendations on December 5, 1910, and its forty-one volumes, with a 1911 imprint, shaped the restrictive immigration laws of the 1920s.",
+          "source": "research entry",
+          "date": "1910-12-05"
+        }
+      ]
+    },
+    "eo-651": {
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "The order carried out Keep Commission work, and Congress's resentment of such unauthorized commissions led to the Tawney amendment of March 4, 1909, barring money for commissions not authorized by law.",
+          "source": "Act of March 4, 1909, ch. 299, § 9, 35 Stat. 1027",
+          "date": "1909-03-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Committee on Grades and Salaries and the Keep Commission behind it fed, over decades, into the federal position-classification system.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-795",
+          "relation": "same_subject",
+          "note": "The May 13, 1908 order that carried the work forward."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-03-04",
+          "text": "The Tawney amendment barred appropriated money for any commission, council or board not authorized by law; it survives at 31 U.S.C. § 1346.",
+          "source": "35 Stat. 1027; 31 U.S.C. § 1346"
+        }
+      ]
+    },
+    "eo-642": {
+      "related": [
+        {
+          "id": "eo-655",
+          "relation": "same_subject",
+          "note": "Second amendment of the rule on political participation within two weeks."
+        }
+      ]
+    },
+    "eo-655": {
+      "related": [
+        {
+          "id": "eo-642",
+          "relation": "same_subject",
+          "note": "Earlier amendment of the same civil-service rule on politics."
+        }
+      ]
+    },
+    "eo-663": {
+      "related": [
+        {
+          "id": "eo-664",
+          "relation": "same_subject",
+          "note": "Part of the same reorganization of the Canal Commission's business offices."
+        },
+        {
+          "id": "eo-665",
+          "relation": "same_subject",
+          "note": "Part of the same reorganization."
+        }
+      ]
+    },
+    "eo-633-half": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Interstate Commerce Commission could hire up to fifteen special agents before July 1 outside the civil-service rules, a sign of how fast the Hepburn Act had enlarged its work.",
+          "source": "research entry",
+          "date": "1907-05-11"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "None of these orders drew public notice on its own.",
+        "source": "research entry",
+        "date": "1907"
+      }
+    ]
+  }
+}

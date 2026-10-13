@@ -1,0 +1,184 @@
+{
+  "story": 72,
+  "documents": {
+    "proc-821": {
+      "reception": [
+        {
+          "text": "Tucson told the story as good news for business, under the headline \"Historic Tumacácori Mission Will Attract Many Tourists.\"",
+          "source": "Tucson Daily Citizen, October 26, 1908, cited by Baker and Zenzen",
+          "date": "1908-10-26"
+        },
+        {
+          "text": "The monument met no significant opposition.",
+          "source": "Baker and Zenzen, Tumacácori Administrative History (NPS 2014)"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Homesteader Carmen Mendez gave up the ten acres around the ruin freely and received a patent for his remaining 150 acres.",
+          "source": "GLO Serial Patent 33662",
+          "date": "1908-12-14"
+        },
+        {
+          "kind": "administrative",
+          "text": "The monument was handed to the Forest Service to administer under a cooperative agreement between Interior and Agriculture.",
+          "source": "Baker and Zenzen, Tumacácori Administrative History (NPS 2014)",
+          "date": "1908"
+        },
+        {
+          "kind": "local",
+          "text": "The monument sat on ground claimed under Baca Float No. 3, a disputed Mexican-era grant the government had declared no bar only months before.",
+          "source": "Baker and Zenzen, Tumacácori Administrative History (NPS 2014)",
+          "date": "1908"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Supreme Court held that title to Baca Float No. 3 had passed to the Baca heirs in 1864, voiding Mendez's homestead and leaving the mission privately owned by the Bouldin family.",
+          "source": "Lane v. Watts, 234 U.S. 525",
+          "date": "1914-06-22"
+        },
+        {
+          "text": "The Bouldins deeded the ten acres back to the United States in 1917, and the site passed to the National Park Service in 1918, where Frank Pinkley began repairing the church.",
+          "source": "Baker and Zenzen, Tumacácori Administrative History (NPS 2014)",
+          "date": "1918"
+        },
+        {
+          "text": "In 1990 the monument became Tumacácori National Historical Park, adding the Guevavi and Calabazas mission sites; 310 more acres followed in 2002.",
+          "source": "Pub. L. 101-344, 104 Stat. 393",
+          "date": "1990-08-06"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tumacácori National Historical Park",
+          "kind": "national_park",
+          "relation": "origin",
+          "state": "Arizona",
+          "since": "1908-09-15",
+          "note": "The monument was abolished and the historical park created in its place in 1990.",
+          "source": "Pub. L. 101-344, 104 Stat. 393"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1914-06-22",
+          "text": "Lane v. Watts upheld the Baca heirs' title to the Float and barred Interior from proceeding with entries on it.",
+          "source": "234 U.S. 525"
+        },
+        {
+          "date": "1917-12-08",
+          "text": "The Bouldin family deeded the ten acres back to the United States.",
+          "source": "Baker and Zenzen, Tumacácori Administrative History (NPS 2014)"
+        },
+        {
+          "date": "1918",
+          "text": "The Forest Service handed the monument to the National Park Service.",
+          "source": "Baker and Zenzen, Tumacácori Administrative History (NPS 2014)"
+        },
+        {
+          "date": "1990-08-06",
+          "text": "Congress abolished the monument and created Tumacácori National Historical Park, adding Guevavi (about 8 acres) and Calabazas (about 22 acres).",
+          "source": "Pub. L. 101-344, 104 Stat. 393"
+        },
+        {
+          "date": "2002",
+          "text": "About 310 acres, including the mission orchard and land along the Santa Cruz River, were added to the park.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "How Arizona papers other than the Tucson Daily Citizen received the monument has not been checked."
+      ]
+    },
+    "proc-831": {
+      "reception": [
+        {
+          "text": "Colorado papers greeted the monument warmly; 35 items, nearly all one Washington notice, ran across the state, and no criticism has been found.",
+          "source": "Colorado Historic Newspapers Collection, December 1908–January 1909",
+          "date": "1908-12"
+        },
+        {
+          "text": "The Monte Vista Journal, still awaiting the proclamation, called the spot \"much grander than the Garden of the Gods at Colorado Springs.\"",
+          "source": "Monte Vista Journal, December 19, 1908",
+          "date": "1908-12-19"
+        },
+        {
+          "text": "The Washington notice, run as \"New Colorado Park\" and on the Creede Candle's front page, predicted tourists once a road or trail was built and noted it could then be reached only on foot.",
+          "source": "Boulder Daily Camera, December 21, 1908; Creede Candle, December 26, 1908",
+          "date": "1908-12"
+        },
+        {
+          "text": "An illustrated feature on the monument followed in January.",
+          "source": "Elbert County Tribune, January 14, 1909",
+          "date": "1909-01-14"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The monument was made the dominant reservation over the Rio Grande and Cochetopa National Forests, with both reservations remaining in effect on the same land.",
+          "source": "35 Stat. 2214–2215",
+          "date": "1908-12-07"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Never given a road, the monument drew about a hundred visitors a year in the 1920s and 43 recorded visits in 1943.",
+          "source": "National Parks Traveler, December 2009"
+        },
+        {
+          "text": "Congress abolished the 300-acre monument in 1950 and returned the land to the Rio Grande National Forest, the same day it abolished Colorado's Holy Cross National Monument.",
+          "source": "64 Stat. 404–405",
+          "date": "1950-08-03"
+        },
+        {
+          "text": "The pinnacles are protected as the Wheeler Geologic Area, enlarged in 1962 and brought into the La Garita Wilderness in 1993.",
+          "source": "Colorado Encyclopedia",
+          "date": "1993"
+        }
+      ],
+      "today": [
+        {
+          "name": "Wheeler National Monument",
+          "kind": "national_monument",
+          "relation": "abolished",
+          "state": "Colorado",
+          "note": "Abolished 1950; the formations are now the Wheeler Geologic Area of the Rio Grande National Forest, in the La Garita Wilderness.",
+          "source": "Act of August 3, 1950, 64 Stat. 405"
+        },
+        {
+          "name": "Rio Grande National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Colorado",
+          "note": "Wheeler Geologic Area.",
+          "source": "Act of August 3, 1950, 64 Stat. 405"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1933",
+          "text": "The government reorganization moved the monument from the Forest Service to the National Park Service.",
+          "source": "research entry"
+        },
+        {
+          "date": "1950-08-03",
+          "text": "Congress abolished \"the Wheeler National Monument, containing three hundred acres\" and placed the land under the surrounding national forest.",
+          "source": "ch. 534, Pub. L. 81-652, 64 Stat. 405"
+        },
+        {
+          "date": "1962",
+          "text": "The Forest Service enlarged the protected Wheeler area.",
+          "source": "Colorado Encyclopedia"
+        },
+        {
+          "date": "1993",
+          "text": "The Colorado Wilderness Act brought the area into the La Garita Wilderness, exempting a four-wheel-drive road of about fourteen miles.",
+          "source": "Colorado Encyclopedia"
+        }
+      ]
+    }
+  }
+}

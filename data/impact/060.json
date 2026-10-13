@@ -1,0 +1,84 @@
+{
+  "story": 60,
+  "documents": {
+    "proc-545": {
+      "reception": [
+        {
+          "text": "Washington State papers that reported the 1905 auction of the old Fort Sherman grounds said nothing about the cemetery grant, and no press notice of the proclamation has been found.",
+          "source": "Chewelah Independent, June 9, 1905; Pullman Herald, June 10, 1905 (Washington Digital Newspapers)",
+          "date": "1905-06"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The proclamation answered a petition from the citizens of Coeur d'Alene, granting the town 19.45 acres, which already held the old post's burying ground, for a public cemetery.",
+          "source": "Proclamation 545, 34 Stat. 3004; City of Coeur d'Alene Cemetery Division",
+          "date": "1905-05-06"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The tract is today's Forest Cemetery on North Government Way, run by the city, which later bought neighboring land for Riverview Cemetery.",
+          "source": "City of Coeur d'Alene Cemetery Division"
+        },
+        {
+          "text": "Most of the rest of the old post was sold at public auction in 1905, much of it to the Stack and Gibbs Lumber Company; North Idaho College moved to the fort site in 1949.",
+          "source": "Idaho State Historical Society, Reference Series No. 355; North Idaho College history page",
+          "date": "1905"
+        }
+      ],
+      "today": [
+        {
+          "name": "Forest Cemetery, Coeur d'Alene",
+          "kind": "other",
+          "relation": "origin",
+          "state": "Idaho",
+          "since": "1905-05-06",
+          "note": "City-run cemetery at 1011 North Government Way.",
+          "source": "City of Coeur d'Alene Cemetery Division"
+        }
+      ],
+      "uncertain": [
+        "A 2021 Coeur d'Alene Press account describes the grant as one acre of the old post cemetery plus 19.7 added acres, which does not match the proclamation's single 19.45-acre lot; the plat would resolve it."
+      ]
+    },
+    "proc-555": {
+      "reception": [
+        {
+          "text": "A search of California papers, including the San Diego Union, for May through July 1905 found no notice of the restoration.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The restoration cleared the way for Joseph J. Henderson, who had lived on part of Section 5 since March 10, 1895, to file a homestead claim on the land.",
+          "source": "Proclamation 555, 34 Stat. 3037–3038",
+          "date": "1905-05-15"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-476",
+          "relation": "same_subject",
+          "note": "The 1902 proclamation used the same mechanism to release neighboring Section 7 of the Capitan Grande lands for the settler Jacob Kuhner."
+        }
+      ],
+      "uncertain": [
+        "Who asked for the restoration (Henderson, the General Land Office or the Indian Office) is not known.",
+        "What became of Sections 5 and 6 and of Henderson's homestead claim after restoration is not known."
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "The surviving Fort Sherman post chapel, built around 1880, is part of the Fort Sherman Buildings listing on the National Register of Historic Places.",
+        "source": "NRIS 79000794",
+        "date": "1979"
+      }
+    ]
+  }
+}

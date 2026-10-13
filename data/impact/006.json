@@ -1,0 +1,123 @@
+{
+  "story": 6,
+  "documents": {
+    "proc-804": {
+      "reception": [
+        {
+          "text": "The Salt Lake Herald greeted the news on page one under the headline \"PRESERVED FROM VANDALS.\"",
+          "source": "Salt Lake Herald, April 17, 1908, p. 1",
+          "date": "1908-04-17"
+        },
+        {
+          "text": "Within a day the Salt Lake Tribune called the reservation too small, opening a run of at least four editorials in twelve days.",
+          "source": "Salt Lake Tribune, April 18, 1908",
+          "date": "1908-04-18"
+        },
+        {
+          "text": "Byron Cummings, whose 1907 survey underlay the proclamation, told a Salt Lake paper the reservation was not sufficient for its purpose.",
+          "source": "Deseret Evening News, April 18, 1908",
+          "date": "1908-04-18"
+        },
+        {
+          "text": "The Tribune proposed enlarging the monument to a full township, six miles square, or 23,040 acres.",
+          "source": "Salt Lake Tribune, April 19, 1908",
+          "date": "1908-04-19"
+        },
+        {
+          "text": "The Salt Lake Real Estate Association formally petitioned for a full-township reserve.",
+          "source": "research entry",
+          "date": "1908-04-23"
+        },
+        {
+          "text": "The Utah press almost uniformly reported the monument as forty acres rather than 120, so critics argued against a reservation one-third its true size.",
+          "source": "Utah newspapers, April–June 1908",
+          "date": "1908"
+        },
+        {
+          "text": "The Tribune observed that no one opposed the reservation because there were no conflicting interests, vested rights, or settlements on the ground.",
+          "source": "Salt Lake Tribune, April 29, 1908",
+          "date": "1908-04-29"
+        },
+        {
+          "text": "The Tribune reported a proclamation adding a tract nine by fourteen miles; no such proclamation was issued.",
+          "source": "Salt Lake Tribune, May 13, 1908; 35 Stat. 2185–2192",
+          "date": "1908-05-13"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Roosevelt asked Gifford Pinchot how much more land was needed, with Senator Reed Smoot working the question in Washington.",
+          "source": "Salt Lake Tribune, May 7, 1908",
+          "date": "1908-05-07"
+        },
+        {
+          "kind": "administrative",
+          "text": "General Land Office surveyor William B. Douglass resurveyed the area and had the bridges given Hopi-word names, which the U.S. Geographic Board accepted: Sipapu, Kachina, and Owachomo.",
+          "source": "Neil Judd",
+          "date": "1908"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Taft's 1909 proclamation replaced the three forty-acre squares with about 2,740 acres, a direct answer to the 1908 campaign for more land.",
+          "source": "Proc. 881, 36 Stat. 2502–2503",
+          "date": "1909-09-25"
+        },
+        {
+          "text": "The Geographic Board's Fourth and Fifth Reports paired two of the new names with the wrong bridges until the Board re-decided all three in 1937.",
+          "source": "U.S. Geographic Board, Fourth Report (1916)",
+          "date": "1937"
+        },
+        {
+          "text": "Natural Bridges was certified as the world's first International Dark Sky Park.",
+          "source": "DarkSky International",
+          "date": "2007-03-06"
+        }
+      ],
+      "today": [
+        {
+          "name": "Natural Bridges National Monument",
+          "kind": "national_monument",
+          "relation": "origin",
+          "state": "Utah",
+          "since": "1908-04-16",
+          "note": "Utah's first national monument and the state's first unit of the national park system; about 7,636 acres today.",
+          "source": "NPS Land Resources Division, listing of acreage, June 30, 2026"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-794",
+          "relation": "same_subject",
+          "note": "Grand Canyon, three months earlier, read the Antiquities Act's smallest-area clause to cover more than 800,000 acres; Natural Bridges read it literally."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-09-25",
+          "text": "Proclamation 881 enlarged the monument to about 2,740 acres.",
+          "source": "36 Stat. 2502–2503"
+        },
+        {
+          "date": "1916-02-11",
+          "text": "Proclamation 1323 re-described the boundary against new survey corners without enlarging it.",
+          "source": "39 Stat. 1764–1765"
+        },
+        {
+          "date": "1937",
+          "text": "The U.S. Geographic Board re-decided the names Sipapu, Kachina, and Owachomo.",
+          "source": "research entry"
+        },
+        {
+          "date": "1962-08-14",
+          "text": "Proclamation 3486 added about 5,236 acres and excluded about 320 acres at Snow Flat Spring Cave and Cigarette Spring Cave.",
+          "source": "76 Stat. 1495–1497"
+        }
+      ],
+      "uncertain": [
+        "Whether Douglass found the earlier names attached to the wrong bridges, as is often said, is unconfirmed; the only firsthand account reports just an objection to the names."
+      ]
+    }
+  }
+}

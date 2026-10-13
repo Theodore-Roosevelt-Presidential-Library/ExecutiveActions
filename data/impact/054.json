@@ -1,0 +1,31 @@
+{
+  "story": 54,
+  "documents": {
+    "proc-533": {
+      "reception": [
+        {"text": "The Associated Press carried the proclamation from Washington the day after it was signed, and it ran widely, usually in full, including on page one of Pueblo's Colorado Daily Chieftain.", "source": "Colorado Daily Chieftain (Pueblo), November 2, 1904, p. 1", "date": "1904-11-02"},
+        {"text": "Papers across California, from the San Francisco Call to the Santa Cruz Surf, printed the full text or long extracts between November 2 and November 23, two of them on election day.", "source": "California Digital Newspaper Collection, November 1904", "date": "1904-11"},
+        {"text": "An Oakland Herald editorial, reprinted in San Luis Obispo, found the proclamation unusual for suggesting that Americans had done something for themselves, and heard in it a healthy note of self-reliance typical of Roosevelt.", "source": "\"NEW NOTE IN THANKSGIVING,\" Morning Tribune (San Luis Obispo), November 4, 1904, reprinted from the Oakland Herald", "date": "1904-11-04"},
+        {"text": "A Cincinnati Commercial Tribune editorial called the proclamation's language characteristic of Roosevelt and its sentiments sincere, and urged every grateful citizen to respond.", "source": "\"UPON HONEST EFFORT,\" Aspen Daily Times, November 10, 1904", "date": "1904-11-10"},
+        {"text": "A Petaluma preacher made the proclamation the text of his annual Thanksgiving sermon, praising it and urging his congregation to do as the President asked.", "source": "Petaluma Daily Morning Courier, November 25, 1904, p. 3", "date": "1904-11-25"},
+        {"text": "Nine California printings read \"scheme\" where the official text reads \"success\" in the closing sentence, while the AP text in Colorado and a Cincinnati editor's copy agree with the Statutes.", "source": "California Digital Newspaper Collection; Colorado Historic Newspapers Collection", "date": "1904-11"}
+      ],
+      "legacy": [
+        {"text": "It is one of eight Thanksgiving proclamations Roosevelt issued, one in each year of his presidency, in the unbroken chain that began with Lincoln in 1863.", "source": "research entry"},
+        {"text": "Its closing sentence on national strength, personal freedom and the high average of individual citizenship is the passage most likely to be quoted today; quote it from the Statutes at Large.", "source": "33 Stat. 2374–2375"}
+      ],
+      "related": [
+        {"id": "proc-466", "relation": "same_subject", "note": "Thanksgiving Day, 1901."},
+        {"id": "proc-494", "relation": "same_subject", "note": "Thanksgiving Day, 1902, which counted blessings without this one's closing charge."}
+      ],
+      "later_actions": [
+        {"date": "1939", "text": "Franklin Roosevelt moved Thanksgiving a week earlier than the last Thursday of November, and did so again in 1940 and 1941.", "source": "research entry"},
+        {"date": "1941-12-26", "text": "A joint resolution of Congress fixed Thanksgiving on the fourth Thursday of November.", "source": "55 Stat. 862"}
+      ],
+      "uncertain": [
+        "Whether any newspaper treated the proclamation, signed a week before the election, as campaign material is untested beyond California and Colorado papers of November 1904.",
+        "Why the California printings read \"scheme\" for \"success\" is not certain; a slip in the wire relay that served them is the likeliest explanation."
+      ]
+    }
+  }
+}

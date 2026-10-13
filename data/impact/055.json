@@ -1,0 +1,1003 @@
+{
+  "story": 55,
+  "documents": {
+    "proc-539": {
+      "legacy": [
+        {
+          "text": "Pinal Mountains was folded into the Tonto National Forest on January 13, 1908.",
+          "source": "Proc. 795; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-01-13"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tonto National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Arizona",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-795",
+          "relation": "modified_by",
+          "note": "Proclamation 795 took the Pinal Mountains reserve into the Tonto National Forest."
+        }
+      ]
+    },
+    "proc-598": {
+      "legacy": [
+        {
+          "text": "The Tonto National Forest traces directly to this 1905 reserve, and in 1908 it took in the Pinal Mountains reserve as well.",
+          "source": "research entry; Proc. 795",
+          "date": "1908-01-13"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tonto National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Arizona",
+          "since": "1905-10-03",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-795",
+          "relation": "enlarged_by",
+          "note": "Enlarged the Tonto and folded in the Pinal Mountains reserve."
+        },
+        {
+          "id": "proc-539",
+          "relation": "same_subject",
+          "note": "Pinal Mountains, the other 1905 Arizona reserve, later joined the Tonto."
+        }
+      ]
+    },
+    "proc-540": {
+      "today": [
+        {
+          "name": "Plumas National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "California",
+          "since": "1905-03-27",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-544": {
+      "today": [
+        {
+          "name": "Klamath National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "California",
+          "since": "1905-05-06",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-543": {
+      "legacy": [
+        {
+          "text": "The Trinity continued under its own name.",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Shasta-Trinity National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "note": "Trinity and Shasta are today joined as the Shasta-Trinity.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-596": {
+      "legacy": [
+        {
+          "text": "The Shasta continued under its own name.",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Shasta-Trinity National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "note": "Trinity and Shasta are today joined as the Shasta-Trinity.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-564": {
+      "legacy": [
+        {
+          "text": "The Lassen Peak reserve became the Lassen National Forest. The 1907 Lassen Peak and Cinder Cone national monuments were carved out of it; the Lassen Peak proclamation places the peak \"within the Lassen Peak National Forest.\"",
+          "source": "research entry; Proc. 754",
+          "date": "1907"
+        }
+      ],
+      "today": [
+        {
+          "name": "Lassen National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "California",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-754",
+          "relation": "same_subject",
+          "note": "Lassen Peak National Monument was set aside within this forest in 1907."
+        },
+        {
+          "id": "proc-753",
+          "relation": "same_subject",
+          "note": "Cinder Cone National Monument, the other 1907 volcanic monument carved from the forest."
+        }
+      ]
+    },
+    "proc-579": {
+      "legacy": [
+        {
+          "text": "In 1908 Diamond Mountain went partly to the Plumas, and the rest into the Lassen.",
+          "source": "E.O.s 905, 906; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Plumas National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        },
+        {
+          "name": "Lassen National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-905",
+          "relation": "modified_by",
+          "note": "Part of Diamond Mountain went to the Plumas."
+        },
+        {
+          "id": "eo-906",
+          "relation": "modified_by",
+          "note": "The rest went into the new Lassen National Forest."
+        }
+      ]
+    },
+    "proc-597": {
+      "legacy": [
+        {
+          "text": "Today's Tahoe National Forest takes its name from this 1905 renaming of the older Lake Tahoe reserve.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tahoe National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "California and Nevada",
+          "note": "The proclamation enlarged the Lake Tahoe reserve and renamed it the Tahoe Forest Reserve.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-652",
+          "relation": "same_subject",
+          "note": "The Yuba reserve was combined with the Tahoe in 1906."
+        }
+      ]
+    },
+    "proc-606": {
+      "legacy": [
+        {
+          "text": "The Yuba reserve was combined with the Tahoe on September 17, 1906.",
+          "source": "Proc. 652; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1906-09-17"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tahoe National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "California",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-652",
+          "relation": "modified_by",
+          "note": "Consolidated the Yuba reserve with the Tahoe."
+        }
+      ]
+    },
+    "proc-549": {
+      "later_actions": [
+        {
+          "date": "1930-05-26",
+          "text": "The Leadville National Forest was broken up among neighboring forests, including the Arapaho, Cochetopa and Pike.",
+          "source": "Procs. 1906–1909, 46 Stat. 3021–3022"
+        }
+      ],
+      "today": [
+        {
+          "name": "Leadville National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Colorado",
+          "note": "Broken up among neighboring forests in 1930.",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ]
+    },
+    "proc-553": {
+      "reception": [
+        {
+          "text": "The Surface Creek Champion of Cedaredge reported that the Gunnison News-Champion and several Gunnison citizens were objecting \"in very strong language\" to the reserve, claiming it had been made through the influence of sheepmen.",
+          "source": "Surface Creek Champion (Cedaredge, Colo.), June 9, 1905",
+          "date": "1905-06-09"
+        },
+        {
+          "text": "The same Delta County paper answered from experience with its own reserve that it was \"working an immense amount of good\" in \"preserving the forests and holding water.\"",
+          "source": "Surface Creek Champion (Cedaredge, Colo.), June 9, 1905",
+          "date": "1905-06-09"
+        },
+        {
+          "text": "The Gunnison News-Champion kept up the attack, pointing to evidence from the Oregon land-fraud trials that sheep interests had sought to enlarge a forest reserve at the cattlemen's expense, and suggesting that all sorts of influences were at work in making reserves.",
+          "source": "Gunnison News-Champion, August 25, 1905",
+          "date": "1905-08-25"
+        }
+      ]
+    },
+    "proc-554": {
+      "legacy": [
+        {
+          "text": "Pikes Peak was a consolidation, not a new reserve: it superseded the Pikes Peak Timber Land, Plum Creek Timber Land and South Platte reserves and set up the Pikes Peak Forest Reserve in their place.",
+          "source": "34 Stat. 3029–3033",
+          "date": "1905-05-12"
+        }
+      ]
+    },
+    "proc-567": {
+      "today": [
+        {
+          "name": "San Juan National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Colorado",
+          "since": "1905-06-03",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-569": {
+      "legacy": [
+        {
+          "text": "Park Range was divided in 1908 between the Routt and Hayden national forests.",
+          "source": "E.O.s 837, 839; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Routt National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Colorado",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-837",
+          "relation": "modified_by",
+          "note": "Part of Park Range went to the new Routt National Forest."
+        },
+        {
+          "id": "eo-839",
+          "relation": "modified_by",
+          "note": "Part of Park Range went to the new Hayden National Forest."
+        }
+      ]
+    },
+    "proc-570": {
+      "related": [
+        {
+          "id": "proc-467",
+          "relation": "enlarges",
+          "note": "Enlarged the San Isabel Forest Reserve of April 11, 1902."
+        }
+      ]
+    },
+    "proc-572": {
+      "reception": [
+        {
+          "text": "The Pueblo Colorado Daily Chieftain reported that the proclamations had reached the Pueblo land office, gave the Wet Mountain reserve as 235,000 acres in Pueblo, Huerfano and Custer counties, and printed the preamble and land descriptions in full.",
+          "source": "Colorado Daily Chieftain (Pueblo), June 28, 1905, p. 12",
+          "date": "1905-06-28"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Wet Mountains was combined with the San Isabel in 1908.",
+          "source": "E.O. 908; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-07-02"
+        }
+      ],
+      "today": [
+        {
+          "name": "San Isabel National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Colorado",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Combined Wet Mountains with the San Isabel."
+        }
+      ]
+    },
+    "proc-574": {
+      "legacy": [
+        {
+          "text": "The Cochetopah reserve was renamed Cochetopa in 1908.",
+          "source": "research entry",
+          "date": "1908"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1944-07-01",
+          "text": "The Cochetopa National Forest was divided among the Gunnison, Rio Grande and San Isabel national forests.",
+          "source": "P.L.O. 258; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Cochetopa National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Colorado",
+          "note": "Divided among the Gunnison, Rio Grande and San Isabel in 1944.",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ]
+    },
+    "proc-575": {
+      "later_actions": [
+        {
+          "date": "1947-07-01",
+          "text": "The Montezuma National Forest was divided between the San Juan and Uncompahgre national forests.",
+          "source": "P.L.O. 400; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Montezuma National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Colorado",
+          "note": "Divided between the San Juan and Uncompahgre in 1947.",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        },
+        {
+          "name": "San Juan National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Colorado",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ]
+    },
+    "proc-592": {
+      "later_actions": [
+        {
+          "date": "1945-01-01",
+          "text": "The Holy Cross National Forest was transferred entire to the White River National Forest.",
+          "source": "P.L.O. 263; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "today": [
+        {
+          "name": "White River National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Colorado",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ]
+    },
+    "proc-568": {
+      "related": [
+        {
+          "id": "proc-527",
+          "relation": "modifies",
+          "note": "Redrew the Battlement Mesa boundaries set on May 16, 1904."
+        }
+      ]
+    },
+    "proc-560": {
+      "legacy": [
+        {
+          "text": "Henrys Lake was combined with part of the Yellowstone reserve to establish the Targhee National Forest in 1908.",
+          "source": "E.O. 871; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-07-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-871",
+          "relation": "modified_by",
+          "note": "Combined Henrys Lake with part of the Yellowstone to form the Targhee."
+        }
+      ]
+    },
+    "proc-561": {
+      "later_actions": [
+        {
+          "date": "1944-04-01",
+          "text": "The Weiser and Idaho national forests were combined to re-establish a new Payette National Forest.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Payette National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Idaho",
+          "note": "The present Payette was formed in 1944 from the Weiser and Idaho forests.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-562": {
+      "today": [
+        {
+          "name": "Sawtooth National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Idaho",
+          "since": "1905-05-29",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-566": {
+      "legacy": [
+        {
+          "text": "The Payette name dates from 1905, but the 1905 Payette lands do not lie in today's Payette National Forest.",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1944-04-01",
+          "text": "The whole of the old Payette National Forest was transferred to the Boise National Forest.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Boise National Forest",
+          "kind": "national_forest",
+          "relation": "transferred",
+          "state": "Idaho",
+          "note": "The 1905 Payette lands went to the Boise in 1944; the name Payette passed to a new forest to the north.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-573": {
+      "legacy": [
+        {
+          "text": "Cassia was combined with the Raft River reserve to form the Minidoka in 1908, and the Minidoka joined the Sawtooth in 1953.",
+          "source": "E.O. 908; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-07-02"
+        }
+      ],
+      "today": [
+        {
+          "name": "Sawtooth National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Idaho",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Combined Cassia with Raft River to form the Minidoka."
+        }
+      ]
+    },
+    "proc-552": {
+      "legacy": [
+        {
+          "text": "Elkhorn was combined entire with the Helena National Forest in 1908.",
+          "source": "E.O. 881; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Helena–Lewis and Clark National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Montana",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-881",
+          "relation": "modified_by",
+          "note": "Combined Elkhorn with the Helena."
+        }
+      ]
+    },
+    "proc-595": {
+      "legacy": [
+        {
+          "text": "Big Belt was divided in 1908 between the Gallatin and the Helena; its Gallatin share lies today in the Custer Gallatin.",
+          "source": "E.O.s 879, 881; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        },
+        {
+          "name": "Helena–Lewis and Clark National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-879",
+          "relation": "modified_by",
+          "note": "Part of Big Belt went to the Gallatin."
+        },
+        {
+          "id": "eo-881",
+          "relation": "modified_by",
+          "note": "Part of Big Belt went to the Helena."
+        }
+      ]
+    },
+    "proc-599": {
+      "legacy": [
+        {
+          "text": "Hell Gate was divided in 1908 among the Beaverhead, Deerlodge, Missoula and Bitterroot forests.",
+          "source": "E.O.s 877, 880, 882, 883; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-07-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-877",
+          "relation": "modified_by",
+          "note": "Part of Hell Gate went to the new Beaverhead."
+        },
+        {
+          "id": "eo-880",
+          "relation": "modified_by",
+          "note": "Part of Hell Gate went to the new Deerlodge."
+        },
+        {
+          "id": "eo-882",
+          "relation": "modified_by",
+          "note": "Part of Hell Gate went to the Missoula."
+        },
+        {
+          "id": "eo-883",
+          "relation": "modified_by",
+          "note": "Part of Hell Gate went to the Bitterroot."
+        }
+      ]
+    },
+    "proc-541": {
+      "related": [
+        {
+          "id": "proc-490",
+          "relation": "modifies",
+          "note": "Redrew the boundaries of the Madison reserve of August 16, 1902."
+        },
+        {
+          "id": "proc-594",
+          "relation": "same_subject",
+          "note": "The Madison was enlarged again in October 1905."
+        }
+      ]
+    },
+    "proc-594": {
+      "related": [
+        {
+          "id": "proc-490",
+          "relation": "enlarges",
+          "note": "Enlarged the Madison reserve of August 16, 1902."
+        },
+        {
+          "id": "proc-541",
+          "relation": "same_subject",
+          "note": "The March 1905 Madison boundary change."
+        }
+      ]
+    },
+    "proc-602": {
+      "legacy": [
+        {
+          "text": "Proclamation 602 enlarged the Little Belt Mountains reserve of 1902 and renamed it the Little Belt Forest Reserve.",
+          "source": "34 Stat. 3180",
+          "date": "1905-10-03"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-489",
+          "relation": "enlarges",
+          "note": "Enlarged the 1902 Little Belt Mountains reserve."
+        },
+        {
+          "id": "proc-489",
+          "relation": "renames",
+          "note": "Renamed it the Little Belt Forest Reserve."
+        }
+      ]
+    },
+    "proc-546": {
+      "legacy": [
+        {
+          "text": "Wallowa and Chesnimnus were combined as the Imnaha on March 1, 1907, and the Imnaha was renamed Wallowa in 1908.",
+          "source": "Proc. 713; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1907-03-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-713",
+          "relation": "superseded_by",
+          "note": "The Imnaha Forest Reserve was established in place of the Wallowa and Chesnimnus."
+        },
+        {
+          "id": "proc-551",
+          "relation": "same_subject",
+          "note": "Chesnimnus, combined with Wallowa in 1907."
+        }
+      ]
+    },
+    "proc-551": {
+      "legacy": [
+        {
+          "text": "Chesnimnus and Wallowa were combined as the Imnaha on March 1, 1907, and the Imnaha was renamed Wallowa in 1908.",
+          "source": "Proc. 713; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1907-03-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-713",
+          "relation": "superseded_by",
+          "note": "The Imnaha Forest Reserve was established in place of the Wallowa and Chesnimnus."
+        },
+        {
+          "id": "proc-546",
+          "relation": "same_subject",
+          "note": "Wallowa, combined with Chesnimnus in 1907."
+        }
+      ]
+    },
+    "proc-548": {
+      "later_actions": [
+        {
+          "date": "1920",
+          "text": "The Wenaha National Forest was transferred entire to the Umatilla National Forest.",
+          "source": "E.O. 3349; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "today": [
+        {
+          "name": "Umatilla National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Oregon and Washington",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ]
+    },
+    "proc-565": {
+      "legacy": [
+        {
+          "text": "The 54,220-acre Maury Mountain reserve was merged into the Blue Mountains forest in 1907 and lies today largely in the Ochoco National Forest.",
+          "source": "34 Stat. 3066–3067; research entry",
+          "date": "1907"
+        }
+      ],
+      "today": [
+        {
+          "name": "Ochoco National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "note": "Largely within the Ochoco.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-731",
+          "relation": "superseded_by",
+          "note": "Incorporated the Maury Mountain reserve into the enlarged Blue Mountains reserve."
+        }
+      ]
+    },
+    "proc-550": {
+      "legacy": [
+        {
+          "text": "The Sevier continued under its own name.",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ]
+    },
+    "proc-593": {
+      "today": [
+        {
+          "name": "Dixie National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Utah",
+          "since": "1905-09-25",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-583": {
+      "related": [
+        {
+          "id": "proc-509",
+          "relation": "same_subject",
+          "note": "The Payson reserve's earlier enlargement of November 5, 1903."
+        }
+      ]
+    },
+    "proc-600": {
+      "related": [
+        {
+          "id": "proc-486",
+          "relation": "modifies",
+          "note": "Redrew the Lincoln reserve of July 26, 1902."
+        }
+      ]
+    },
+    "proc-601": {
+      "legacy": [
+        {
+          "text": "Roosevelt revoked the Portales reserve on March 16, 1907, its lands being \"no longer required for experimental forest purposes.\"",
+          "source": "Proc. 741",
+          "date": "1907-03-16"
+        }
+      ],
+      "today": [
+        {
+          "name": "Portales Forest Reserve",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "New Mexico",
+          "note": "Revoked in 1907.",
+          "source": "Proc. 741"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-741",
+          "relation": "revoked_by",
+          "note": "Revoked the Portales reserve."
+        }
+      ]
+    },
+    "proc-603": {
+      "legacy": [
+        {
+          "text": "Jemez was combined in part with the Taos reserve to establish the Carson National Forest in 1908.",
+          "source": "E.O. 849; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-06-26"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-849",
+          "relation": "modified_by",
+          "note": "Part of the Jemez went into the new Carson National Forest."
+        }
+      ]
+    },
+    "proc-584": {
+      "legacy": [
+        {
+          "text": "Short Pine went into the Sioux National Forest in 1908 and then to the Custer in 1920.",
+          "source": "E.O. 908; Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)",
+          "date": "1908-07-02"
+        }
+      ],
+      "today": [
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "South Dakota",
+          "source": "Lovacono, Establishment and Modification of National Forest Boundaries (USFS, 1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "modified_by",
+          "note": "Made Short Pine part of the Sioux National Forest."
+        }
+      ]
+    },
+    "proc-585": {
+      "legacy": [
+        {
+          "text": "Garden City was renamed the Kansas National Forest in 1908.",
+          "source": "Proc. 808",
+          "date": "1908-05-15"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-808",
+          "relation": "renamed_by",
+          "note": "Renamed the Garden City forest the Kansas National Forest."
+        }
+      ]
+    },
+    "proc-557": {
+      "related": [
+        {
+          "id": "proc-474",
+          "relation": "modifies",
+          "note": "Redrew the Medicine Bow reserve of May 22, 1902."
+        },
+        {
+          "id": "proc-484",
+          "relation": "same_subject",
+          "note": "The July 16, 1902 Medicine Bow boundary change."
+        }
+      ]
+    },
+    "proc-558": {
+      "related": [
+        {
+          "id": "proc-531",
+          "relation": "same_subject",
+          "note": "The Bitter Root reduction of June 14, 1904."
+        }
+      ]
+    },
+    "proc-559": {
+      "related": [
+        {
+          "id": "proc-496",
+          "relation": "enlarges",
+          "note": "Enlarged the Yellowstone reserve as set on January 29, 1903."
+        },
+        {
+          "id": "proc-524",
+          "relation": "same_subject",
+          "note": "The 1904 reduction of the Yellowstone reserve."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "The press record found for 1905 is regional, not national: Oregon's Morning Oregonian on the Idaho reserves and western Colorado papers on the Gunnison reserve.",
+        "source": "research entry",
+        "date": "1905"
+      },
+      {
+        "text": "In April 1905 the Oregonian's Washington bureau reported more than four million acres in Idaho withdrawn \"pending the creation of new forest reservations.\"",
+        "source": "Morning Oregonian, April 18, 1905",
+        "date": "1905-04-18"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "congress",
+        "text": "The Transfer Act put the reserves under the Secretary of Agriculture, leaving surveying, entry and patenting with the General Land Office.",
+        "source": "33 Stat. 628",
+        "date": "1905-02-01"
+      },
+      {
+        "kind": "administrative",
+        "text": "The agricultural appropriation act funded the bureau under the new heading \"FOREST SERVICE\" from July 1, 1905, and gave reserve employees power to make arrests for violations of reserve rules.",
+        "source": "33 Stat. 861, 872–873",
+        "date": "1905-03-03"
+      },
+      {
+        "kind": "political",
+        "text": "Senator Weldon B. Heyburn of Idaho objected that farm and mineral land had been swept into the Idaho withdrawals. In July the Oregonian reported he had written Pinchot half apologizing for his opposition, though he did not accept the administration's policies.",
+        "source": "Morning Oregonian, April 18 and July 15, 1905",
+        "date": "1905-07-15"
+      },
+      {
+        "kind": "political",
+        "text": "By late September Heyburn was arguing that a separate, still-pending Shoshone County withdrawal was settled farmland; a General Land Office special agent reported the claims were timberland and most claimants lived in Wallace, Heyburn's home town.",
+        "source": "Morning Oregonian, September 29, 1905",
+        "date": "1905-09-29"
+      },
+      {
+        "kind": "local",
+        "text": "West-central Colorado, home of the Gunnison, Uncompahgre, Cochetopah and Holy Cross reserves, was by one regional history's account a \"hotbed of anti-forest reserve agitation,\" led in Washington by Senator Henry M. Teller.",
+        "source": "Bureau of Land Management, The Valley of Opportunity, ch. 9"
+      },
+      {
+        "kind": "economic",
+        "text": "The new Forest Service announced grazing fees, first charged in 1906, which stockmen resented more than any boundary.",
+        "source": "research entry",
+        "date": "1906"
+      },
+      {
+        "kind": "administrative",
+        "text": "By the General Land Office's year-end figures the reserves grew from 59 reserves of 62,763,494 acres in 1904 to 83 reserves of 85,627,472 acres in 1905, an increase of nearly 23 million acres.",
+        "source": "Gates, History of Public Land Law Development (1968), p. 580",
+        "date": "1905"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The complaints fed into the 1907 fight over the \"midnight forests.\"",
+        "source": "research entry",
+        "date": "1907"
+      },
+      {
+        "text": "The reserves were renamed \"national forests\" in 1907.",
+        "source": "research entry",
+        "date": "1907"
+      },
+      {
+        "text": "Nearly all of the 1905 reserves survive inside today's national forests, though names and boundaries have been reshuffled many times.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

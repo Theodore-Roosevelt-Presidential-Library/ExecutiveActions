@@ -150,6 +150,96 @@ def entry_links(base):
     return links
 
 
+INVERSE = {"enlarges": "enlarged_by", "reduces": "reduced_by", "modifies": "modified_by", "revokes": "revoked_by",
+           "renames": "renamed_by", "amends": "amended_by", "supersedes": "superseded_by", "restores": "restored_by",
+           "implements": "implemented_by", "same_subject": "same_subject"}
+INVERSE.update({v: k for k, v in list(INVERSE.items())})
+IMPACT_KEYS = ("reception", "political_impact", "legacy", "today", "later_actions", "uncertain")
+
+
+def attach_impact(docs):
+    """Merge data/impact/NNN.json into the records: impact datapoints and document-to-document links (with inverses)."""
+    by_id = {d["id"]: d for d in docs}
+    impact, related, story_level = {}, {}, {}
+    for f in sorted(glob.glob(str(DATA / "impact/*.json"))):
+        j = json.load(open(f, encoding="utf-8"))
+        n = j.get("story") or int(Path(f).stem)
+        if j.get("story_level"):
+            story_level[n] = j["story_level"]
+        for i, v in (j.get("documents") or {}).items():
+            if i not in by_id:
+                continue
+            targets = [i] + ([by_id[i]["duplicate_of"]] if by_id[i].get("duplicate_of") in by_id else [])
+            for t in targets:
+                imp = impact.setdefault(t, {k: [] for k in IMPACT_KEYS})
+                for k in IMPACT_KEYS:
+                    for x in v.get(k) or []:
+                        if isinstance(x, dict):
+                            x = {**x, "story": n}
+                        if x not in imp[k] and not any(isinstance(y, dict) and isinstance(x, dict) and y.get("text") == x.get("text") and y.get("name") == x.get("name") for y in imp[k]):
+                            imp[k].append(x)
+                for r in v.get("related") or []:
+                    if r.get("id") in by_id and r["id"] != t:
+                        related.setdefault(t, {})[(r["id"], r["relation"])] = {"id": r["id"], "relation": r["relation"], "note": r.get("note"), "story": n}
+    # inverse links
+    for a, links in list(related.items()):
+        for (b, rel), r in list(links.items()):
+            inv = INVERSE.get(rel, "same_subject")
+            if not any(k[0] == a for k in related.get(b, {})):
+                related.setdefault(b, {})[(a, inv)] = {"id": a, "relation": inv, "note": None, "story": r.get("story"), "inferred": True}
+    for d in docs:
+        imp = impact.get(d["id"])
+        d["impact"] = {k: v for k, v in imp.items() if v} if imp else None
+        # one link per target: prefer a specific relation over same_subject, and an explicit link over an inferred one
+        best = {}
+        for r in related.get(d["id"], {}).values():
+            cur = best.get(r["id"])
+            rank = lambda x: (x["relation"] == "same_subject", bool(x.get("inferred")))
+            if cur is None or rank(r) < rank(cur):
+                best[r["id"]] = r
+        rel = sorted(best.values(), key=lambda r: ((by_id[r["id"]].get("date") or "9999"), r["id"]))
+        d["related"] = [{**r, "date": by_id[r["id"]].get("date"), "title": by_id[r["id"]].get("title"), "type": by_id[r["id"]].get("type"),
+                         "number": by_id[r["id"]].get("number")} for r in rel]
+    json.dump(story_level, open(DATA / "story_impact.json", "w"), ensure_ascii=False, indent=1)
+
+
+# --- dating clause ("Done at the City of Washington this 2nd day of June, in the year of our Lord 1904")
+ORD={"first":1,"second":2,"third":3,"fourth":4,"fifth":5,"sixth":6,"seventh":7,"eighth":8,"ninth":9,"tenth":10,"eleventh":11,"twelfth":12,
+"thirteenth":13,"fourteenth":14,"fifteenth":15,"sixteenth":16,"seventeenth":17,"eighteenth":18,"nineteenth":19,"twentieth":20,"thirtieth":30}
+TENS={"twenty":20,"thirty":30}
+MON={m:i+1 for i,m in enumerate("january february march april may june july august september october november december".split())}
+UNITS={"one":1,"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7,"eight":8,"nine":9}
+def day_word(w):
+    w=w.lower().replace(" ","-")
+    if w in ORD: return ORD[w]
+    m=re.match(r"(\d+)(st|nd|rd|th|d)?$",w)
+    if m: return int(m.group(1))
+    p=w.split("-")
+    if len(p)==2 and p[0] in TENS and p[1] in ORD: return TENS[p[0]]+ORD[p[1]]
+    return None
+def year_words(s):
+    s=s.lower()
+    m=re.search(r"\b(19\d\d)\b",s)
+    if m: return int(m.group(1))
+    m=re.search(r"nineteen hundred(?: and)? ([a-z\- ]+)|one thousand nine hundred(?: and)? ([a-z\- ]+)",s)
+    if m:
+        w=(m.group(1) or m.group(2)).strip().split(",")[0].split(" and of")[0].strip()
+        w=w.replace(" ","-"); parts=w.split("-")
+        n=0
+        for p_ in parts:
+            if p_ in UNITS: n+=UNITS[p_]
+            elif p_=="ten": n+=10
+        return 1900+n if n else None
+    return None
+def clause_date(paras):
+    for p in reversed(paras[-4:]):
+        m=re.search(r"this\s+([\w\-]+(?:[ -][\w]+)?)\s+day\s+of\s+([A-Za-z]+)[,.]?\s+in\s+the\s+year\s+of\s+our\s+Lord\s+(.{0,120})",p,re.I)
+        if m:
+            d=day_word(m.group(1)); mo=MON.get(m.group(2).lower()); y=year_words(m.group(3))
+            if d and mo and y: return f"{y:04d}-{mo:02d}-{d:02d}"
+    return None
+
+
 def main():
     base = load_jsonl(DATA / "base.jsonl")
     st = load_jsonl(DATA / "statutes_proclamations.jsonl")
@@ -177,7 +267,7 @@ def main():
                     meta[mm.group(1)] = mm.group(2)
         n = int(Path(f).stem)
         docs = re.findall(r"[a-z]+-[0-9a-z\-]+", meta.get("documents", ""))
-        stories[n] = {"number": n, "slug": meta.get("slug", "").strip(), "title": meta.get("title", "").strip().strip('"'), "documents": docs}
+        stories[n] = {"number": n, "slug": meta.get("slug", "").strip(), "title": re.sub(r'^"(.*)"$', r'\1', meta.get("title", "").strip()).replace('\\"', '"'), "documents": docs}
     links = entry_links(base)
     for n, s in stories.items():
         for d in s["documents"]:
@@ -195,7 +285,15 @@ def main():
             r["citations"]["app"] = {"number": int(b["number"]), "url": APP + "proclamation-" + b["number"]}
             m = smap.get(b["id"])
             if m:
-                s = st[m["_i"]]
+                s = dict(st[m["_i"]])
+                # GovInfo's date metadata is occasionally wrong. Trust the dating clause of a collated text, or of the
+                # digitized text when it agrees with the American Presidency Project (OCR can misread a digit).
+                cd = clause_date(collated[b["id"]]["paragraphs"]) if b["id"] in collated else clause_date(s["paragraphs"])
+                if cd and ((b["id"] not in collated and cd != b["date"]) or "date" in corrections.get(b["id"], {})):
+                    cd = None
+                if cd and cd != s["date"]:
+                    r["date_notes"].append(f"GovInfo's catalog dates this printing {s['date']}, but the proclamation itself is dated {cd}.")
+                    s["date"] = cd
                 r["citations"]["statutes"] = {"volume": s["volume"], "page": s["page"], "last_page": s["last_page"],
                                               "cite": f"{s['volume']} Stat. {s['page']}" + (f"–{s['last_page']}" if s['last_page'] and s['last_page'] != s['page'] else ""),
                                               "page_image": GOVINFO_PAGE.format(v=s["volume"], p=s["page"]),
@@ -235,7 +333,10 @@ def main():
         for k in ("date", "title"):
             if k in c:
                 notes = "date_notes" if k == "date" else "title_notes"
-                r[notes] = r.get(notes, []) + [f"Corrected from \u201c{r[k]}\u201d. {c.get('why', '')}".strip()]
+                old = re.split(r"\s+\*?\((?:title as|entry\b)", str(r[k]))[0].replace("**", "")
+                old = re.sub(r"\s*\([^()]*(?:entry|research|resolves|⚠)[^()]*\)", "", old).strip().rstrip(".")
+                if old != c[k]:
+                    r[notes] = r.get(notes, []) + [f"Corrected from \u201c{old}\u201d. {c.get('why', '')}".strip()]
                 r[k] = c[k]
                 if k == "title":
                     r["title_source"] = "Corrected by the Library (see title note)"
@@ -243,6 +344,8 @@ def main():
             r["date_precision"] = "day" if len(c["date"]) == 10 else r["date_precision"]
             if c["date"] == (r["citations"].get("statutes") or {}).get("statutes_date"):
                 r["date_notes"] = [n for n in r["date_notes"] if not n.startswith("The American Presidency Project dates this")]
+        if "text_note" in c and r.get("text"):
+            r["text"]["note"] = (r["text"].get("note") or "") + " " + c["text_note"]
         if "date_note" in c:
             r["date_notes"].append(c["date_note"])
         if "title_note" in c:
@@ -287,6 +390,8 @@ def main():
                      "places": e.get("places") or [], "states": [], "people": [], "significance": e.get("significance"), "stories": [],
                      "day_by_day": DAYBYDAY.format(d=s["date"])})
 
+    attach_impact(docs)
+
     docs.sort(key=lambda d: (d["date"] or "9999", {"proclamation": 0, "executive_order": 1, "unnumbered_order": 2}[d["type"]], d["id"]))
     with open(DATA / "documents.jsonl", "w", encoding="utf-8") as f:
         for d in docs:
@@ -305,7 +410,9 @@ def main():
              "with_text": sum(1 for d in distinct if d["text"]), "text_kinds": Counter((d["text"] or {}).get("kind") for d in distinct),
              "categories": Counter(c for d in distinct for c in d["categories"]),
              "uncategorized": sum(1 for d in distinct if not d["categories"]),
-             "with_story": sum(1 for d in distinct if d["stories"]), "with_summary": sum(1 for d in distinct if d["summary"])}
+             "with_story": sum(1 for d in distinct if d["stories"]), "with_summary": sum(1 for d in distinct if d["summary"]),
+             "with_impact": sum(1 for d in distinct if d.get("impact")), "with_related": sum(1 for d in distinct if d.get("related")),
+             "today_items": sum(len((d.get("impact") or {}).get("today", [])) for d in distinct)}
     json.dump(stats, open(DATA / "stats.json", "w"), indent=1, default=dict)
     print(json.dumps(stats, indent=1, default=dict))
 

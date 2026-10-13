@@ -1,0 +1,70 @@
+{
+  "story": 66,
+  "documents": {
+    "proc-626": {
+      "reception": [
+        {"text": "The invitation ran as a short news item; the Los Angeles Herald headed it \"VIRGINIA INVITES SOLDIERS.\"", "source": "Los Angeles Herald, May 30, 1906", "date": "1906-05-30"}
+      ],
+      "legacy": [
+        {"text": "The Jamestown Exposition opened April 26, 1907, and lost heavily, but on December 16, 1907 the Great White Fleet sailed from Hampton Roads on its voyage around the world.", "source": "Naval History and Heritage Command", "date": "1907-12-16"},
+        {"text": "After the United States entered the First World War, Congress voted to buy 474 acres of the exposition grounds at Sewell's Point, which became Naval Station Norfolk.", "source": "Naval History and Heritage Command", "date": "1917"}
+      ],
+      "today": [
+        {"name": "Naval Station Norfolk", "kind": "military_installation", "relation": "part", "state": "Virginia", "note": "Built on 474 acres of the 1907 exposition grounds at Sewell's Point.", "source": "Naval History and Heritage Command"}
+      ],
+      "related": [
+        {"id": "proc-542", "relation": "same_subject", "note": "The 1905 proclamation declaring the Jamestown celebration and inviting the world's navies."}
+      ],
+      "later_actions": [
+        {"date": "1917", "text": "Congress authorized buying 474 acres of the exposition grounds, which became Naval Station Norfolk.", "source": "Naval History and Heritage Command"}
+      ]
+    },
+    "proc-633": {
+      "reception": [
+        {"text": "No newspaper notice of the proclamation itself has turned up, but the Salt Lake papers followed the town-lot sales it made possible.", "source": "Utah Digital Newspapers searches, 1906", "date": "1906"}
+      ],
+      "political_impact": [
+        {"kind": "local", "text": "The General Land Office set public sales of town lots at Heyburn on August 20 and Rupert on August 27, 1906, with payment to the receiver of the Hailey land office.", "source": "Salt Lake Tribune, July 30, 1906, p. 7", "date": "1906-07-30"},
+        {"kind": "local", "text": "The Heyburn sale fizzled: business lots appraised at $400 and $500 drew no bids, and the business men bought cheaper residence lots instead, shifting the town slightly from its planned position.", "source": "Salt Lake Tribune, August 24, 1906, p. 1; Deseret Evening News, August 25, 1906, p. 22", "date": "1906-08-20"}
+      ],
+      "legacy": [
+        {"text": "Rupert, Heyburn and Acequia grew up as government towns of the Minidoka Project, their lot sales paying into the reclamation fund.", "source": "Bureau of Reclamation"}
+      ],
+      "today": [
+        {"name": "Rupert, Idaho", "kind": "other", "relation": "origin", "state": "Idaho", "since": "1906-06-15", "note": "Town site cleared from the 1904 reservation in secs. 20 and 29, T. 9 S., R. 24 E.", "source": "research entry"},
+        {"name": "Heyburn, Idaho", "kind": "other", "relation": "origin", "state": "Idaho", "since": "1906-06-15", "note": "Town site cleared in sec. 15, T. 10 S., R. 23 E.", "source": "research entry"},
+        {"name": "Acequia, Idaho", "kind": "other", "relation": "origin", "state": "Idaho", "since": "1906-06-15", "note": "Town site cleared in sec. 1, T. 9 S., R. 24 E.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "proc-523", "relation": "modifies", "note": "Excluded 480 acres from the 1904 Hailey town-site reservation."}
+      ],
+      "uncertain": ["How Idaho's own newspapers greeted the proclamation has not been checked."]
+    },
+    "proc-646": {
+      "reception": [
+        {"text": "The appeal went out as a wire story datelined Oyster Bay; the Sunday Oregonian printed it beside the relief news from Chile.", "source": "Sunday Oregonian, August 26, 1906, p. 3", "date": "1906-08-26"},
+        {"text": "The Chilean government thanked the United States for its sympathy.", "source": "FRUS 1906, pt. 1, docs. 142, 144", "date": "1906-08"}
+      ],
+      "political_impact": [
+        {"kind": "diplomatic", "text": "The Red Cross money was modest: about $12,350 by the end of 1906, against $15,000 from San Francisco and $5,000 from Los Angeles given directly to the Chilean government.", "source": "FRUS 1906, pt. 1, docs. 148–149", "date": "1906-12-31"},
+        {"kind": "diplomatic", "text": "With no Red Cross society in Chile, Minister John Hicks paid the money out himself in small sums with a Santiago charity leader, giving preference to Americans and their descendants.", "source": "FRUS 1906, pt. 1, docs. 148–149", "date": "1906-12-31"}
+      ],
+      "legacy": [
+        {"text": "The appeal is a modest early chapter in American international disaster relief through the Red Cross, and shows how improvised that work still was.", "source": "research entry"}
+      ]
+    },
+    "proc-665": {
+      "reception": [
+        {"text": "The proclamation was widely reprinted: fifteen items in fourteen California papers between October 23 and November 30, 1906.", "source": "California Digital Newspaper Collection searches; Fresno Evening Democrat, October 23, 1906", "date": "1906-10-23"},
+        {"text": "The Associated Press text normalized the simplified spellings, and no California paper that fall remarked on the spellings in this proclamation.", "source": "Fresno Evening Democrat, October 23, 1906", "date": "1906-10"}
+      ],
+      "legacy": [
+        {"text": "It is one link in the unbroken chain of yearly presidential Thanksgiving proclamations since Lincoln's of October 3, 1863.", "source": "research entry"},
+        {"text": "It survives as a specimen of the simplified-spelling experiment, which Roosevelt abandoned after the House voted against it in December 1906.", "source": "research entry", "date": "1906-12"}
+      ],
+      "later_actions": [
+        {"date": "1941-12-26", "text": "A joint resolution fixed Thanksgiving on the fourth Thursday of November; under that rule the 1906 holiday would have fallen on November 22.", "source": "55 Stat. 862"}
+      ]
+    }
+  }
+}

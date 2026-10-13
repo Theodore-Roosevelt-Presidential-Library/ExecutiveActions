@@ -1,0 +1,166 @@
+{
+  "story": 109,
+  "documents": {
+    "proc-842": {
+      "reception": [
+        {
+          "text": "The proclamation was welcomed as part of a centennial the whole country embraced, with speeches, dinners and ceremonies from coast to coast.",
+          "source": "research entry",
+          "date": "1909-02-12"
+        },
+        {
+          "text": "An Associated Press dispatch reported that Roosevelt laid the cornerstone of the birthplace memorial at Hodgenville \"after appropriate forensic ceremonies.\"",
+          "source": "Los Angeles Herald, Feb. 13, 1909",
+          "date": "1909-02-13"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "February 12, 1909 became a special legal holiday in the District of Columbia and the Territories, as Congress's joint resolution of the day before had provided.",
+          "source": "Pub. Res. No. 42, 60th Cong., 35 Stat. 1164; 35 Stat. 2222",
+          "date": "1909-02-12"
+        },
+        {
+          "kind": "local",
+          "text": "The memorial building whose cornerstone Roosevelt laid that day was dedicated by President Taft on November 9, 1911.",
+          "source": "Memorial Building plaque",
+          "date": "1911-11-09"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "February 12 never became a federal holiday. Many states observe Lincoln's Birthday, but in popular practice it was absorbed into the third Monday in February set by the Uniform Monday Holiday Act.",
+          "source": "Pub. L. 90-363, 82 Stat. 250; 5 U.S.C. §6103(a)",
+          "date": "1971-01-01"
+        },
+        {
+          "text": "The Memorial Building still shelters the symbolic birth cabin, whose logs date mostly to the 1840s.",
+          "source": "National Park Service"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1968-06-28",
+          "text": "The Uniform Monday Holiday Act moved Washington's Birthday to the third Monday in February, effective 1971; it created no Lincoln holiday and renamed nothing.",
+          "source": "Pub. L. 90-363, 82 Stat. 250"
+        },
+        {
+          "date": "2009-03-30",
+          "text": "The Omnibus Public Land Management Act designated the birthplace site Abraham Lincoln Birthplace National Historical Park.",
+          "source": "Pub. L. 111-11, §7114, 123 Stat. 1202"
+        }
+      ]
+    },
+    "proc-850": {
+      "reception": [
+        {
+          "text": "Newspapers carried brief, factual reports from one Associated Press paragraph, February 23–25, with no editorial or quoted objector.",
+          "source": "Alexandria Gazette, Feb. 23; Salt Lake Herald, Feb. 24; New-York Tribune, New York Sun, San Francisco Call, Washington Herald, Feb. 25, 1909",
+          "date": "1909-02"
+        },
+        {
+          "text": "An Oakland Tribune editorial, reprinted by the San Francisco wine trade press, said the concession would scarcely be welcomed by California wine growers during a period of extraordinary depression in their industry.",
+          "source": "Pacific Wine and Spirit Review, Mar. 31, 1909, vol. 51, p. 17",
+          "date": "1909-03-31"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "A Treasury circular of February 26 (T.D. 29583) instructed customs officers to apply the reduced rates.",
+          "source": "Pacific Wine and Spirit Review, Mar. 31, 1909, vol. 51, p. 17",
+          "date": "1909-02-26"
+        },
+        {
+          "kind": "economic",
+          "text": "Spanish sparkling wines entered at the lower section 3 rates, six dollars a dozen for quart bottles, in place of the regular Dingley duties.",
+          "source": "35 Stat. 2229–2230",
+          "date": "1909-02-20"
+        },
+        {
+          "kind": "congress",
+          "text": "Within seven weeks the Senate Finance Committee was raising sparkling-wine duties in the Payne bill, from eight dollars to nine dollars and sixty cents a dozen quarts, and section 3 reciprocity was under attack.",
+          "source": "New York Sun, Apr. 13, 1909",
+          "date": "1909-04-13"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Under the Payne–Aldrich Tariff Act, Secretary of State Knox gave Spain notice ending the 1906 and 1909 agreements as of August 7, 1910, so the reduced rates ran about eighteen months.",
+          "source": "36 Stat. 11, sec. 4; Foreign Relations of the United States, 1909",
+          "date": "1909-08-07"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The agreement was dead by 1910, even though Spain announced in 1922 that it was ending the 1906 agreement.",
+          "source": "Foreign Relations of the United States (editors' note)",
+          "date": "1922-11"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-797",
+          "relation": "same_subject",
+          "note": "France received the same sparkling-wine concession under section 3 of the Dingley Act in 1908."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-08-05",
+          "text": "The Payne–Aldrich Tariff Act replaced the Dingley rates and directed the President to give notice ending the reciprocity agreements, which stayed in force until the notice ran out.",
+          "source": "36 Stat. 11, sec. 4"
+        },
+        {
+          "date": "1909-08-07",
+          "text": "Secretary of State Knox notified the Spanish Minister that the agreements of August 1, 1906 and February 20, 1909 would end on August 7, 1910.",
+          "source": "Foreign Relations of the United States, 1909"
+        }
+      ]
+    },
+    "proc-856": {
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "The Senate convened as called at noon on March 4, 1909, sat three days and adjourned on March 6.",
+          "source": "Congressional Record, vol. 44",
+          "date": "1909-03-04"
+        },
+        {
+          "kind": "congress",
+          "text": "On March 5 the Senate received and confirmed all nine of Taft's Cabinet nominations in an executive session of fifty-five minutes.",
+          "source": "Congressional Record, vol. 44, pp. 6–7",
+          "date": "1909-03-05"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-498",
+          "relation": "same_subject",
+          "note": "Roosevelt's call of the Senate for March 5, 1903."
+        },
+        {
+          "id": "proc-538",
+          "relation": "same_subject",
+          "note": "Roosevelt's call of the Senate for his own second inauguration day, 1905."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "None of the last three proclamations stirred controversy in Washington; they were routine business at the close of an administration.",
+        "source": "research entry",
+        "date": "1909"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "With these three proclamations the series of Roosevelt's numbered proclamations is complete.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

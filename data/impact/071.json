@@ -1,0 +1,616 @@
+{
+  "story": 71,
+  "documents": {
+    "proc-790": {
+      "today": [
+        {
+          "name": "San Bernardino National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-791": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Six months after this proclamation trimmed it, the Blue Mountains forest was divided by executive orders of June 13, 1908 among the new Whitman, Malheur, Umatilla and Deschutes forests.",
+          "source": "FS-612",
+          "date": "1908-06-13"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Blue Mountains name lasted only until July 1, 1908.",
+          "source": "FS-612",
+          "date": "1908-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Blue Mountains National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Oregon",
+          "note": "Divided among the Whitman, Malheur, Umatilla and Deschutes forests, effective July 1, 1908.",
+          "source": "FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-618",
+          "relation": "reduces",
+          "note": "Excluded land from the Blue Mountains reserve set apart in 1906."
+        },
+        {
+          "id": "eo-813",
+          "relation": "superseded_by",
+          "note": "Created the Whitman forest from part of the Blue Mountains."
+        },
+        {
+          "id": "eo-814",
+          "relation": "superseded_by",
+          "note": "Created the Malheur forest from part of the Blue Mountains."
+        },
+        {
+          "id": "eo-815",
+          "relation": "superseded_by",
+          "note": "Created the Umatilla forest from part of the Blue Mountains."
+        },
+        {
+          "id": "eo-816",
+          "relation": "superseded_by",
+          "note": "Created the Deschutes forest from part of the Blue Mountains."
+        }
+      ]
+    },
+    "proc-792": {
+      "legacy": [
+        {
+          "text": "The Monterey forest became the Santa Barbara in 1919 and part of Los Padres in 1936.",
+          "source": "FS-612",
+          "date": "1936"
+        }
+      ],
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "California",
+          "source": "FS-612"
+        }
+      ]
+    },
+    "proc-795": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The enlarged Tonto also absorbed the small Pinal Mountains forest.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-01-13"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tonto National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Arizona",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-798": {
+      "legacy": [
+        {
+          "text": "The Trinity was combined for administration into the Shasta-Trinity in 1954.",
+          "source": "FS-612",
+          "date": "1954"
+        }
+      ],
+      "today": [
+        {
+          "name": "Shasta-Trinity National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "California",
+          "source": "FS-612"
+        }
+      ]
+    },
+    "proc-800": {
+      "today": [
+        {
+          "name": "Modoc National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-802": {
+      "legacy": [
+        {
+          "text": "The Ozark was combined with the St. Francis in 1963.",
+          "source": "FS-612",
+          "date": "1963"
+        }
+      ],
+      "today": [
+        {
+          "name": "Ozark–St. Francis National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Arkansas",
+          "note": "Set apart from unreserved public land in 1908; combined with the St. Francis in 1963.",
+          "source": "FS-612"
+        }
+      ],
+      "uncertain": [
+        "Whether anyone outside the Forest Service formally asked for the Ozark forest is not known."
+      ]
+    },
+    "proc-803": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation added and excluded land and absorbed the Mount Taylor forest; from it on, the standard text promised not to prevent settlement of land opened under the Forest Homestead Act of 1906.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-04-16"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Manzano was renamed the Cibola in December 1931.",
+          "source": "FS-612",
+          "date": "1931-12"
+        }
+      ],
+      "today": [
+        {
+          "name": "Cibola National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "New Mexico",
+          "source": "FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-662",
+          "relation": "modifies",
+          "note": "Absorbed the Mount Taylor forest set apart in 1906."
+        }
+      ]
+    },
+    "proc-805": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation added land in California and Nevada and excluded land in California, restoring it to the public domain.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-04-20"
+        }
+      ],
+      "today": [
+        {
+          "name": "Sierra National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-806": {
+      "legacy": [
+        {
+          "text": "The Jemez joined the Pecos to form the Santa Fe National Forest in 1915.",
+          "source": "EO 2160; FS-612",
+          "date": "1915-04-06"
+        }
+      ],
+      "today": [
+        {
+          "name": "Santa Fe National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "source": "FS-612"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915-04-06",
+          "text": "Executive Order 2160 combined the Jemez and Pecos forests as the Santa Fe.",
+          "source": "EO 2160; FS-612"
+        }
+      ]
+    },
+    "proc-808": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The renamed Kansas National Forest reached 302,387 acres in Finney, Kearny, Hamilton, Grant and Haskell counties, where planting had begun in 1906 on open range.",
+          "source": "Kansas Historical Society",
+          "date": "1908"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The forest never grew its promised timber; a 1911 drought killed 90 percent of the living trees, and the forest was abolished in 1915 with its land made available to homesteaders.",
+          "source": "Kansas Historical Society; Proc. 1314, 39 Stat. 1752",
+          "date": "1915"
+        }
+      ],
+      "today": [
+        {
+          "name": "Kansas National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Kansas",
+          "note": "Abolished effective December 1, 1915.",
+          "source": "Proc. 1314, 39 Stat. 1752"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915-10-14",
+          "text": "Proclamation 1314 abolished the Kansas National Forest, effective December 1, 1915.",
+          "source": "39 Stat. 1752, per FS-612"
+        }
+      ],
+      "uncertain": [
+        "Whether anyone outside the Forest Service formally asked for the Kansas enlargement is not known.",
+        "How Garden City papers received the change has not been checked."
+      ]
+    },
+    "proc-809": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation added land in Arizona and excluded land in Utah, restoring it to the public domain.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-05-22"
+        }
+      ],
+      "today": [
+        {
+          "name": "Dixie National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-811": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The reshaped Gila absorbed the Big Burros forest, and four sections of the old Gila were restored to the public domain.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-06-18"
+        }
+      ],
+      "today": [
+        {
+          "name": "Gila National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "New Mexico",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-812": {
+      "legacy": [
+        {
+          "text": "The Datil was split between the Cibola and the Gila in December 1931.",
+          "source": "FS-612",
+          "date": "1931-12"
+        }
+      ],
+      "today": [
+        {
+          "name": "Cibola National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "source": "FS-612"
+        },
+        {
+          "name": "Gila National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "source": "FS-612"
+        }
+      ]
+    },
+    "proc-815": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation noted that the Ashley National Forest had been formed from part of the Uinta by executive order the same day.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-07-01"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Uinta became part of the Uinta-Wasatch-Cache by administrative consolidation in 2007–08.",
+          "source": "FS-612",
+          "date": "2008"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Utah",
+          "source": "FS-612"
+        }
+      ]
+    },
+    "proc-816": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Crook forest was built from part of the Tonto and most of the Mount Graham, and some tracts were eliminated and restored to the public domain.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-07-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-869",
+          "relation": "same_subject",
+          "note": "Same-day order redefining the Tonto, with part going to the Crook."
+        }
+      ]
+    },
+    "proc-817": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Klamath was re-formed from parts of the Klamath, Trinity and Shasta forests.",
+          "source": "35 Stat. 2171–2208",
+          "date": "1908-07-02"
+        }
+      ],
+      "today": [
+        {
+          "name": "Klamath National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-818": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation consolidated the San Francisco Mountains forest and parts of the Black Mesa, Tonto and Grand Canyon forests into the Coconino, and made the rest of the Grand Canyon forest north of the river the Kaibab.",
+          "source": "35 Stat. 2196",
+          "date": "1908-07-02"
+        },
+        {
+          "kind": "administrative",
+          "text": "It expressly left the Grand Canyon National Game Preserve and Grand Canyon National Monument proclamations unchanged.",
+          "source": "35 Stat. 2196",
+          "date": "1908-07-02"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Coconino and Kaibab forests still frame the Grand Canyon.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Coconino National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Arizona",
+          "since": "1908-07-02",
+          "source": "research entry"
+        },
+        {
+          "name": "Kaibab National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Arizona",
+          "since": "1908-07-02",
+          "note": "FS-612 records the Kaibab as established by executive order of the same date; the proclamation names it.",
+          "source": "FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-909",
+          "relation": "same_subject",
+          "note": "Same-day executive order naming the Kaibab National Forest; the two instruments worked together."
+        },
+        {
+          "id": "eo-868",
+          "relation": "same_subject",
+          "note": "Order putting part of the Black Mesa forest into the Sitgreaves."
+        },
+        {
+          "id": "eo-876",
+          "relation": "same_subject",
+          "note": "Order putting part of the Black Mesa forest into the Apache."
+        },
+        {
+          "id": "proc-794",
+          "relation": "same_subject",
+          "note": "Grand Canyon National Monument, which overlaps the Coconino and which this proclamation left unchanged."
+        }
+      ]
+    },
+    "proc-823": {
+      "reception": [
+        {
+          "text": "Forest and Stream noted that \"to Florida goes the distinction of getting the first National forest created east of the Mississippi River,\" and gave the Ocala as 201,480 acres.",
+          "source": "Forest and Stream, December 12, 1908, p. 935",
+          "date": "1908-12-12"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Ocala was combined with the Choctawhatchee as the Florida National Forest in 1911 and separated out again in 1927.",
+          "source": "Proc. 1122, 37 Stat. 1678; Proc. 1816, 45 Stat. 2927",
+          "date": "1927"
+        }
+      ],
+      "today": [
+        {
+          "name": "Ocala National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Florida",
+          "since": "1908-11-24",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1911-04-17",
+          "text": "Proclamation 1122 combined the Ocala and Choctawhatchee as the Florida National Forest, effective July 1, 1911.",
+          "source": "37 Stat. 1678"
+        },
+        {
+          "date": "1927",
+          "text": "Proclamation 1816 separated the Ocala division out of the Florida National Forest.",
+          "source": "45 Stat. 2927"
+        }
+      ],
+      "uncertain": [
+        "Whether anyone outside the Forest Service formally asked for the Ocala forest is not known.",
+        "How Ocala papers received it has not been checked."
+      ]
+    },
+    "proc-824": {
+      "reception": [
+        {
+          "text": "Forest and Stream reported Governor John Burke \"very much interested in this forest,\" and gave the Service's reasons: an experimental field for planting in \"the least forested State in the Union,\" with its timber kept for home builders.",
+          "source": "Forest and Stream, December 12, 1908, p. 935",
+          "date": "1908-12-12"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The forest was run from Camp Crook, South Dakota, and in April 1912 foresters rode out from Bowman to plant ponderosa pine among the native pines of the scoria buttes.",
+          "source": "K. D. Swan, \"Reminiscences of the Dakota National Forest\"",
+          "date": "1912-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Dakota National Forest, in present-day Slope County south of Medora, was abolished in 1917.",
+          "source": "Proc. 1387, 40 Stat. 1685",
+          "date": "1917-07-30"
+        }
+      ],
+      "today": [
+        {
+          "name": "Dakota National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "North Dakota",
+          "note": "About 14,000 acres in present-day Slope County; abolished 1917.",
+          "source": "Proc. 1387, 40 Stat. 1685"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1917-07-30",
+          "text": "Proclamation 1387 abolished the Dakota National Forest.",
+          "source": "40 Stat. 1685, per FS-612"
+        }
+      ],
+      "uncertain": [
+        "Whether Governor Burke or anyone else formally asked for the Dakota forest is not known; Forest Service boundary files (NARA RG 95) would settle it.",
+        "How Dickinson and Bowman papers received it has not been checked."
+      ]
+    },
+    "proc-825": {
+      "legacy": [
+        {
+          "text": "The Choctawhatchee was part of the Florida National Forest from 1911, took its own name again in 1927, and in 1940 about 340,000 acres went to the War Department as Eglin Field.",
+          "source": "FS-612; official Eglin history",
+          "date": "1940-06-27"
+        }
+      ],
+      "today": [
+        {
+          "name": "Eglin Air Force Base",
+          "kind": "military_installation",
+          "relation": "transferred",
+          "state": "Florida",
+          "note": "About 340,000 acres transferred to the War Department in 1940 as Eglin Field.",
+          "source": "Official Eglin history"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1911-04-17",
+          "text": "Proclamation 1122 combined the Choctawhatchee and Ocala as the Florida National Forest.",
+          "source": "37 Stat. 1678"
+        },
+        {
+          "date": "1927-11-10",
+          "text": "After the Ocala division was separated out, the remainder was renamed the Choctawhatchee by executive order.",
+          "source": "FS-612"
+        },
+        {
+          "date": "1940-06-27",
+          "text": "The Choctawhatchee National Forest was transferred to the War Department and became Eglin Field.",
+          "source": "Official Eglin history"
+        }
+      ],
+      "uncertain": [
+        "Whether anyone outside the Forest Service formally asked for the Choctawhatchee forest is not known."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "After the Fulton proviso of March 1907, every new or enlarged forest of 1908 lay outside the six states where Congress had barred proclamations.",
+        "source": "35 Stat. 2171–2208",
+        "date": "1908"
+      },
+      {
+        "kind": "administrative",
+        "text": "The proclamations were part of a Forest Service redistricting effective July 1, 1908 that cut the number of forests from 171 to 143, each under its own supervisor.",
+        "source": "Report of the Forester, fiscal 1908, p. 440",
+        "date": "1908-07-01"
+      },
+      {
+        "kind": "local",
+        "text": "Exclusions from several forests restored land to the public domain for homesteading.",
+        "source": "35 Stat. 2171–2208",
+        "date": "1908"
+      }
+    ],
+    "reception": [
+      {
+        "text": "Forest and Stream ran a full column on the December Ocala and Dakota proclamations, drawn from a Washington release.",
+        "source": "Forest and Stream, December 12, 1908, p. 935",
+        "date": "1908-12-12"
+      }
+    ]
+  }
+}

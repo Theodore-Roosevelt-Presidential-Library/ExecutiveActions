@@ -1,0 +1,193 @@
+{
+  "story": 96,
+  "documents": {
+    "eo-763": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order reserved the islets for the Department of Agriculture without naming the Bureau of Biological Survey, the arm of the Department that ran the bird reservations.",
+          "source": "Executive Order 763 (Wikisource)",
+          "date": "1908-02-24"
+        },
+        {
+          "kind": "political",
+          "text": "Like the bird orders before it, the reservation drew no recorded public reaction; it was one more small addition to the record of executive action that Roosevelt's opponents in Congress and the West resented as government by proclamation.",
+          "source": "research entry",
+          "date": "1908"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Taft enlarged the reservation up into the Halifax River in 1909 and added the ban on hunting, trapping, capturing or disturbing birds that Roosevelt's order lacked.",
+          "source": "Executive Order 1057",
+          "date": "1909-04-02"
+        },
+        {
+          "text": "The Biological Survey discontinued the refuge in 1928, saying it had become of little value to birds because of the growth of New Smyrna and a question of jurisdiction.",
+          "source": "Report of the Chief of the Bureau of Biological Survey, FY 1928, p. 27",
+          "date": "1928"
+        },
+        {
+          "text": "A historical marker at the Ponce de Leon Inlet Lighthouse dates the reservation 1909–1918 and credits Taft, matching neither the 1908 creation nor the 1928 revocation.",
+          "source": "research entry"
+        },
+        {
+          "text": "Mosquito Inlet counts among the fifty-one bird reservations Roosevelt created by executive order, the body of work that became the National Wildlife Refuge System.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Mosquito Inlet Reservation",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Florida",
+          "note": "Revoked in 1928. The inlet, renamed Ponce de Leon Inlet in 1927, lies about ten miles south of Daytona Beach.",
+          "source": "Executive Order 4832; Laws of Florida 1927, ch. 13325"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-04-02",
+          "text": "Taft's Executive Order 1057 enlarged the Mosquito Inlet Reservation and added a ban on hunting, trapping, capturing or disturbing the birds.",
+          "source": "Executive Order 1057"
+        },
+        {
+          "date": "1927-05-07",
+          "text": "The Florida Legislature renamed Mosquito Inlet as Ponce de Leon Inlet.",
+          "source": "Laws of Florida 1927, ch. 13325, vol. III, p. 3783"
+        },
+        {
+          "date": "1928-03-17",
+          "text": "Executive Order 4832, under Coolidge, revoked both the 1908 order and Taft's 1909 enlargement.",
+          "source": "Presidential Executive Orders (1944), entry 4832"
+        }
+      ],
+      "uncertain": [
+        "The exact wording of Executive Order 4832 has not been checked against the signed original.",
+        "What happened to the birds on the reservation between 1908 and 1928 is not known; a 1909 Bird-Lore warden's report mentioning a Captain Pacetti is an unconfirmed lead."
+      ]
+    },
+    "eo-732": {
+      "later_actions": [
+        {
+          "date": "1917-02-06",
+          "text": "Woodrow Wilson's Executive Order 2526 repealed the extension of Panama's Chinese exclusion law to the Canal Zone and substituted a Zone-specific exclusion regime.",
+          "source": "Executive Order 2526"
+        }
+      ]
+    },
+    "eo-743": {
+      "related": [
+        {
+          "id": "eo-711",
+          "relation": "amends",
+          "note": "Restated the boundaries of the November 1907 Jicarilla addition to remove an overlap; not a new grant of land."
+        },
+        {
+          "id": "eo-744",
+          "relation": "same_subject",
+          "note": "Companion correction to the Navajo addition."
+        }
+      ]
+    },
+    "eo-744": {
+      "related": [
+        {
+          "id": "eo-709",
+          "relation": "amends",
+          "note": "Restated the boundaries of the November 1907 Navajo addition to remove an overlap; not a new grant of land."
+        },
+        {
+          "id": "eo-743",
+          "relation": "same_subject",
+          "note": "Companion correction to the Jicarilla addition."
+        }
+      ]
+    },
+    "eo-746": {
+      "related": [
+        {
+          "id": "eo-757",
+          "relation": "amended_by",
+          "note": "Moved the combined district's land office from Alva to Woodward."
+        }
+      ]
+    },
+    "eo-757": {
+      "related": [
+        {
+          "id": "eo-746",
+          "relation": "amends",
+          "note": "Moved the office of the consolidated Woodward–Alva district from Alva to Woodward."
+        }
+      ]
+    },
+    "eo-755": {
+      "related": [
+        {
+          "id": "eo-759",
+          "relation": "amended_by",
+          "note": "Extended the Yellowstone–Glasgow consolidation."
+        }
+      ]
+    },
+    "eo-759": {
+      "related": [
+        {
+          "id": "eo-755",
+          "relation": "amends",
+          "note": "Extended the transfer of Yellowstone district lands to Glasgow."
+        }
+      ]
+    },
+    "eo-750": {
+      "related": [
+        {
+          "id": "eo-774",
+          "relation": "amended_by",
+          "note": "Replaced \"collector of revenue\" with \"tax collector\" in section 2."
+        }
+      ]
+    },
+    "eo-753": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order added a strip of about six acres, left unplatted when the Port Angeles town site was subdivided, to the Ediz Hook Lighthouse Reservation, enlarging a reservation dating from 1862.",
+          "source": "Interior Department report of Dec. 19, 1913, Congressional Record vol. 51, pt. 4, pp. 3520–21",
+          "date": "1908-02-10"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "In 1913 the Interior Department cited the order in a report on a bill to lease part of the Ediz Hook Lighthouse Reservation to Port Angeles.",
+          "source": "Congressional Record vol. 51, pt. 4 (Feb. 16, 1914), pp. 3520–21",
+          "date": "1913-12-19"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "None of these orders drew recorded public reaction; the land-district and Canal Zone orders were pure administration.",
+        "source": "research entry",
+        "date": "1908"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The Canal Zone legal framework these orders helped build governed the Zone until the Torrijos–Carter treaties handed the canal to Panama at noon on December 31, 1999.",
+        "source": "Torrijos–Carter treaties, signed Sept. 7, 1977",
+        "date": "1999-12-31"
+      },
+      {
+        "text": "Under Reorganization Plan No. 3 of 1946, the General Land Office whose districts these orders merged joined the Grazing Service to form the Bureau of Land Management.",
+        "source": "Reorganization Plan No. 3 of 1946",
+        "date": "1946-07-16"
+      }
+    ]
+  }
+}

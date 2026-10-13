@@ -1,0 +1,62 @@
+{
+  "story": 19,
+  "documents": {},
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "economic",
+        "text": "The Confederated Salish and Kootenai Tribes were paid the appraised value of the land, $28,955.48, about $1.56 an acre.",
+        "source": "research entry"
+      },
+      {
+        "kind": "congress",
+        "text": "Congress let the President enlarge the range to as much as 20,000 acres with the leftover 1908 money; 18,523.85 acres were reserved by a schedule approved June 10, 1909.",
+        "source": "Act of March 4, 1909, ch. 301, 35 Stat. 1051; 437 F.2d 458, Finding 15",
+        "date": "1909-06-10"
+      },
+      {
+        "kind": "administrative",
+        "text": "The American Bison Society closed its herd fund at $10,560.50 and bought thirty-four bison from the Conrad estate herd at Kalispell at $275 a head delivered.",
+        "source": "American Bison Society, Third Annual Report (1910), pp. 4–5",
+        "date": "1909"
+      },
+      {
+        "kind": "administrative",
+        "text": "Thirty-seven bison went onto the fenced range on October 17, 1909.",
+        "source": "research entry",
+        "date": "1909-10-17"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The herd became one of the anchor herds that pulled the plains bison back from the edge; the white bison Big Medicine lived on the range from 1933 to 1959.",
+        "source": "research entry"
+      },
+      {
+        "text": "The Court of Claims held that the bison-range land had been taken under eminent domain within the meaning of the Fifth Amendment, as part of a $6,066,668.78 judgment covering all lands disposed of under the 1904 allotment act.",
+        "source": "Confederated Salish and Kootenai Tribes v. United States, 437 F.2d 458 (Ct. Cl. 1971)",
+        "date": "1971-01-22"
+      },
+      {
+        "text": "Congress placed all land of the National Bison Range in trust for the Confederated Salish and Kootenai Tribes and repealed the 1908 provision.",
+        "source": "Montana Water Rights Protection Act, Pub. L. 116-260, Div. DD, §12; 86 Fed. Reg. 33345",
+        "date": "2020-12-27"
+      },
+      {
+        "text": "The Tribes took over full day-to-day management of the range.",
+        "source": "research entry",
+        "date": "2022-01-02"
+      }
+    ],
+    "today": [
+      {
+        "name": "CSKT Bison Range",
+        "kind": "other",
+        "relation": "transferred",
+        "state": "Montana",
+        "note": "Held in trust for and managed by the Confederated Salish and Kootenai Tribes; formerly the National Bison Range in the National Wildlife Refuge System.",
+        "source": "Pub. L. 116-260, Div. DD, §12; 86 Fed. Reg. 33345 (June 24, 2021)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "story": 13,
+  "documents": {
+    "proc-516": {
+      "reception": [
+        {
+          "text": "The proclamation was a routine act at the start of a foreign war and stirred little debate at home, though American sympathy ran strongly toward Japan.",
+          "source": "research entry",
+          "date": "1904"
+        },
+        {
+          "text": "Sympathy for Japan ran especially strong among American Jewish organizations and financiers after the Kishinev pogrom, and Jacob Schiff of Kuhn, Loeb underwrote a large share of Japan's war loans.",
+          "source": "research entry",
+          "date": "1904"
+        },
+        {
+          "text": "Roosevelt's 1906 Nobel Peace Prize for ending the war was controversial: Norway's political Left called him a \"military mad\" imperialist, Swedish papers said Nobel was turning in his grave, and the committee's adviser Halvdan Koht filed a long, critical report.",
+          "source": "nobelprize.org",
+          "date": "1906"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "Having kept the country neutral, Roosevelt sent an identical note to Russia and Japan proposing direct peace talks \"without any intermediary\" and offering his good offices to arrange them. Japan accepted on June 10 and Russia on June 12.",
+          "source": "FRUS 1905, ch. 167, Docs. 876–877",
+          "date": "1905-06-08"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "The peace conference met at the Portsmouth Navy Yard in Kittery, Maine, from August 9, and the Treaty of Portsmouth ending the war was signed there on September 5, 1905.",
+          "source": "Treaty of Portsmouth; NAVSEA fact sheet",
+          "date": "1905-09-05"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Both governments delivered notice of ratification on October 15, 1905, and the treaty took effect that day.",
+          "source": "FRUS 1905, Docs. 907, 909, 910",
+          "date": "1905-10-15"
+        },
+        {
+          "kind": "political",
+          "text": "Anger in Japan over a peace with no indemnity and only half of Sakhalin led to three days of rioting in Tokyo after the Hibiya Park rally; seventeen people were killed and martial law lasted until November 29.",
+          "source": "Andrew Gordon; Nipponica; JACAR",
+          "date": "1905-09-05"
+        },
+        {
+          "kind": "political",
+          "text": "Roosevelt received the 1906 Nobel Peace Prize for his role in ending the war, the first Nobel Prize of any kind awarded to an American. The American minister, Herbert H. D. Peirce, accepted it for him.",
+          "source": "nobelprize.org",
+          "date": "1906-12-10"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Hague Convention XIII of 1907 carried forward the kind of neutral-port rules the proclamation applied.",
+          "source": "research entry",
+          "date": "1907"
+        },
+        {
+          "text": "Roosevelt held the Nobel prize money in trust for an industrial-peace foundation and later asked Congress to release the grown sum, $45,482.83, for wartime relief charities.",
+          "source": "nobelprize.org"
+        },
+        {
+          "text": "Japanese resentment of the American-brokered peace fed a longer cooling of relations between the United States and Japan.",
+          "source": "research entry"
+        },
+        {
+          "text": "Ship-by-ship neutrality law of this kind faded away through the two world wars, the Neutrality Acts of the 1930s and their repeal, and the collective-security system of the United Nations Charter.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-258",
+          "relation": "same_subject",
+          "note": "Directed all civil, military and naval officials to observe the February 11 neutrality proclamation."
+        }
+      ],
+      "uncertain": [
+        "Japan's private request that Roosevelt act, usually dated May 31, 1905, rests on secondary accounts; the published State Department record for 1905 begins with his note of June 8.",
+        "Counts of the injured in the September 1905 Tokyo riots range from about 1,000 to some 2,000 and cannot be reconciled from available sources."
+      ]
+    }
+  }
+}

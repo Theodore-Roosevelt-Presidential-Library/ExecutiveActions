@@ -1,0 +1,273 @@
+{
+  "story": 92,
+  "documents": {
+    "eo-589": {
+      "reception": [
+        {
+          "text": "Californians and organized labor on the Pacific Coast wanted Japanese laborers barred outright and thought the arrangement too soft.",
+          "source": "research entry",
+          "date": "1907"
+        },
+        {
+          "text": "Japan resented any restriction at all, and the affair fed periodic \"war scare\" talk about the two navies.",
+          "source": "research entry",
+          "date": "1907"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "The order was the American enforcement half of the Gentlemen's Agreement: Japan stopped issuing passports to laborers bound for the mainland, and the United States passed no openly discriminatory exclusion law.",
+          "source": "research entry",
+          "date": "1907"
+        },
+        {
+          "kind": "local",
+          "text": "The day before the order, San Francisco's school board repealed its segregation order for Japanese children only, keeping Chinese and Korean pupils segregated.",
+          "source": "research entry",
+          "date": "1907-03-13"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Secretary of Commerce and Labor was directed to enforce the bar through the Bureau of Immigration and Naturalization.",
+          "source": "Executive Order 589",
+          "date": "1907-03-14"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Gentlemen's Agreement governed Japanese immigration until the Immigration Act of 1924 replaced it with outright exclusion, souring U.S.–Japan relations for a generation.",
+          "source": "research entry",
+          "date": "1924"
+        },
+        {
+          "text": "The episode is now read as a case study in managing racial politics and great-power diplomacy at once, and in the human cost borne by the immigrants caught between them.",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1917-02-05",
+          "text": "The Immigration Act of 1917 repealed the 1907 act the order rested on, effective May 1, 1917, but re-enacted the passport power in section 3, so the order stood without a break.",
+          "source": "39 Stat. 897–98"
+        },
+        {
+          "date": "1948-10-18",
+          "text": "Truman's Executive Order 10009 revoked the order in part, lifting the bar for those who had entered Hawaii on such passports; the Mexico and Canada parts stood.",
+          "source": "Executive Order 10009"
+        },
+        {
+          "date": "1952-06-27",
+          "text": "The Immigration and Nationality Act repealed the 1917 act.",
+          "source": "66 Stat. 163, 279"
+        },
+        {
+          "date": "1924",
+          "text": "The Immigration Act of 1924 ended the Gentlemen's Agreement with outright exclusion.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-577-half": {
+      "reception": [
+        {
+          "text": "The New-York Tribune called Stevens's chairmanship a temporary one until Goethals took charge on the Isthmus.",
+          "source": "New-York Tribune, March 5, 1907",
+          "date": "1907-03-05"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The change of command was reported as a major shakeup and a gamble, with critics doubting the Army could finish what Stevens had not stayed to complete.",
+          "source": "research entry",
+          "date": "1907"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-595",
+          "relation": "amended_by",
+          "note": "Gave Goethals a furnished dwelling on the Isthmus and travel expenses."
+        },
+        {
+          "id": "eo-606",
+          "relation": "same_subject",
+          "note": "Made Goethals chairman in place of Stevens."
+        }
+      ]
+    },
+    "eo-595": {
+      "related": [
+        {
+          "id": "eo-577-half",
+          "relation": "amends",
+          "note": "Added a furnished dwelling and travel expenses for Goethals."
+        }
+      ]
+    },
+    "eo-606": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The reorganized Isthmian Canal Commission, with Goethals as chairman, assumed its duties on April 1, 1907.",
+          "source": "research entry",
+          "date": "1907-04-01"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Goethals finished the Panama Canal in 1914, and the Army-engineer command this order installed is remembered as the decision that got the canal built.",
+          "source": "research entry",
+          "date": "1914"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-577-half",
+          "relation": "same_subject",
+          "note": "Stevens's brief chairmanship, which this order ended."
+        },
+        {
+          "id": "eo-607",
+          "relation": "same_subject",
+          "note": "Blackburn appointed to the Commission the same day."
+        }
+      ]
+    },
+    "eo-593": {
+      "related": [
+        {
+          "id": "eo-606",
+          "relation": "same_subject",
+          "note": "Part of the same reconstitution of the Canal Commission."
+        }
+      ]
+    },
+    "eo-607": {
+      "related": [
+        {
+          "id": "eo-606",
+          "relation": "same_subject",
+          "note": "Signed the same day as Goethals's appointment as chairman."
+        }
+      ]
+    },
+    "eo-586": {
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Every existing municipal council and office in the Canal Zone was abolished, and the four new districts took effect April 15, 1907.",
+          "source": "research entry",
+          "date": "1907-04-15"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Canal Zone government created in these weeks lasted, in changing form, until the 1977 Torrijos–Carter treaties began the handover of the Zone to Panama.",
+          "source": "research entry",
+          "date": "1977"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-587",
+          "relation": "same_subject",
+          "note": "Companion order amending the Zone's penal code and criminal procedure."
+        }
+      ]
+    },
+    "eo-588": {
+      "related": [
+        {
+          "id": "eo-647",
+          "relation": "superseded_by",
+          "note": "Replaced by the May 31, 1907 order on marriages in the Canal Zone."
+        }
+      ]
+    },
+    "eo-602": {
+      "reception": [
+        {
+          "text": "The election order drew notice as a genuine, if limited, extension of self-government.",
+          "source": "research entry",
+          "date": "1907"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "The general election for the Philippine Assembly was held July 30, 1907, in provinces not inhabited by Moros or other non-Christian peoples.",
+          "source": "research entry",
+          "date": "1907-07-30"
+        },
+        {
+          "kind": "political",
+          "text": "The first Assembly of eighty delegates opened at the Grand Opera House in Manila on October 16, 1907, called to order by Secretary of War Taft, with Sergio Osmeña as Speaker and Manuel Quezon as majority floor leader.",
+          "source": "research entry",
+          "date": "1907-10-16"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Assembly was a milestone on the road to Philippine independence in 1946 and the launching point for the careers of Osmeña and Quezon.",
+          "source": "research entry",
+          "date": "1946"
+        }
+      ]
+    },
+    "eo-610": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order carried the Expatriation Act of March 2, 1907, into consular practice, including the rule that an American woman who married a foreigner took her husband's nationality.",
+          "source": "Expatriation Act of March 2, 1907",
+          "date": "1907-04-06"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1922",
+          "text": "The Cable Act began undoing, in stages, the rule that marriage to a foreigner stripped an American woman of her nationality.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-613": {
+      "reception": [
+        {
+          "text": "The Washington papers covered the Rough Riders Memorial dedication at length, with Roosevelt giving the address, but the order excusing government workers went unremarked.",
+          "source": "Evening Star (Washington), April 1907",
+          "date": "1907-04-12"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The Spanish War veterans the order excused were marched off the field mid-program by their own department commander over a protocol slight.",
+          "source": "research entry",
+          "date": "1907-04-12"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-619",
+          "relation": "same_subject",
+          "note": "A similar excusal for Civil War societies at the McClellan statue unveiling."
+        }
+      ],
+      "uncertain": [
+        "The April 11, 1907 date rests only on the 1944 catalog; Washington newspapers of April 11–12, 1907 would show when the excusal was announced."
+      ]
+    },
+    "eo-619": {
+      "related": [
+        {
+          "id": "eo-613",
+          "relation": "same_subject",
+          "note": "The Rough Riders Memorial excusal thirteen days earlier."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "story": 69,
+  "documents": {
+    "proc-762": {
+      "reception": [
+        {
+          "text": "A wire summary of the State Department's statement said about forty American articles would get Germany's minimum rates, regretted that the German government would not extend them to all American products, and headlined the deal as averting a tariff war.",
+          "source": "San Diego Union and Daily Bee, June 2, 1907",
+          "date": "1907-06-02"
+        },
+        {
+          "text": "Protectionist manufacturers, led largely by the American Protective Tariff association, planned a campaign against the agreement, with resolutions of protest and pressure on Congress.",
+          "source": "Santa Barbara Morning Press, July 9, 1907 (citing the Journal of Commerce)",
+          "date": "1907-07-09"
+        },
+        {
+          "text": "Not everyone objected: New York merchants were reported to approve the agreement.",
+          "source": "Santa Barbara Morning Press, July 21, 1907",
+          "date": "1907-07-21"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Roosevelt amended the Consular Regulations on the same day to carry out the customs-procedure promises made to Germany.",
+          "source": "FRUS 1907, pt. 1, doc. 340",
+          "date": "1907-06-01"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "France's chargé d'affaires protested that the agreement listed champagne among German products, warning that it would favor frauds as to indications of origin.",
+          "source": "FRUS 1907, pt. 1, doc. 376",
+          "date": "1907-07-07"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Root replied that the wording followed the Dingley Act, and passed on the Secretary of Agriculture's view that the name champagne belonged only to wine from the Champagne district of France.",
+          "source": "FRUS 1907, pt. 1, doc. 377",
+          "date": "1907-09-24"
+        },
+        {
+          "kind": "economic",
+          "text": "German sparkling wines paid the reduced rate from July 1, 1907; French champagne did not get it until January 1908.",
+          "source": "35 Stat. 2140; Proc. 797",
+          "date": "1907-07-01"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "The State Department took up applying the agreement's customs-procedure concessions to Austria-Hungary, France, Great Britain, Italy, and Switzerland.",
+          "source": "FRUS 1907, pt. 1",
+          "date": "1907"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Broad reciprocal-trade authority did not return until the Reciprocal Trade Agreements Act of 1934.",
+          "source": "research entry",
+          "date": "1934"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-615",
+          "relation": "supersedes",
+          "note": "Replaced the 1906 stopgap arrangement, which ran only until June 30, 1907."
+        },
+        {
+          "id": "proc-797",
+          "relation": "same_subject",
+          "note": "The French agreement that gave French champagne the reduced rate in 1908."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-08-05",
+          "text": "The Payne-Aldrich Tariff directed the President to give notice ending every section-3 agreement, including this one.",
+          "source": "36 Stat. 82–83"
+        }
+      ]
+    },
+    "proc-774": {
+      "reception": [
+        {
+          "text": "No American press notice of the Austrian finding has been found, though only California papers were searched.",
+          "source": "California Digital Newspaper Collection search, 1907",
+          "date": "1907"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "Austria's Minister of Justice issued an ordinance citing the proclamation and extending Austria's 1895 copyright law to works of American citizens protected in the United States.",
+          "source": "RGBl. No. 265/1907",
+          "date": "1907-12-09"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Austria's 1907 ordinance stayed in force under its Copyright Act of 1936 and was not repealed until the end of 2018.",
+          "source": "BGBl. No. 111/1936, § 101(3); BGBl. I No. 61/2018",
+          "date": "2018"
+        },
+        {
+          "text": "Country-by-country arrangements like this one lasted until the United States joined the Berne Convention, effective March 1, 1989.",
+          "source": "Pub. L. 100-568",
+          "date": "1989-03-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-510",
+          "relation": "same_subject",
+          "note": "Same section-13 copyright finding, for Cuba."
+        },
+        {
+          "id": "proc-577",
+          "relation": "same_subject",
+          "note": "Same section-13 copyright finding, for Norway."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-03-04",
+          "text": "The Copyright Act of 1909 replaced the 1891 act on which this finding rested.",
+          "source": "research entry"
+        },
+        {
+          "date": "1910-04-09",
+          "text": "President Taft's proclamation re-extended American copyright to Austria and the other countries already covered, effective July 1, 1909.",
+          "source": "36 Stat. 2685"
+        }
+      ],
+      "uncertain": [
+        "What form Austria's satisfactory official assurances took is not known; they are not printed in the State Department's published correspondence.",
+        "Whether the proclamation drew press notice outside California has not been tested."
+      ]
+    }
+  }
+}

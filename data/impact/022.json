@@ -1,0 +1,55 @@
+{
+  "story": 22,
+  "documents": {
+    "uo-098": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Biological Survey issued a one-page circular warning against trespass on Breton Island Reservation.", "source": "Catalogue of United States Public Documents, No. 121, January 1905, p. 68 (Biological Survey Circular 45)", "date": "1905-01-19"},
+        {"kind": "administrative", "text": "Captain William Sprinkle of the Audubon boat Royal Tern was put in charge of the reservation as its warden, paid partly by the Biological Survey and partly by the Audubon Society.", "source": "Roosevelt, A Book-Lover's Holidays in the Open (1916)"},
+        {"kind": "administrative", "text": "The Biological Survey's T. S. Palmer recorded terns breeding on Southwest Harbor Key in the Old Harbor Islands and dated the federal reserve to October 4, 1904.", "source": "Palmer, Yearbook of the Department of Agriculture, 1905, p. 561", "date": "1905-07-02"},
+        {"kind": "political", "text": "The order needed no act of Congress, and no congressional fight or organized opposition followed.", "source": "research entry"}
+      ],
+      "legacy": [
+        {"text": "Breton became the second federal bird reservation, after Pelican Island, and is now the second-oldest unit of the National Wildlife Refuge System.", "source": "Laws Applicable to the U.S. Department of Agriculture (rev. 1912); U.S. Fish and Wildlife Service"},
+        {"text": "Roosevelt visited the reservation on a five-day voyage in June 1915 and counted about 35,000 nests of five chief species, against about 1,000 at the start; it is the only refuge he is known to have visited.", "source": "Roosevelt, \"Bird Reserves at the Mouth of the Mississippi,\" A Book-Lover's Holidays in the Open (1916)", "date": "1915-06"},
+        {"text": "Herbert K. Job's film of the 1915 trip survives as Roosevelt, Friend of the Birds in the Library of Congress.", "source": "Library of Congress, Theodore Roosevelt Association Collection", "date": "1915"},
+        {"text": "Louisiana entered the October 1904 order as an exhibit in United States v. Louisiana.", "source": "United States v. Louisiana (No. 9 Original), printed record, Louisiana Exhibit 1483"},
+        {"text": "Hurricanes and erosion have repeatedly cut into the islands; the North Breton Island Restoration rebuilt more than 400 acres of barrier island with about 5.9 million cubic yards of dredged sand.", "source": "North Breton Island Restoration project materials", "date": "2020-12-09"},
+        {"text": "Public Law 93-632 designated 5,000 acres of the refuge as wilderness, all federally owned refuge land except North Breton Island.", "source": "Public Law 93-632", "date": "1975-01-03"}
+      ],
+      "today": [
+        {"name": "Breton National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "Louisiana", "since": "1904-10-04", "note": "Second-oldest refuge in the system; 1,100 acres in St. Bernard and Plaquemines parishes per the FWS fact sheet.", "source": "U.S. Fish and Wildlife Service fact sheet"},
+        {"name": "Breton Wilderness", "kind": "other", "relation": "part", "state": "Louisiana", "note": "5,000 acres designated in 1975.", "source": "Public Law 93-632"}
+      ],
+      "related": [
+        {"id": "eo-369-a", "relation": "same_subject", "note": "Second Breton order of November 11, 1905, covering the same three island groups; its purpose is unknown."},
+        {"id": "uo-054", "relation": "same_subject", "note": "Pelican Island, the first federal bird reservation; Breton was the second."}
+      ],
+      "later_actions": [
+        {"date": "1938-10-04", "text": "Executive Order 7983 revoked the 1904 order and reserved an enlarged Breton Bird Refuge, adding Errol Island and the southern Chandeleur Islands.", "source": "EO 7983, 3 Fed. Reg. 2389"},
+        {"date": "1940-07-25", "text": "Proclamation 2416 renamed the refuge again.", "source": "Proclamation 2416"}
+      ],
+      "uncertain": ["How the New Orleans Times-Democrat and Daily Picayune reported the reservation in October 1904 and January 1905 has not been checked."]
+    },
+    "eo-369-a": {
+      "political_impact": [
+        {"kind": "administrative", "text": "A second order reserved Freemason Islands, Old Harbor Islands and Breton Island as a preserve and breeding ground for native birds, the same three groups already in the 1904 reservation.", "source": "Lord, numbered-series list, entry 369-A", "date": "1905-11-11"}
+      ],
+      "legacy": [
+        {"text": "Louisiana entered the November 1905 order as an exhibit in United States v. Louisiana.", "source": "United States v. Louisiana (No. 9 Original), printed record, Louisiana Exhibit 1482"}
+      ],
+      "today": [
+        {"name": "Breton National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "part", "state": "Louisiana", "note": "The islands it covered remain part of the refuge.", "source": "EO 7983; U.S. Fish and Wildlife Service"}
+      ],
+      "related": [
+        {"id": "uo-098", "relation": "same_subject", "note": "The October 4, 1904 order that created the reservation."}
+      ],
+      "later_actions": [
+        {"date": "1938-10-04", "text": "Revoked by name, together with the 1904 order, by Executive Order 7983.", "source": "EO 7983, 3 Fed. Reg. 2389"}
+      ],
+      "uncertain": [
+        "Why this second order was issued for a reservation that already existed with the same islands is not known.",
+        "No printed text of this order has been found; the text published with it online is the 1904 order's text, and its November 11, 1905 dateline has no known source."
+      ]
+    }
+  }
+}

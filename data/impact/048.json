@@ -1,0 +1,33 @@
+{
+  "story": 48,
+  "documents": {
+    "proc-513": {
+      "reception": [
+        {"text": "Roosevelt's call, three weeks earlier, to take over Hawaii's lighthouses ran across page one of the Hawaiian Star the afternoon his annual message was delivered.", "source": "Hawaiian Star, December 7, 1903, p. 1", "date": "1903-12-07"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The Light-House Board was directed to take charge of the Hawaiian service the day after the signing, and the federal service took over the work on January 1, 1904.", "source": "Report of the Light-House Board, 1904, p. 285; Annual Report of the Light-House Board, fiscal 1906, p. 134", "date": "1903-12-29"},
+        {"kind": "administrative", "text": "The Board added the Hawaiian Islands to its Twelfth District and assigned a naval officer and an Army engineer to duty there.", "source": "Report of the Light-House Board, 1904, p. 285", "date": "1904-01-04"},
+        {"kind": "administrative", "text": "The Board's first survey found some lights to be little more than household lamps; Lahaina's was two ordinary kitchen lamps, hard to tell from the lights of the town.", "source": "Report of the Light-House Board, 1904, pp. 285–287", "date": "1904"},
+        {"kind": "congress", "text": "A bill to reimburse the Territory, which had spent about $501.90 a month on the lights, was before the House Committee on Claims by early 1906.", "source": "Annual Report of the Light-House Board, fiscal 1906, p. 134", "date": "1906-02-07"},
+        {"kind": "congress", "text": "Congress repaid the Territory $23,393.69 for keeping up its lights from annexation until the federal Board took over.", "source": "Act of February 4, 1909, ch. 64, 35 Stat. 594", "date": "1909-02-04"}
+      ],
+      "legacy": [
+        {"text": "Federal control brought a wave of construction: at least fifteen lights were built in the islands between 1906 and 1920.", "source": "Noble, Alaska & Hawaii (USCG, 1991)", "date": "1906"},
+        {"text": "Makapuʻu Point Light on Oahu, funded in 1906, was first lit on October 1, 1909, with a twelve-foot hyperradiant Fresnel lens, the largest size ever made.", "source": "Reports of the Department of Commerce and Labor, 1910, p. 508; LighthouseFriends", "date": "1909-10-01"},
+        {"text": "The Molokaʻi Light at Kalaupapa, the tallest tower in Hawaii, was first lit on September 1, 1909, at a cost of $59,977.04.", "source": "Reports of the Department of Commerce and Labor, 1910, p. 508", "date": "1909-09-01"}
+      ],
+      "today": [
+        {"name": "U.S. Coast Guard aids to navigation in Hawaii", "kind": "other", "relation": "transferred", "state": "Hawaii", "note": "The Light-House Board's duties passed to the Bureau of Lighthouses in 1910 and to the Coast Guard in 1939.", "source": "33 U.S.C. ch. 16 notes"}
+      ],
+      "later_actions": [
+        {"date": "1910-06-17", "text": "Congress replaced the Light-House Board with a Bureau of Lighthouses.", "source": "36 Stat. 534"},
+        {"date": "1939-07-01", "text": "Reorganization Plan No. II consolidated the Bureau of Lighthouses into the U.S. Coast Guard.", "source": "53 Stat. 1432"}
+      ],
+      "uncertain": [
+        "How Honolulu papers greeted the proclamation itself in late December 1903 and early January 1904 has not been checked.",
+        "A Hawaiian Gazette item of May 6, 1904, seems to say lighthouse work was to wait on the Attorney General; the legal question is not known."
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "story": 103,
+  "story_level": {
+    "political_impact": [
+      {"kind": "political", "text": "Apart from the Marine Corps order, the orders of these weeks drew no recorded national notice; the land-office mergers and personnel exceptions were routine federal housekeeping.", "source": "research entry"}
+    ]
+  },
+  "documents": {
+    "eo-999": {
+      "reception": [
+        {"text": "The remission was welcomed by American missionary and educational groups and by a Chinese government eager for a gesture of respect, and it met no serious opposition at home.", "source": "research entry", "date": "1908"}
+      ],
+      "political_impact": [
+        {"kind": "diplomatic", "text": "Secretary of State Elihu Root sent the order and its three schedules to the Chinese minister and telegraphed W. W. Rockhill, the American minister in China, on December 31, 1908.", "source": "Foreign Relations of the United States, 1908, Docs. 64 and 65", "date": "1908-12-31"},
+        {"kind": "administrative", "text": "The State Department printed the order and its schedules in full in the published Foreign Relations volume for 1908.", "source": "Foreign Relations of the United States, 1908, Doc. 64"},
+        {"kind": "congress", "text": "Congress had already authorized the remission by joint resolution and set the cap two million dollars higher than Roosevelt asked, so $10,785,286.12 was remitted instead of the $12,785,286.12 he proposed.", "source": "Pub. Res. No. 29, 35 Stat. 577; Seventh Annual Message, December 3, 1907", "date": "1908-05-25"},
+        {"kind": "diplomatic", "text": "At China's request the returned money went to education, through an office under the Foreign and Education ministries that was to send 100 students a year for four years and at least 50 a year thereafter.", "source": "research entry"},
+        {"kind": "diplomatic", "text": "The first students sailed before any school existed to prepare them: 47 in October 1909 and 70 in August 1910, among them Hu Shih and Zhao Yuanren.", "source": "research entry", "date": "1909-10"}
+      ],
+      "legacy": [
+        {"text": "In the spring of 1911 a preparatory school opened in Beijing as Tsing Hua Imperial College; it became Tsing Hua College in 1912, added a university section in 1925 and became National Tsing Hua University in 1928.", "source": "research entry; The Far Eastern Review and The Tsing Hua Annual, as cited by the Tsinghua alumni association", "date": "1911"},
+        {"text": "A further $1,175,835.64 left over from the claims reserve was returned in 1915–1918 under the same 1908 resolution, bringing the total returned to $11,961,121.76; the 1924 remission resolution credits that whole figure to Roosevelt's 1908 order.", "source": "Pub. Res. No. 21, 43 Stat. 135 (May 21, 1924)"},
+        {"text": "The remission is still cited in both countries as an early, lasting act of American cultural diplomacy, though historians note it advanced American influence as much as Chinese welfare.", "source": "research entry"}
+      ],
+      "today": [
+        {"name": "Tsinghua University", "kind": "other", "relation": "origin", "since": "1908-12-28", "note": "Began as the preparatory school for indemnity-funded students in Beijing in 1911.", "source": "research entry"}
+      ],
+      "later_actions": [
+        {"date": "1924-05-21", "text": "A second joint resolution remitted further Boxer indemnity payments to China.", "source": "Pub. Res. No. 21, 43 Stat. 135"}
+      ],
+      "uncertain": [
+        "The exact day the Tsing Hua school opened in the spring of 1911 is uncertain; sources point to late March, April 1 and April 29."
+      ]
+    },
+    "eo-969": {
+      "political_impact": [
+        {"kind": "congress", "text": "The House Naval Affairs Subcommittee on Naval Academy and Marine Corps held hearings on the status of the Marine Corps on January 7–15, 1909.", "source": "Hearings … on the Status of the U.S. Marine Corps (GPO, 1909)", "date": "1909-01-07"},
+        {"kind": "congress", "text": "The naval appropriations act of March 3, 1909, reversed the order by barring Marine Corps pay unless Marines served \"as heretofore\" on battleships and armored cruisers, in detachments of at least eight percent of the ships' enlisted strength.", "source": "Act of March 3, 1909, ch. 255, 35 Stat. 753, at 773–774", "date": "1909-03-03"}
+      ],
+      "later_actions": [
+        {"date": "1909-03-03", "text": "Congress conditioned the Marine Corps pay appropriation on Marines serving aboard battleships and armored cruisers, undoing the order's effect.", "source": "35 Stat. 753, at 773–774"}
+      ],
+      "uncertain": [
+        "What witnesses said at the January 1909 Marine Corps hearings has not been reviewed."
+      ]
+    },
+    "eo-974": {
+      "political_impact": [
+        {"kind": "local", "text": "The Dardanelle, Arkansas, land office was consolidated with Little Rock and closed after January 30, 1909.", "source": "research entry", "date": "1909-01-30"}
+      ],
+      "uncertain": ["The full text of this order has not been found."]
+    },
+    "eo-983": {
+      "legacy": [
+        {"text": "The order letting the Post Office fill fourth-class postmasterships by interim appointment stood for thirty-nine years.", "source": "research entry"}
+      ],
+      "later_actions": [
+        {"date": "1947", "text": "The order was revoked.", "source": "research entry"}
+      ]
+    },
+    "eo-984": {
+      "later_actions": [
+        {"date": "1909", "text": "The order admitting deaf-mutes to civil-service examinations was amended, not repealed, four months later.", "source": "research entry"}
+      ]
+    },
+    "eo-988": {
+      "political_impact": [
+        {"kind": "local", "text": "The Colby, Kansas, land office, down to about 42,000 acres of unappropriated land against a statutory threshold of 100,000, was consolidated with Topeka effective February 1, 1909.", "source": "research entry", "date": "1909-02-01"}
+      ],
+      "uncertain": ["The full text of this order has not been found."]
+    },
+    "eo-1000": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Restored to the public domain the unallotted lands in the eastern third of the 1907–1908 Navajo addition, east of the New Mexico First Guide Meridian, as Section 25 of the Act of May 29, 1908 directed, while excepting tracts holding 110 unapproved Navajo allotments.", "source": "EO 1000; Act of May 29, 1908, sec. 25", "date": "1908-12-30"}
+      ],
+      "legacy": [
+        {"text": "In 1990 the Tenth Circuit held that this order and Executive Order 1284 together diminished or terminated the New Mexico part of the addition, while finding the area had remained predominantly Navajo in character.", "source": "Pittsburg & Midway Coal Mining Co. v. Yazzie, 909 F.2d 1387 (10th Cir. 1990)", "date": "1990"},
+        {"text": "The same court reported that about 55 percent of the land is in Navajo fee ownership or held in trust, and another 21 percent is Bureau of Land Management land leased to the Tribe.", "source": "Pittsburg & Midway Coal Mining Co. v. Yazzie, 909 F.2d 1387 (10th Cir. 1990)", "date": "1990"}
+      ],
+      "related": [
+        {"id": "eo-709", "relation": "reduces", "note": "Restored unallotted land that the 1907 order had added to the reservation."},
+        {"id": "eo-744", "relation": "reduces", "note": "Restored unallotted land within the addition as amended in January 1908."}
+      ],
+      "later_actions": [
+        {"date": "1911-01-16", "text": "Executive Order 1284 restored all the remaining unallotted land in the addition.", "source": "EO 1284"},
+        {"date": "1990", "text": "The Tenth Circuit held that the 1908 and 1911 orders diminished or terminated the New Mexico portion of the addition.", "source": "909 F.2d 1387"}
+      ],
+      "uncertain": [
+        "How much of the land this order restored passed to non-Navajo settlers is not known."
+      ]
+    }
+  }
+}

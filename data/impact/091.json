@@ -1,0 +1,152 @@
+{
+  "story": 91,
+  "documents": {
+    "eo-549": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order gave the Navy one official form for naming its vessels: the ship's name preceded by \"United States Ship\" or \"U.S.S.\" and nothing else, replacing a mix of forms by type, rig or function.",
+          "source": "Executive Order 549; Naval Historical Center, \"USN Ship Naming\" (1997)",
+          "date": "1907-01-08"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Naval History and Heritage Command credits this order with establishing the present usage, and the \"USS\" before every commissioned American warship traces to it.",
+          "source": "Naval History and Heritage Command, account of ship naming"
+        }
+      ],
+      "today": [
+        {
+          "name": "\"USS\" ship prefix of the U.S. Navy",
+          "kind": "other",
+          "relation": "origin",
+          "state": "United States",
+          "since": "1907-01-08",
+          "note": "The Navy cites EO 549 as the order that established the present usage.",
+          "source": "Naval History and Heritage Command"
+        }
+      ]
+    },
+    "eo-548": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Governor of Tutuila could now issue certificates of protection that served as ship's papers for Samoan-owned vessels that could not be documented as United States vessels.",
+          "source": "Executive Order 548",
+          "date": "1907-01-15"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-546",
+          "relation": "same_subject",
+          "note": "The same order filed under a second number; the 1944 catalog marks EO 548 identical with EO 546."
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The certificates concerned ships, not persons; people born in American Samoa remain U.S. nationals but not citizens, a status courts upheld in Tuaua (2015) and Fitisemanu (2021).",
+          "source": "8 U.S.C. §§ 1101(a)(29), 1408; Tuaua v. United States, 788 F.3d 300 (D.C. Cir. 2015); Fitisemanu v. United States (10th Cir. 2021)"
+        }
+      ]
+    },
+    "eo-546": {
+      "related": [
+        {
+          "id": "eo-548",
+          "relation": "same_subject",
+          "note": "Identical order carried under a second number."
+        }
+      ]
+    },
+    "eo-576": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Coal-withdrawn land inside the new forest-reserve boundaries went into the reserves while the coal withdrawals stayed in force, so both rules applied to the same ground.",
+          "source": "Lord (1944) catalog title; 34 Stat. 3290–91",
+          "date": "1907-03-02"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The order fed into the larger mineral-withdrawal program that Congress later ratified in the Pickett Act of 1910 and the Mineral Leasing Act of 1920.",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910",
+          "text": "The Pickett Act was one of the laws by which Congress ratified the mineral-withdrawal program this order belonged to.",
+          "source": "research entry"
+        },
+        {
+          "date": "1920",
+          "text": "The Mineral Leasing Act completed Congress's ratification of the mineral-withdrawal program.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "The operative text of Executive Order 576 has not been found in any published source; only its catalog title is known."
+      ]
+    },
+    "eo-561": {
+      "today": [
+        {
+          "name": "San Juan Islands National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "part",
+          "state": "Washington",
+          "note": "Viti Rocks, off the south end of Lummi Island, are now part of the refuge.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-554": {
+      "reception": [
+        {
+          "text": "The Washington Evening Star reported the President's instruction excusing Grand Army members for the Alger funeral on the day it was given.",
+          "source": "Evening Star (Washington), January 25, 1907",
+          "date": "1907-01-25"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Alger's funeral was held at his Washington home on January 26, and the Senate adjourned to attend.",
+          "source": "research entry",
+          "date": "1907-01-26"
+        }
+      ]
+    },
+    "eo-552": {
+      "related": [
+        {
+          "id": "eo-574",
+          "relation": "amended_by",
+          "note": "EO 574 amended the Hot Springs hospital regulations again and commuted the ration at thirty cents."
+        }
+      ]
+    },
+    "eo-574": {
+      "related": [
+        {
+          "id": "eo-552",
+          "relation": "amends",
+          "note": "Further amended the Hot Springs hospital rations and subsistence rules."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "None of these orders was national news; the issues of early 1907 that reached the newspapers were the forest-reserve fight and the Japanese immigration crisis.",
+        "source": "research entry",
+        "date": "1907"
+      }
+    ]
+  }
+}

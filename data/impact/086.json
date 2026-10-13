@@ -1,0 +1,323 @@
+{
+  "story": 86,
+  "documents": {
+    "eo-357-b": {
+      "reception": [
+        {
+          "text": "At the Audubon association's annual meeting in New York, president William Dutcher reported four new bird reservations, the most important at Tampa Bay.",
+          "source": "Los Angeles Herald, November 13, 1905",
+          "date": "1905-11-13"
+        },
+        {
+          "text": "The National Association of Audubon Societies printed the order in its 1905 annual report and counted it among four new reservations made by Roosevelt's executive order.",
+          "source": "Bird-Lore 7 (1905), pp. 298–300",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Biological Survey listed Passage Key as the sixth national bird reservation, at 36.37 acres, sheltering herons, laughing gulls and terns.",
+          "source": "T. S. Palmer, Biological Survey Circular No. 87 (1912), p. 10",
+          "date": "1912"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The hurricane of 1921 took the island's freshwater lake and most of its vegetation; it has since shrunk to a small sandbar.",
+          "source": "U.S. Fish and Wildlife Service",
+          "date": "1921"
+        },
+        {
+          "text": "The refuge has been closed to all public use since the 2005 hurricanes.",
+          "source": "U.S. Fish and Wildlife Service",
+          "date": "2005"
+        }
+      ],
+      "today": [
+        {
+          "name": "Passage Key National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Florida",
+          "since": "1905-10-10",
+          "note": "Renamed a national wildlife refuge in 1940; now a small sandbar closed to the public.",
+          "source": "Proclamation 2416; U.S. Fish and Wildlife Service"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-357-c",
+          "relation": "same_subject",
+          "note": "Signed the same day with the same operative language for the Siskiwit Islands."
+        },
+        {
+          "id": "eo-357-d",
+          "relation": "same_subject",
+          "note": "Signed the same day with the same operative language for the Huron Islands."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Passage Key National Wildlife Refuge by Proclamation 2416.",
+          "source": "Proclamation 2416"
+        }
+      ]
+    },
+    "eo-357-c": {
+      "reception": [
+        {
+          "text": "The Audubon association reported that \"two splendid bird reservations were secured\" in Michigan in 1905.",
+          "source": "Bird-Lore 7 (1905), p. 329",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Biological Survey listed Siskiwit as the fifth national bird reservation; with the Huron Islands it held the largest known breeding colonies of the herring gull on inland waters.",
+          "source": "T. S. Palmer, Biological Survey Circular No. 87 (1912), p. 10",
+          "date": "1912"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Siskiwit is the one October 1905 reservation that did not survive as a refuge; its islands passed to the National Park Service and the Fish and Wildlife Service no longer carries it.",
+          "source": "56 Stat. 138",
+          "date": "1942-03-06"
+        }
+      ],
+      "today": [
+        {
+          "name": "Isle Royale National Park",
+          "kind": "national_park",
+          "relation": "absorbed_into",
+          "state": "Michigan",
+          "note": "The 1942 act abolished the bird reservation and made it part of the park.",
+          "source": "Act of March 6, 1942, ch. 152, § 2, 56 Stat. 138"
+        },
+        {
+          "name": "Siskiwit National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Michigan",
+          "note": "Name given by Proclamation 2416 in 1940; abolished in 1942.",
+          "source": "Proclamation 2416; 56 Stat. 138"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-357-b",
+          "relation": "same_subject",
+          "note": "Passage Key order of the same day."
+        },
+        {
+          "id": "eo-357-d",
+          "relation": "same_subject",
+          "note": "Huron Islands order of the same day."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Siskiwit National Wildlife Refuge by Proclamation 2416.",
+          "source": "Proclamation 2416"
+        },
+        {
+          "date": "1942-03-06",
+          "text": "Congress abolished the Siskiwit Islands Bird Reservation and made it part of Isle Royale National Park, leaving Menagerie Island under the Treasury for lighthouse purposes.",
+          "source": "Act of March 6, 1942, ch. 152, §§ 2, 4, 56 Stat. 138"
+        }
+      ]
+    },
+    "eo-357-d": {
+      "reception": [
+        {
+          "text": "The Audubon association already had a warden guarding herring gulls on the Huron Islands in 1905, before the order was signed.",
+          "source": "Bird-Lore 7 (1905), p. 330",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Biological Survey listed the Huron Islands as the fourth national bird reservation.",
+          "source": "T. S. Palmer, Biological Survey Circular No. 87 (1912), p. 10",
+          "date": "1912"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The refuge is now eight islands totaling 147 acres, all within the Huron Islands Wilderness, administered from Seney National Wildlife Refuge and closed to the public except Lighthouse Island.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "today": [
+        {
+          "name": "Huron National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Michigan",
+          "since": "1905-10-10",
+          "note": "The 1905 order was revoked in 1938 and the refuge re-established under the Migratory Bird Conservation Act.",
+          "source": "Executive Order 7795; Proclamation 2416; U.S. Fish and Wildlife Service"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-357-b",
+          "relation": "same_subject",
+          "note": "Passage Key order of the same day."
+        },
+        {
+          "id": "eo-357-c",
+          "relation": "same_subject",
+          "note": "Siskiwit Islands order of the same day."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1938-01-21",
+          "text": "Executive Order 7795 revoked the 1905 order and re-reserved the islands as the Huron Migratory Bird Refuge.",
+          "source": "Executive Order 7795 (American Presidency Project)"
+        },
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Huron National Wildlife Refuge by Proclamation 2416.",
+          "source": "Proclamation 2416"
+        }
+      ]
+    },
+    "eo-362": {
+      "reception": [
+        {
+          "text": "The Associated Press printed the order in full the day after it was approved, saying a Cabinet officer now had the power to remove employees summarily and without hearing, and tied it to a government chauffeur who had cut off the President's carriage.",
+          "source": "San Jose Mercury, October 18, 1905",
+          "date": "1905-10-18"
+        },
+        {
+          "text": "The Alameda Daily Encinal ran an editorial under a mock death notice, \"The Funeral of Civil Service,\" while conceding a loafer had no better claim to a federal job for life than to a private one.",
+          "source": "Alameda Daily Encinal, October 24, 1905, p. 2",
+          "date": "1905-10-24"
+        },
+        {
+          "text": "Good Government, the Civil Service Reform League's journal, said the order had drawn more attention than almost any earlier civil-service order, that press approval outweighed disapproval, and that it had caused \"a good deal of apprehension\" among federal employees in Washington.",
+          "source": "Good Government, November 1905, p. 182",
+          "date": "1905-11"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "The Reform League's committee on removals, chaired by Samuel H. Ordway, withheld judgment, asking that the new rule get a full trial, that reasons be filed with the Civil Service Commission and that employees usually be allowed to reply.",
+          "source": "Good Government, December 1905 supplement, pp. 212–213",
+          "date": "1905-12"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The removal orders fed into the long working-out of federal job protections later shaped by the Lloyd–La Follette Act of 1912.",
+          "source": "research entry",
+          "date": "1912"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-371",
+          "relation": "same_subject",
+          "note": "Rewrote Civil Service Rule XII on removals, folding in the same \"without hearing\" principle."
+        }
+      ]
+    },
+    "eo-371": {
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "The Reform League's committee on removals was \"unconvinced as yet\" that the old requirement to tell an employee the reasons and let him answer was undesirable, but called for a full trial of the new rule.",
+          "source": "Good Government, December 1905 supplement, pp. 212–213",
+          "date": "1905-12"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The removal rules fed into the long working-out of federal job protections later shaped by the Lloyd–La Follette Act of 1912.",
+          "source": "research entry",
+          "date": "1912"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-362",
+          "relation": "same_subject",
+          "note": "Earlier order allowing removal for inefficiency without hearing."
+        }
+      ]
+    },
+    "eo-367": {
+      "reception": [
+        {
+          "text": "A short wire item, \"Two Orders for Foreign Service,\" reported the consular orders but garbled the salary terms.",
+          "source": "Fresno Evening Democrat, November 10, 1905",
+          "date": "1905-11-10"
+        },
+        {
+          "text": "One editor joked that consular appointees must now know two languages and have a good head for business.",
+          "source": "Petaluma Daily Morning Courier, November 25, 1905, p. 2",
+          "date": "1905-11-25"
+        },
+        {
+          "text": "The Civil Service Reform League's consular committee, chaired by George McAneny, called the orders \"important\" and the administration's direction \"in the highest degree encouraging.\"",
+          "source": "Good Government, December 1905 supplement, pp. 214–215",
+          "date": "1905-12"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "The Senate Foreign Relations Committee struck the examining board from Senator Lodge's consular bill to meet Democratic objections, so the Act of April 5, 1906 reorganized the service without any examination clause and selection by examination kept resting on this order.",
+          "source": "Morning Oregonian, January 11, 1906, p. 4; 34 Stat. 99–102",
+          "date": "1906-04-05"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The consular orders and the 1906 act were steps toward the professional Foreign Service created by the Rogers Act of 1924.",
+          "source": "research entry",
+          "date": "1924"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-368",
+          "relation": "same_subject",
+          "note": "Companion order of the same day for secretaries of embassy and legation."
+        }
+      ]
+    },
+    "eo-368": {
+      "reception": [
+        {
+          "text": "The Civil Service Reform League's consular committee called the November 10 consular and diplomatic orders \"important.\"",
+          "source": "Good Government, December 1905 supplement, pp. 214–215",
+          "date": "1905-12"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-367",
+          "relation": "same_subject",
+          "note": "Companion consular order of the same day."
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "Roosevelt created fifty-one federal bird reservations by the end of his term, the seed of the national wildlife refuge system; the figure of fifty-five counts four national game preserves as well.",
+        "source": "T. S. Palmer, Biological Survey Circular No. 87 (1912)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "story": 108,
+  "documents": {
+    "proc-832": {
+      "today": [
+        {
+          "name": "Humboldt-Toiyabe National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Nevada",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-833": {
+      "legacy": [
+        {
+          "text": "The Moapa did not last as a separate forest. It was transferred whole to the Toiyabe National Forest in 1915.",
+          "source": "EO 2162; FS-612",
+          "date": "1915-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Humboldt-Toiyabe National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Nevada",
+          "note": "By way of the Toiyabe, which took in the whole Moapa in 1915.",
+          "source": "FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "enlarges",
+          "note": "Enlarged the Moapa National Forest that Executive Order 908 had created out of the Charleston and Vegas forests."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915-07-01",
+          "text": "Executive Order 2162 transferred the entire Moapa National Forest to the Toiyabe.",
+          "source": "EO 2162; FS-612"
+        }
+      ]
+    },
+    "proc-837": {
+      "today": [
+        {
+          "name": "Tonto National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Arizona",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-838": {
+      "legacy": [
+        {
+          "text": "The first Marquette National Forest lasted six years. Its land passed to the Michigan National Forest in 1915 and the Marquette name was dropped; that land later became part of the Hiawatha National Forest.",
+          "source": "EO 2163; EO 10993",
+          "date": "1915-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Marquette National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Michigan",
+          "note": "Merged into the Michigan National Forest in 1915. A second, different Marquette (the renamed Michigan) was abolished in 1962.",
+          "source": "FS-612"
+        },
+        {
+          "name": "Hiawatha National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Michigan",
+          "note": "Took in the lands of the second Marquette National Forest in 1962.",
+          "source": "EO 10993"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-841",
+          "relation": "same_subject",
+          "note": "The Michigan National Forest, created the next day, took in the Marquette's land in 1915."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915-07-01",
+          "text": "Executive Order 2163 passed the Marquette's land to the Michigan National Forest and discontinued the Marquette name.",
+          "source": "EO 2163"
+        }
+      ]
+    },
+    "proc-839": {
+      "legacy": [
+        {
+          "text": "The Nevada National Forest absorbed the whole Toiyabe in 1932 and was itself abolished in 1957, divided between the Humboldt and a revived Toiyabe.",
+          "source": "EO 5863; Public Land Order 1487",
+          "date": "1957-10-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Nevada National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Nevada",
+          "note": "Abolished effective October 1, 1957, and divided between the Humboldt and the Toiyabe.",
+          "source": "Public Land Order 1487"
+        },
+        {
+          "name": "Humboldt-Toiyabe National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Nevada",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1932-07-01",
+          "text": "Executive Order 5863 folded the entire Toiyabe National Forest into the Nevada.",
+          "source": "EO 5863"
+        },
+        {
+          "date": "1957-09-09",
+          "text": "Public Land Order 1487, signed by Assistant Secretary of the Interior Roger Ernst, abolished the Nevada National Forest effective October 1, 1957 and divided it between the Humboldt and a revived Toiyabe.",
+          "source": "Public Land Order 1487"
+        }
+      ]
+    },
+    "proc-841": {
+      "reception": [
+        {
+          "text": "The Pinconning Press and the Clare Sentinel ran the same short, factual item: the state land commissioner had been told that 134,630 acres in Ogemaw, Oscoda and Alcona counties near the Au Sable had been set aside as a national forest reserve.",
+          "source": "Pinconning Press and Clare Sentinel, Mar. 11–12, 1909 (Digital Michigan Newspapers)",
+          "date": "1909-03"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Michigan's land commissioner, Huntley S. Russell, was notified from Washington of the new forest in northern Michigan.",
+          "source": "Pinconning Press and Clare Sentinel, Mar. 11–12, 1909",
+          "date": "1909-03"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Michigan took in the first Marquette's land in 1915, was renamed the Marquette in 1931, and was abolished in 1962, when its lands went to the Hiawatha National Forest.",
+          "source": "EO 2163; Proc. 1938, 46 Stat. 3050; EO 10993",
+          "date": "1962-02-09"
+        }
+      ],
+      "today": [
+        {
+          "name": "Michigan National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Michigan",
+          "note": "Renamed Marquette in 1931; abolished in 1962.",
+          "source": "Proc. 1938; EO 10993"
+        },
+        {
+          "name": "Hiawatha National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Michigan",
+          "source": "EO 10993"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-838",
+          "relation": "same_subject",
+          "note": "The Michigan absorbed the first Marquette National Forest in 1915."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915-07-01",
+          "text": "Executive Order 2163 added the Marquette National Forest's land to the Michigan.",
+          "source": "EO 2163"
+        },
+        {
+          "date": "1931-02-12",
+          "text": "Proclamation 1938 renamed the Michigan National Forest the Marquette National Forest.",
+          "source": "Proc. 1938, 46 Stat. 3050"
+        },
+        {
+          "date": "1962-02-09",
+          "text": "Executive Order 10993 transferred the lands of the Marquette National Forest, as proclaimed in 1931, to the Hiawatha National Forest.",
+          "source": "EO 10993"
+        }
+      ],
+      "uncertain": [
+        "The 134,630 acres reported in the Michigan press differs slightly from the Forest Service's official 132,770 acres; the reason is not known."
+      ]
+    },
+    "proc-843": {
+      "today": [
+        {
+          "name": "Gila National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "New Mexico",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-846": {
+      "today": [
+        {
+          "name": "Tongass National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Alaska",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-847": {
+      "today": [
+        {
+          "name": "Klamath National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-848": {
+      "legacy": [
+        {
+          "text": "The Superior grew into one of the best-known forests in the system, home to the Boundary Waters Canoe Area Wilderness.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Superior National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Minnesota",
+          "since": "1909-02-13",
+          "note": "Home to the Boundary Waters Canoe Area Wilderness.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "Whether Minnesota newspapers noticed the Superior's creation in 1909 is not known; no Minnesota collection could be searched by phrase and date."
+      ]
+    },
+    "proc-849": {
+      "today": [
+        {
+          "name": "Humboldt-Toiyabe National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Nevada",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1932-07-01",
+          "text": "Executive Order 5863 folded the whole Toiyabe into the Nevada National Forest.",
+          "source": "EO 5863"
+        },
+        {
+          "date": "1957-09-09",
+          "text": "Public Land Order 1487 revived the Toiyabe when the Nevada National Forest was abolished effective October 1, 1957.",
+          "source": "Public Land Order 1487"
+        }
+      ]
+    },
+    "proc-851": {
+      "legacy": [
+        {
+          "text": "The enlarged Datil was split in December 1931, with land going to the Cibola and the Gila national forests.",
+          "source": "EO 5752; EO 5765",
+          "date": "1931-12"
+        }
+      ],
+      "today": [
+        {
+          "name": "Datil National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "New Mexico",
+          "note": "Divided between the Cibola and the Gila in December 1931.",
+          "source": "EO 5752; EO 5765"
+        },
+        {
+          "name": "Cibola National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "source": "EO 5752"
+        },
+        {
+          "name": "Gila National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "source": "EO 5765"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-812",
+          "relation": "enlarges",
+          "note": "Folded the Magdalena into the Datil National Forest, which Proclamation 812 had set apart in June 1908."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1931-12-03",
+          "text": "Executive Order 5752 transferred part of the Datil National Forest to the Cibola.",
+          "source": "EO 5752"
+        },
+        {
+          "date": "1931-12-24",
+          "text": "Executive Order 5765 transferred part of the Datil National Forest to the Gila.",
+          "source": "EO 5765"
+        }
+      ]
+    },
+    "proc-852": {
+      "today": [
+        {
+          "name": "Chugach National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Alaska",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-853": {
+      "today": [
+        {
+          "name": "Modoc National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-859": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Taft's orders of February 17, 1912 removed the White Mountain Apache Reservation land this proclamation had added, restoring the reservation to its earlier status. The addition lasted barely three years.",
+          "source": "Executive Orders Relating to Indian Reservations (1912), pp. 11–12",
+          "date": "1912-02-17"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-866",
+          "relation": "same_subject",
+          "note": "The same day's Apache enlargement also took White Mountain Apache Reservation land and was reversed by the same 1912 orders."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1912-02-17",
+          "text": "Taft's order excluded from the Sitgreaves all the White Mountain Apache Reservation land added by the proclamation of March 2, 1909.",
+          "source": "Executive Orders Relating to Indian Reservations (1912), pp. 11–12"
+        }
+      ]
+    },
+    "proc-861": {
+      "related": [
+        {
+          "id": "proc-867",
+          "relation": "same_subject",
+          "note": "Signed the same day; part of the Shasta's addition came from the Lassen, and Proclamation 867 passed two small Lassen parcels to the Shasta."
+        }
+      ]
+    },
+    "proc-862": {
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "The addition of Mescalero Apache Reservation land passed without recorded protest at the national level; the objections of the people affected carried little weight in the policy of the day.",
+          "source": "research entry",
+          "date": "1909"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Alamo National Forest did not survive under that name. It was moved into the Lincoln National Forest in 1917, and the Mescalero Apache Tribe's reservation and forest lands remain a live matter of tribal sovereignty.",
+          "source": "EO 2633; Proc. 1474",
+          "date": "1917-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Lincoln National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "note": "Manages the Sacramento and Guadalupe country of south-central New Mexico.",
+          "source": "EO 2633; Proc. 1474"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "enlarges",
+          "note": "Enlarged the Alamo National Forest that Executive Order 908 formed by consolidating the Guadalupe and Sacramento forests."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1917-06-06",
+          "text": "Executive Order 2633 transferred the Alamo National Forest to the Lincoln, effective July 1, 1917.",
+          "source": "EO 2633; Proc. 1474 (Aug. 9, 1918)"
+        }
+      ],
+      "uncertain": [
+        "The full twenty-five-year Indian-rights proviso is abridged in the available text and should be reproduced verbatim from the Statutes at Large before it is quoted in full.",
+        "How much land the enlargement added is not settled: the Forest Service history's resulting total implies about 371,244 acres, while a Washington dispatch of March 7, 1909 printed 348,211."
+      ]
+    },
+    "proc-863": {
+      "uncertain": [
+        "A Washington dispatch of March 7, 1909 gave the Carson addition as 399,000 acres; the Forest Service regional history gives 444,200."
+      ]
+    },
+    "proc-864": {
+      "legacy": [
+        {
+          "text": "The Zuni was transferred whole to the Manzano National Forest in 1914, and the Manzano was renamed the Cibola in 1931.",
+          "source": "EO 2045; EO 5752",
+          "date": "1931-12-03"
+        }
+      ],
+      "today": [
+        {
+          "name": "Zuni National Forest",
+          "kind": "national_forest",
+          "relation": "abolished",
+          "state": "Arizona and New Mexico",
+          "note": "Transferred whole to the Manzano in 1914.",
+          "source": "EO 2045"
+        },
+        {
+          "name": "Cibola National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "New Mexico",
+          "note": "The Manzano was renamed the Cibola in 1931.",
+          "source": "EO 5752"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1914-09-10",
+          "text": "Executive Order 2045 transferred the entire Zuni National Forest to the Manzano.",
+          "source": "EO 2045"
+        },
+        {
+          "date": "1931-12-03",
+          "text": "Executive Order 5752 renamed the Manzano National Forest the Cibola.",
+          "source": "EO 5752"
+        }
+      ]
+    },
+    "proc-866": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Part of the 1909 addition went to the Crook National Forest in 1910.",
+          "source": "Stark, Names, Boundaries, and Maps",
+          "date": "1910"
+        },
+        {
+          "kind": "administrative",
+          "text": "Taft's orders of February 17, 1912 returned about 348,600 acres of the Apache to the White Mountain Apache Reservation, undoing the rest of the 1909 addition.",
+          "source": "Executive Orders Relating to Indian Reservations (1912), pp. 11–12; Stark, Names, Boundaries, and Maps",
+          "date": "1912-02-17"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-859",
+          "relation": "same_subject",
+          "note": "The same day's Sitgreaves enlargement also took White Mountain Apache Reservation land and was reversed by the same 1912 orders."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1910",
+          "text": "Proclamation 1088 adjusted the Apache, leaving it at 1,625,000 acres.",
+          "source": "Stark, Names, Boundaries, and Maps"
+        },
+        {
+          "date": "1912-02-17",
+          "text": "Taft's order excluded from the Apache all the White Mountain Apache Reservation land added by the proclamation of March 2, 1909, to restore the reservation to its earlier status.",
+          "source": "Executive Orders Relating to Indian Reservations (1912), pp. 11–12"
+        }
+      ],
+      "uncertain": [
+        "The addition's size, about 483,000 acres, comes from a contemporary Washington dispatch and looks like a rounded estimate for unsurveyed reservation land."
+      ]
+    },
+    "proc-867": {
+      "related": [
+        {
+          "id": "proc-861",
+          "relation": "same_subject",
+          "note": "Two small Lassen parcels on the Pit River passed to the Shasta, enlarged the same day."
+        }
+      ],
+      "uncertain": [
+        "A Washington dispatch of March 7, 1909 gave the Lassen addition as 517,794 acres; the Forest Service regional history gives 163,745."
+      ]
+    },
+    "proc-870": {
+      "today": [
+        {
+          "name": "Tahoe National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    },
+    "proc-871": {
+      "today": [
+        {
+          "name": "Sequoia National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "California",
+          "source": "research entry"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "As a group the proclamations drew little notice; boundary proclamations did not make news the way the 1907 \"midnight forests\" had.",
+        "source": "research entry",
+        "date": "1909"
+      },
+      {
+        "text": "A Washington dispatch listed the March 2 additions forest by forest, totaling 4,980,736 acres.",
+        "source": "New York Lumber Trade Journal, Apr. 1, 1909, vol. 46, p. 36",
+        "date": "1909-03-07"
+      },
+      {
+        "text": "Exact-phrase searches for the three Lake States forests across 1909 in Chronicling America return eight hits, the earliest in May.",
+        "source": "Chronicling America (Library of Congress)",
+        "date": "1909"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "Signed in the last weeks of the term, the proclamations read, where they registered at all, as the tidying-up of a departing administration.",
+        "source": "research entry",
+        "date": "1909"
+      },
+      {
+        "kind": "congress",
+        "text": "Because the Fulton Amendment of 1907 barred new forests and additions in six Western states, not one of the thirty-six added land in Oregon, Washington, Idaho, Montana, Colorado or Wyoming.",
+        "source": "34 Stat. 1256",
+        "date": "1909"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "Most of these forests endure with redrawn boundaries, in today's Humboldt-Toiyabe, Tonto, Gila, Tongass, Chugach, Klamath, Modoc, Sequoia, Tahoe and other national forests.",
+        "source": "research entry"
+      },
+      {
+        "text": "The three Lake States forests carried the national forests into Michigan and Minnesota; the Superior endures, while both Michigan forests were later absorbed into the Hiawatha.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

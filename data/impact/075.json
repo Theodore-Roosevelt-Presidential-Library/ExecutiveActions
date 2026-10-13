@@ -1,0 +1,25 @@
+{
+  "story": 75,
+  "documents": {
+    "proc-813": {
+      "reception": [
+        {"text": "An Associated Press dispatch reported that steps were taken to carry out the proclamation as soon as it was received, and described the half-staff orders that followed.", "source": "Los Angeles Herald, June 25, 1908, \"Government to Honor Memory\"", "date": "1908-06-25"},
+        {"text": "California papers printed the text or a summary, including the San Luis Obispo Tribune under the headline \"ROOSEVELT GIVES HIGH PRAISE TO CLEVELAND.\"", "source": "Fresno Bee, June 24; Riverside Enterprise, June 25; San Luis Obispo Tribune, June 30, 1908", "date": "1908-06"},
+        {"text": "No editorial objection to the proclamation was found in California papers for June 24–30, 1908.", "source": "California Digital Newspaper Collection", "date": "1908-06"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "Army posts, fleets, ships and naval stations were ordered to fly their colors at half staff for thirty days, and diplomatic and consular offices were to do the same.", "source": "Los Angeles Herald, June 25, 1908", "date": "1908-06-24"},
+        {"kind": "diplomatic", "text": "The State Department told its overseas posts by telegraph instead of by mail, so the observance would be uniform in time, which the press called an innovation.", "source": "San Francisco Call, June 26, 1908", "date": "1908-06"},
+        {"kind": "local", "text": "In San Francisco, the fleet in the harbor and the Presidio and bay forts fired half-hourly guns on the day of the funeral.", "source": "San Francisco Call, June 27, 1908", "date": "1908-06-26"},
+        {"kind": "local", "text": "At Cleveland's wish the funeral was private, with no eulogy; Mrs. Cleveland declined a military funeral, and Roosevelt attended the simple service at Westland.", "source": "San Francisco Call, June 26–27, 1908", "date": "1908-06-26"}
+      ],
+      "legacy": [
+        {"text": "The proclamation had no legal effect and carries no legacy of its own beyond the mourning it marked; what stands out is the warmth of its tribute to a man of the other party.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "proc-465", "relation": "same_subject", "note": "Roosevelt's proclamation on the death of William McKinley, which follows a different form."},
+        {"id": "proc-578", "relation": "same_subject", "note": "Roosevelt's proclamation on the death of Secretary of State John Hay."}
+      ]
+    }
+  }
+}

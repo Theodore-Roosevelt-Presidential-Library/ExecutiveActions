@@ -1,0 +1,86 @@
+{
+  "story": 80,
+  "documents": {
+    "eo-193": {
+      "reception": [
+        {"text": "Newspapers ran the full text as a Washington wire story under headlines reading it as a warning to officeholders, such as \"WARNED BY PRESIDENT,\" with no comment beyond the text.", "source": "Indianapolis Journal, October 19, 1902, p. 5", "date": "1902-10-19"},
+        {"text": "In California the order ran in the San Francisco Call (\"OFFICE HOLDERS ARE ADMONISHED\") and the San Diego Union, whose headline named Attorney General Knox as the opinion's author.", "source": "San Francisco Call and San Diego Union, October 19, 1902", "date": "1902-10-19"},
+        {"text": "The Los Angeles Herald and the Stockton Mail printed the order the following day.", "source": "Los Angeles Herald and Stockton Mail, October 20, 1902", "date": "1902-10-20"},
+        {"text": "Searches of California papers (September–December 1902) and Indiana papers (October 17–November 15, 1902) found no later story and no published reply from either the Pennsylvania or the Ohio committee.", "source": "California Digital Newspaper Collection; Hoosier State Chronicles", "date": "1902"}
+      ],
+      "political_impact": [
+        {"kind": "political", "text": "The order answered open resistance: the opinion it publishes records a Senate clerk contesting the Commission's ruling and the Ohio Republican committee declining to withdraw its circular, and it names Quay, Andrews, Dick and both state committees.", "source": "Executive Order 193", "date": "1902-10-18"},
+        {"kind": "administrative", "text": "The Civil Service Commission reported that, while some political managers still tried to evade the law, most federal officials felt no obligation to contribute and no fear of refusing, and that public sentiment supported its efforts.", "source": "Civil Service Commission, Nineteenth Report, p. 21", "date": "1902"},
+        {"kind": "administrative", "text": "The Commission's next report recorded the episode only as a ruling that a federal official may not let his name appear on circulars asking other officials for political contributions, and listed no investigation or prosecution arising from either circular.", "source": "Civil Service Commission, Twentieth Report, p. 44; 24 Op. Att'y Gen. 133", "date": "1903"},
+        {"kind": "court", "text": "The only political-assessment prosecution the Commission reported for the year was at Louisville, where a former collector of internal revenue, his deputy and a railroad employee pleaded guilty in March 1903; it was not connected with the Pennsylvania or Ohio circulars.", "source": "Civil Service Commission, Twentieth Report, p. 11", "date": "1903-03"}
+      ],
+      "legacy": [
+        {"text": "The ban the order enforced on soliciting political money from federal workers never lapsed and descends into today's federal criminal code alongside the Hatch Act of 1939 and the modern rules on federal employees' political activity.", "source": "research entry"}
+      ],
+      "uncertain": [
+        "Whether the Pennsylvania and Ohio circulars were finally recalled is not known; the Commission's reports do not say, and Eastern newspapers have not been searched."
+      ]
+    },
+    "eo-171": {
+      "reception": [
+        {"text": "No newspaper report of the order was found in California papers (April 24–May 31, 1902) or Indiana papers (April 25–May 15, 1902).", "source": "California Digital Newspaper Collection; Hoosier State Chronicles", "date": "1902"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "Secretary of State John Hay sent the order to every diplomatic and consular officer with a circular of April 26, 1902, and the State Department printed both in Foreign Relations.", "source": "FRUS 1902, pp. 5–6", "date": "1902-04-26"}
+      ],
+      "later_actions": [
+        {"date": "1940-04-18", "text": "Revoked by Executive Order 8396.", "source": "Wikisource note to Executive Order 171"}
+      ]
+    },
+    "eo-190": {
+      "reception": [
+        {"text": "The wire carried the order's text, under the head \"For Benefit of the G. A. R.\"", "source": "Indianapolis Journal, September 16, 1902, p. 7", "date": "1902-09-16"}
+      ]
+    },
+    "eo-170": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The State Department circulated the amendment to consuls on March 31 and again on August 1, 1902.", "source": "Ingram, Digest of Circular Instructions to Consular Officers (1908), p. 27", "date": "1902"}
+      ]
+    },
+    "eo-194": {
+      "political_impact": [
+        {"kind": "administrative", "text": "A State Department circular of November 11, 1902 told consuls that customs collectors could accept gold and silver bullion as money on the oath of a principal officer of the importing bank or firm.", "source": "Ingram, Digest of Circular Instructions to Consular Officers (1908), p. 27", "date": "1902-11-11"}
+      ],
+      "uncertain": [
+        "The verbatim text of the order has not been located; it would be in the State Department's circular to consular officers of November 11, 1902."
+      ]
+    },
+    "eo-176": {
+      "related": [
+        {"id": "eo-204", "relation": "revoked_by", "note": "Revoked February 19, 1903, less than eight months later."}
+      ],
+      "uncertain": [
+        "The Civil Service Commission's reports date the order June 28, 1902, but the signature line of the Wikisource transcription reads June 23."
+      ]
+    },
+    "eo-172": {
+      "related": [
+        {"id": "eo-155", "relation": "supersedes", "note": "Placed Navy-yard special mechanics, inspectors and draftsmen under the Navy Department's own labor regulations in place of EO 155."}
+      ]
+    },
+    "eo-173": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The Commission had recommended the order, explaining that appointing officers had been afraid to remove useless employees for lack of proof of willful misconduct.", "source": "Civil Service Commission, Nineteenth Report, pp. 18–19", "date": "1902"}
+      ],
+      "legacy": [
+        {"text": "Its definition of \"just cause\" framed a long argument over how much protection from removal a merit employee should have, choosing discretion over trial-type hearings on efficiency grounds.", "source": "research entry"}
+      ]
+    },
+    "eo-194-a": {
+      "uncertain": [
+        "The text of the order has not been found, so what it said, and whether it deserves a place in the history of the White House staff, is not known; it may survive in the National Archives' executive-order series or the George B. Cortelyou Papers.",
+        "No newspaper report of the order was found in California or Indiana papers of December 8–20, 1902."
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {"text": "Most of the group's orders were routine and were superseded as the Civil Service Rules were rewritten again and again.", "source": "research entry"}
+    ]
+  }
+}

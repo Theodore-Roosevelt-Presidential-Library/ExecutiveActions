@@ -1,0 +1,100 @@
+{
+  "story": 34,
+  "documents": {
+    "proc-483": {
+      "reception": [
+        {
+          "text": "Newspapers carried the proclamation the same day it was signed, mostly on page one, and within three days at least twenty-seven papers across the country had printed its full text.",
+          "source": "Chronicling America newspaper searches, July 4–7, 1902",
+          "date": "1902-07-04"
+        },
+        {
+          "text": "Washington's Evening Star judged that imperialism as an issue had been tested across the country and that the administration's supporters had reason to be satisfied, treating the Moros as the exception that proved the rule.",
+          "source": "Evening Star (Washington), July 5, 1902, p. 4",
+          "date": "1902-07-05"
+        },
+        {
+          "text": "William Jennings Bryan's The Commoner charged that Roosevelt had seized on the Fourth of July for the proclamation, and set the item beside a prediction about the November elections.",
+          "source": "The Commoner (Lincoln, Neb.), July 11, 1902, p. 6",
+          "date": "1902-07-11"
+        },
+        {
+          "text": "George S. Boutwell, president of the American Anti-Imperialist League, wrote that the struggle would go on regardless of the proclamation of peace.",
+          "source": "Springfield Weekly Republican, July 25, 1902, p. 6",
+          "date": "1902-07-25"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Speaking at Pittsburgh the same day, Roosevelt himself tied the proclamation to the Fourth of July, months before the 1902 midterm elections.",
+          "source": "New-York Tribune, July 5, 1902, p. 2; Evening Star, July 4, 1902, p. 1",
+          "date": "1902-07-04"
+        },
+        {
+          "kind": "administrative",
+          "text": "A separate Army order the same day relieved the general commanding the Division of the Philippines of his duties as military governor and ended that office, leaving the civil Philippine Commission in charge.",
+          "source": "General Orders No. 67, Adjutant General's Office, July 4, 1902",
+          "date": "1902-07-04"
+        },
+        {
+          "kind": "administrative",
+          "text": "The War Department published the amnesty to the Army over Secretary of War Elihu Root's attestation, and that soldier's version is the text most modern collections reprint.",
+          "source": "General Orders No. 69, Adjutant General's Office, July 7, 1902",
+          "date": "1902-07-07"
+        },
+        {
+          "kind": "administrative",
+          "text": "Ten days after the amnesty, Roosevelt's review of Brig. Gen. Jacob H. Smith's court-martial for the Samar campaign directed that Smith be retired.",
+          "source": "research entry",
+          "date": "1902-07-14"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Moro country the proclamation left out saw years more fighting, including the killings at Bud Dajo in March 1906, until the battle of Bud Bagsak in June 1913, widely treated as the last major action.",
+          "source": "research entry",
+          "date": "1913"
+        },
+        {
+          "text": "The civil government the proclamation ushered in led, through the Jones Act of 1916 and the Tydings-McDuffie Act of 1934, to Philippine independence on July 4, 1946.",
+          "source": "Proclamation 2695, 11 Fed. Reg. 7517; 60 Stat. 1352",
+          "date": "1946-07-04"
+        },
+        {
+          "text": "The Philippines kept July 4 as Independence Day until 1962, then as Philippine Republic Day and later Philippine-American Friendship Day, until the Administrative Code of 1987 dropped it from the holidays.",
+          "source": "Proclamation No. 28 (1962); Republic Act No. 4166 (1964)",
+          "date": "1987"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1905-02-06",
+          "text": "Congress renamed the head of the Philippine civil government Governor-General.",
+          "source": "Act of February 6, 1905, 33 Stat. 692"
+        },
+        {
+          "date": "1916-08-29",
+          "text": "The Philippine Autonomy Act (Jones Act) was approved.",
+          "source": "39 Stat. 545"
+        },
+        {
+          "date": "1934-03-24",
+          "text": "The Philippine Independence Act (Tydings-McDuffie Act) was approved.",
+          "source": "48 Stat. 456, Pub. L. 73-127"
+        },
+        {
+          "date": "1946-07-04",
+          "text": "President Truman proclaimed Philippine independence on the Fourth of July.",
+          "source": "Proclamation 2695, 11 Fed. Reg. 7517; 60 Stat. 1352"
+        }
+      ],
+      "uncertain": [
+        "Why the War Department reissued the proclamation to the Army in its own style, over Root's attestation, is not documented.",
+        "The newspaper reactions come from machine transcriptions of digitized pages and have not been checked against the page images.",
+        "No formal Anti-Imperialist League statement on this proclamation has been found; Boutwell is the only named anti-imperialist found responding to it.",
+        "The Statutes page citation for the Jones Act (39 Stat. 545) has not been checked against the page image."
+      ]
+    }
+  }
+}

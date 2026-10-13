@@ -1,0 +1,302 @@
+{
+  "story": 77,
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "The Commission printed these rule changes in the annual reports it sent to Congress.",
+        "source": "Eighteenth and Nineteenth Reports of the U.S. Civil Service Commission",
+        "date": "1902"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "These are the opening orders in the numbered series of a president under whom the classified service grew from 106,205 positions on June 30, 1901 to 234,940 on June 30, 1909, growth that also reflects the expansion of the government itself.",
+        "source": "U.S. Civil Service Commission, Thirty-Second Annual Report (1915), summary table",
+        "date": "1909-06-30"
+      }
+    ]
+  },
+  "documents": {
+    "eo-141": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The exception let the Philadelphia pension agent's check-signing clerk be appointed without examination, after the Commissioner of Pensions asked on October 21 for \"a special exception in this instance.\"",
+          "source": "Nineteenth Report of the U.S. Civil Service Commission, p. 77",
+          "date": "1901-10-31"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ],
+      "uncertain": [
+        "The order's signature line (\"Theodore Roosevelt. / White House, October 31, 1901.\") is known only from Wikisource; the Commission's printings confirm the date but not the signature block."
+      ]
+    },
+    "eo-142": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The special rule let the post of steward of the White House be filled without examination.",
+          "source": "Wikisource, Executive Order 142",
+          "date": "1901-11-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-143": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The special rule let a laborer with the duties of coachman in the office of the Assistant Secretary of the Navy be appointed without examination.",
+          "source": "Wikisource, Executive Order 143",
+          "date": "1901-11-06"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-144": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order put civilian field employees of the Army's Quartermaster, Medical, Ordnance and Engineer Departments back under the civil-service rules, reversing part of McKinley's order of May 29, 1899.",
+          "source": "Wikisource, Executive Orders 119 and 144",
+          "date": "1901-11-18"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-145": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "An Indian agent whose post was abolished, when a school superintendent took over the agency, could become a classified employee on a test of fitness rather than a competitive examination.",
+          "source": "Wikisource, Executive Order 145",
+          "date": "1901-11-26"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-146": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order narrowed a loophole: the apportionment rules \"may\" rather than \"shall\" be waived for transfers, and only with detailed reasons and the Commission's approval.",
+          "source": "Wikisource, Executive Order 146",
+          "date": "1901-11-26"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-150",
+          "relation": "same_subject",
+          "note": "Two weeks later EO 150 amended the same section of Rule X to bar transfers before six months' service."
+        },
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-147": {
+      "reception": [
+        {
+          "text": "An Associated Press item reported the order bringing the rural free-delivery service into the classified service, effective at once for about 250 clerks, agents and inspectors but not yet for the carriers.",
+          "source": "San Francisco Call, November 28, 1901, \"Changes in Rural Delivery\"; Los Angeles Herald and San Diego Union, same date",
+          "date": "1901-11-28"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Commission counted 342 rural free-delivery clerks, route inspectors, special agents and messengers classified on November 27, 1901.",
+          "source": "Nineteenth Report of the U.S. Civil Service Commission, p. 107",
+          "date": "1901-11-27"
+        },
+        {
+          "kind": "administrative",
+          "text": "The examination system for rural carriers went fully into effect on February 1, 1902, when 6,009 carriers were classified; by June 30, 1902 the service counted 8,590 classified carriers.",
+          "source": "Nineteenth Report of the U.S. Civil Service Commission, pp. 11, 107",
+          "date": "1902-02-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-152",
+          "relation": "same_subject",
+          "note": "Set the rural letter carriers' own age range."
+        },
+        {
+          "id": "eo-153",
+          "relation": "same_subject",
+          "note": "Waived the age limits for veteran applicants for rural carrier."
+        },
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-148": {
+      "reception": [
+        {
+          "text": "No report of the December 11 enforcement orders was found in California papers for the rest of December 1901; eastern papers have not been checked.",
+          "source": "California Digital Newspaper Collection, December 11–31, 1901",
+          "date": "1901-12"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Commission could now force out anyone holding a job in violation of the rules by certifying the violation to the department head and, after thirty days, to the officers who paid the salary, who then had to stop paying.",
+          "source": "Eighteenth Report of the U.S. Civil Service Commission, pp. 299–300",
+          "date": "1901-12-11"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-149",
+          "relation": "same_subject",
+          "note": "Signed the same day, requiring officers and employees to give the Commission information and testimony."
+        },
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-149": {
+      "reception": [
+        {
+          "text": "No report of the December 11 enforcement orders was found in California papers for the rest of December 1901; eastern papers have not been checked.",
+          "source": "California Digital Newspaper Collection, December 11–31, 1901",
+          "date": "1901-12"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Every officer and employee in the public service was now required to give the Commission information and sworn testimony in its investigations.",
+          "source": "Wikisource, Executive Order 149",
+          "date": "1901-12-11"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-148",
+          "relation": "same_subject",
+          "note": "Signed the same day, giving the Commission a way to stop pay to people hired in violation of the rules."
+        },
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-150": {
+      "related": [
+        {
+          "id": "eo-146",
+          "relation": "same_subject",
+          "note": "Amended the same section of Rule X two weeks earlier."
+        },
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-151": {
+      "related": [
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-152": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Rural letter carriers got their own age range of 17 to 55, against 18 to 45 for other post-office positions, one of the first steps in bringing them under the merit system.",
+          "source": "Wikisource, Executive Order 152",
+          "date": "1901-12-23"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-147",
+          "relation": "same_subject",
+          "note": "Brought the rural free-delivery service into the Post-Office Service."
+        },
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    },
+    "eo-153": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Honorably discharged Civil War and Spanish-American War veterans applying to be rural carriers were exempted from the age limits.",
+          "source": "Wikisource, Executive Order 153",
+          "date": "1901-12-27"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-152",
+          "relation": "same_subject",
+          "note": "Waived, for war veterans, the rural carriers' age limits that EO 152 had just set."
+        },
+        {
+          "id": "eo-147",
+          "relation": "same_subject",
+          "note": "Brought the rural free-delivery service into the Post-Office Service."
+        },
+        {
+          "id": "eo-209",
+          "relation": "superseded_by",
+          "note": "EO 209 replaced the Civil Service Rules of 1896, and the amendments made to them, with a consolidated set effective April 15, 1903."
+        }
+      ]
+    }
+  }
+}

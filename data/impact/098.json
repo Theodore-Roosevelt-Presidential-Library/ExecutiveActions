@@ -1,0 +1,232 @@
+{
+  "story": 98,
+  "documents": {
+    "eo-809": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The order turned the existing bureaus, such as the Geological Survey, Forest Service, Census and General Land Office, into the research arm of a commission that had no money or staff of its own.",
+          "source": "research entry",
+          "date": "1908-06-08"
+        },
+        {
+          "kind": "congress",
+          "text": "Congress answered Roosevelt's unauthorized commissions with the Tawney amendment, which barred public money for any commission not authorized by law and barred lending department staff to one; the staff ban killed the National Conservation Commission.",
+          "source": "Act of March 4, 1909, ch. 299, sec. 9, 35 Stat. 945, 1027",
+          "date": "1909-03-04"
+        },
+        {
+          "kind": "political",
+          "text": "Roosevelt wrote that the amendment forbade him to appoint further commissions and that he would have refused to obey it had he stayed in office; the statute itself cut off money and staff rather than banning appointments.",
+          "source": "Roosevelt, Autobiography"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The commission's three-volume Report, transmitted January 22, 1909, was in Roosevelt's words \"the first inventory of its natural resources ever made by any nation.\"",
+          "source": "S. Doc. No. 676, 60th Cong., 2d Sess.; Roosevelt's message of transmittal",
+          "date": "1909-01-22"
+        },
+        {
+          "text": "Congress refused to fund the commission's continuation, but the report and the conference behind it shaped resource policy for decades.",
+          "source": "research entry"
+        }
+      ]
+    },
+    "eo-808": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Navy's Chief of Ordnance reported fuel-oil tank sets proposed on Woman Key and Man Key for the Key West station.",
+          "source": "Navy Department, Annual Reports, 1909, Miscellaneous Reports, p. 429",
+          "date": "1909"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The naval reservation and Roosevelt's Key West bird reservation overlapped on paper for seventy-four years, until the naval claim was revoked after the 1975 wilderness designation.",
+          "source": "Public Land Order 6214, 47 Fed. Reg. 11668–11669",
+          "date": "1982-03-18"
+        }
+      ],
+      "today": [
+        {
+          "name": "Key West National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "transferred",
+          "state": "Florida",
+          "note": "When the naval reservation was revoked in 1982 the lands remained withdrawn for the refuge under Executive Order 923.",
+          "source": "Public Land Order 6214"
+        },
+        {
+          "name": "Florida Keys Wilderness",
+          "kind": "other",
+          "relation": "part",
+          "state": "Florida",
+          "note": "Man Key and Woman Key lie inside the congressionally designated wilderness.",
+          "source": "Public Law 93-632"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-923",
+          "relation": "same_subject",
+          "note": "The Key West bird reservation, which expressly left this naval reservation standing on the same two keys."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1924-08-11",
+          "text": "Coolidge's Executive Order 4060 reserved for naval purposes all the islands, keys, harbors and shoals in a block of townships that included the two keys.",
+          "source": "Public Land Order 6214 (reciting EO 4060)"
+        },
+        {
+          "date": "1975-01-03",
+          "text": "Congress designated the Florida Keys Wilderness, which takes in Man Key and Woman Key.",
+          "source": "Public Law 93-632"
+        },
+        {
+          "date": "1982-03-18",
+          "text": "Public Land Order 6214 revoked Executive Order 808 and Executive Order 4060, leaving the lands withdrawn for the Key West National Wildlife Refuge.",
+          "source": "47 Fed. Reg. 11668–11669"
+        }
+      ],
+      "uncertain": [
+        "The exact wording of Executive Order 808 is not known; no printing has been found."
+      ]
+    },
+    "eo-794": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The commission reported in February 1909 as Better Security of Life at Sea; the report makes no reference to the General Slocum disaster.",
+          "source": "S. Doc. No. 701, 60th Cong., 2d Sess.",
+          "date": "1909-02"
+        }
+      ],
+      "uncertain": [
+        "Whether newspapers of 1908 linked the commission to the General Slocum disaster has not been checked."
+      ]
+    },
+    "eo-795": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The pay order was part of the quiet drive for efficiency in the departments and drew little notice.",
+          "source": "research entry",
+          "date": "1908"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-651",
+          "relation": "implements",
+          "note": "Applied the principles of the report of the Committee on Grades and Salaries, which EO 651 had created."
+        },
+        {
+          "id": "eo-804",
+          "relation": "modified_by",
+          "note": "Extended to clerks and draftsmen at arsenals and navy yards."
+        }
+      ]
+    },
+    "eo-804": {
+      "related": [
+        {
+          "id": "eo-795",
+          "relation": "modifies",
+          "note": "Extended the salary-standardization order to clerks and draftsmen at arsenals and navy yards."
+        }
+      ],
+      "uncertain": [
+        "The exact wording of Executive Order 804 has not been checked; no transcription is available."
+      ]
+    },
+    "eo-801": {
+      "legacy": [
+        {
+          "text": "The Port Neuf name ended with this order; the old Port Neuf lands are today the Westside Ranger District of the Caribou-Targhee National Forest.",
+          "source": "research entry"
+        },
+        {
+          "text": "The Pocatello name was dropped in 1915, when that forest went into the Cache.",
+          "source": "research entry",
+          "date": "1915"
+        }
+      ],
+      "today": [
+        {
+          "name": "Caribou-Targhee National Forest (Westside Ranger District)",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Idaho",
+          "note": "The former Port Neuf National Forest lands.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-802",
+          "relation": "same_subject",
+          "note": "Signed the same day; the two orders together dissolved the Bear River National Forest."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915",
+          "text": "The Pocatello National Forest was merged into the Cache and its name discontinued.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "The exact wording of Executive Order 801 has not been checked; no transcription is available."
+      ]
+    },
+    "eo-802": {
+      "legacy": [
+        {
+          "text": "The Cache National Forest was never abolished; in 1973 its administration was split along the Utah–Idaho line.",
+          "source": "research entry",
+          "date": "1973"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Utah",
+          "note": "The Utah four-fifths of the Cache, now the Logan and Ogden Ranger Districts; the Cache's principal successor.",
+          "source": "research entry"
+        },
+        {
+          "name": "Caribou-Targhee National Forest (Montpelier Ranger District)",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Idaho",
+          "note": "The Idaho portion of the Cache.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-801",
+          "relation": "same_subject",
+          "note": "Signed the same day; the two orders together dissolved the Bear River National Forest."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1973",
+          "text": "The Cache's Utah portion was merged administratively with the Wasatch National Forest and its Idaho portion went to the Caribou.",
+          "source": "research entry"
+        },
+        {
+          "date": "2007",
+          "text": "The Wasatch-Cache joined the Uinta to form the Uinta-Wasatch-Cache National Forest.",
+          "source": "research entry"
+        }
+      ]
+    }
+  }
+}

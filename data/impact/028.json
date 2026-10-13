@@ -1,0 +1,103 @@
+{
+  "story": 28,
+  "documents": {},
+  "story_level": {
+    "reception": [
+      {
+        "text": "The newspapers filled with 'conservation,' and a word that had been Forest Service jargon became a household term almost overnight.",
+        "source": "research entry",
+        "date": "1908-05"
+      },
+      {
+        "text": "The governors adopted their declaration by voice vote 'without dissenting voice.'",
+        "source": "Proceedings of a Conference of Governors (1909), p. 201",
+        "date": "1908-05-15"
+      },
+      {
+        "text": "Governor Joseph W. Folk of Missouri objected that the declaration would give the presidency a standing power to summon the governors.",
+        "source": "Proceedings of a Conference of Governors (1909)",
+        "date": "1908-05-15"
+      },
+      {
+        "text": "By January 1909, 36 states and territories had formed conservation commissions of their own, up from 33 in December 1908.",
+        "source": "Pinchot to Roosevelt, Jan. 11, 1909, Report of the National Conservation Commission, p. 12",
+        "date": "1909-01-11"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "Roosevelt appointed the 48-member National Conservation Commission by letter, with Gifford Pinchot as chairman.",
+        "source": "Report of the National Conservation Commission, S. Doc. 676",
+        "date": "1908-06-08"
+      },
+      {
+        "kind": "congress",
+        "text": "Roosevelt sent Congress the Commission's report, 'the first inventory of its natural resources ever made by any nation.'",
+        "source": "Special message, Jan. 22, 1909; S. Doc. 676",
+        "date": "1909-01-22"
+      },
+      {
+        "kind": "congress",
+        "text": "The House voted 140 to 60 on a division to make in order Tawney's ban on funding or staffing commissions not authorized by law.",
+        "source": "Congressional Record, 60th Cong., 2d sess., vol. 43, p. 3120",
+        "date": "1909-02-25"
+      },
+      {
+        "kind": "congress",
+        "text": "Section 9 of the Sundry Civil Appropriations Act barred paying for or detailing staff to unauthorized commissions, cutting off the National Conservation Commission.",
+        "source": "Act of Mar. 4, 1909, ch. 299, § 9, 35 Stat. 1027",
+        "date": "1909-03-04"
+      },
+      {
+        "kind": "diplomatic",
+        "text": "A North American Conservation Conference of the United States, Canada, Newfoundland and Mexico met at the White House and adopted a declaration of principles.",
+        "source": "research entry",
+        "date": "1909-02-18"
+      },
+      {
+        "kind": "diplomatic",
+        "text": "The State Department circulated an invitation to a world conservation congress at The Hague, signed by Acting Secretary Alvey A. Adee.",
+        "source": "Foreign Relations of the United States, 1909, Doc. 1",
+        "date": "1909-02-19"
+      },
+      {
+        "kind": "diplomatic",
+        "text": "Secretary Knox recast the Hague invitation as a preliminary inquiry after Dutch protests, and the congress never met.",
+        "source": "Foreign Relations of the United States, 1909, Doc. 2",
+        "date": "1909-04-21"
+      },
+      {
+        "kind": "political",
+        "text": "The Ballinger–Pinchot quarrel split the conservation movement; Taft directed Pinchot's removal as Forester on January 7, 1910, and Ballinger resigned in March 1911.",
+        "source": "Taft to Pinchot, Jan. 7, 1910; Associated Press, Mar. 14, 1911",
+        "date": "1910-01-07"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The National Governors Association dates its founding to the 1908 conference; the governors adopted articles of organization at Richmond in 1912.",
+        "source": "research entry",
+        "date": "1912-12-04"
+      },
+      {
+        "text": "The governors' body took the name National Governors' Conference in 1965 and National Governors Association in 1977.",
+        "source": "Proceedings of the National Governors' Conference, 1965, p. 13; research entry",
+        "date": "1977"
+      },
+      {
+        "text": "The 1909 ban on funding unauthorized commissions survives in the United States Code.",
+        "source": "31 U.S.C. § 1346"
+      }
+    ],
+    "today": [
+      {
+        "name": "National Governors Association",
+        "kind": "other",
+        "relation": "origin",
+        "note": "Dates its founding to the 1908 conference, though it became a standing body only in 1912.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

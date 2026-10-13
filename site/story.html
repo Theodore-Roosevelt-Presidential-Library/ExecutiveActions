@@ -18,7 +18,7 @@
 <a class="skip" href="#story">Skip to the story</a>
 <header class="bar">
   <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
-  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html" aria-current="page">Stories</a><a href="about.html">About</a><a href="api.html">API &amp; widgets</a></nav>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html" aria-current="page">Stories</a><a href="then-and-now.html">Then &amp; now</a><a href="about.html">About</a><a href="api.html">API &amp; widgets</a></nav>
 </header>
 <main class="cols">
   <section id="story" tabindex="-1"><p class="loading">Loading…</p></section>
@@ -53,6 +53,18 @@
     ${s.dek ? `<p class="dek">${EA.esc(s.dek)}</p>` : ""}
     ${themes ? `<ul class="tags">${themes}</ul>` : ""}
     <div class="story-body">${EA.localize(s.html)}</div>`;
+  {
+    const seen = new Set(), items = [];
+    for (const t of ((s.impact || {}).today || [])) if (t.name && !seen.has(t.name)) { seen.add(t.name); items.push({ t }); }
+    for (const [id, imp] of Object.entries(s.documents_impact || {}))
+      for (const t of imp.today || []) if (t.name && !seen.has(t.name) && t.relation !== "abolished") { seen.add(t.name); items.push({ t, id }); }
+    if (items.length) {
+      const docLabel = id => ((s.documents || []).find(x => x.id === id) || {}).label || id;
+      h += `<section class="impact" aria-labelledby="today"><h2 id="today">Where things stand today</h2><ul class="today">${items.slice(0, 40).map(({ t, id }) =>
+        `<li><a href="then-and-now.html#${EA.slug(t.name)}"><b>${EA.esc(t.name)}</b></a> <span class="small">${EA.esc([EA.KIND[t.kind] || "", EA.TODAY_REL[t.relation] || ""].filter(Boolean).join(" · "))}${id ? ` · <a href="${EA.docHref(id)}">${EA.esc(docLabel(id))}</a>` : ""}</span></li>`).join("")}</ul>
+        ${items.length > 40 ? `<p class="small"><a href="then-and-now.html">See every place in Then and now</a></p>` : ""}</section>`;
+    }
+  }
   if ((s.open_questions || []).length) {
     h += `<aside class="research" aria-labelledby="oq"><h2 id="oq">Still being researched</h2><p class="small" style="margin:0">These points are not settled yet. If you know where the answer lives, write to <a href="mailto:hello@trlibrary.com?subject=${encodeURIComponent("Executive actions: " + s.title)}">hello@trlibrary.com</a>.</p><ul>${s.open_questions.map(q => `<li>${EA.esc(q)}</li>`).join("")}</ul></aside>`;
   }

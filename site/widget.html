@@ -26,7 +26,7 @@
 <a class="skip" href="#widgets">Skip to the content</a>
 <header class="bar">
   <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
-  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="about.html">About</a><a href="api.html" aria-current="page">API &amp; widgets</a></nav>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="then-and-now.html">Then &amp; now</a><a href="about.html">About</a><a href="api.html" aria-current="page">API &amp; widgets</a></nav>
 </header>
 <main class="wrap doc" id="widgets" tabindex="-1">
   <h1>Widgets</h1>
@@ -55,6 +55,12 @@
 <pre id="storycode">&lt;trpl-story n="2"&gt;&lt;/trpl-story&gt;</pre>
   <div class="demo" id="storydemo"><p class="small">Story teasers appear here once the first stories are published.</p></div>
 
+  <h2>Then and now</h2>
+  <p>Places today that began with a Roosevelt order or proclamation, oldest first, each linked to the document. Pick a kind of place, a state, or both. A “See all” link opens the <a href="then-and-now.html">full list</a>.</p>
+<pre>&lt;trpl-then-and-now kind="wildlife_refuge" state="Florida" limit="8"&gt;&lt;/trpl-then-and-now&gt;
+&lt;trpl-then-and-now kind="national_park" theme="dark"&gt;&lt;/trpl-then-and-now&gt;</pre>
+  <div class="demo"><div class="stage bg-white"><trpl-then-and-now kind="wildlife_refuge" state="Florida" limit="8"></trpl-then-and-now></div><div class="stage bg-night"><trpl-then-and-now kind="national_park" theme="dark"></trpl-then-and-now></div></div>
+
   <h2>Options</h2>
   <div class="tablewrap"><table class="list-table">
     <thead><tr><th>Attribute</th><th>Widgets</th><th>What it does</th></tr></thead>
@@ -67,6 +73,7 @@
       <tr><td><code>category</code>, <code>state</code>, <code>year</code>, <code>type</code></td><td>trpl-actions-list</td><td>Filters. Subjects use the slugs in <a href="api/v1/categories/index.json">categories/index.json</a>; states use plain names; type is <code>executive_order</code>, <code>proclamation</code> or <code>unnumbered_order</code></td></tr>
       <tr><td><code>limit</code>, <code>sort</code>, <code>min</code>, <code>heading</code></td><td>trpl-actions-list</td><td>How many (default 10, up to 50); <code>date</code> or <code>significance</code>; lowest weight to include, 1–5; your own heading</td></tr>
       <tr><td><code>n</code> or <code>slug</code></td><td>trpl-story</td><td>Story number or slug</td></tr>
+      <tr><td><code>kind</code>, <code>state</code>, <code>limit</code>, <code>heading</code></td><td>trpl-then-and-now</td><td><code>national_park</code>, <code>national_monument</code>, <code>national_forest</code>, <code>wildlife_refuge</code>, <code>lighthouse</code> or <code>other</code>; a state name; how many (default 8, up to 60); your own heading</td></tr>
     </tbody>
   </table></div>
   <p>Fonts follow the page when it sets <code>--ea-display</code>, <code>--ea-serif</code> and <code>--ea-sans</code>; otherwise the cards use the Library's brand fonts with sensible fallbacks.</p>

@@ -1,0 +1,82 @@
+{
+  "story": 27,
+  "documents": {},
+  "story_level": {
+    "reception": [
+      {
+        "text": "Western settlers and their representatives protested that good-faith homesteaders were being shut out of land they were entitled to claim.",
+        "source": "research entry",
+        "date": "1906"
+      },
+      {
+        "text": "Coal and railroad interests objected to losing cheap acquisition of coal land.",
+        "source": "research entry",
+        "date": "1906"
+      },
+      {
+        "text": "Constitutional critics charged that only Congress could dispose of the public domain and that the President was legislating by decree; Roosevelt later recalled 'a great clamor that I was usurping legislative power.'",
+        "source": "Theodore Roosevelt, An Autobiography (1913), ch. X"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "The withdrawals were carried out as departmental orders from the Interior Department to the General Land Office; Secretary Hitchcock told Roosevelt no formal executive order was needed.",
+        "source": "Hitchcock to Roosevelt, Dec. 17, 1906, Theodore Roosevelt Papers, LOC, reel 70",
+        "date": "1906-12-17"
+      },
+      {
+        "kind": "administrative",
+        "text": "By June 30, 1907 the General Land Office counted 66,716,240 acres withdrawn, 8,524,800 already restored and 58,191,440 still withdrawn.",
+        "source": "Report of the Commissioner of the General Land Office, FY1907, pp. 187–188",
+        "date": "1907-06-30"
+      },
+      {
+        "kind": "administrative",
+        "text": "The Geological Survey classified the withdrawn land; of roughly 68 million acres withdrawn in the first two years, about 36 million were restored after geologists found no workable coal.",
+        "source": "USGS Bulletin 537"
+      },
+      {
+        "kind": "administrative",
+        "text": "The National Conservation Commission reported that Roosevelt had withdrawn over 68,000,000 acres.",
+        "source": "S. Doc. 676, 60th Cong., 2d sess., vol. I, p. 90",
+        "date": "1909-02"
+      },
+      {
+        "kind": "congress",
+        "text": "The Coal Lands Act let good-faith farm entrymen take the surface of coal land while the coal was reserved to the United States.",
+        "source": "Act of Mar. 3, 1909, ch. 270, 35 Stat. 844",
+        "date": "1909-03-03"
+      },
+      {
+        "kind": "congress",
+        "text": "Congress reopened the withdrawn coal lands to entry on the split-estate basis.",
+        "source": "Act of June 22, 1910, ch. 318, 36 Stat. 583",
+        "date": "1910-06-22"
+      },
+      {
+        "kind": "congress",
+        "text": "The Pickett Act gave the President explicit statutory authority to withdraw public lands.",
+        "source": "Pickett Act, June 25, 1910, ch. 421, 36 Stat. 847",
+        "date": "1910-06-25"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The Supreme Court described the first withdrawal as 'a departmental order dated July 26, 1906.'",
+        "source": "Plested v. Abbey, 228 U.S. 42 (1913)",
+        "date": "1913"
+      },
+      {
+        "text": "The Supreme Court upheld executive withdrawals made before the Pickett Act, 5 to 3, expressly including the coal withdrawals in the long practice Congress had accepted.",
+        "source": "United States v. Midwest Oil Co., 236 U.S. 459, 479 (1915)",
+        "date": "1915-02-23"
+      },
+      {
+        "text": "The Mineral Leasing Act set up the federal leasing system for coal, oil, gas and other minerals that still governs the mineral estate of the public lands.",
+        "source": "Act of Feb. 25, 1920, ch. 85, 41 Stat. 437",
+        "date": "1920-02-25"
+      }
+    ]
+  }
+}

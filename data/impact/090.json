@@ -1,0 +1,79 @@
+{
+  "story": 90,
+  "documents": {
+    "eo-518": {
+      "reception": [
+        {"text": "The Washington Evening Star printed the order's operative text in full on its front page under the head \"RELATIONS WITH CUBA,\" six days after it was signed.", "source": "Evening Star (Washington), October 29, 1906, p. 1", "date": "1906-10-29"},
+        {"text": "The intervention it administered was argued over in the press and watched abroad; critics saw overreach under the Platt Amendment, while defenders pointed to Estrada Palma's request and Roosevelt's stated plan to leave.", "source": "research entry", "date": "1906"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The order placed the provisional government, already run by Governor Charles E. Magoon since October 13, under the Secretary of War, with all related business handled and recorded in the Bureau of Insular Affairs.", "source": "National Archives, Guide to Federal Records, RG 199", "date": "1906-10-23"},
+        {"kind": "diplomatic", "text": "The provisional government was abolished on January 28, 1909, on the installation of the elected president, José Miguel Gómez.", "source": "National Archives, Guide to Federal Records, RG 199", "date": "1909-01-28"},
+        {"kind": "diplomatic", "text": "The Army of Cuban Pacification was disbanded by general order on April 1, 1909, and the last American soldiers sailed from Havana that morning.", "source": "Herald and News (Newberry, S.C.), April 6, 1909, p. 7", "date": "1909-04-01"}
+      ],
+      "legacy": [
+        {"text": "The occupation was one of several U.S. interventions the Platt Amendment allowed before the amendment was abrogated in 1934.", "source": "research entry", "date": "1934"},
+        {"text": "Magoon's administration remains contested in Cuban memory, remembered by many for patronage and graft even as it built roads and reorganized the government.", "source": "research entry"}
+      ],
+      "today": [
+        {"name": "Bureau of Insular Affairs", "kind": "other", "relation": "abolished", "note": "Abolished by Reorganization Plan No. II of 1939; functions moved to the Interior Department's Division of Territories and Island Possessions.", "source": "Reorganization Plan No. II of 1939"}
+      ],
+      "later_actions": [
+        {"date": "1934-05-29", "text": "Executive Order 6726 moved Puerto Rico out of the Bureau of Insular Affairs, effective March 2, 1935.", "source": "Executive Order 6726"},
+        {"date": "1939-07-01", "text": "Reorganization Plan No. II of 1939 abolished the Bureau of Insular Affairs and transferred its functions to the Interior Department.", "source": "Reorganization Plan No. II of 1939"}
+      ]
+    },
+    "eo-504": {
+      "reception": [
+        {"text": "The eight-hour reporting order was welcomed by labor and unremarked elsewhere.", "source": "research entry", "date": "1906"}
+      ]
+    },
+    "eo-527": {
+      "related": [
+        {"id": "eo-317-a", "relation": "modifies", "note": "Amends the April 1, 1905 order on the organization and duties of the Isthmian Canal Commission."}
+      ]
+    },
+    "eo-317-a": {
+      "related": [
+        {"id": "eo-527", "relation": "modified_by", "note": "Amended in November 1906."}
+      ]
+    },
+    "eo-537": {
+      "legacy": [
+        {"text": "No instrument revoking the reservation is known; the Interior Department's 1934 statistics show Jemez with 17,501 acres of original area plus 17,500 acquired since, and no reductions.", "source": "U.S. Department of the Interior, basic Indian land statistics (1934)", "date": "1934"},
+        {"text": "The Pueblo of Jemez describes its holdings today as more than 89,000 acres, including the Spanish grant, the executive-order additions and later acquisitions.", "source": "Pueblo of Jemez"}
+      ],
+      "today": [
+        {"name": "Pueblo of Jemez lands", "kind": "indian_reservation", "relation": "part", "state": "New Mexico", "note": "Executive-order additions form part of the Pueblo's present holdings; no revocation is known.", "source": "Pueblo of Jemez; 1934 Interior land statistics"}
+      ],
+      "later_actions": [
+        {"date": "1911-09-01", "text": "Executive Order 1406 corrected the survey reference from the \"Jemez meridian\" to the New Mexico principal meridian.", "source": "Executive Order 1406"},
+        {"date": "1915-10-04", "text": "Executive Order 2250 reserved further lands for the Jemez Pueblo.", "source": "Executive Order 2250"}
+      ],
+      "uncertain": [
+        "No modern record confirming the tract's status has been checked; the BLM New Mexico master title plat for T. 16 N., R. 1 E. would show it."
+      ]
+    },
+    "eo-529": {
+      "legacy": [
+        {"text": "The reservation preceded the working light by about two years: Rock of Ages light began operating in 1908, received its Fresnel lens in 1910 and was automated in 1978.", "source": "U.S. Lighthouse Society archive", "date": "1908"}
+      ],
+      "today": [
+        {"name": "Rock of Ages Lighthouse", "kind": "lighthouse", "relation": "origin", "state": "Michigan", "since": "1906-12-10", "note": "Still an active aid to navigation, inside Isle Royale National Park and closed to the public.", "source": "U.S. Lighthouse Society archive"}
+      ]
+    },
+    "eo-525": {
+      "legacy": [
+        {"text": "Cape Hinchinbrook's first light was activated on November 15, 1910; a replacement tower was ready in spring 1934 and the station was fully automated in 1974.", "source": "Lighthouse Friends, Cape Hinchinbrook", "date": "1910-11-15"}
+      ],
+      "today": [
+        {"name": "Cape Hinchinbrook Lighthouse", "kind": "lighthouse", "relation": "origin", "state": "Alaska", "since": "1906-11-27", "note": "Owned by the Coast Guard.", "source": "Lighthouse Friends, Cape Hinchinbrook"}
+      ]
+    },
+    "eo-512": {
+      "uncertain": [
+        "What became of the parcel taken from Fort San Pedro at Iloilo for lighthouse purposes has not been traced."
+      ]
+    }
+  }
+}

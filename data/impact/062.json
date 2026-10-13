@@ -1,0 +1,97 @@
+{
+  "story": 62,
+  "documents": {
+    "proc-538": {
+      "reception": [
+        {
+          "text": "The Senate call went out on the Associated Press wire and was printed in full by the Santa Barbara Morning Press and summarized in the Chico Record and Morning Echo, all without comment.",
+          "source": "Santa Barbara Morning Press, Chico Record and Morning Echo, Feb. 24, 1905 (California Digital Newspaper Collection)",
+          "date": "1905-02-24"
+        },
+        {
+          "text": "The Morning Oregonian's front page that day carried nothing on the Senate call.",
+          "source": "Morning Oregonian, Feb. 24, 1905, p. 1",
+          "date": "1905-02-24"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "The session, March 4 to 18, 1905, took up Roosevelt's treaty with Santo Domingo, which he pressed in a special message on March 6, but Democratic opposition blocked a vote and the Senate adjourned without consenting.",
+          "source": "Morning Oregonian, Mar. 9, 1905; FRUS 1905",
+          "date": "1905-03-18"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Twentieth Amendment moved the start of the congressional term to January 3, ending the need to summon the Senate at the start of a presidential term.",
+          "source": "U.S. Constitution, Twentieth Amendment",
+          "date": "1933"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1933",
+          "text": "The Twentieth Amendment moved the start of the congressional term ahead of inauguration day.",
+          "source": "U.S. Constitution, Twentieth Amendment"
+        }
+      ]
+    },
+    "proc-605": {
+      "reception": [
+        {
+          "text": "The proclamation was a wire story the day it was signed; the Morning Oregonian printed the full text on page 3 without comment.",
+          "source": "Morning Oregonian, Nov. 3, 1905, p. 3",
+          "date": "1905-11-03"
+        },
+        {
+          "text": "Its line about \"appetites and follies\" appears in 31 California papers in 1905, from the San Francisco Call and Los Angeles Herald to small weeklies through late November.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1905-11"
+        },
+        {
+          "text": "A San Jose Mercury editorial praised the proclamation as more than the usual formality and applied its warning against the nation's own failings to the year's graft and corruption.",
+          "source": "San Jose Mercury, Nov. 4, 1905",
+          "date": "1905-11-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The last-Thursday date rested on custom until Franklin Roosevelt moved Thanksgiving a week earlier in 1939–1941 and Congress fixed it on the fourth Thursday in 1941.",
+          "source": "55 Stat. 862",
+          "date": "1941-12-26"
+        },
+        {
+          "text": "The proclamation's closing words read \"those who founded it\" in the Statutes at Large; a widely used online transcription misprints \"rounded.\"",
+          "source": "34 Stat. 3184; Morning Oregonian, Nov. 3, 1905, p. 3"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1941-12-26",
+          "text": "A joint resolution fixed Thanksgiving on the fourth Thursday of November.",
+          "source": "55 Stat. 862"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-466",
+          "relation": "same_subject",
+          "note": "Roosevelt's first Thanksgiving proclamation, 1901, in the same annual series."
+        }
+      ],
+      "uncertain": [
+        "The San Jose Mercury editorial is known only from rough newspaper OCR and should be read on the page image before it is quoted."
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "The Dominican convention the 1905 session failed to approve was replaced by a revised convention that won Senate consent on February 25, 1907, and was proclaimed July 25, 1907.",
+        "source": "35 Stat. 1880",
+        "date": "1907-07-25"
+      }
+    ]
+  }
+}

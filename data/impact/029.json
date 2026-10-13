@@ -1,0 +1,104 @@
+{
+  "story": 29,
+  "documents": {
+    "proc-799": {
+      "reception": [
+        {
+          "text": "Two weeks before the signing, the Custer Weekly Chronicle told readers the cave would become the \"Jewel Cave National Monument\" and that the game preserve once advocated would not be established.",
+          "source": "Custer Weekly Chronicle, January 25, 1908",
+          "date": "1908-01-25"
+        },
+        {
+          "text": "The Hot Springs Weekly Star headlined the news \"ANOTHER GREAT CAVE,\" and Rapid City's Black Hills Union and Western Stock Review ran \"To Preserve Jewel Cave\" the same day.",
+          "source": "Hot Springs Weekly Star and Black Hills Union, February 21, 1908",
+          "date": "1908-02-21"
+        },
+        {
+          "text": "Eleven South Dakota papers carried the news in 1908, most of them East River, far from the Black Hills.",
+          "source": "Chronicling America, 1908",
+          "date": "1908"
+        },
+        {
+          "text": "The item ran as wire filler in more than twenty out-of-state papers from February into August 1908, from North Dakota and Wyoming to Rhode Island, the Carolinas and Oregon. No objection to the monument has been found anywhere.",
+          "source": "Chronicling America, 1908",
+          "date": "1908"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The monument stayed inside the Black Hills National Forest under Forest Service administration, with forest uses allowed so long as the monument remained the dominant reservation.",
+          "source": "35 Stat. 2180",
+          "date": "1908-02-07"
+        },
+        {
+          "kind": "local",
+          "text": "The Michauds' 1906 request for a Jewel Cave Game Reserve was set aside in favor of the monument, after the Forest Service found too little game to preserve.",
+          "source": "NPS, Discovery & Early History; Custer Weekly Chronicle, January 25, 1908",
+          "date": "1908"
+        },
+        {
+          "kind": "local",
+          "text": "Because the land was reserved subject to prior valid claims, the Jewel Tunnel mining claim survived, and mining claims held up development of the cave into the 1910s.",
+          "source": "research entry"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Beginning in 1959, Herb and Jan Conn and Dwight Deal began a systematic exploration; over about two decades the Conns surveyed some sixty-five miles of passage and laid out the routes of the park's Scenic and Discovery tours.",
+          "source": "NPS park timeline",
+          "date": "1959"
+        },
+        {
+          "text": "As of September 7, 2024, 220.33 miles of passage had been mapped, making Jewel Cave the fifth-longest known cave in the world, and more than 55 percent of the known cave lies outside the monument under the national forest.",
+          "source": "NPS Cave Exploration page",
+          "date": "2024-09-07"
+        },
+        {
+          "text": "A boundary adjustment to more than 9,000 acres appears in the park's 2016 Foundation Document as a planning need but has never been enacted.",
+          "source": "NPS Foundation Document (2016)",
+          "date": "2016"
+        }
+      ],
+      "today": [
+        {
+          "name": "Jewel Cave National Monument",
+          "kind": "national_monument",
+          "relation": "origin",
+          "state": "South Dakota",
+          "since": "1908-02-07",
+          "note": "1,273.51 acres, the Park Service's acreage of record.",
+          "source": "NPS Land Resources Division, Listing of Acreage (September 30, 2026)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-796",
+          "relation": "same_subject",
+          "note": "Pinnacles, three weeks earlier, reserved rock formations with caves underlying them; Jewel Cave was the first monument whose named object was a cave alone."
+        },
+        {
+          "id": "proc-807",
+          "relation": "same_subject",
+          "note": "Lewis and Clark Cavern, the next cave monument, followed on May 11, 1908."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1933-06-10",
+          "text": "Executive Order 6166 moved the monument from the Forest Service to the National Park Service, effective August 10, 1933.",
+          "source": "Executive Order 6166"
+        },
+        {
+          "date": "1965-10-09",
+          "text": "Congress revised the boundary to cover the cave then known, returning excluded lands to the Black Hills National Forest; the act states no acreage.",
+          "source": "Public Law 89-250, 79 Stat. 971"
+        }
+      ],
+      "uncertain": [
+        "The proclamation and its diagram give no acreage; Interior's 1911 figure of 1,280 acres was marked as an estimate.",
+        "How much of the cave remains unexplored is uncertain; Park Service pages give less than 5 percent or 3 to 5 percent as the share explored."
+      ]
+    }
+  }
+}

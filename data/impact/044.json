@@ -1,0 +1,244 @@
+{
+  "story": 44,
+  "documents": {
+    "proc-502": {
+      "reception": [
+        {
+          "text": "A wire dispatch ran in the Los Angeles Herald under \"PORTO RICO LANDS / President Makes First Reservation For Naval Purposes,\" and on page one of the San Bernardino Sun and the Bakersfield Morning Echo.",
+          "source": "Los Angeles Herald, San Bernardino Sun, Morning Echo, June 30, 1903 (California Digital Newspaper Collection)",
+          "date": "1903-06-30"
+        },
+        {
+          "text": "The Santa Barbara Weekly Press carried the same dispatch.",
+          "source": "Santa Barbara Weekly Press, July 2, 1903",
+          "date": "1903-07-02"
+        },
+        {
+          "text": "No editorial comment has been found, and searches of Colorado and New York papers found nothing on the reservation.",
+          "source": "research entry",
+          "date": "1903"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Presidio, San Juan's penitentiary, was withdrawn from the naval reservation four days after it was reserved.",
+          "source": "EO 220, 33 Stat. 2315",
+          "date": "1903-06-30"
+        },
+        {
+          "kind": "congress",
+          "text": "Congress passed an act to readjust the boundaries of the naval reservations in Puerto Rico.",
+          "source": "Act of Mar. 4, 1907",
+          "date": "1907-03-04"
+        },
+        {
+          "kind": "administrative",
+          "text": "The governor and a Navy commodore exchanged deeds, and Proclamation 819 returned most of the 80-acre Caguas Road tract to the island, keeping the naval hospital and wireless station.",
+          "source": "Proc. 819",
+          "date": "1908-08-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Navy built nothing on Isla Grande until a naval air station contract was awarded on October 30, 1939; the site was largely mangrove swamp and tidal flats, and most of the station was built on dredged fill.",
+          "source": "Bureau of Yards and Docks, Building the Navy's Bases in World War II (1947), vol. 2, ch. 18",
+          "date": "1939-10-30"
+        },
+        {
+          "text": "The Navy and Marines used Culebra for advance-base and landing exercises in the 1910s and 1920s and as a gunnery and bombing range from the late 1930s.",
+          "source": "research entry"
+        },
+        {
+          "text": "Senator Edmund Muskie entered press accounts into the Congressional Record reporting that 304 of 313 Culebra families had asked the Navy to leave; protest and civil disobedience followed in 1971.",
+          "source": "Congressional Record, July 14, 1970",
+          "date": "1970-07-14"
+        },
+        {
+          "text": "Navy training on Culebra ended, with operations moving to Vieques.",
+          "source": "U.S. Army Corps of Engineers",
+          "date": "1975-09-30"
+        }
+      ],
+      "today": [
+        {
+          "name": "Fernando Luis Ribas Dominicci Airport (Isla Grande)",
+          "kind": "other",
+          "relation": "part",
+          "state": "Puerto Rico",
+          "note": "Isla Grande became a naval air station and later San Juan's Isla Grande Airport.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-220",
+          "relation": "modified_by",
+          "note": "Withdrew the Presidio from the naval reservation."
+        },
+        {
+          "id": "eo-219",
+          "relation": "modified_by",
+          "note": "Reserved the President's right to amend the proclamation and invited Navy and governor memoranda on use of the lands."
+        },
+        {
+          "id": "proc-819",
+          "relation": "reduced_by",
+          "note": "Returned most of the Caguas Road tract to Puerto Rico in 1908."
+        },
+        {
+          "id": "uo-013",
+          "relation": "same_subject",
+          "note": "The December 1901 order that first placed Culebra's public lands under the Navy."
+        },
+        {
+          "id": "uo-061",
+          "relation": "same_subject",
+          "note": "Lord's unnumbered-series listing of the naval reservation of June 26, 1903."
+        },
+        {
+          "id": "eo-1042",
+          "relation": "same_subject",
+          "note": "1909 bird reservation over the Culebra group, subject to naval and light-house use."
+        },
+        {
+          "id": "proc-503",
+          "relation": "same_subject",
+          "note": "Companion reservation under the same statute; its San Juan customs use sits on Puntilla ground reserved here."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1907-03-04",
+          "text": "Act of Congress readjusting the boundaries of the naval reservations in Puerto Rico.",
+          "source": "research entry"
+        },
+        {
+          "date": "1941",
+          "text": "Executive Order 8684 added a naval defensive sea area at Culebra.",
+          "source": "Executive Order 8684"
+        },
+        {
+          "date": "1975-09-30",
+          "text": "Navy training on Culebra ended.",
+          "source": "U.S. Army Corps of Engineers"
+        },
+        {
+          "date": "1977",
+          "text": "Former Navy lands on Culebra were divided between the Commonwealth and the Fish and Wildlife Service.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "No departmental request has been found for the San Juan harbor parcels reserved to the Navy.",
+        "When Isla Grande passed to civil airport use is not documented in the sources consulted."
+      ]
+    },
+    "proc-503": {
+      "reception": [
+        {
+          "text": "The Los Angeles Herald ran a short item headed \"Land Reservations in Porto Rico\"; whether it reported this proclamation or the Presidio order is not known.",
+          "source": "Los Angeles Herald, July 1, 1903",
+          "date": "1903-07-01"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Customs at San Juan got only the use, \"until otherwise ordered,\" of buildings on Puntilla Point, which had just been reserved to the Navy.",
+          "source": "Proc. 503, 33 Stat. 2315–2317",
+          "date": "1903-06-30"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The civilian reservations became the custom houses, Marine Hospital Service sites and light-house stations of federal Puerto Rico; several of the light stations named still stand.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-502",
+          "relation": "same_subject",
+          "note": "Companion naval reservation of June 26, 1903."
+        },
+        {
+          "id": "eo-218",
+          "relation": "same_subject",
+          "note": "Same-week reservation of property for the federal courts."
+        }
+      ],
+      "uncertain": [
+        "Whether the Los Angeles Herald item of July 1, 1903 concerned this proclamation is not known."
+      ]
+    },
+    "eo-220": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Withdrew the Presidio, San Juan's penitentiary, from the naval reservation made four days earlier; the order gives no reason.",
+          "source": "33 Stat. 2315",
+          "date": "1903-06-30"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-502",
+          "relation": "modifies",
+          "note": "Withdrew the Presidio from Proclamation 502's naval reservation."
+        }
+      ],
+      "uncertain": [
+        "Who asked for the Presidio's withdrawal is not known; Governor Hunt's administration is a candidate but unconfirmed."
+      ]
+    },
+    "eo-219": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Added no land; kept the President's right to amend the naval reservation and invited the Secretary of the Navy and the governor to set down how the lands would be used.",
+          "source": "Lord, Presidential Executive Orders, Numbered (1944), vol. 1, pp. 21–22",
+          "date": "1903-06-30"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-502",
+          "relation": "modifies",
+          "note": "Conditioned the naval reservation of June 26, 1903."
+        }
+      ]
+    },
+    "uo-062": {
+      "legacy": [
+        {
+          "text": "Lands near Aibonito reserved for military purposes by this order were transferred to Puerto Rico in 1920.",
+          "source": "EO 3310; Lord, Presidential Executive Orders, Numbered (1944), vol. 1, p. 281",
+          "date": "1920-07-17"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1920-07-17",
+          "text": "Executive Order 3310 transferred to Puerto Rico certain lands near Aibonito reserved by this order.",
+          "source": "Lord, Presidential Executive Orders, Numbered (1944), vol. 1, p. 281"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "All federal land in Puerto Rico not reserved by the President before July 1, 1903 passed to the island government.",
+        "source": "Fourth Annual Report of the Governor of Porto Rico (1904), S. Doc. 35, 58th Cong., 3d sess.",
+        "date": "1903-07-01"
+      },
+      {
+        "kind": "political",
+        "text": "No organized objection to the reservations has been found; debate over Puerto Rico in these years concerned its political status, tariffs and citizenship.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

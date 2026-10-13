@@ -25,6 +25,7 @@ Every executive order and proclamation Theodore Roosevelt signed as president (1
 | 5 | `parse_wikisource.py` | `data/sources/wikisource_eo.json` | `data/wikisource_eo.jsonl` | no |
 | 6 | enrichment (worker, `enrich_brief.md`) | `private/enrich_in/NN.jsonl` | `data/enrich/NN.jsonl` | **yes** |
 | 7 | stories (worker, `story_brief.md`) | `private/entries/NNN.md`, base | `data/stories/NNN.md`, `data/stories/texts/NNN.json` | **yes** |
+| 7b | impact (worker, `impact_brief.md`) | `private/entries/NNN.md`, stories, documents | `data/impact/NNN.json`; story Political impact and Legacy sections | **yes** |
 | 8 | `build_dataset.py` | all of `data/` (+ `private/TR_Executive_Actions_Research.md` for entry links) | `documents.jsonl/.csv`, `stories.json`, `stats.json` | optional |
 | 9 | `build_api.py` | `data/documents.jsonl`, `stats.json`, `stories/` | `site/api/v1/`, `site/data/` | no |
 
@@ -33,7 +34,7 @@ GitHub Actions runs only step 9, from committed data. Steps 2, 6 and 7 need priv
 ## Common tasks
 
 **Add a correction.** Add or extend the document's key in `data/corrections.json`:
-- `date`, `title`, `summary`, `states`, `people`, `action` replace the value (date and title changes also leave a "Corrected from …" note on the record);
+- `date`, `title`, `summary`, `states`, `people`, `action` replace the value; `text_note` adds a caution to the text (date and title changes also leave a "Corrected from …" note on the record);
 - `date_note`, `title_note` add a note without changing the value;
 - `why` is required for every replacement and names the source (Statutes volume and page, report and page, newspaper and date).
 Then rebuild. If a fact is only probable, use a note, not a replacement.
@@ -43,6 +44,8 @@ Then rebuild. If a fact is only probable, use a note, not a replacement.
 **Add a collated text.** Only when the text has been checked word for word against a named primary printing (a Statutes page image, a signed original, a period official printing). Add it to `data/stories/texts/NNN.json` under the story it belongs to: `{"proc-476": {"paragraphs": [...], "collated_against": "32 Stat. 2005–2006 (GovInfo page images), 2026-10-12", "notes": "..."}}`. Copy exactly. The build then replaces any machine text for that document and marks it `verified: true`.
 
 **Re-pair a proclamation with its Statutes printing.** Add `{"proc-NNN": {"volume", "page", "date", "contains", "why"}}` to `data/statutes_overrides.json` (`contains` is a word that must appear in the printed text), then rerun `match_statutes.py` and step 8.
+
+**Add impact or legacy for a document.** Edit its entry in `data/impact/NNN.json` under `pipeline/impact_brief.md` (every point needs a `source`; present-day places go in `today` with a `kind` and `relation`; links go in `related` with an id that exists). Never add a place to then-and-now that the research doesn't trace. Rebuild.
 
 **Change summaries or categories.** Edit the document's line in `data/enrich/NN.jsonl` under the rules in `pipeline/enrich_brief.md`, or use `corrections.json` for a sourced fix to a summary.
 

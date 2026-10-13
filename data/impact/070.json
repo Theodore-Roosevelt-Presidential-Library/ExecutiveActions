@@ -1,0 +1,153 @@
+{
+  "story": 70,
+  "documents": {
+    "proc-758": {
+      "reception": [
+        {
+          "text": "The Associated Press reported the strip as an anti-smuggling measure, and the story ran in the Los Angeles Herald as \"President to End Smuggling\" and in the Santa Barbara Morning Press, Riverside Enterprise and San Bernardino Sun.",
+          "source": "Los Angeles Herald, May 31, 1907",
+          "date": "1907-05-31"
+        },
+        {
+          "text": "A shorter syndicated item, \"Hopes to Prevent Smuggling,\" reached small California weeklies.",
+          "source": "King City Rustler, June 7, 1907",
+          "date": "1907-06-07"
+        },
+        {
+          "text": "\"Strikes Blow at Smugglers\" told readers smuggling had become less profitable for the bands working the border, and quoted a secret service official from near Nogales that the good effects were already noticeable.",
+          "source": "San Pedro Daily News, June 25, 1907; Long Beach Telegram, June 24, 1907",
+          "date": "1907-06"
+        },
+        {
+          "text": "No objection to the strip, from border merchants or anyone else, turned up in the California papers searched.",
+          "source": "California Digital Newspaper Collection, May 27–July 15, 1907",
+          "date": "1907"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Federal officers in Los Angeles received official instructions from Washington on the proclamation.",
+          "source": "San Pedro Daily News, June 25, 1907",
+          "date": "1907-06"
+        },
+        {
+          "kind": "local",
+          "text": "The press warned that buildings straddling the line on public land, used as smugglers' storehouses, would have to be removed.",
+          "source": "San Pedro Daily News, June 25, 1907",
+          "date": "1907-06"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The strip became known as the \"Roosevelt Reservation,\" and Congress recognized it when it extended the Papago Indian Reservation in 1937.",
+          "source": "Act of July 28, 1937, ch. 527, 50 Stat. 536",
+          "date": "1937-07-28"
+        },
+        {
+          "text": "Because the strip is already federal land, it has figured prominently in border-barrier construction since 2019.",
+          "source": "research entry"
+        },
+        {
+          "text": "A federal judge found in 2026 that the Roosevelt Reservation likely exists along the Tohono O'odham Nation's border, in a preliminary ruling that rejected the Nation's argument that its land was never public land in 1907.",
+          "source": "Tohono O'odham Nation v. Mullin, No. 26-2127 (D.D.C.)",
+          "date": "2026-08-14"
+        }
+      ],
+      "today": [
+        {
+          "name": "Roosevelt Reservation",
+          "kind": "other",
+          "relation": "origin",
+          "state": "California, Arizona, New Mexico",
+          "since": "1907-05-27",
+          "note": "The sixty-foot federal strip along the Mexican border; parts have been transferred to military jurisdiction for limited terms.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-810",
+          "relation": "same_subject",
+          "note": "A matching sixty-foot strip along the Canadian border, reserved a year later."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1937-07-28",
+          "text": "Congress extended the Papago Indian Reservation while expressly preserving the 1907 sixty-foot strip.",
+          "source": "50 Stat. 536"
+        },
+        {
+          "date": "2019-09",
+          "text": "Interior announced the transfer of about 560 acres of the reservation to the Army for three years, for some 70 miles of wall, in Yuma County, the El Paso area and San Diego County.",
+          "source": "ABC News, September 18, 2019"
+        },
+        {
+          "date": "2025-04-11",
+          "text": "A presidential memorandum directed that the Defense Department be given jurisdiction over federal border lands, including the Roosevelt Reservation; in New Mexico a National Defense Area about 170 miles long followed.",
+          "source": "Presidential memorandum of April 11, 2025"
+        },
+        {
+          "date": "2025-12-10",
+          "text": "Interior announced the transfer of roughly 760 acres in San Diego and Imperial Counties to the Navy for three years.",
+          "source": "Interior Department announcement, December 10, 2025"
+        },
+        {
+          "date": "2026-08-14",
+          "text": "A federal district court denied the Tohono O'odham Nation a preliminary injunction against wall construction along about 62 miles of its border, finding the reservation likely exists there.",
+          "source": "Tohono O'odham Nation v. Mullin, No. 26-2127 (D.D.C.)"
+        }
+      ],
+      "uncertain": [
+        "Which department asked for the proclamation is not known; Interior's Lands and Railroads Division letters (NARA RG 48) or the General Land Office file (RG 49) would settle it.",
+        "How the strip was received in Arizona and New Mexico papers has not been tested.",
+        "No published total of how much of the strip is now under military jurisdiction has been found."
+      ]
+    },
+    "proc-776": {
+      "reception": [
+        {
+          "text": "The proclamation was printed widely from the Associated Press text; its phrase \"rugged hardihood\" appears in fourteen items in California papers that fall.",
+          "source": "California Digital Newspaper Collection, October 27–November 30, 1907",
+          "date": "1907"
+        },
+        {
+          "text": "The Ventura Morning Free Press called it a \"Characteristic Document of Nation's Executive.\"",
+          "source": "Ventura Morning Free Press, October 28, 1907",
+          "date": "1907-10-28"
+        },
+        {
+          "text": "A letter to the Sacramento Union arguing for keeping saloons out of the city's home districts quoted the proclamation's warning against \"love of ease and of luxury\" as a \"clarion call of the President.\"",
+          "source": "Sacramento Union, November 3, 1907",
+          "date": "1907-11-03"
+        },
+        {
+          "text": "None of the coverage read connected the passage on prosperity to the Panic of 1907 then under way.",
+          "source": "research entry"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The proclamation joined the unbroken annual Thanksgiving line; the date rested on custom until Congress fixed it in 1941.",
+          "source": "55 Stat. 862",
+          "date": "1941"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-665",
+          "relation": "same_subject",
+          "note": "The 1906 Thanksgiving proclamation, which also used simplified spellings."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1941-12-26",
+          "text": "A joint resolution fixed Thanksgiving on the fourth Thursday of November, after Franklin Roosevelt had moved it a week earlier in 1939–1941.",
+          "source": "55 Stat. 862"
+        }
+      ]
+    }
+  }
+}

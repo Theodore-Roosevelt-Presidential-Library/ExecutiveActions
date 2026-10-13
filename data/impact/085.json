@@ -1,0 +1,83 @@
+{
+  "story": 85,
+  "documents": {
+    "eo-296": {
+      "reception": [
+        {"text": "An Associated Press dispatch reported that Roosevelt had before him reports of many instances of gross fraud and error under the naturalization laws, evils he had seen himself in New York City's government.", "source": "San Francisco Call, March 11, 1905", "date": "1905-03-10"},
+        {"text": "A second AP dispatch announced the three commissioners and said the work would \"commence at once.\"", "source": "Stockton Daily Independent, March 26, 1905", "date": "1905-03-25"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The department heads chose the commissioners: Milton D. Purdy of Justice as chairman, Gaillard Hunt of State, and Richard K. Campbell of Commerce and Labor.", "source": "Report of the Commission on Naturalization, H. Doc. 46, 59th Cong., 1st Sess.", "date": "1905"},
+        {"kind": "administrative", "text": "The commission counted 5,160 courts naturalizing aliens, 157 federal and 5,003 state, and recommended a uniform, federally supervised process.", "source": "Report of the Commission on Naturalization, H. Doc. 46, p. 22", "date": "1905"},
+        {"kind": "administrative", "text": "The commission submitted its report on November 8, 1905, a week before its deadline.", "source": "Report of the Commission on Naturalization, H. Doc. 46, letter of transmittal", "date": "1905-11-08"},
+        {"kind": "congress", "text": "Roosevelt sent the commission's report to Congress.", "source": "Roosevelt, message to Congress, December 5, 1905", "date": "1905-12-05"}
+      ],
+      "legacy": [
+        {"text": "The commission's report led directly to the Naturalization Act of 1906, which made the federal government the arbiter of naturalization and standardized the process and certificate nationwide.", "source": "Act of June 29, 1906, ch. 3592, 34 Stat. 596", "date": "1906-06-29"},
+        {"text": "The 1906 act renamed the Bureau of Immigration the Bureau of Immigration and Naturalization, the institutional ancestor of today's citizenship service.", "source": "Act of June 29, 1906, § 1, 34 Stat. 596", "date": "1906-06-29"},
+        {"text": "Commissioner Richard K. Campbell went on to head the bureau's Naturalization Division and served as Commissioner of Naturalization from 1913 to 1922.", "source": "research entry", "date": "1913"}
+      ],
+      "later_actions": [
+        {"date": "1906-06-29", "text": "Congress passed the Naturalization Act, standardizing naturalization under federal supervision.", "source": "ch. 3592, 34 Stat. 596"}
+      ],
+      "uncertain": ["The text of EO 296 has not been found in print; the signed original in the National Archives would settle its wording."]
+    },
+    "eo-296-a": {
+      "reception": [
+        {"text": "The Audubon association printed the full order, with its lot acreages, in its annual report.", "source": "Bird-Lore 7 (1905), p. 299", "date": "1905"}
+      ],
+      "legacy": [
+        {"text": "Stump Lake was the third federal bird reservation in the country and the first in North Dakota.", "source": "U.S. Fish and Wildlife Service, Stump Lake NWR", "date": "1905-03-09"},
+        {"text": "Stump Lake and Devils Lake began rising in 1993; by 2005 the refuge islands were completely submerged, and they remain under 15 feet of water.", "source": "U.S. Fish and Wildlife Service, Stump Lake NWR", "date": "2005"}
+      ],
+      "today": [
+        {"name": "Stump Lake National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "origin", "state": "North Dakota", "since": "1905-03-09", "note": "Administered from the Devils Lake Wetland Management District; closed to the public, its islands entirely under water.", "source": "U.S. Fish and Wildlife Service"}
+      ],
+      "related": [
+        {"id": "uo-054", "relation": "same_subject", "note": "Pelican Island, the first federal bird reservation (1903)."},
+        {"id": "uo-098", "relation": "same_subject", "note": "Breton Island, the second federal bird reservation (October 4, 1904)."},
+        {"id": "eo-369-a", "relation": "same_subject", "note": "The second Breton order, later in 1905, which can make Stump Lake look like the second reservation in the numbered series."}
+      ]
+    },
+    "eo-289": {
+      "political_impact": [
+        {"kind": "administrative", "text": "Isthmian Canal Commission Secretary Murphy announced that all positions exempted from examination by executive order had been filled and that further appointments would go through the Civil Service Commission.", "source": "Fresno Evening Democrat, January 7, 1905; Santa Rosa Press Democrat, January 8, 1905", "date": "1905-01-07"}
+      ],
+      "related": [
+        {"id": "eo-273", "relation": "amends", "note": "Added further excepted positions on the Isthmus to the November 1904 list."}
+      ]
+    },
+    "eo-306": {
+      "related": [
+        {"id": "eo-310", "relation": "modified_by", "note": "Set compensation for a board EO 306 said would serve without it."}
+      ]
+    },
+    "eo-310": {
+      "related": [
+        {"id": "eo-311", "relation": "revoked_by", "note": "Revoked nine days later; the board itself survived."},
+        {"id": "eo-306", "relation": "modifies", "note": "Set pay for the board created by EO 306."}
+      ]
+    },
+    "eo-311": {
+      "related": [
+        {"id": "eo-310", "relation": "revokes", "note": "Revoked only the compensation order, not the board."}
+      ]
+    },
+    "eo-292": {
+      "related": [
+        {"id": "eo-246", "relation": "same_subject", "note": "Earlier extension of the Spanish Treaty Claims Commission, to September 2, 1904."},
+        {"id": "eo-345", "relation": "same_subject", "note": "The next extension, to March 2, 1906."}
+      ]
+    },
+    "eo-342-b": {
+      "political_impact": [
+        {"kind": "local", "text": "The order added lands to the Uintah Indian Reservation to protect the Utes' water rights on Rock Creek.", "source": "research entry", "date": "1905-07-21"}
+      ]
+    },
+    "eo-343-a": {
+      "political_impact": [
+        {"kind": "local", "text": "The order added further lands to the Uintah Indian Reservation to protect the Utes' water rights on Rock Creek.", "source": "research entry", "date": "1905-07-21"}
+      ]
+    }
+  }
+}

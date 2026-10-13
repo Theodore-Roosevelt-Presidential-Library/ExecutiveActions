@@ -74,9 +74,15 @@ The research entries and the story workers turned up errors in the source lists.
 
 `build_dataset.py` applies them on top of the catalog, keeping the old value in a "Corrected from …" note.
 
+## 8a. Impact, legacy and "then and now" (`pipeline/impact_brief.md`)
+
+A second pass over all 114 research entries added what happened after each document: reception at the time, political effects in the period, later legacy, later government actions, the present-day places that trace to it, and links between documents. Workers wrote these as structured points in `data/impact/NNN.json`, each with the entry's own source, and rewrote each story's Political impact and Legacy sections to carry the material the first pass had cut. The same rules held: nothing beyond the entry, unresolved points kept as `uncertain`, newspaper quotations that the research took from unchecked OCR paraphrased rather than quoted. A separate review compared a sample of 21 entries against the output; its findings (wrong directions on a few links, duplicate names for the same forest, a handful of conflicting lineages) were fixed before release.
+
+The result: 533 documents with impact points, 449 with links to other documents, and 316 present-day places (185 distinct in the then-and-now list, with institutions left out). The then-and-now list covers what the research traces, not every later boundary change.
+
 ## 9. Assembly (`pipeline/build_dataset.py`) and API (`pipeline/build_api.py`)
 
-`build_dataset.py` merges catalog, Statutes texts and citations (with page-image links), Wikisource texts, collated texts, corrections, enrichment and story links into `data/documents.jsonl`, `documents.csv`, `stories.json` and `stats.json`. Text precedence: collated, then Statutes (proclamations) or Wikisource (executive orders). It adds the three Statutes-only proclamations and a Day by Day link for every fully dated document.
+`build_dataset.py` merges catalog, Statutes texts and citations (with page-image links), Wikisource texts, collated texts, corrections, enrichment and story links into `data/documents.jsonl`, `documents.csv`, `stories.json` and `stats.json`. Text precedence: collated, then Statutes (proclamations) or Wikisource (executive orders). Where GovInfo's date metadata for a Statutes printing disagrees with the proclamation's own dating clause, the clause wins (taken from a collated text, or from the digitization when it agrees with the American Presidency Project). It adds the three Statutes-only proclamations and a Day by Day link for every fully dated document.
 
 `build_api.py` turns those files into the static API in `site/api/v1/` and copies the bulk files to `site/data/`. GitHub Actions runs it on every push to `main` and deploys `site/` to GitHub Pages; nothing else in the pipeline runs in CI.
 

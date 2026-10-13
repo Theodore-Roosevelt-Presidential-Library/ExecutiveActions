@@ -1,0 +1,90 @@
+{
+  "story": 18,
+  "documents": {
+    "proc-563": {
+      "reception": [
+        {
+          "text": "The proclamation itself drew little controversy: it covered land already reserved, in a lightly settled territory, under a specific act of Congress.",
+          "source": "research entry",
+          "date": "1905"
+        },
+        {
+          "text": "When the bison arrived at Cache in October 1907, the town turned out along with a band of Comanche people, some of whom camped at the corrals on October 20.",
+          "source": "Elwin R. Sanborn, Zoological Society Bulletin No. 28, pp. 409–10",
+          "date": "1907-10"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "Congress appropriated $15,000 to fence the preserve, build sheds and maintain a buffalo herd presented by the New York Zoological Society, the first federal money spent developing land for wildlife.",
+          "source": "Act of June 30, 1906, ch. 3913, 34 Stat. 696",
+          "date": "1906-06-30"
+        },
+        {
+          "kind": "administrative",
+          "text": "Work began on a steel-wire fence seven feet six inches high, shelter sheds, a hay barn and flood-gates, and the first year's hay was bought.",
+          "source": "American Bison Society, First Report (1905–1907)",
+          "date": "1906"
+        },
+        {
+          "kind": "administrative",
+          "text": "With the renaming of the forest reserves as national forests, the preserve became the Wichita Mountains National Forest and Game Preserve.",
+          "source": "research entry",
+          "date": "1907"
+        },
+        {
+          "kind": "administrative",
+          "text": "Fifteen bison from the New York Zoological Park traveled 1,858 miles by rail to Cache, with Forest Service guard Frank Rush riding along to take charge of the herd.",
+          "source": "American Bison Society, First Report (1905–1907), pp. 64–67",
+          "date": "1907-10"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The transplanted herd took hold and grew, in one of the first deliberate reintroductions of a native species to its former range in North America.",
+          "source": "research entry"
+        },
+        {
+          "text": "The Wichita became the template for later big-game refuges, including the National Bison Range in Montana in 1908.",
+          "source": "research entry",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Wichita Mountains Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Oklahoma",
+          "since": "1905-06-02",
+          "note": "59,020 acres of mixed-grass prairie and granite uplands; still home to descendants of the 1907 bison herd, along with elk and longhorn cattle.",
+          "source": "U.S. Fish and Wildlife Service, Wichita Mountains Wildlife Refuge, About Us"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-628",
+          "relation": "enlarged_by",
+          "note": "Roosevelt enlarged the Wichita reserve on May 29, 1906."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1906-06-30",
+          "text": "Congress appropriated $15,000 for a fence, sheds and the maintenance of a buffalo herd on the preserve.",
+          "source": "34 Stat. 696"
+        },
+        {
+          "date": "1907",
+          "text": "Renamed the Wichita Mountains National Forest and Game Preserve when forest reserves became national forests.",
+          "source": "research entry"
+        }
+      ],
+      "uncertain": [
+        "Whether the Comanche leader Quanah Parker was at Cache when the bison arrived is not known; neither 1907–08 eyewitness account names him.",
+        "Current head counts for the refuge's bison, elk and longhorn herds are not published."
+      ]
+    }
+  }
+}

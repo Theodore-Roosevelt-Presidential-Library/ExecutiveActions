@@ -1,0 +1,71 @@
+{
+  "story": 15,
+  "documents": {},
+  "story_level": {
+    "reception": [
+      {
+        "text": "The press response was quick, loud and mostly mocking; London papers treated the order as proof of American barbarism and American editors misspelled the president's name.",
+        "source": "research entry",
+        "date": "1906"
+      },
+      {
+        "text": "The San Francisco Call noted that Roosevelt's own letter to the Public Printer used \"dropped,\" not the Board's \"dropt.\"",
+        "source": "San Francisco Call, September 3, 1906, p. 6",
+        "date": "1906-09-03"
+      },
+      {
+        "text": "At the Supreme Court, Chief Justice Fuller's dry \"Ah!\" at a brief quoting Justice Bradley in reformed spelling drew a general smile, and the Solicitor General said such changes would be guarded against.",
+        "source": "Evening Star (Washington), October 31, 1906, p. 3",
+        "date": "1906-10-30"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "The Government Printing Office put the order into effect for executive-department publications by a circular to its compositors.",
+        "source": "GPO circular, September 4, 1906",
+        "date": "1906-09-04"
+      },
+      {
+        "kind": "congress",
+        "text": "Congress printed Roosevelt's December 1906 annual message and his Panama message in conventional spelling, though he had sent them in the reformed spelling.",
+        "source": "Congressional Record, vol. 41, p. 22; Morning Press (Santa Barbara), December 20, 1906, p. 1",
+        "date": "1906-12"
+      },
+      {
+        "kind": "congress",
+        "text": "The House, in Committee of the Whole, voted 142 to 25 to bar appropriated money from printing documents that did not follow generally accepted dictionaries.",
+        "source": "Congressional Record, 59th Cong., 2d sess., vol. 41, pp. 321, 369–370",
+        "date": "1906-12-12"
+      },
+      {
+        "kind": "congress",
+        "text": "The House adopted H. Res. 663 without a division, declaring that the Printing Office should follow the spelling of generally accepted dictionaries, including for executive-department publications.",
+        "source": "Congressional Record, 59th Cong., 2d sess., vol. 41, pp. 321, 369–370",
+        "date": "1906-12-13"
+      },
+      {
+        "kind": "political",
+        "text": "Roosevelt told Printing Committee chairman Landis he would revoke the order, and the next day the House struck the spelling limit from the appropriation bill on that promise. No written revocation has been found.",
+        "source": "Rock Island Argus, December 13 and 14, 1906; Salt Lake Herald, December 15, 1906, p. 1",
+        "date": "1906-12-14"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "Roosevelt accepted membership on the Simplified Spelling Board nine days after backing down, and still wrote \"thru\" in a letter to Hamlin Garland nearly a year later.",
+        "source": "research entry",
+        "date": "1907-11-23"
+      },
+      {
+        "text": "Carnegie stopped funding the Simplified Spelling Board in 1915, and the Board carried on without him until about 1920.",
+        "source": "Joseph Frazier Wall, Andrew Carnegie (1989), p. 893",
+        "date": "1915"
+      },
+      {
+        "text": "The episode is remembered as a plain limit on presidential power: an executive instruction reaches only as far as Congress will pay for it.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "story": 49,
+  "documents": {
+    "proc-515": {
+      "reception": [
+        {
+          "text": "The Morning Oregonian's Washington bureau put the signing on page one and called it \"record time in creating forest reserves.\"",
+          "source": "Morning Oregonian, February 6, 1904, p. 1",
+          "date": "1904-02-06"
+        },
+        {
+          "text": "Short wire items in La Grande and Salem papers reported the signing without comment or objection.",
+          "source": "La Grande Morning Observer, February 7, 1904, p. 1; Weekly Oregon Statesman, February 9, 1904, p. 4",
+          "date": "1904-02"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "political",
+          "text": "Oregon's Senator Fulton and Representative Williamson called on Roosevelt the morning he signed and urged him to act promptly.",
+          "source": "Morning Oregonian, February 6, 1904, p. 1",
+          "date": "1904-02-05"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The reserve was broken up in 1906: part went into the new Blue Mountains reserve, the rest returned to the public domain, and the Baker City name was dropped.",
+          "source": "34 Stat. 3194; Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1906-03-15"
+        }
+      ],
+      "today": [
+        {
+          "name": "Wallowa-Whitman National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Oregon",
+          "note": "The lands kept in 1906 lie mainly in this forest.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-618",
+          "relation": "superseded_by",
+          "note": "The Blue Mountains proclamation took in part of the Baker City reserve and ended it as a separate reserve."
+        }
+      ],
+      "uncertain": [
+        "The General Land Office estimated the reserve at 52,480 acres, one section more than a count of the sections in the proclamation's own description; the reason is not known."
+      ]
+    },
+    "proc-517": {
+      "legacy": [
+        {
+          "text": "Cave Hills became a national forest in 1907 and was consolidated into the Sioux National Forest by an executive order effective July 1, 1908.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1908-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "South Dakota",
+          "note": "The Cave Hills lands are a unit of the Sioux Ranger District.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "uncertain": [
+        "How South Dakota newspapers greeted the Cave Hills reserve in March 1904 has not been checked."
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Gifford Pinchot wrote the President's secretary the day before the signing that he agreed with Interior Secretary Hitchcock that the Cave Hills and Slim Buttes proclamations should be signed.",
+          "source": "Pinchot to Loeb, March 4, 1904, TR Papers (TR Center o157998)",
+          "date": "1904-03-04"
+        }
+      ]
+    },
+    "proc-518": {
+      "legacy": [
+        {
+          "text": "Slim Buttes became a national forest in 1907 and was consolidated into the Sioux National Forest by an executive order effective July 1, 1908.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1908-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "South Dakota",
+          "note": "The Slim Buttes lands are a unit of the Sioux Ranger District.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "uncertain": [
+        "How South Dakota newspapers greeted the Slim Buttes reserve in March 1904 has not been checked."
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Gifford Pinchot wrote the President's secretary the day before the signing that he agreed with Interior Secretary Hitchcock that the Cave Hills and Slim Buttes proclamations should be signed.",
+          "source": "Pinchot to Loeb, March 4, 1904, TR Papers (TR Center o157998)",
+          "date": "1904-03-04"
+        }
+      ]
+    },
+    "proc-522": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The General Land Office listed Fish Lake among the reserves enlarged that year, with an estimated area of 199,040 acres.",
+          "source": "Annual Report of the Commissioner of the General Land Office, fiscal 1904, p. 299",
+          "date": "1904"
+        }
+      ],
+      "today": [
+        {
+          "name": "Fishlake National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ]
+    },
+    "proc-524": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The General Land Office counted 130,560 acres added and 649,160 acres removed, a net reduction of 518,600 acres, and listed Yellowstone among the reserves reduced.",
+          "source": "Annual Report of the Commissioner of the General Land Office, fiscal 1904, p. 299",
+          "date": "1904"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Yellowstone reserve was split in 1908 into several national forests.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Shoshone National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Wyoming",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        },
+        {
+          "name": "Bridger-Teton National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Wyoming",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        },
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ]
+    },
+    "proc-525": {
+      "legacy": [
+        {
+          "text": "The Grantsville reserve was merged into the Wasatch National Forest in 1908.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The Utah reserves answered petitions from Utah citizens, received over several years, for small reserves to protect water for irrigation and household use.",
+          "source": "Deseret Evening News, March 17, 1903, p. 5",
+          "date": "1903"
+        }
+      ]
+    },
+    "proc-529": {
+      "legacy": [
+        {
+          "text": "The Salt Lake reserve was merged into the Wasatch National Forest in 1908.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The Utah reserves answered petitions from Utah citizens, received over several years, for small reserves to protect water for irrigation and household use.",
+          "source": "Deseret Evening News, March 17, 1903, p. 5",
+          "date": "1903"
+        }
+      ]
+    },
+    "proc-527": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The General Land Office listed Battlement Mesa among the reserves reduced that year, leaving an estimated 808,960 acres.",
+          "source": "Annual Report of the Commissioner of the General Land Office, fiscal 1904, p. 299",
+          "date": "1904"
+        }
+      ]
+    },
+    "proc-528": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The General Land Office listed White River among the reserves reduced that year, leaving an estimated 978,880 acres.",
+          "source": "Annual Report of the Commissioner of the General Land Office, fiscal 1904, p. 299",
+          "date": "1904"
+        }
+      ]
+    },
+    "proc-531": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The General Land Office listed Bitter Root among the reserves reduced that year, leaving an estimated 4,089,600 acres.",
+          "source": "Annual Report of the Commissioner of the General Land Office, fiscal 1904, p. 299",
+          "date": "1904"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Bitter Root reserve was divided in 1908 among the Bitterroot, Nezperce, Salmon and other national forests.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1908"
+        }
+      ],
+      "today": [
+        {
+          "name": "Bitterroot National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana and Idaho",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "uncertain": [
+        "Who asked for the Bitter Root reduction, and why, is not known; the Interior Secretary's recommendation letters in the General Land Office forest-reserve files would settle it."
+      ]
+    },
+    "proc-534": {
+      "reception": [
+        {
+          "text": "Before the signing, a Washington dispatch reprinted across California tied the larger Warner Mountain proposal to the indicted Hyde–Benson land ring, which had bought barren land inside its lines to trade for timber scrip.",
+          "source": "Humboldt Times, February 25, 1904; Mariposa Gazette, March 19, 1904",
+          "date": "1904-02"
+        },
+        {
+          "text": "A search of California papers found no coverage of the November 1904 signing.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1904-11"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "Instead of the roughly million-acre withdrawal reported in 1903, which reached into Oregon, Roosevelt created two separate California reserves; Warner Mountains covered 306,518 acres gross.",
+          "source": "Brown, History of the Modoc National Forest (1945), p. 20",
+          "date": "1904-11-29"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Warner Mountains was combined into the Modoc National Forest on July 1, 1908.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)",
+          "date": "1908-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Modoc National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "California",
+          "note": "With the Modoc reserve, the core of today's forest.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-535",
+          "relation": "same_subject",
+          "note": "Signed the same day for the neighboring Modoc reserve."
+        }
+      ],
+      "uncertain": [
+        "The February 1904 land-fraud dispatch is known only from rough newspaper OCR and should be read from the page image before it is quoted."
+      ]
+    },
+    "proc-535": {
+      "reception": [
+        {
+          "text": "A search of California papers found no coverage of the November 1904 signing.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1904-11"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The reserve answered an Alturas mass meeting that asked, with no reported dissent, for a permanent Modoc reserve to protect the streams feeding the Pit River valleys, and a petition from more than two hundred farmers and stock raisers.",
+          "source": "Alturas New Era, March 16, 1904, p. 5",
+          "date": "1904-03"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Roosevelt enlarged Modoc by 570,000 acres in 1908 and by 306,281 acres in 1909, bringing it to 1,471,817 acres gross.",
+          "source": "Brown, History of the Modoc National Forest (1945), p. 20",
+          "date": "1909"
+        }
+      ],
+      "today": [
+        {
+          "name": "Modoc National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "California",
+          "since": "1904-11-29",
+          "note": "288,218 acres gross at creation.",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-800",
+          "relation": "enlarged_by",
+          "note": "Added 570,000 acres."
+        },
+        {
+          "id": "proc-853",
+          "relation": "enlarged_by",
+          "note": "Added 306,281 acres."
+        },
+        {
+          "id": "proc-534",
+          "relation": "same_subject",
+          "note": "Signed the same day for the neighboring Warner Mountains reserve, later merged into Modoc."
+        }
+      ],
+      "uncertain": [
+        "The Alturas mass-meeting resolutions are known only from rough newspaper OCR and should be read from the page image before they are quoted."
+      ]
+    },
+    "proc-537": {
+      "today": [
+        {
+          "name": "Bighorn National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Wyoming",
+          "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "Senator Weldon B. Heyburn of Idaho, the reserves' most persistent critic in Congress, was writing to the White House about forest reserves by September 1904.",
+        "source": "Pinchot to Loeb, September 12, 1904 (TR Center o46805)",
+        "date": "1904-09"
+      },
+      {
+        "kind": "local",
+        "text": "Where there was friction it was local and economic: ranchers, sheepmen and timber operators often saw new reserves as a lock-up of range and timber, while irrigators in places like Modoc County asked for them.",
+        "source": "research entry",
+        "date": "1904"
+      }
+    ],
+    "reception": [
+      {
+        "text": "California papers carried thirty-six items on the Warner Mountain reserve from 1903 to 1905, across twenty-one titles.",
+        "source": "California Digital Newspaper Collection",
+        "date": "1903"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The Transfer Act moved the reserves to the Department of Agriculture; Pinchot's bureau became the Forest Service that July, and the reserves became national forests in 1907.",
+        "source": "33 Stat. 628",
+        "date": "1905-02-01"
+      },
+      {
+        "text": "The Colorado reserves of 1904 live on within the White River, Grand Mesa and Pike national forests.",
+        "source": "Forest Service, Establishment and Modification of National Forest Boundaries (1959)"
+      }
+    ]
+  }
+}

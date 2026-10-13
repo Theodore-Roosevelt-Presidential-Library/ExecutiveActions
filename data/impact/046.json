@@ -1,0 +1,37 @@
+{
+  "story": 46,
+  "documents": {
+    "proc-497": {
+      "political_impact": [
+        {"kind": "administrative", "text": "The old Cheyenne River Agency grounds, held in reserve since the agency moved upriver in 1891, became subject to disposal like the rest of the ceded Sioux lands, except the 160 acres titled to St. John's Mission School.", "source": "32 Stat. 2035", "date": "1903-02-07"}
+      ],
+      "legacy": [
+        {"text": "The 160-acre mission tract excepted here was itself declared subject to disposal in March 1904, after the Episcopal Church's missionary society said it no longer wanted it.", "source": "Proclamation 521", "date": "1904-03-30"},
+        {"text": "The replacement agency site north of the Cheyenne River was later abandoned when the Oahe Dam's reservoir flooded the Missouri bottoms, and the agency moved to Eagle Butte.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "proc-521", "relation": "modified_by", "note": "Declared the 160-acre St. John's Mission tract, excepted in 1903, subject to disposal as well."}
+      ],
+      "uncertain": [
+        "Who asked for the proclamation is not known; the Interior Department's letters to the State Department may show it.",
+        "Whether South Dakota newspapers noticed the proclamation in February and March 1903 has not been checked.",
+        "The acreage released is not stated; the boundaries suggest roughly fifteen square miles, a rough geometric estimate only.",
+        "The exact date St. John's Mission School closed is not known; it was gone by mid-1903."
+      ]
+    },
+    "proc-504": {
+      "political_impact": [
+        {"kind": "local", "text": "By reciting that the county seat was removed from Ioland to Grand in 1893, the proclamation treated Grand as Day County's working seat for federal land purposes, though which town was the lawful seat was still disputed.", "source": "33 Stat. 2317–2318; Squire, Chronicles of Oklahoma 28 (1950)", "date": "1903-08-12"},
+        {"kind": "court", "text": "In a 1907 bond case the territorial supreme court accepted that Ioland was the original seat and that Grand was where the county's business was done, but declined to decide which was the lawful seat.", "source": "Board of County Commissioners of Day County v. State of Kansas, 19 Okla. 375, 91 P. 699", "date": "1907-09-05"}
+      ],
+      "legacy": [
+        {"text": "Day County was abolished at Oklahoma statehood; its land north of the Canadian went to Ellis County and the land south to Roger Mills County.", "source": "Everett, Encyclopedia of Oklahoma History and Culture", "date": "1907-11-16"},
+        {"text": "Grand lost a county-seat fight to Arnett and, once the county property finished moving in the spring of 1909, ceased to be a town of any importance; by 1950 nothing was left to show where it stood.", "source": "Squire, Chronicles of Oklahoma 28 (1950), p. 402", "date": "1909"}
+      ],
+      "uncertain": [
+        "Who asked for the proclamation is not known; the Interior Department's letters to the State Department may show it.",
+        "Whether the Day County Tribune at Grand or other western Oklahoma papers noticed the proclamation in August and September 1903 has not been checked."
+      ]
+    }
+  }
+}

@@ -28,7 +28,7 @@
 <a class="skip" href="#api">Skip to the content</a>
 <header class="bar">
   <a class="brand" href="index.html"><b>Executive Actions</b>Theodore Roosevelt Presidential Library</a>
-  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="about.html">About</a><a href="api.html" aria-current="page">API &amp; widgets</a></nav>
+  <nav aria-label="Site"><a href="index.html">Explore</a><a href="stories.html">Stories</a><a href="then-and-now.html">Then &amp; now</a><a href="about.html">About</a><a href="api.html" aria-current="page">API &amp; widgets</a></nav>
 </header>
 <main class="wrap doc" id="api" tabindex="-1">
   <h1>Use the data</h1>
@@ -43,13 +43,14 @@
     <tbody>
       <tr><td><a href="api/v1/index.json">index.json</a></td><td>Dataset metadata, counts by type, year, month and subject, sources, license and the endpoint list</td></tr>
       <tr><td><a href="api/v1/documents.json">documents.json</a></td><td>Every document in compact form: id, type, number, date, title, summary, categories, action, states, significance, stories, has_text. Lord's duplicate entries come last, marked <code>duplicate_of</code></td></tr>
-      <tr><td><a href="api/v1/documents/proc-563.json">documents/{id}.json</a></td><td>One full record: text and its provenance, citations, countersignature, places, people, date notes, story titles, previous and next by date</td></tr>
+      <tr><td><a href="api/v1/documents/proc-563.json">documents/{id}.json</a></td><td>One full record: text and its provenance, citations, countersignature, places, people, date and title notes, what happened next (reception, impact, legacy, where it stands today), connected documents, story titles, previous and next by date</td></tr>
       <tr><td><a href="api/v1/years/1908.json">years/{YYYY}.json</a></td><td>Documents signed in a year (1901–1909)</td></tr>
       <tr><td><a href="api/v1/categories/index.json">categories/index.json</a>, <a href="api/v1/categories/forests.json">categories/{slug}.json</a></td><td>Subjects with counts, and the documents in each</td></tr>
       <tr><td><a href="api/v1/states/index.json">states/index.json</a>, <a href="api/v1/states/arizona.json">states/{slug}.json</a></td><td>States and territories with counts, and the documents acting on each</td></tr>
       <tr><td><a href="api/v1/types/proclamation.json">types/{type}.json</a></td><td><code>executive_order</code>, <code>proclamation</code> or <code>unnumbered_order</code></td></tr>
       <tr><td><a href="api/v1/stories/index.json">stories/index.json</a>, stories/{number or slug}.json</td><td>The stories behind the documents: metadata, Markdown, rendered HTML, open questions and the documents each covers</td></tr>
       <tr><td><a href="api/v1/on-this-day/06-08.json">on-this-day/{MM-DD}.json</a></td><td>Documents signed on that calendar date in any year, most significant first. Every date has a file, even when it is empty</td></tr>
+      <tr><td><a href="api/v1/then-and-now/index.json">then-and-now/index.json</a></td><td>Present-day parks, forests, refuges and other places that trace to a Roosevelt document, with how they are linked. Also <code>then-and-now/{kind}.json</code></td></tr>
       <tr><td><a href="api/v1/countersigners.json">countersigners.json</a></td><td>Who countersigned the proclamations, in what role, how often and when</td></tr>
       <tr><td><a href="api/v1/search.json">search.json</a></td><td>id, title, summary, date and type for client-side search</td></tr>
     </tbody>

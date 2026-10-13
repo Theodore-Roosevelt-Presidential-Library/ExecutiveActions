@@ -1,0 +1,109 @@
+{
+  "story": 59,
+  "documents": {
+    "proc-604": {
+      "reception": [
+        {
+          "text": "Asked whether the proclamation would be agreeable, President Carlos F. Morales and his foreign minister welcomed it, and the Dominican government accepted only after asking for definite assurances that its own arms purchases would be let through.",
+          "source": "FRUS 1905, doc. 353, pp. 398–399",
+          "date": "1905-10-14"
+        },
+        {
+          "text": "Made public on October 17, the proclamation went out as a short Associated Press item, printed in the Stockton Mail as a measure to keep warlike supplies from the island's revolutionists, and picked up by six more California papers by October 26.",
+          "source": "Stockton Mail, Oct. 17, 1905, p. 1; Fresno Bee, Oct. 17; San Francisco Call, Oct. 18; San Jose Mercury and Stockton Independent, Oct. 18; Riverside Enterprise, Oct. 19; Los Gatos Mail-News, Oct. 26, 1905",
+          "date": "1905-10-17"
+        },
+        {
+          "text": "A search of California papers from October 13 to November 10, 1905, found only news reports and no editorial comment on the embargo.",
+          "source": "California Digital Newspaper Collection",
+          "date": "1905"
+        },
+        {
+          "text": "The Dominican finance minister was at first inclined to resent the U.S. Navy's refusal to hand seized cartridges over to his government, and Dominican port authorities insisted on their right to board arriving ships first.",
+          "source": "FRUS 1905, doc. 353, pp. 400–401",
+          "date": "1905"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "Although the proclamation barred exports without exception, Secretary of State Root told the American minister that any exception the Dominican government wanted would be made by special order, so in practice the embargo disarmed only the government's opponents.",
+          "source": "FRUS 1905, doc. 353, pp. 398–399",
+          "date": "1905-10-14"
+        },
+        {
+          "kind": "administrative",
+          "text": "The proclamation gave a legal footing to the U.S. Navy's searches of vessels on the Dominican coast, which had been under way since early September 1905.",
+          "source": "FRUS 1905, doc. 353",
+          "date": "1905"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "When Dominican port officials objected to American naval boardings, Root asked the Dominican government to legalize the searches or have them stopped, and on November 16 it authorized U.S. naval officers to board American merchant vessels as soon as they anchored.",
+          "source": "FRUS 1905, docs. 354–355",
+          "date": "1905-11-16"
+        },
+        {
+          "kind": "local",
+          "text": "Governor Arias's anger over cartridges impounded at Monte Cristi set back efforts to organize a guard on the Haitian frontier, and the embargo did nothing about arms coming overland from Haiti.",
+          "source": "FRUS 1905, doc. 353, pp. 400–401",
+          "date": "1905"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Within ten weeks the government the embargo was meant to protect had collapsed: Morales left the capital on December 24, 1905, and was reported fighting alongside revolutionists, and Vice President Ramón Cáceres succeeded him in January 1906.",
+          "source": "FRUS 1905, docs. 358–371; FRUS 1906, pt. 1, doc. 484",
+          "date": "1906-01-15"
+        },
+        {
+          "text": "The proclamation was still in force in March 1912, when the Taft administration permitted particular exports notwithstanding it and pointed to the procedure as a likely model for Mexico.",
+          "source": "FRUS 1912, doc. 982",
+          "date": "1912-03"
+        },
+        {
+          "text": "Congress's Joint Resolution of March 14, 1912, gave the President a standing power to bar arms exports to American countries in domestic turmoil, the purpose the 1905 embargo had served under the older war-material resolution.",
+          "source": "37 Stat. 630",
+          "date": "1912-03-14"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1912-03",
+          "text": "A presidential order under Taft permitted particular exports to the Dominican Republic notwithstanding the 1905 proclamation.",
+          "source": "FRUS 1912, doc. 982"
+        },
+        {
+          "date": "1912-03-14",
+          "text": "Congress rewrote the 1898 resolution the proclamation rested on, authorizing arms embargoes on American countries in domestic violence and attaching penalties for the first time.",
+          "source": "Joint Resolution of March 14, 1912, 37 Stat. 630"
+        }
+      ],
+      "uncertain": [
+        "Whether newspapers outside California commented on the embargo is not known; only California papers have been searched."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "congress",
+        "text": "The customs receivership the embargo served drew far more fire than the embargo: anti-imperialists and much of the Senate saw it as an end run around the treaty power, so Roosevelt ran it by executive modus vivendi from April 1, 1905.",
+        "source": "FRUS 1905, docs. 331–334",
+        "date": "1905-04-01"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "A Dominican–American convention putting the receivership on a treaty footing won Senate consent on February 25, 1907, by a 43 to 19 vote that split almost exactly on party lines, and was proclaimed July 25, 1907.",
+        "source": "35 Stat. 1880; Voteview, Senate roll call 108, 59th Cong.",
+        "date": "1907-07-25"
+      },
+      {
+        "text": "The Roosevelt Corollary behind the receivership was cited to justify a long run of interventions, including the U.S. military occupation of the Dominican Republic from 1916 to 1924.",
+        "source": "Marines in the Dominican Republic, 1916–1924 (USMC History and Museums Division)",
+        "date": "1916"
+      }
+    ]
+  }
+}

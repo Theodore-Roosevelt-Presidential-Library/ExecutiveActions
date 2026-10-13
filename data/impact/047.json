@@ -1,0 +1,28 @@
+{
+  "story": 47,
+  "documents": {
+    "proc-508": {
+      "reception": [
+        {"text": "The proclamation went out by wire the day it was signed, and the Los Angeles Herald printed it in full the next morning.", "source": "Los Angeles Herald, November 1, 1903", "date": "1903-11-01"},
+        {"text": "The Stockton Mail put it on page one under the headline \"Roosevelt Tells Why the People Should Be Grateful,\" and at least ten other California papers reprinted it over the following ten days.", "source": "Stockton Mail, November 2, 1903, p. 1; California Digital Newspaper Collection", "date": "1903-11-02"},
+        {"text": "Denver, Leadville and Pueblo papers all ran it on November 1, and New York State papers from Plattsburgh to New Rochelle carried it in the first half of November, some on page one.", "source": "Colorado Historic Newspapers; NYS Historic Newspapers", "date": "1903-11"},
+        {"text": "The Alameda Encinal read the call to war against \"the forces of evil, public and private\" as a nod to the Post Office scandal then under investigation.", "source": "Alameda Encinal, November 10, 1903, p. 2", "date": "1903-11-10"},
+        {"text": "The San Francisco Call urged readers to study the proclamation and note its strongly religious tone.", "source": "San Francisco Call, November 22, 1903", "date": "1903-11-22"},
+        {"text": "A partisan jab from the Woodland Democrat, reprinted in the Napa Journal, forecast that Roosevelt would write only one more Thanksgiving proclamation.", "source": "Napa Journal, November 22, 1903", "date": "1903-11-22"},
+        {"text": "The Stanislaus County Weekly News headlined the proclamation as setting forth the nation's great prosperity, which the text does not do.", "source": "Stanislaus County Weekly News, November 13, 1903", "date": "1903-11-13"},
+        {"text": "Congregations in Stockton, Truckee, Santa Cruz, Cloverdale, Napa and Eureka heard the proclamation read aloud on Thanksgiving Day. No objection to it has been found.", "source": "California Digital Newspaper Collection", "date": "1903-11-26"}
+      ],
+      "legacy": [
+        {"text": "The holiday stayed on a customary date, usually the last Thursday of November, until Franklin Roosevelt moved it a week earlier in 1939, 1940 and 1941.", "source": "research entry", "date": "1939"},
+        {"text": "The widely used American Presidency Project transcription misreads the opening line as \"it fails upon the President\"; the Statutes at Large print \"falls.\"", "source": "33 Stat. 2322 (page image)"}
+      ],
+      "related": [
+        {"id": "proc-466", "relation": "same_subject", "note": "Thanksgiving proclamation of 1901."},
+        {"id": "proc-494", "relation": "same_subject", "note": "Thanksgiving proclamation of 1902."}
+      ],
+      "later_actions": [
+        {"date": "1941-12-26", "text": "A joint resolution of Congress fixed Thanksgiving on the fourth Thursday of November.", "source": "55 Stat. 862"}
+      ]
+    }
+  }
+}

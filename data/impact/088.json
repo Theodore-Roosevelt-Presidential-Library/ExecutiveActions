@@ -1,0 +1,98 @@
+{
+  "story": 88,
+  "documents": {
+    "eo-449": {
+      "reception": [
+        {"text": "A search of California papers for late May through July 1906 found no reaction to the transfer, for or against.", "source": "California Digital Newspaper Collection", "date": "1906"}
+      ],
+      "political_impact": [
+        {"kind": "administrative", "text": "The transfer was carried out within weeks; the Librarian of Congress reprinted the order in his annual report and stated, \"The transfer has been made.\"", "source": "Report of the Librarian of Congress, 1906, pp. 26–27", "date": "1906"}
+      ],
+      "legacy": [
+        {"text": "The collections entered the Library of Congress's Manuscript Division, part of the long consolidation of federal historical records that reached institutional form with the National Archives in 1934.", "source": "research entry", "date": "1934"},
+        {"text": "The 1903 transfer provision the order relied on was later codified as 2 U.S.C. § 148 and repealed in 1951.", "source": "32 Stat. 865; 65 Stat. 701", "date": "1951-10-31"}
+      ],
+      "related": [
+        {"id": "eo-206", "relation": "same_subject", "note": "The 1903 transfer of the Revolutionary archives to the Library of Congress under the same law."}
+      ],
+      "uncertain": [
+        "Where each of the thirteen collections sits today is not confirmed; some may have been broken up, merged or later moved to the National Archives."
+      ]
+    },
+    "eo-206": {
+      "related": [
+        {"id": "eo-449", "relation": "same_subject", "note": "The 1906 transfer of thirteen more State Department collections to the Library of Congress."}
+      ]
+    },
+    "eo-443": {
+      "reception": [
+        {"text": "The Interior Department's notice suspending all business of the San Francisco land office \"until further notice\" ran in the Santa Cruz Surf.", "source": "Surf (Santa Cruz), April 30, 1906, p. 8", "date": "1906-04-30"},
+        {"text": "The San Francisco Call called the removal \"cause of annoyance to many people,\" since land seekers now had to make an extra trip to Oakland.", "source": "San Francisco Call, July 18, 1906", "date": "1906-07-18"}
+      ],
+      "political_impact": [
+        {"kind": "local", "text": "San Francisco's commercial organizations planned a protest to the Interior Department and meant to ask the President to order the office back to the city.", "source": "San Jose Mercury-News, July 19, 1906, p. 1", "date": "1906-07-19"},
+        {"kind": "administrative", "text": "The office was set up in the Oakland post office building; the General Land Office recorded the Oakland office as \"Established by Executive order dated April 28, 1906.\"", "source": "San Francisco Call, July 18, 1906; GLO Annual Report 1906, p. 137", "date": "1906"}
+      ],
+      "later_actions": [
+        {"date": "1911-03-14", "text": "President Taft moved the land office for the San Francisco district from Oakland back to San Francisco by Executive Order 1317.", "source": "Executive Order 1317"}
+      ],
+      "uncertain": [
+        "The order's exact wording is not known; no published printing reproduces it, and the signed original in Record Group 11 would settle it."
+      ]
+    },
+    "eo-446": {
+      "reception": [
+        {"text": "The Lamar Register greeted the revocation under the head \"Land Office Remains,\" crediting Congressman Franklin E. Brooks with saving the district; the Springfield Herald ran the Associated Press version.", "source": "Lamar Register, May 23, 1906, p. 1; Springfield Herald, May 25, 1906", "date": "1906-05-23"}
+      ],
+      "political_impact": [
+        {"kind": "local", "text": "The Washington report said the district was kept because entries at Lamar were running about 1,000 a year.", "source": "Lamar Register, May 23, 1906, p. 1", "date": "1906-05-23"}
+      ],
+      "related": [
+        {"id": "eo-372-a", "relation": "revokes", "note": "Revokes the November 18, 1905 order abolishing the Bent Land District."}
+      ]
+    },
+    "eo-372-a": {
+      "related": [
+        {"id": "eo-446", "relation": "revoked_by", "note": "Revoked in May 1906, keeping the Bent Land District open."}
+      ]
+    },
+    "eo-455": {
+      "reception": [
+        {"text": "The Salt Lake Herald announced the planting station under the head \"Uncle Sam to Plant Trees.\"", "source": "Salt Lake Herald, May 6, 1906, p. 32", "date": "1906-05-06"},
+        {"text": "The Salt Lake Tribune placed the nursery on the north side of Big Cottonwood Canyon about four miles from Brighton, where trees would be grown and later transplanted onto the forest reserves.", "source": "Salt Lake Tribune, July 17, 1906, p. 12", "date": "1906-07-17"}
+      ]
+    },
+    "eo-439": {
+      "legacy": [
+        {"text": "The target range outlived the Revenue Cutter Service that asked for it; the ground became wildlife refuge land.", "source": "Public Land Order 1636, 23 Fed. Reg. 3388", "date": "1958-05-14"}
+      ],
+      "today": [
+        {"name": "Horn Island National Wildlife Refuge", "kind": "wildlife_refuge", "relation": "part", "state": "Mississippi", "note": "The 1958 revocation turned the range into refuge land.", "source": "Public Land Order 1636"}
+      ],
+      "later_actions": [
+        {"date": "1958-05-14", "text": "Public Land Order 1636 revoked the reservation and made the land the Horn Island National Wildlife Refuge.", "source": "23 Fed. Reg. 3388"}
+      ]
+    },
+    "eo-458": {
+      "legacy": [
+        {"text": "The authority to certify non-citizens when citizen eligibles ran short lasted forty-one years.", "source": "Executive Order 9830", "date": "1947"}
+      ],
+      "later_actions": [
+        {"date": "1947", "text": "Revoked by Executive Order 9830.", "source": "Executive Order 9830"}
+      ]
+    },
+    "eo-442": {
+      "legacy": [
+        {"text": "The Florida surveyor-general's office stayed abolished, one of many such offices wound down as the public-land survey was completed.", "source": "research entry"}
+      ],
+      "related": [
+        {"id": "eo-459", "relation": "amended_by", "note": "Pushed the effective date of abolition from June 30, 1906 to June 30, 1907."}
+      ]
+    },
+    "eo-459": {
+      "related": [
+        {"id": "eo-442", "relation": "amends", "note": "Makes the abolition effective June 30, 1907 instead of June 30, 1906."}
+      ]
+    }
+  }
+}

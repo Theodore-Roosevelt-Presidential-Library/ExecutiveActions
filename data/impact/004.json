@@ -1,0 +1,86 @@
+{
+  "story": 4,
+  "documents": {
+    "proc-793": {
+      "reception": [
+        {
+          "text": "The gift drew applause and no controversy: it cost the treasury nothing and made a private donor the hero.",
+          "source": "research entry",
+          "date": "1908"
+        },
+        {
+          "text": "John Muir wrote Kent that the gift was \"in many ways the most notable service to God & man I've heard of since my forest wanderings began.\"",
+          "source": "John Muir to William Kent, February 6, 1908, Kent Family Papers, Yale, MS 309",
+          "date": "1908-02-06"
+        },
+        {
+          "text": "Roosevelt offered to name the monument for Kent; Kent declined, and Roosevelt replied, \"By George! you are right.\"",
+          "source": "Roosevelt to Kent, January 22 and February 5, 1908; Kent to Roosevelt, January 30, 1908",
+          "date": "1908-02-05"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "court",
+          "text": "The North Coast Water Company pressed its condemnation suit for nearly a year after the land became federal, but Kent was never served and the suit was never tried.",
+          "source": "Elizabeth Thacher Kent, \"Biography of William Kent, Independent\" (c. 1950); letter of Kent's law firm, December 21, 1908",
+          "date": "1908-12"
+        },
+        {
+          "kind": "administrative",
+          "text": "Interior Secretary Garfield approved no funding for the monument for more than nine months while the suit hung over it.",
+          "source": "research entry",
+          "date": "1908"
+        },
+        {
+          "kind": "political",
+          "text": "Kent asked Roosevelt to have the district attorney \"use every possible means to prevent the destruction of a single tree,\" and Roosevelt answered at once.",
+          "source": "Kent to Roosevelt, September 22, 1908",
+          "date": "1908-09-22"
+        },
+        {
+          "kind": "local",
+          "text": "The water company engineered a four-day water shortage in Mill Valley to build pressure; residents saw it was deliberate and it backfired.",
+          "source": "research entry",
+          "date": "1908-10"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Muir Woods was the tenth national monument and the first established on land donated to the United States under the Antiquities Act.",
+          "source": "Ronald F. Lee, The Story of the Antiquities Act"
+        },
+        {
+          "text": "As a congressman, Kent became a leading champion of the 1913 Raker Act damming Yosemite's Hetch Hetchy Valley, a break that cost him Muir's friendship.",
+          "source": "research entry; Kent to Rep. Sydney Anderson, July 2, 1913",
+          "date": "1913"
+        },
+        {
+          "text": "Delegates to the United Nations founding conference held a memorial to Franklin Roosevelt in Cathedral Grove; no proclamation or order designated the site.",
+          "source": "research entry",
+          "date": "1945-05-19"
+        },
+        {
+          "text": "It is the only old-growth coast redwood forest in the San Francisco Bay Area, with 756,573 recreation visits in 2025.",
+          "source": "National Park Service visitation statistics",
+          "date": "2025"
+        }
+      ],
+      "today": [
+        {
+          "name": "Muir Woods National Monument",
+          "kind": "national_monument",
+          "relation": "origin",
+          "state": "California",
+          "since": "1908-01-09",
+          "note": "The only old-growth coast redwood forest in the San Francisco Bay Area.",
+          "source": "National Park Service"
+        }
+      ],
+      "uncertain": [
+        "Why the proclamation calls the Kents \"of the City of Chicago\" when they had moved to Kentfield, California, in 1907 is not known.",
+        "The sent wording of Muir's February 6, 1908 letter rests on NPS transcriptions of the undigitized original at Yale."
+      ]
+    }
+  }
+}

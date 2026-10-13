@@ -1,0 +1,572 @@
+{
+  "story": 42,
+  "documents": {
+    "proc-495": {
+      "reception": [
+        {
+          "text": "The Luquillo reserve barely registered on the mainland; the only wire story that mentioned it was about gold in the island's streams, not forestry.",
+          "source": "research entry (Chronicling America search, 1903–04)",
+          "date": "1903"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation reserved only unclaimed public land inside a boundary of about 65,950 acres; Gifford estimated the federal forest land at about 20,000 acres.",
+          "source": "Gifford, USDA Bureau of Forestry Bulletin 54 (1905), p. 9",
+          "date": "1905"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "A survey in 1916 found about 12,400 acres of federal land in the reserve.",
+          "source": "research entry",
+          "date": "1916"
+        },
+        {
+          "text": "Luquillo became the Caribbean National Forest in 1935 and the El Yunque National Forest in 2007, the only tropical rainforest in the National Forest System.",
+          "source": "EO 7059-A (1935); EO 13428, 72 F.R. 16693 (2007)",
+          "date": "2007"
+        },
+        {
+          "text": "El Yunque is a refuge for the Puerto Rican parrot, federally listed as endangered since March 11, 1967, and still holds a small wild flock.",
+          "source": "U.S. Fish and Wildlife Service, ECOS species record",
+          "date": "1967-03-11"
+        }
+      ],
+      "today": [
+        {
+          "name": "El Yunque National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Puerto Rico",
+          "since": "1903-01-17",
+          "note": "The only tropical rainforest in the National Forest System.",
+          "source": "EO 13428, 72 F.R. 16693"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-502",
+          "relation": "same_subject",
+          "note": "Made under the same Act of July 1, 1902, reserving public lands in Puerto Rico."
+        },
+        {
+          "id": "proc-503",
+          "relation": "same_subject",
+          "note": "Made under the same Act of July 1, 1902, reserving public lands in Puerto Rico."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1907-03-04",
+          "text": "Became the Luquillo National Forest when Congress renamed all forest reserves national forests.",
+          "source": "Act of Mar. 4, 1907, ch. 2907, 34 Stat. 1269"
+        },
+        {
+          "date": "1935-06-04",
+          "text": "Renamed the Caribbean National Forest.",
+          "source": "Executive Order 7059-A"
+        },
+        {
+          "date": "2007-04-02",
+          "text": "Renamed the El Yunque National Forest by executive order, not by Congress.",
+          "source": "Executive Order 13428, 72 F.R. 16693"
+        }
+      ],
+      "uncertain": [
+        "Exactly how much land the proclamation reserved is uncertain: the boundary enclosed about 65,950 acres, but only unclaimed public land inside it was reserved."
+      ]
+    },
+    "proc-496": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation superseded the Yellowstone and Teton reserves in Wyoming and the Absaroka in Montana and set up one Yellowstone Forest Reserve in their place.",
+          "source": "Proc. 496, 32 Stat. 2030",
+          "date": "1903-01-29"
+        },
+        {
+          "kind": "administrative",
+          "text": "On May 4, 1904, Roosevelt redrew the reserve, cutting 518,600 acres.",
+          "source": "Proc. 524; GLO Annual Report",
+          "date": "1904-05-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The reserve was divided on July 1, 1908, among the Targhee, Teton, Wyoming, Bonneville, Absaroka, Shoshone and Beartooth forests.",
+          "source": "USFS FS-612",
+          "date": "1908-07-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Shoshone National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "source": "USFS FS-612"
+        },
+        {
+          "name": "Bridger-Teton National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "source": "USFS FS-612"
+        },
+        {
+          "name": "Caribou-Targhee National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "source": "USFS FS-612"
+        },
+        {
+          "name": "Custer Gallatin National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "source": "USFS FS-612"
+        },
+        {
+          "name": "Helena–Lewis and Clark National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "USFS FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-524",
+          "relation": "reduced_by",
+          "note": "Redrew the reserve in 1904, cutting 518,600 acres."
+        },
+        {
+          "id": "eo-871",
+          "relation": "superseded_by",
+          "note": "One of the July 1908 orders that divided the Yellowstone reserve."
+        },
+        {
+          "id": "eo-872",
+          "relation": "superseded_by",
+          "note": "One of the July 1908 orders that divided the Yellowstone reserve."
+        },
+        {
+          "id": "eo-873",
+          "relation": "superseded_by",
+          "note": "One of the July 1908 orders that divided the Yellowstone reserve."
+        },
+        {
+          "id": "eo-874",
+          "relation": "superseded_by",
+          "note": "One of the July 1908 orders that divided the Yellowstone reserve."
+        },
+        {
+          "id": "eo-875",
+          "relation": "superseded_by",
+          "note": "One of the July 1908 orders that divided the Yellowstone reserve."
+        },
+        {
+          "id": "eo-895",
+          "relation": "superseded_by",
+          "note": "One of the July 1908 orders that divided the Yellowstone reserve."
+        },
+        {
+          "id": "eo-896",
+          "relation": "superseded_by",
+          "note": "One of the July 1908 orders that divided the Yellowstone reserve."
+        }
+      ]
+    },
+    "proc-499": {
+      "reception": [
+        {
+          "text": "The Salt Lake Herald ran the Gunnison and Mayfield petition under the headline \"RIGHTS OF PEOPLE AS AGAINST SHEEP.\"",
+          "source": "Salt Lake Herald, Feb. 22, 1904",
+          "date": "1904-02-22"
+        },
+        {
+          "text": "The Deseret Evening News reported the claim that the federal order would cause the destruction of 200,000 sheep.",
+          "source": "Deseret Evening News, Feb. 17, 1904",
+          "date": "1904-02-17"
+        },
+        {
+          "text": "The Salt Lake Tribune headlined the raised grazing limit \"AN EXCELLENT COMPROMISE.\"",
+          "source": "Salt Lake Tribune, Feb. 8, 1904",
+          "date": "1904-02-08"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "By early February 1904 Sanpete County wool growers met in convention at Manti and cattlemen at Ephraim; Gunnison and Mayfield petitioned for the water of Twelve Mile Creek, and Manti residents sent a counter-petition.",
+          "source": "Salt Lake Herald, Feb. 22, 1904",
+          "date": "1904-02"
+        },
+        {
+          "kind": "administrative",
+          "text": "After Senators Reed Smoot and Thomas Kearns intervened, Smoot going to Pinchot personally, Interior raised the grazing limit from 175,000 head to 300,000.",
+          "source": "Salt Lake Tribune, Feb. 8, 1904",
+          "date": "1904-02"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The La Sal National Forest was abolished and joined to the Manti in 1949, and the combined forest was renamed Manti-La Sal in 1950.",
+          "source": "PLO 618, 14 F.R. 7271; PLO 667, 15 F.R. 5957",
+          "date": "1950-08-28"
+        }
+      ],
+      "today": [
+        {
+          "name": "Manti-La Sal National Forest",
+          "kind": "national_forest",
+          "relation": "origin",
+          "state": "Utah",
+          "since": "1903-05-29",
+          "note": "The only hyphenated national forest that is a single proclaimed forest.",
+          "source": "USFS FS-612"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1949-11-28",
+          "text": "La Sal National Forest lands transferred to the Manti.",
+          "source": "Public Land Order 618, 14 F.R. 7271"
+        },
+        {
+          "date": "1950-08-28",
+          "text": "Combined forest renamed Manti-La Sal National Forest.",
+          "source": "Public Land Order 667, 15 F.R. 5957"
+        }
+      ],
+      "uncertain": [
+        "The full size of the Manti grazing fight may be larger than the surviving record shows, since Salt Lake papers of the period are hard to read in digitized form."
+      ]
+    },
+    "proc-500": {
+      "legacy": [
+        {
+          "text": "Logan was combined with about 500,000 more acres into the Bear River Forest Reserve in 1906; the eastern part of the Bear River became the Cache National Forest in 1908, and the Utah portion went to today's Uinta-Wasatch-Cache after 1973.",
+          "source": "USFS FS-612",
+          "date": "1973"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "USFS FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-627",
+          "relation": "superseded_by",
+          "note": "Bear River Forest Reserve created in place of the Logan, with about 500,000 more acres."
+        },
+        {
+          "id": "eo-802",
+          "relation": "same_subject",
+          "note": "Abolished the Bear River and created the Cache National Forest from its eastern part."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1973",
+          "text": "The Cache National Forest was split; the Utah portion holding the original Logan lands went to what is now the Uinta-Wasatch-Cache.",
+          "source": "USFS FS-612"
+        }
+      ]
+    },
+    "proc-501": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The proclamation superseded both the 1897 Lewis and Clarke reserve and the 1897 Flathead reserve.",
+          "source": "Proc. 501, 33 Stat. 2311",
+          "date": "1903-06-09"
+        }
+      ],
+      "today": [
+        {
+          "name": "Helena–Lewis and Clark National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "note": "Administratively combined in 2015.",
+          "source": "81 F.R. 86689"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-733",
+          "relation": "modified_by",
+          "note": "The 1907 proclamation that dropped the final \"e\" from Clarke."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "2015-12-11",
+          "text": "The Helena and Lewis and Clark National Forests were administratively combined.",
+          "source": "81 F.R. 86689"
+        }
+      ]
+    },
+    "proc-505": {
+      "reception": [
+        {
+          "text": "A syndicated survey of Idaho protest against reserves exempted Pocatello, saying it was \"to protect the water supply of Pocatello and a necessity existed for its creation.\"",
+          "source": "syndicated wire survey, March 1904",
+          "date": "1904-03"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "court",
+          "text": "A September 1903 wire story reported a federal suit against southeastern Idaho stockmen, including a sitting state senator, for grazing 28,000 sheep on the Portneuf headwaters and fouling Pocatello's water.",
+          "source": "wire story, September 1903",
+          "date": "1903-09"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Pocatello was abolished in 1915 and its lands moved to the Cache, then on to the Caribou in 1939 and 1942.",
+          "source": "EO 2179; EO 8130, 4 F.R. 2017; EO 9124, 7 F.R. 2692",
+          "date": "1942"
+        }
+      ],
+      "today": [
+        {
+          "name": "Caribou-Targhee National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Idaho",
+          "source": "USFS FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-698",
+          "relation": "same_subject",
+          "note": "Created the Caribou Forest Reserve, which later received the old Pocatello lands."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915-04-21",
+          "text": "Pocatello National Forest abolished and its lands moved to the Cache, effective July 1, 1915.",
+          "source": "Executive Order 2179"
+        },
+        {
+          "date": "1939-05-11",
+          "text": "Pocatello and Portneuf divisions moved to the Caribou National Forest.",
+          "source": "Executive Order 8130, 4 F.R. 2017"
+        },
+        {
+          "date": "1942-04-07",
+          "text": "Malad division moved to the Caribou National Forest.",
+          "source": "Executive Order 9124, 7 F.R. 2692"
+        }
+      ]
+    },
+    "proc-507": {
+      "reception": [
+        {
+          "text": "The Salt Lake Tribune reported that people living on and near the Aquarius reserve were \"well satisfied with the reserve.\"",
+          "source": "Salt Lake Tribune, March 1904",
+          "date": "1904-03"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Renamed the Powell National Forest in 1908, it was abolished in 1944–45 and all 1,056,278 gross acres joined to the Dixie, which still has a Powell Ranger District.",
+          "source": "EO 908; PLO 260, 10 F.R. 1244",
+          "date": "1944-10-01"
+        }
+      ],
+      "today": [
+        {
+          "name": "Dixie National Forest",
+          "kind": "national_forest",
+          "relation": "absorbed_into",
+          "state": "Utah",
+          "note": "The northern part of the old Aquarius Plateau lands is managed by the neighboring Fishlake.",
+          "source": "USFS FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "renamed_by",
+          "note": "Renamed the Powell National Forest."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1945-01-19",
+          "text": "Powell National Forest abolished, effective October 1, 1944, and its lands made part of the Dixie.",
+          "source": "Public Land Order 260, 10 F.R. 1244"
+        }
+      ]
+    },
+    "proc-509": {
+      "legacy": [
+        {
+          "text": "Payson merged into the Nebo National Forest in 1908; in 1915 the Mount Nebo unit, which held the 1903 addition, went to the Uinta.",
+          "source": "EO 827; EO 2153; Proc. 1298, 39 Stat. 1733",
+          "date": "1915"
+        }
+      ],
+      "today": [
+        {
+          "name": "Uinta-Wasatch-Cache National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Utah",
+          "source": "USFS FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-827",
+          "relation": "superseded_by",
+          "note": "Merged the Payson into the Nebo National Forest."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915-03-24",
+          "text": "Nebo National Forest abolished and its lands sent to the Manti.",
+          "source": "Executive Order 2153"
+        },
+        {
+          "date": "1915-06-23",
+          "text": "Mount Nebo unit, holding Roosevelt's 1903 addition, given to the Uinta with an earlier effective date than the executive order.",
+          "source": "Proclamation 1298, 39 Stat. 1733"
+        }
+      ]
+    },
+    "proc-511": {
+      "reception": [
+        {
+          "text": "A petition asking that a supervisor be appointed for the Highwood Mountains reserve was \"being generously signed.\"",
+          "source": "River Press (Fort Benton), June 24, 1903",
+          "date": "1903-06-24"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Combined into the Jefferson National Forest of Montana in 1908; that forest was abolished in 1932 and its lands moved to the Lewis and Clark. The Highwood Mountains are still listed among its ranges.",
+          "source": "EO 908; EO 5834",
+          "date": "1932-04-08"
+        }
+      ],
+      "today": [
+        {
+          "name": "Helena–Lewis and Clark National Forest",
+          "kind": "national_forest",
+          "relation": "part",
+          "state": "Montana",
+          "source": "USFS FS-612"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-908",
+          "relation": "superseded_by",
+          "note": "Combined the Highwood Mountains into the Jefferson National Forest (Montana)."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1932-04-08",
+          "text": "Jefferson National Forest (Montana) abolished and its 1,174,804 gross acres transferred to the Lewis and Clark.",
+          "source": "Executive Order 5834"
+        }
+      ]
+    },
+    "proc-512": {
+      "reception": [
+        {
+          "text": "The Santa Barbara Morning Press greeted the signing as insuring \"For All Time A Sufficient Water Supply For This City.\"",
+          "source": "Morning Press (Santa Barbara), Dec. 23, 1903, p. 8",
+          "date": "1903-12-23"
+        },
+        {
+          "text": "The Los Angeles Herald called the added ranch the principal watershed of the Santa Ynez River, from which Santa Barbara hoped to draw a permanent water supply.",
+          "source": "Los Angeles Herald, Dec. 23, 1903, p. 11",
+          "date": "1903-12-23"
+        },
+        {
+          "text": "The Ventura Daily Post noted the new Santa Barbara Forest Reserve.",
+          "source": "Ventura Daily Post, Jan. 6, 1904, p. 3",
+          "date": "1904-01-06"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "local",
+          "text": "The reserve was a local campaign won: Senator Thomas R. Bard and others had worked for over two years to bring the Rancho Los Prietos y Najalayegua watershed into the reserves.",
+          "source": "Morning Press (Santa Barbara), Dec. 23, 1903, p. 8",
+          "date": "1903-12-23"
+        },
+        {
+          "kind": "administrative",
+          "text": "The proclamation consolidated the Pine Mountain and Zaca Lake reserve of 1898 and the Santa Ynez reserve of 1899.",
+          "source": "Proc. 512, 33 Stat. 2327",
+          "date": "1903-12-22"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Santa Barbara National Forest was renamed Los Padres in 1936.",
+          "source": "EO 7501, 1 F.R. 2141",
+          "date": "1936-12-03"
+        }
+      ],
+      "today": [
+        {
+          "name": "Los Padres National Forest",
+          "kind": "national_forest",
+          "relation": "renamed",
+          "state": "California",
+          "source": "EO 7501, 1 F.R. 2141"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1936-12-03",
+          "text": "Renamed the Los Padres National Forest.",
+          "source": "Executive Order 7501, 1 F.R. 2141"
+        }
+      ],
+      "uncertain": [
+        "The terms of the land exchange for the Rancho Los Prietos y Najalayegua are known only from press reports, not from the proclamation."
+      ]
+    }
+  },
+  "story_level": {
+    "reception": [
+      {
+        "text": "The 1903 forest reserves drew little national notice: no editorial engagement, eastern-paper argument or congressional-debate coverage turned up for any of them.",
+        "source": "research entry (Chronicling America search, 1903–04)",
+        "date": "1903"
+      }
+    ],
+    "political_impact": [
+      {
+        "kind": "administrative",
+        "text": "In February 1905 the reserves passed from the General Land Office to the Forest Service.",
+        "source": "research entry",
+        "date": "1905-02"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "All ten reserves survive inside today's national forests; most modern hyphenated forest names are administrative combinations of forests that remain separately proclaimed.",
+        "source": "USFS FS-612"
+      }
+    ]
+  }
+}

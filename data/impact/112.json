@@ -1,0 +1,185 @@
+{
+  "story": 112,
+  "documents": {
+    "uo-053": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Signal Supply Station at Valdez, set up for the Army's Alaska military-telegraph line, was trimmed from 24,012 to 22,946 square feet a little over a year later.",
+          "source": "War Department, Military Reservations (1907)",
+          "date": "1904-06-30"
+        }
+      ],
+      "related": [
+        {
+          "id": "uo-095",
+          "relation": "amended_by",
+          "note": "The order of June 30, 1904 reduced the station to 22,946 square feet."
+        }
+      ]
+    },
+    "uo-054": {
+      "reception": [
+        {
+          "text": "No paper in the Library of Congress's digitized collection appears to have carried the order in March 1903, though that collection has no 1903 issues of Brevard County's own paper.",
+          "source": "research entry",
+          "date": "1903-03"
+        },
+        {
+          "text": "The DeLand Weekly News told Florida readers that Pelican Island had been made a government reservation and that no shooting would be allowed on or near it.",
+          "source": "DeLand Weekly News, May 8, 1903",
+          "date": "1903-05-08"
+        },
+        {
+          "text": "A New York Sun wire story from Washington, \"A GOVERNMENT AVIARY,\" ran in the Minneapolis Journal and was reprinted in about three dozen papers from Walla Walla to Savannah over the rest of the year.",
+          "source": "Minneapolis Journal, June 8, 1903",
+          "date": "1903-06-08"
+        },
+        {
+          "text": "One reprint explained the earlier silence: the government had said nothing about the reservation because visitors were not wanted.",
+          "source": "Chipley Banner, August 6, 1903",
+          "date": "1903-08-06"
+        }
+      ],
+      "uncertain": [
+        "Whether the order was signed March 14 or March 13, 1903: the contemporary federal record says March 14 and Roosevelt's 1909 enlargement order says March 13; only the signed original can settle it."
+      ]
+    },
+    "uo-062": {
+      "related": [
+        {
+          "id": "uo-074",
+          "relation": "modified_by",
+          "note": "First of two November 1903 changes to the June 30 Puerto Rico military reservations."
+        },
+        {
+          "id": "uo-075",
+          "relation": "modified_by",
+          "note": "Second November 1903 change to the June 30 Puerto Rico military reservations."
+        }
+      ]
+    },
+    "uo-068": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Angeles tract of 7,668.8 acres was enlarged on April 30, 1908, and by 1910 the Camp Stotsenberg reservation covered more than 151,000 acres.",
+          "source": "War Department, Military Reservations (1910 ed.)",
+          "date": "1908-04-30"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Camp Stotsenberg reservation that grew from the Angeles tract later became Clark Field.",
+          "source": "research entry"
+        },
+        {
+          "text": "Most of the posts set apart in 1903 made up the American garrison map of the Philippines for the next forty years, and several had long and sometimes tragic histories in the Second World War.",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-790",
+          "relation": "enlarged_by",
+          "note": "Enlarged the Camp Stotsenberg reservation at Angeles in 1908."
+        },
+        {
+          "id": "uo-100",
+          "relation": "modified_by",
+          "note": "Enlarged Camp Eldridge at Los Baños, one of the fifteen posts."
+        }
+      ],
+      "uncertain": [
+        "Why the War Department's 1916 compilation lists Fort San Pedro, Cebu and Warwick Barracks as separate entries under this order; the order's own text in General Orders No. 34 (1903) has not been found."
+      ]
+    },
+    "uo-069": {
+      "legacy": [
+        {
+          "text": "The Fort McDowell Yavapai Nation ties its territory to this order. Its 1999 constitution notes the community was formerly known as the Fort McDowell Mohave-Apache Community, echoing the order's period misnomer for the Yavapai.",
+          "source": "Constitution of the Fort McDowell Yavapai Nation (1999)",
+          "date": "1999"
+        }
+      ],
+      "today": [
+        {
+          "name": "Fort McDowell Yavapai Nation",
+          "kind": "indian_reservation",
+          "relation": "origin",
+          "state": "Arizona",
+          "since": "1903-09-15",
+          "note": "The order called the people \"Mojave-Apache\"; they are Yavapai.",
+          "source": "Constitution of the Fort McDowell Yavapai Nation (1999)"
+        }
+      ]
+    },
+    "uo-071": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Crow Creek lands went to the War Department on the understanding that their use as a rifle range would not interfere with the purposes of the forest reserve, so they stayed in forest reservation.",
+          "source": "War Department, Military Reservations (1910 ed.)",
+          "date": "1903-10-09"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "From the 1916 compilation on, the War Department listed the maneuver ground as the Pole Mountain Reservation.",
+          "source": "War Department, Military Reservations (1916 ed.), p. 470",
+          "date": "1916"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1909-05-28",
+          "text": "Taft's Executive Order 1080 excluded 320 acres from the reservation.",
+          "source": "Executive Order 1080"
+        },
+        {
+          "date": "1910-04-19",
+          "text": "Taft's Executive Order 1192 provided that the lands should no longer be regarded as reserved for forest purposes.",
+          "source": "Executive Order 1192; War Department, Military Reservations (1916 ed.)"
+        }
+      ],
+      "uncertain": [
+        "Where the 1907 and 1910 War Department figures of about 36,800 and 36,320 acres came from; they cannot fit the boundary of the roughly 56,000-acre reserve that was transferred."
+      ]
+    },
+    "uo-073": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "After John Hay's death in July 1905, General Leonard Wood ordered that the Baguio post be known as Camp John Hay.",
+          "source": "Evening Star (Washington), March 4, 1906",
+          "date": "1906-03"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-553",
+          "relation": "enlarged_by",
+          "note": "Roosevelt's 1907 addition to Camp John Hay, which refers back to the order of October 10, 1903."
+        }
+      ]
+    },
+    "uo-077": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The 940.11 acres cut from Fort Liscum, the difference between its original 1,600 acres and the 659.89 left, went to the Interior Department.",
+          "source": "Bureau of Land Management, Orders Affecting Public Lands in Alaska, ref. 55",
+          "date": "1903-12-31"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "legacy": [
+      {
+        "text": "Setting Pelican Island aside, the 1903 orders laid out the American military presence in the Philippines and Puerto Rico by the President's own orders rather than by statute, part of the larger story of how far executive power reached in these years.",
+        "source": "research entry"
+      }
+    ]
+  }
+}

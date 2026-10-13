@@ -1,0 +1,135 @@
+{
+  "story": 1,
+  "documents": {
+    "uo-054": {
+      "reception": [
+        {
+          "text": "The American Ornithologists' Union's report for 1903 reprinted the order under the heading \"WHITE HOUSE, March 14, 1903,\" along with the Agriculture Secretary's letter naming a keeper for the island.",
+          "source": "William Dutcher, The Auk 21, no. 1 (January 1904), pp. 121–23",
+          "date": "1904-01"
+        },
+        {
+          "text": "Outside bird-protection circles the order drew little notice: no fight in Congress, little press and no organized opposition to a mangrove islet that looked worthless.",
+          "source": "research entry",
+          "date": "1903"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The Secretary of Agriculture appointed Paul Kroegel, already one of the ornithologists' union's four paid Florida wardens, as keeper of the reservation.",
+          "source": "Dutcher, The Auk 21 (January 1904), pp. 121–22",
+          "date": "1903-04-04"
+        },
+        {
+          "kind": "administrative",
+          "text": "Kroegel's federal pay was set at a dollar a month, while the ornithologists' union, partly with Florida Audubon Society money, went on paying his working wage.",
+          "source": "James Wilson to Paul Kroegel, March 24, 1903 (copy); Dutcher, The Auk 21 (January 1904), treasurer's statement",
+          "date": "1903"
+        },
+        {
+          "kind": "political",
+          "text": "The order set the precedent for fifty more bird reservations created by executive order over the next six years, fifty-one in all, none of them authorized by statute.",
+          "source": "T. S. Palmer, Biological Survey Circular No. 87 (October 5, 1912); Chapman, Autobiography of a Bird-Lover (1933)",
+          "date": "1903"
+        },
+        {
+          "kind": "congress",
+          "text": "Congress recognized executive-order bird reserves without ratifying them, making it a federal offense to disturb birds or take eggs on lands reserved as breeding grounds by any law, proclamation or Executive order.",
+          "source": "Act of June 28, 1906, ch. 3565, 34 Stat. 536–37",
+          "date": "1906-06-28"
+        },
+        {
+          "kind": "administrative",
+          "text": "The Agriculture Department's Division of Biological Survey, which held the reservation, became a bureau.",
+          "source": "Agricultural Appropriation Act of March 3, 1905, 33 Stat. 877",
+          "date": "1905-07-01"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The Supreme Court upheld the president's implied power to withdraw public land, in an opinion that counted the bird reserves and noted \"there was no act of Congress providing for Bird Reserves.\"",
+          "source": "United States v. Midwest Oil Co., 236 U.S. 459 (1915)",
+          "date": "1915"
+        },
+        {
+          "text": "Pelican Island is treated as the origin point of the National Wildlife Refuge System, which now counts more than 570 refuges.",
+          "source": "U.S. Fish and Wildlife Service, \"By the Numbers\""
+        },
+        {
+          "text": "Florida later claimed the 1909 and 1963 refuge expansions as state land under the Swamp and Overflowed Lands Act.",
+          "source": "research entry"
+        },
+        {
+          "text": "Florida's brown pelicans, the population the island was reserved to protect, came off the endangered list on February 4, 1985; the species as a whole was delisted in 2009.",
+          "source": "Brown pelican delisting rule, published November 17, 2009",
+          "date": "1985-02-04"
+        },
+        {
+          "text": "The island began shrinking around 1943 under wave action and now covers about three acres, roughly half the five and a half acres reserved in 1903.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "today": [
+        {
+          "name": "Pelican Island National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Florida",
+          "since": "1903-03-14",
+          "note": "Renamed a national wildlife refuge in 1940.",
+          "source": "Proc. 2416, 54 Stat. 2717"
+        },
+        {
+          "name": "National Wildlife Refuge System",
+          "kind": "other",
+          "relation": "origin",
+          "since": "1903-03-14",
+          "note": "Pelican Island is treated as the system's starting point; the system counts more than 570 refuges.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-1014",
+          "relation": "enlarged_by",
+          "note": "The 1909 order enlarged the reservation; its recital of a March 13, 1903 date appears to be a drafting slip."
+        },
+        {
+          "id": "eo-1049",
+          "relation": "same_subject",
+          "note": "Bogoslof, Alaska, the last of the fifty-one bird reservations Roosevelt created by executive order."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1915",
+          "text": "The Supreme Court upheld the implied presidential power to withdraw public land, citing the bird reserves.",
+          "source": "United States v. Midwest Oil Co., 236 U.S. 459"
+        },
+        {
+          "date": "1940-07-25",
+          "text": "Renamed Pelican Island National Wildlife Refuge by Proclamation 2416, one of 193 wildlife areas renamed together.",
+          "source": "5 Fed. Reg. 2677; 54 Stat. 2717–26"
+        }
+      ],
+      "uncertain": [
+        "Whether the order was signed March 13 or March 14, 1903: two contemporaneous texts give March 14, but the signed original has not been checked.",
+        "The dollar-a-month federal salary rests on a March 24, 1903 letter known only from a copy on a non-archival website.",
+        "Whether Kroegel's service as warden ended in 1920 or 1926.",
+        "The identification of Charles DuBois as the official who supplied the legal reasoning rests on a modern reconstruction of Biological Survey files.",
+        "Palmer's 1912 count of fifty-one bird reservations differs from Fish and Wildlife Service materials, which say fifty-three or fifty-five."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "local",
+        "text": "A plume hunter shot and killed Guy Bradley, a warden hired by the American Ornithologists' Union and a Monroe County deputy sheriff, on Florida Bay; his killer was acquitted on a plea of self-defense.",
+        "source": "research entry",
+        "date": "1905-07-08"
+      }
+    ]
+  }
+}

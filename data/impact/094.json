@@ -1,0 +1,166 @@
+{
+  "story": 94,
+  "documents": {
+    "eo-675": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The islets were reserved for the Department of Agriculture, whose Bureau of Biological Survey administered the growing chain of bird reservations.",
+          "source": "research entry",
+          "date": "1907-08-08"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Tern Islands became a National Wildlife Refuge, but its shifting \"mud lumps\" were among the least permanent real estate in America, and the reservation was revoked in 1953.",
+          "source": "Public Land Order 892, 18 Fed. Reg. 2342",
+          "date": "1953-04-15"
+        }
+      ],
+      "today": [
+        {
+          "name": "Tern Islands National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "abolished",
+          "state": "Louisiana",
+          "note": "Revoked by Public Land Order 892 in 1953.",
+          "source": "Public Land Order 892, 18 Fed. Reg. 2342 (April 22, 1953)"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-682",
+          "relation": "same_subject",
+          "note": "The Shell Keys bird reservation, created nine days later."
+        },
+        {
+          "id": "uo-054",
+          "relation": "same_subject",
+          "note": "Pelican Island, the first bird reservation, which used the same device."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1953-04-15",
+          "text": "Secretary of the Interior Douglas McKay revoked the 1907 order outright by Public Land Order 892, under authority delegated by Executive Order 10355.",
+          "source": "18 Fed. Reg. 2342 (April 22, 1953)"
+        }
+      ]
+    },
+    "eo-682": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The islets were reserved for the Department of Agriculture, whose Bureau of Biological Survey administered the growing chain of bird reservations.",
+          "source": "research entry",
+          "date": "1907-08-17"
+        },
+        {
+          "kind": "administrative",
+          "text": "The order first vacated the lighthouse reservation covering the islets, then reserved them anew for birds.",
+          "source": "Executive Order 682",
+          "date": "1907-08-17"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "Shell Keys endures as an eight-acre refuge of shell islets south of Marsh Island, one of the oldest units of the National Wildlife Refuge System.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "today": [
+        {
+          "name": "Shell Keys National Wildlife Refuge",
+          "kind": "wildlife_refuge",
+          "relation": "origin",
+          "state": "Louisiana",
+          "since": "1907-08-17",
+          "note": "Eight acres in Iberia Parish, reached by boat, administered from the Southwest Louisiana refuge complex.",
+          "source": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-675",
+          "relation": "same_subject",
+          "note": "The Tern Islands bird reservation of August 8, 1907."
+        }
+      ],
+      "uncertain": [
+        "No independent record has been found of the July 9, 1855 lighthouse reservation that the order recites and vacates."
+      ]
+    },
+    "eo-669-half": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "The regulations put the Dominican customs receivership under the Bureau of Insular Affairs and took effect August 1, 1907.",
+          "source": "FRUS 1907; Wikisource",
+          "date": "1907-08-01"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Signed the day the 1907 convention was proclaimed, the order was the domestic housekeeping that put it into operation, after the Senate had let the 1905 treaty die and Roosevelt had run the receivership by a modus vivendi.",
+          "source": "Malloy, Treaties, vol. 1, p. 418",
+          "date": "1907-07-25"
+        }
+      ],
+      "reception": [
+        {
+          "text": "Critics north and south saw the Roosevelt Corollary as an assertion of hemispheric police power, but the enabling order itself passed without notice.",
+          "source": "research entry",
+          "date": "1907"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The receivership remains a textbook example of the Roosevelt Corollary in operation, debated as a milestone of both hemispheric stability and U.S. intervention.",
+          "source": "research entry"
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1925",
+          "text": "Executive Order 4353 superseded the 1907 receivership regulations.",
+          "source": "Wikisource; FRUS 1907"
+        },
+        {
+          "date": "1941-03-31",
+          "text": "The receivership was abolished under the Trujillo–Hull Convention of September 24, 1940.",
+          "source": "NARA, Record Group 139"
+        },
+        {
+          "date": "1947-10-01",
+          "text": "The 1940 convention terminated automatically after Trujillo proclaimed its end on July 18 and the bondholders were paid toward full redemption; an exchange of notes of August 9, 1951 recognized the termination.",
+          "source": "FRUS 1947, vol. VIII, ch. 42; TIAS 2365"
+        }
+      ]
+    },
+    "eo-677": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Per diem employees and day laborers in the federal service, wherever employed, got Labor Day off, as salaried and classified employees already did.",
+          "source": "Executive Order 677; Act of June 28, 1894",
+          "date": "1907-08-10"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "Executive bird reservations were controversial in principle, as ranchers, plume hunters and some in Congress objected to the President locking up land by fiat, but these tiny Louisiana reservations provoked no fight.",
+        "source": "research entry",
+        "date": "1907"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The two Louisiana reservations are among the fifty-one bird reservations Roosevelt created by executive order, the practical foundation of the National Wildlife Refuge System.",
+        "source": "National Park Service; U.S. Fish and Wildlife Service"
+      }
+    ]
+  }
+}

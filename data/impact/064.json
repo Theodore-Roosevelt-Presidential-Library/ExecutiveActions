@@ -1,0 +1,115 @@
+{
+  "story": 64,
+  "documents": {
+    "proc-607": {
+      "political_impact": [
+        {
+          "kind": "economic",
+          "text": "Lower American duties on Swiss argols, brandies, still wines and vermuth, and paintings and statuary took effect the day the proclamation was signed, matching Switzerland's removal of all differential duties on American goods.",
+          "source": "34 Stat. 3185–3186",
+          "date": "1906-01-01"
+        }
+      ]
+    },
+    "proc-615": {
+      "reception": [
+        {
+          "text": "Germany's notice ending the 1900 agreement was wire news well before the proclamation; a Nebraska weekly ran the Berlin dispatch under the head \"TREATY OF TRADE.\"",
+          "source": "Loup City Northwestern, May 4, 1905, p. 4",
+          "date": "1905-05-04"
+        },
+        {
+          "text": "The proclamation itself ran as a brief Associated Press item in California papers, reported as news with no editorial comment found.",
+          "source": "San Jose Mercury, March 1, 1906; San Diego Union, March 1, 1906",
+          "date": "1906-03-01"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "The proclamation delivered the American half of a stopgap bargain: Germany gave American goods its lower treaty rates until June 30, 1907, and the United States kept its reduced section-3 duties after March 1, 1906.",
+          "source": "FRUS 1906, pt. 1",
+          "date": "1906-03-01"
+        },
+        {
+          "kind": "economic",
+          "text": "Without it, American goods would have paid Germany's higher general rates once its new tariff and European treaties took effect on March 1, 1906.",
+          "source": "FRUS 1906, pt. 1",
+          "date": "1906-03-01"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The arrangement bought about sixteen months and was replaced by the U.S.–German commercial agreement that Roosevelt announced on June 1, 1907.",
+          "source": "research entry",
+          "date": "1907-06-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-762",
+          "relation": "superseded_by",
+          "note": "The 1907 U.S.–German commercial agreement replaced this stopgap."
+        }
+      ]
+    },
+    "proc-647": {
+      "reception": [
+        {
+          "text": "The Chico Record reported the proclamation under \"SPANISH RECIPROCITY TREATY\" as a short State Department item.",
+          "source": "Chico Record, August 30, 1906",
+          "date": "1906-08-30"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "economic",
+          "text": "The reduced American rates took effect September 1, 1906, the same day a Spanish Royal Decree gave American goods the minimum column of Spain's tariff.",
+          "source": "34 Stat. 3227–3228",
+          "date": "1906-09-01"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-850",
+          "relation": "same_subject",
+          "note": "A second section-3 proclamation for Spain followed in 1909."
+        }
+      ]
+    },
+    "proc-655": {
+      "political_impact": [
+        {
+          "kind": "economic",
+          "text": "The reduced American rates on Bulgarian goods took effect September 30, 1906, answering Bulgaria's grant of its lowest conventional rates from June 5.",
+          "source": "34 Stat. 3231",
+          "date": "1906-09-30"
+        }
+      ],
+      "uncertain": [
+        "How the press treated this proclamation has not been searched."
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "The larger tariff fight of the period, between standpat protectionists and reciprocity men, played out in Congress and the 1908 campaign and did not turn on these proclamations.",
+        "source": "research entry"
+      }
+    ],
+    "legacy": [
+      {
+        "text": "The section-3 system ended with the Payne-Aldrich Tariff, which directed the President to give notice to every country holding a section-3 agreement; after termination their goods paid the new law's rates.",
+        "source": "Tariff Act of August 5, 1909, secs. 2 and 4, 36 Stat. 82–83",
+        "date": "1909-08-05"
+      },
+      {
+        "text": "The modern framework for reciprocal trade came later, with the Reciprocal Trade Agreements Act of 1934.",
+        "source": "research entry",
+        "date": "1934"
+      }
+    ]
+  }
+}

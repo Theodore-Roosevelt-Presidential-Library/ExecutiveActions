@@ -1,0 +1,65 @@
+{
+  "story": 36,
+  "documents": {
+    "proc-480": {
+      "reception": [
+        {
+          "text": "The proclamation went out on the wire and ran, usually in three sentences, in some eighteen digitized papers from Missouri and New York to Hawaii; only the Washington and St. Louis papers printed its text.",
+          "source": "Chronicling America newspaper searches, June–July 1902",
+          "date": "1902-07"
+        },
+        {
+          "text": "The St. Louis Republic explained that copies of the proclamation, signed July 1, were not ready for the public until July 4.",
+          "source": "St. Louis Republic, July 4, 1902",
+          "date": "1902-07-04"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "congress",
+          "text": "The fight that followed was over money, not dates: a $4,500,000 federal loan to the fair passed the House 172–115 over stiff opposition.",
+          "source": "Final Report of the Louisiana Purchase Exposition Commission",
+          "date": "1903-02"
+        },
+        {
+          "kind": "political",
+          "text": "As the amended law required, the buildings were dedicated on April 30, 1903, with addresses by Roosevelt and Grover Cleveland before about 80,000 people.",
+          "source": "Final Report of the Louisiana Purchase Exposition Commission",
+          "date": "1903-04-30"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "Ambassadors and ministers of twenty-six governments sat on the stand at the dedication, with representatives of more than forty states and territories.",
+          "source": "research entry",
+          "date": "1903-04-30"
+        },
+        {
+          "kind": "diplomatic",
+          "text": "After St. Louis moved its fair to 1904, the International Olympic Committee transferred the 1904 Games from Chicago to St. Louis by a postal vote of 14–2.",
+          "source": "research entry",
+          "date": "1902-12"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The exposition opened on April 30, 1904, and closed December 1, the dates this proclamation made official, and was the largest world's fair held to that date by the Exposition Company's reckoning.",
+          "source": "Official Guide to the Louisiana Purchase Exposition",
+          "date": "1904"
+        },
+        {
+          "text": "The first Olympic Games held in the United States were absorbed into the fair as its Department of Physical Culture.",
+          "source": "Official Guide to the Louisiana Purchase Exposition",
+          "date": "1904"
+        },
+        {
+          "text": "The fair is remembered critically for its ethnological exhibits, the largest being the Philippine Exposition, and for the \"Anthropology Days\" of August 12–13, 1904.",
+          "source": "Official Guide to the Louisiana Purchase Exposition",
+          "date": "1904-08-12"
+        }
+      ],
+      "uncertain": [
+        "Which cabinet officers besides Elihu Root sat on the platform at the April 30, 1903 dedication is not known."
+      ]
+    }
+  }
+}

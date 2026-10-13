@@ -1,0 +1,186 @@
+{
+ "story": 107,
+ "documents": {
+  "proc-797": {
+   "reception": [
+    {
+     "text": "The champagne arrangement drew no more than importers' notice; reciprocity proclamations were the small change of trade policy.",
+     "source": "research entry",
+     "date": "1908"
+    }
+   ],
+   "political_impact": [
+    {
+     "kind": "diplomatic",
+     "text": "France and Algeria gave American coffee, cacao, chocolate, vanilla and similar colonial foods, and American mineral oils, their lowest tariff rates in return for lower U.S. duties on sparkling wine.",
+     "source": "Additional Commercial Agreement, January 28, 1908, Foreign Relations of the United States, 1908",
+     "date": "1908-01-28"
+    }
+   ],
+   "legacy": [
+    {
+     "text": "The arrangement ended on October 31, 1909, after twenty-one months; France asked for an extension and was told there was no constitutional way to grant one.",
+     "source": "Payne-Aldrich Tariff Act, sec. 4, 36 Stat. 11; Knox notice of August 7, 1909",
+     "date": "1909-10-31"
+    }
+   ],
+   "later_actions": [
+    {
+     "date": "1909-08-05",
+     "text": "The Payne-Aldrich Tariff Act replaced the Dingley reciprocity scheme and required six months' notice of termination, counted from April 30, 1909.",
+     "source": "36 Stat. 11"
+    },
+    {
+     "date": "1909-08-07",
+     "text": "Secretary of State Knox notified France that its agreements of 1898, 1902 and 1908 would end on October 31, 1909.",
+     "source": "Knox notice, August 7, 1909"
+    }
+   ]
+  },
+  "proc-801": {
+   "political_impact": [
+    {
+     "kind": "administrative",
+     "text": "The proclamation cut 109,312 acres from the Lincoln National Forest, reducing it from 627,435 to 518,123 acres, and returned the land to the homestead laws.",
+     "source": "Report of the Forester, FY1908, p. 413",
+     "date": "1908"
+    }
+   ],
+   "legacy": [
+    {
+     "text": "The Lincoln National Forest endures in south-central New Mexico, its boundaries adjusted many times since 1908.",
+     "source": "research entry"
+    }
+   ],
+   "today": [
+    {
+     "name": "Lincoln National Forest",
+     "kind": "national_forest",
+     "relation": "part",
+     "state": "New Mexico",
+     "note": "This proclamation reduced the forest; it did not create it.",
+     "source": "research entry"
+    }
+   ],
+   "related": [
+    {
+     "id": "proc-486",
+     "relation": "modifies",
+     "note": "Changed the boundary of the Lincoln Forest Reserve established in 1902."
+    },
+    {
+     "id": "proc-748",
+     "relation": "modifies",
+     "note": "The proclamation's recital names the April 24, 1907 proclamation as the one it modifies, though that order only enlarged the forest."
+    }
+   ],
+   "later_actions": [
+    {
+     "date": "1918-08-09",
+     "text": "Wilson cut the forest again; a newspaper report put the cut near 28,000 acres, and the General Land Office restored about 15,950 acres of public land within it.",
+     "source": "Proclamation 1474, 40 Stat. 1832; Land Service Bulletin, vol. 2 (1918)"
+    },
+    {
+     "date": "1924-07-17",
+     "text": "Coolidge cut the forest again under the same title.",
+     "source": "Proclamation 1706"
+    }
+   ],
+   "uncertain": [
+    "The acreages sometimes given for the 1918 and 1924 cuts (27,784 and 19,678 acres) rest on a single compiler and have not been checked against the diagrams annexed to those proclamations."
+   ]
+  },
+  "proc-819": {
+   "legacy": [
+    {
+     "text": "The Puerta de Tierra strip the proclamation released is now dense city.",
+     "source": "research entry"
+    },
+    {
+     "text": "The wireless-station parcel the Navy kept was the site of Navy Radio San Juan, opened in December 1903 as the island's first wireless station; its operations later moved to Cayey, Isla Grande and Fort Allen, and the successor command was disestablished in 2004.",
+     "source": "research entry"
+    }
+   ],
+   "related": [
+    {
+     "id": "proc-502",
+     "relation": "modifies",
+     "note": "Conveyed to Puerto Rico most of the eighty-acre Caguas road tract reserved for the Navy in 1903."
+    },
+    {
+     "id": "proc-503",
+     "relation": "same_subject",
+     "note": "The 1903 Marine Hospital Service reservation near San Antonio bridge, very likely the proposed Marine Hospital site the proclamation names."
+    }
+   ],
+   "uncertain": [
+    "What became of each of the six San Juan parcels the Navy kept has not been traced."
+   ]
+  },
+  "proc-820": {
+   "reception": [
+    {
+     "text": "Wire services covered the October 19 drawing as a land-rush spectacle.",
+     "source": "research entry",
+     "date": "1908-10-19"
+    }
+   ],
+   "political_impact": [
+    {
+     "kind": "local",
+     "text": "114,769 people registered for roughly 5,300 quarter-section claims, with 80,635 envelopes received at Dallas and 34,134 at Gregory.",
+     "source": "Santa Fe New Mexican, October 19, 1908; Sisseton Weekly Standard, October 23, 1908",
+     "date": "1908-10"
+    },
+    {
+     "kind": "local",
+     "text": "O'Neill, Nebraska, where 45,808 affidavits were sworn, was the busiest of the six registration towns, followed by Chamberlain with 20,248.",
+     "source": "Sisseton Weekly Standard, October 23, 1908",
+     "date": "1908-10"
+    },
+    {
+     "kind": "administrative",
+     "text": "The Interior Department announced 838,000 acres and 5,300 farms, figures that do not match; within weeks the General Land Office commissioner said the number of quarter sections could not be given.",
+     "source": "Kingsbury County Independent, September 4, 1908; Lewiston Evening Teller, September 15, 1908",
+     "date": "1908-09"
+    },
+    {
+     "kind": "political",
+     "text": "There was no organized opposition beyond the affected Sicangu (Brulé) Lakota, whose objections carried little weight in the policy of the day.",
+     "source": "research entry",
+     "date": "1908"
+    }
+   ],
+   "legacy": [
+    {
+     "text": "The 1904, 1907 and 1910 openings left the reservation a checkerboard of tribal, allotted and fee land; the Supreme Court held in 1977 that the acts diminished the reservation's boundaries, over a dissent by three justices.",
+     "source": "Rosebud Sioux Tribe v. Kneip, 430 U.S. 584 (1977)",
+     "date": "1977"
+    }
+   ],
+   "related": [
+    {
+     "id": "proc-526",
+     "relation": "same_subject",
+     "note": "The 1904 opening of the Gregory County tract of the Rosebud Reservation."
+    }
+   ],
+   "later_actions": [
+    {
+     "date": "1977",
+     "text": "The Supreme Court held that the 1907 act detached Tripp and Lyman counties from the Rosebud Sioux Reservation.",
+     "source": "Rosebud Sioux Tribe v. Kneip, 430 U.S. 584 (1977)"
+    }
+   ]
+  },
+  "proc-822": {
+   "legacy": [
+    {
+     "text": "The annual observance was later fixed by law to the fourth Thursday of November.",
+     "source": "Joint resolution of December 26, 1941, 55 Stat. 862",
+     "date": "1941-12-26"
+    }
+   ]
+  }
+ }
+}

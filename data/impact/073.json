@@ -1,0 +1,70 @@
+{
+  "story": 73,
+  "documents": {
+    "proc-810": {
+      "reception": [
+        {
+          "text": "A syndicated item treated the strip as a curiosity, \"NOVEL RESERVATION,\" and misreported its width as thirty feet.",
+          "source": "Auburn Journal, July 23, 1908",
+          "date": "1908-07-23"
+        },
+        {
+          "text": "No comment for or against has been found in the California and Washington papers searched.",
+          "source": "California Digital Newspaper Collection; Washington Digital Newspapers, June–August 1908",
+          "date": "1908"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "diplomatic",
+          "text": "The proclamation answered a 1907 United States proposal for a joint sixty-foot strip on the Alaska–Yukon line, extended to the whole frontier in line with Canada's wishes.",
+          "source": "International Boundary Commission, Joint Report (1918), pp. 20–22",
+          "date": "1908-08-07"
+        },
+        {
+          "kind": "administrative",
+          "text": "Because the text contemplated patents to land on the strip, new claims could still be started and carried to patent with only a recital.",
+          "source": "35 Stat. 2189; Proc. 1196",
+          "date": "1908"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The northern strip remains one of the least-known of Roosevelt's reservations, resting today as much on Taft's 1912 proclamation as on Roosevelt's.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Sixty-foot federal strip along the Canadian border",
+          "kind": "other",
+          "relation": "origin",
+          "state": "United States–Canada boundary",
+          "since": "1908-06-15",
+          "note": "Reissued in stronger terms by Taft's Proclamation 1196 (1912).",
+          "source": "research entry"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-758",
+          "relation": "same_subject",
+          "note": "The Mexican-border strip of 1907, of which this is the northern counterpart, though worded differently."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1912-05-03",
+          "text": "Taft's Proclamation 1196 reserved the strip from all entry and disposition under the public-land laws, protecting claims made before June 15, 1908 and letting those made between 1908 and 1912 go to patent subject to the reservation.",
+          "source": "Proc. 1196 (American Presidency Project)"
+        }
+      ],
+      "uncertain": [
+        "Which United States department first proposed the Alaska strip in October 1907 is not known; State Department files (NARA RG 59) would settle it.",
+        "Which agency administers the northern strip today, and whether any of it has been transferred, is not known.",
+        "Why Taft reissued the reservation in 1912 is not stated.",
+        "Reception in Montana, North Dakota, Minnesota and Maine papers has not been searched."
+      ]
+    }
+  }
+}

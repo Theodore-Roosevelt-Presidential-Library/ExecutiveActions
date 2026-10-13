@@ -1,0 +1,100 @@
+{
+  "story": 100,
+  "documents": {
+    "eo-818": {
+      "legacy": [
+        {
+          "text": "The emergency currency the order helped staff for was issued only once, in 1914–1915: $382,502,645 to 1,363 banks, all retired without loss by December 1915.",
+          "source": "Comptroller of the Currency, Annual Report, 1915",
+          "date": "1915"
+        },
+        {
+          "text": "The National Monetary Commission created by the same law reported the Aldrich Plan on January 8, 1912; the Federal Reserve Act followed on December 23, 1913.",
+          "source": "research entry",
+          "date": "1913-12-23"
+        }
+      ],
+      "related": [
+        {
+          "id": "eo-741",
+          "relation": "same_subject",
+          "note": "Waived, for Treasury hires under the currency law, Civil Service Rule VIII as amended by EO 741."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1913-12-23",
+          "text": "Section 27 of the Federal Reserve Act extended the Aldrich–Vreeland emergency-currency provisions to June 30, 1915.",
+          "source": "Federal Reserve Act, sec. 27"
+        }
+      ]
+    },
+    "eo-829": {
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Charles Jonathan Arnell became assistant Japanese secretary at Tokyo on June 25, 1908, and Willys Ruggles Peck assistant Chinese secretary at Peking on November 9, 1908.",
+          "source": "Register of the Department of State",
+          "date": "1908"
+        }
+      ],
+      "uncertain": [
+        "Whether Executive Order 829 actually prescribes filling the posts \"in rotation\" is not known; its text has not been found."
+      ]
+    },
+    "eo-830": {
+      "legacy": [
+        {
+          "text": "Basil Miles ran the foreign mail service until 1913 and then returned to the State Department.",
+          "source": "research entry",
+          "date": "1913"
+        }
+      ]
+    },
+    "eo-831": {
+      "reception": [
+        {
+          "text": "The San Juan Islander reported that Royal Vancouver Yacht Club yachts could now visit Puget Sound ports without entry, clearance or charges, under the act of May 28.",
+          "source": "San Juan Islander, July 4, 1908",
+          "date": "1908-07-04"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "The reciprocity provision behind the order was later codified and remained the basis for excusing foreign yacht-club vessels from entry and clearance.",
+          "source": "Act of May 28, 1908, 35 Stat. 424, 425–426"
+        }
+      ],
+      "uncertain": [
+        "The text of Executive Order 831 has not been found.",
+        "A Royal Vancouver skipper won the Alexandra Cup from the Seattle defender Spirit within two weeks, but no record ties the order to the races."
+      ]
+    },
+    "eo-832": {
+      "related": [
+        {
+          "id": "eo-209",
+          "relation": "amends",
+          "note": "Allowed the New York customs district a second excepted paymaster in Schedule A."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1911-06-12",
+          "text": "Executive Order 1371 revoked the order.",
+          "source": "research entry"
+        }
+      ]
+    }
+  },
+  "story_level": {
+    "political_impact": [
+      {
+        "kind": "political",
+        "text": "Apart from the yacht order, none of these orders drew recorded public notice.",
+        "source": "research entry",
+        "date": "1908"
+      }
+    ]
+  }
+}

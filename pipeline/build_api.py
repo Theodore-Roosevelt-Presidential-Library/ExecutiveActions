@@ -123,6 +123,40 @@ def doc_label(r):
     return f"Unnumbered order (Lord no. {ln})" if ln else "Unnumbered order"
 
 
+TODAY_KIND = {"national_park": "National parks", "national_monument": "National monuments", "national_forest": "National forests",
+              "national_grassland": "National grasslands", "wildlife_refuge": "Wildlife refuges", "state_park": "State parks",
+              "indian_reservation": "Reservations and tribal lands", "military_installation": "Military installations",
+              "lighthouse": "Lighthouses", "other": "Other places and institutions"}
+TODAY_REL = {"origin": "began with this document", "part": "includes land from this document", "renamed": "renamed from it",
+             "absorbed_into": "absorbed into it", "abolished": "no longer exists", "transferred": "transferred to it"}
+
+
+PLACE_ALIASES = {"Grand Canyon Game Preserve": "Grand Canyon National Game Preserve",
+                 "Lewis and Clark National Forest": "Helena–Lewis and Clark National Forest",
+                 "Shasta National Forest": "Shasta-Trinity National Forest",
+                 "Wallowa–Whitman National Forest": "Wallowa-Whitman National Forest"}
+# Present-day institutions and abstractions: kept on document pages, left out of the then-and-now list of places.
+NOT_PLACES = {'"USS" ship prefix of the U.S. Navy', "Tsinghua University", "U.S. Commission of Fine Arts", "U.S. Board on Geographic Names",
+              "United States Geographic Board", "Library of Congress Manuscript Division", "Bureau of Insular Affairs",
+              "National Archives Record Group 360 (Records of the Continental and Confederation Congresses)",
+              "U.S. Coast Guard aids to navigation in Hawaii", "State of Oklahoma", "National Wildlife Refuge System"}
+
+
+def canon_place(name):
+    """'Caribou-Targhee National Forest (Westside Ranger District)' -> ('Caribou-Targhee National Forest', 'Westside Ranger District')."""
+    name = re.sub(r"\s+", " ", name.strip())
+    m = re.match(r"^(Alaska Maritime National Wildlife Refuge)\s*\((.*)\)$", name)
+    if m:
+        return m.group(1), m.group(2)[0].upper() + m.group(2)[1:].replace(" unit", " Unit")
+    m = re.match(r"^(.*?)\s*\((.*Ranger District)\)$", name) or re.match(r"^(.*National Forests?),\s*(.*Ranger District)$", name)
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    m = re.match(r"^(.*Ranger District),\s*(.*National Forests?)$", name)
+    if m:
+        return m.group(2).strip(), m.group(1).strip()
+    return name, None
+
+
 def has_text(r):
     return bool((r.get("text") or {}).get("paragraphs"))
 
@@ -134,6 +168,8 @@ def compact(r):
     c["states"] = r.get("states") or []
     c["stories"] = r.get("stories") or []
     c["has_text"] = has_text(r)
+    c["has_impact"] = bool(r.get("impact"))
+    c["today"] = sorted({t["name"] for t in (r.get("impact") or {}).get("today", []) if t.get("name")})
     c["label"] = doc_label(r)
     if r.get("duplicate_of"):
         c["duplicate_of"] = r["duplicate_of"]
@@ -419,6 +455,7 @@ def main():
         full["prev"] = mini(distinct[i - 1]) if i is not None and i > 0 else None
         full["next"] = mini(distinct[i + 1]) if i is not None and i + 1 < len(distinct) else None
         full["url"] = f"{BASE_URL}/document.html?id={r['id']}"
+        full["related"] = [{**x, "label": doc_label(by_id[x["id"]])} for x in r.get("related") or [] if x["id"] in by_id]
         full["reconciliation_note_html"] = md_inline_plain(r["reconciliation_note"]) if r.get("reconciliation_note") else None
         dump(OUT / f"documents/{r['id']}.json", full)
 
@@ -483,6 +520,7 @@ def main():
                                 "date": r.get("date"), "type": r.get("type"), "label": doc_label(r)} for r in distinct])
 
     # --- stories
+    story_impact = json.load(open(DATA / "story_impact.json", encoding="utf-8")) if (DATA / "story_impact.json").exists() else {}
     story_index = []
     for n in sorted(stories):
         s = stories[n]
@@ -498,11 +536,52 @@ def main():
         story_index.append(meta)
         full = {**meta, "open_questions": s["open_questions"],
                 "documents": [compact(m) for m in members], "related_documents": [compact(m) for m in related],
-                "markdown": s["markdown"], "html": md_to_html(s["markdown"])}
+                "markdown": s["markdown"], "html": md_to_html(s["markdown"]),
+                "impact": story_impact.get(str(n)) or None,
+                "documents_impact": {m["id"]: m["impact"] for m in members if m.get("impact")}}
         dump(OUT / f"stories/{n}.json", full)
         if s["slug"] and not s["slug"].isdigit():
             dump(OUT / f"stories/{s['slug']}.json", full)
     dump(OUT / "stories/index.json", story_index)
+
+    # --- then and now: present-day places and institutions that trace to a Roosevelt document
+    places = {}
+    for r in distinct:
+        for t in (r.get("impact") or {}).get("today", []):
+            if not t.get("name"):
+                continue
+            if t["name"].strip() in NOT_PLACES:
+                continue
+            name, district = canon_place(t["name"])
+            name = PLACE_ALIASES.get(name, name)
+            key = (name.lower().replace("–", "-").replace("—", "-"), t.get("kind") or "other")
+            p = places.setdefault(key, {"name": name, "kind": key[1], "kind_label": TODAY_KIND.get(key[1], key[1]),
+                                        "slug": slugify(key[0]), "states": set(), "documents": []})
+            for st_ in re.split(r",\s*|\s+and\s+", t.get("state") or ""):
+                if st_.strip():
+                    p["states"].add(st_.strip())
+            p["documents"].append({"id": r["id"], "label": doc_label(r), "date": r.get("date"), "title": r.get("title"),
+                                   "relation": t.get("relation"), "relation_label": TODAY_REL.get(t.get("relation"), t.get("relation")),
+                                   "since": t.get("since"), "district": district, "note": t.get("note"), "source": t.get("source"), "story": t.get("story")})
+    then_now = []
+    for p in places.values():
+        if not p["states"] and p["kind"] != "other":
+            p["states"] = {s for d in p["documents"] for s in (by_id[d["id"]].get("states") or [])}
+        p["states"] = sorted(p["states"])
+        p["documents"].sort(key=lambda d: d["date"] or "9999")
+        p["first"] = p["documents"][0]["date"]
+        p["origin"] = any(d["relation"] == "origin" for d in p["documents"])
+        p["count"] = len(p["documents"])
+        then_now.append(p)
+    then_now.sort(key=lambda p: (list(TODAY_KIND).index(p["kind"]) if p["kind"] in TODAY_KIND else 99, p["name"]))
+    kinds = Counter(p["kind"] for p in then_now)
+    dump(OUT / "then-and-now/index.json", {"count": len(then_now),
+         "kinds": [{"kind": k, "label": TODAY_KIND.get(k, k), "count": kinds[k]} for k in TODAY_KIND if kinds.get(k)],
+         "places": then_now,
+         "note": "Present-day places and institutions that the Library's research traces to a Roosevelt order or proclamation. "
+                 "Relation says how: origin (the document created it), part (its lands are now part of it), renamed, absorbed into, transferred, or abolished."})
+    for k in kinds:
+        dump(OUT / f"then-and-now/{k}.json", {"kind": k, "label": TODAY_KIND.get(k, k), "places": [p for p in then_now if p["kind"] == k]})
 
     # --- meta
     months = Counter(r["date"][:7] for r in distinct if r.get("date"))
@@ -535,6 +614,9 @@ def main():
             "month_only": sum(1 for r in distinct if r.get("date") and len(r["date"]) == 7),
             "stories": len(stories),
             "countersigners": len(cs),
+            "with_impact": sum(1 for r in distinct if r.get("impact")),
+            "with_related": sum(1 for r in distinct if r.get("related")),
+            "then_and_now_places": len(then_now),
         },
         "by_year": dict(sorted(Counter(r["date"][:4] for r in distinct if r.get("date")).items())),
         "by_month": dict(sorted(months.items())),
@@ -562,7 +644,8 @@ def main():
             "state": "/api/v1/states/{slug}.json", "type": "/api/v1/types/{executive_order|proclamation|unnumbered_order}.json",
             "stories": "/api/v1/stories/index.json", "story": "/api/v1/stories/{number|slug}.json",
             "on_this_day": "/api/v1/on-this-day/{MM-DD}.json", "countersigners": "/api/v1/countersigners.json",
-            "search": "/api/v1/search.json"},
+            "search": "/api/v1/search.json", "then_and_now": "/api/v1/then-and-now/index.json",
+            "then_and_now_kind": "/api/v1/then-and-now/{kind}.json"},
         "downloads": ["/data/documents.jsonl", "/data/documents.csv", "/data/stats.json"],
     }
     dump(OUT / "index.json", meta)

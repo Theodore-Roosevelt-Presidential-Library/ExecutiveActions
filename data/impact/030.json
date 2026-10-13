@@ -1,0 +1,118 @@
+{
+  "story": 30,
+  "documents": {
+    "proc-807": {
+      "reception": [
+        {
+          "text": "The General Land Office's annual report called the cavern \"a cave whose beauty is probably second to no other in the United States.\"",
+          "source": "GLO Annual Report, fiscal year 1908, p. 19",
+          "date": "1908"
+        },
+        {
+          "text": "The River Press of Fort Benton ran a front-page Helena dispatch, \"Montana's Mammoth Cavern,\" describing the cave chamber by chamber and reporting the new supervisor's appointment.",
+          "source": "River Press (Fort Benton), July 1, 1908",
+          "date": "1908-07-01"
+        },
+        {
+          "text": "The Whitefish Pilot noted that Montana had a cave comparing favorably with Kentucky's Mammoth Cave, newly set aside by Roosevelt.",
+          "source": "Whitefish Pilot, July 3, 1908",
+          "date": "1908-07-03"
+        }
+      ],
+      "political_impact": [
+        {
+          "kind": "administrative",
+          "text": "Louis L. Sharp, chief of the General Land Office's field division, was named supervisor of the monument seven weeks after the signing.",
+          "source": "River Press (Fort Benton), July 1, 1908",
+          "date": "1908"
+        },
+        {
+          "kind": "administrative",
+          "text": "A General Land Office survey found the 160 acres lay wholly within the Northern Pacific Railway's unpatented land grant, so the government had reserved ground it did not own.",
+          "source": "Proc. 1123, 37 Stat. 1679–1680"
+        },
+        {
+          "kind": "local",
+          "text": "Dan Morrison's attempt to secure title to the cave under the mining laws revealed the railway's ownership; there was no lawsuit.",
+          "source": "Sen. Thomas J. Walsh, Congressional Record, January 26, 1929"
+        },
+        {
+          "kind": "economic",
+          "text": "The Northern Pacific quitclaimed the tract to the United States for the monument, on condition that it revert to the railway if the monument was no longer maintained.",
+          "source": "Quitclaim deed No. 18129E",
+          "date": "1911-02-14"
+        }
+      ],
+      "legacy": [
+        {
+          "text": "By 1930 the cave was closed to visitors because of vandalism and the lack of funds for lighting and ranger protection.",
+          "source": "NPS, Glimpses of Our National Monuments (1930)",
+          "date": "1930"
+        },
+        {
+          "text": "Civilian Conservation Corps Company 574 developed the cave between 1935 and 1941, putting in the first electric lighting, a 538-foot exit tunnel, and a 3.2-mile road up Greer Gulch.",
+          "source": "Lewis and Clark Caverns National Register nomination",
+          "date": "1935"
+        },
+        {
+          "text": "Montana dedicated the state park on May 4, 1941; rain canceled the ceremony, but some three thousand people drove up anyway.",
+          "source": "research entry",
+          "date": "1941-05-04"
+        },
+        {
+          "text": "It is the only one of Roosevelt's eighteen national monuments that left federal ownership.",
+          "source": "research entry"
+        }
+      ],
+      "today": [
+        {
+          "name": "Lewis and Clark Caverns State Park",
+          "kind": "state_park",
+          "relation": "transferred",
+          "state": "Montana",
+          "note": "3,015 acres; counted as Montana's first state park.",
+          "source": "Montana Fish, Wildlife & Parks"
+        },
+        {
+          "name": "Lewis and Clark Cavern National Monument",
+          "kind": "national_monument",
+          "relation": "abolished",
+          "state": "Montana",
+          "note": "Ended as a consequence of the 1937 conveyance to Montana, not by a formal abolition.",
+          "source": "Act of August 24, 1937, 50 Stat. 746–747"
+        }
+      ],
+      "related": [
+        {
+          "id": "proc-799",
+          "relation": "same_subject",
+          "note": "Jewel Cave, three months earlier, also used the Antiquities Act's scientific-interest reach to protect a cave."
+        }
+      ],
+      "later_actions": [
+        {
+          "date": "1911-05-16",
+          "text": "President Taft's Proclamation 1123 confirmed the same 160 acres on the new survey, subject to the railway deed's conditions.",
+          "source": "37 Stat. 1679–1680"
+        },
+        {
+          "date": "1929-02-04",
+          "text": "A private act paid Dan A. Morrison $5,000 for the discovery, exploration and development of the cavern.",
+          "source": "45 Stat. 2048"
+        },
+        {
+          "date": "1937-08-24",
+          "text": "Congress authorized and directed the Secretary of the Interior to convey the monument and surrounding land, about 1,500 acres, to Montana for a public park, reserving minerals to the United States.",
+          "source": "Act of August 24, 1937, ch. 741, 50 Stat. 746–747"
+        }
+      ],
+      "uncertain": [
+        "Who chose the name \"Lewis and Clark Cavern\" is not known.",
+        "No individual sponsor of the monument has been identified.",
+        "What became of the railway's 1911 right of reverter when the land went to Montana in 1937 is not known.",
+        "The date the conveyance to Montana was completed is not known.",
+        "Whether Montana's 1908 dailies took any position on the monument has not been tested."
+      ]
+    }
+  }
+}
