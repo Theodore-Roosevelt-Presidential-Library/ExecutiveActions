@@ -187,3 +187,14 @@ Lord duplicates get their own `documents/{id}.json` but are left out of counts, 
 ### CSV (`documents.csv`)
 
 `id, type, number, date, title, categories, action, states, statutes_cite, countersigned_by, stories, duplicate_of, text_source, summary`; list fields are joined with `;`, and `text_source` holds the text `kind`.
+
+## Page embed for trlibrary.com (`site/embed/executive-actions.js`)
+
+Renders the explorer inside host pages without an iframe, so links stay on the host site:
+
+```html
+<div data-ea-view="index" data-base="/tr/presidency/executive-actions"></div>
+<script src="https://executiveactions.labs.trlibrary.com/embed/executive-actions.js" defer></script>
+```
+
+Views: `index` (filters sync to the URL), `action` (reads `?id=`), `stories`, `story` (reads `?n=`), `then-and-now`, `featured` (landmark actions, `data-limit`). Pages it links to: `{base}`, `{base}/action?id=`, `{base}/stories`, `{base}/story?n=`, `{base}/then-and-now`. The `action` and `story` views set the page title, description, Open Graph tags and canonical link to include the query string (`data-meta="off"` to stop that). Styles are scoped under `.ea` and inherit the host page's fonts.
